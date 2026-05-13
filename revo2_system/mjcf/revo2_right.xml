@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="revo2_single">
+  <compiler angle="radian" autolimits="true" balanceinertia="true" />
+  <option cone="elliptic" impratio="10" />
+  <default>
+    <default class="visual">
+      <geom type="mesh" contype="0" conaffinity="0" group="2" />
+    </default>
+    <default class="collision">
+      <geom type="mesh" group="3" />
+    </default>
+  </default>
+  <asset>
+    <mesh name="right_hand_base_link_visual_0_right_base_link" file="../meshes/hands/visual/right/right_base_link.STL" />
+    <mesh name="right_hand_base_link_visual_1_right_base_visual_link" file="../meshes/hands/visual/right/right_base_visual_link.STL" />
+    <mesh name="right_hand_base_link_collision_0_right_base_link" file="../meshes/hands/collision/right/right_base_link.STL" />
+    <mesh name="right_thumb_metacarpal_link_visual_0_right_thumb_metacarpal_link" file="../meshes/hands/visual/right/right_thumb_metacarpal_link.STL" />
+    <mesh name="right_thumb_metacarpal_link_collision_0_right_thumb_metacarpal_link" file="../meshes/hands/collision/right/right_thumb_metacarpal_link.STL" />
+    <mesh name="right_thumb_proximal_link_visual_0_right_thumb_proximal_visual_link" file="../meshes/hands/visual/right/right_thumb_proximal_visual_link.STL" />
+    <mesh name="right_thumb_proximal_link_collision_0_right_thumb_proximal_link" file="../meshes/hands/collision/right/right_thumb_proximal_link.STL" />
+    <mesh name="right_thumb_distal_link_visual_0_right_thumb_distal_link" file="../meshes/hands/visual/right/right_thumb_distal_link.STL" />
+    <mesh name="right_thumb_distal_link_collision_0_right_thumb_distal_link" file="../meshes/hands/collision/right/right_thumb_distal_link.STL" />
+    <mesh name="right_thumb_touch_link_visual_0_right_thumb_touch_link" file="../meshes/hands/visual/right/right_thumb_touch_link.STL" />
+    <mesh name="right_thumb_touch_link_collision_0_right_thumb_touch_link" file="../meshes/hands/collision/right/right_thumb_touch_link.STL" />
+    <mesh name="right_index_proximal_link_visual_0_right_index_proximal_link" file="../meshes/hands/visual/right/right_index_proximal_link.STL" />
+    <mesh name="right_index_proximal_link_collision_0_right_index_proximal_link" file="../meshes/hands/collision/right/right_index_proximal_link.STL" />
+    <mesh name="right_index_distal_link_visual_0_right_index_distal_link" file="../meshes/hands/visual/right/right_index_distal_link.STL" />
+    <mesh name="right_index_distal_link_collision_0_right_index_distal_link" file="../meshes/hands/collision/right/right_index_distal_link.STL" />
+    <mesh name="right_index_touch_link_visual_0_right_index_touch_link" file="../meshes/hands/visual/right/right_index_touch_link.STL" />
+    <mesh name="right_index_touch_link_collision_0_right_index_touch_link" file="../meshes/hands/collision/right/right_index_touch_link.STL" />
+    <mesh name="right_middle_proximal_link_visual_0_right_middle_proximal_link" file="../meshes/hands/visual/right/right_middle_proximal_link.STL" />
+    <mesh name="right_middle_proximal_link_collision_0_right_middle_proximal_link" file="../meshes/hands/collision/right/right_middle_proximal_link.STL" />
+    <mesh name="right_middle_distal_link_visual_0_right_middle_distal_link" file="../meshes/hands/visual/right/right_middle_distal_link.STL" />
+    <mesh name="right_middle_distal_link_collision_0_right_middle_distal_link" file="../meshes/hands/collision/right/right_middle_distal_link.STL" />
+    <mesh name="right_middle_touch_link_visual_0_right_middle_touch_link" file="../meshes/hands/visual/right/right_middle_touch_link.STL" />
+    <mesh name="right_middle_touch_link_collision_0_right_middle_touch_link" file="../meshes/hands/collision/right/right_middle_touch_link.STL" />
+    <mesh name="right_ring_proximal_link_visual_0_right_ring_proximal_link" file="../meshes/hands/visual/right/right_ring_proximal_link.STL" />
+    <mesh name="right_ring_proximal_link_collision_0_right_ring_proximal_link" file="../meshes/hands/collision/right/right_ring_proximal_link.STL" />
+    <mesh name="right_ring_distal_link_visual_0_right_ring_distal_link" file="../meshes/hands/visual/right/right_ring_distal_link.STL" />
+    <mesh name="right_ring_distal_link_collision_0_right_ring_distal_link" file="../meshes/hands/collision/right/right_ring_distal_link.STL" />
+    <mesh name="right_ring_touch_link_visual_0_right_ring_touch_link" file="../meshes/hands/visual/right/right_ring_touch_link.STL" />
+    <mesh name="right_ring_touch_link_collision_0_right_ring_touch_link" file="../meshes/hands/collision/right/right_ring_touch_link.STL" />
+    <mesh name="right_pinky_proximal_link_visual_0_right_pinky_proximal_link" file="../meshes/hands/visual/right/right_pinky_proximal_link.STL" />
+    <mesh name="right_pinky_proximal_link_collision_0_right_pinky_proximal_link" file="../meshes/hands/collision/right/right_pinky_proximal_link.STL" />
+    <mesh name="right_pinky_distal_link_visual_0_right_pinky_distal_link" file="../meshes/hands/visual/right/right_pinky_distal_link.STL" />
+    <mesh name="right_pinky_distal_link_collision_0_right_pinky_distal_link" file="../meshes/hands/collision/right/right_pinky_distal_link.STL" />
+    <mesh name="right_pinky_touch_link_visual_0_right_pinky_touch_link" file="../meshes/hands/visual/right/right_pinky_touch_link.STL" />
+    <mesh name="right_pinky_touch_link_collision_0_right_pinky_touch_link" file="../meshes/hands/collision/right/right_pinky_touch_link.STL" />
+  </asset>
+  <worldbody>
+    <body name="right_hand_base_link">
+      <inertial mass="0.238" pos="-0.00499090399733 -0.0032037440312 0.0440507784562" fullinertia="0.000212430690833 0.000160132967062 7.74219628519e-05 2.16367569398e-06 3.61502824762e-06 -1.22355213676e-05" />
+      <geom name="right_hand_base_link_visual_0" class="visual" mesh="right_hand_base_link_visual_0_right_base_link" rgba="1 1 1 1" />
+      <geom name="right_hand_base_link_visual_1" class="visual" mesh="right_hand_base_link_visual_1_right_base_visual_link" rgba="1 1 1 1" />
+      <geom name="right_hand_base_link_collision_0" class="collision" mesh="right_hand_base_link_collision_0_right_base_link" />
+      <body name="right_thumb_metacarpal_link" pos="0.005619 0.019867 0.027825" quat="0.996479525452 0 0 -0.0838364798531">
+        <inertial mass="0.01" pos="5.24580204563e-05 0.00641288231813 -0.0038998195538" fullinertia="1.03912259807e-06 9.91339727453e-07 3.22854838473e-07 -2.68660869899e-08 3.1967028003e-09 -8.06829991718e-08" />
+        <joint name="right_thumb_metacarpal_joint" type="hinge" axis="0 0 -1" range="0 1.57" actuatorfrcrange="-0.5 0.5" />
+        <geom name="right_thumb_metacarpal_link_visual_0" class="visual" mesh="right_thumb_metacarpal_link_visual_0_right_thumb_metacarpal_link" rgba="1 1 1 1" />
+        <geom name="right_thumb_metacarpal_link_collision_0" class="collision" mesh="right_thumb_metacarpal_link_collision_0_right_thumb_metacarpal_link" />
+        <body name="right_thumb_proximal_link" pos="0 0.014227 0" quat="0.98655672389 0.0765206052367 0.124803836493 0.0726252705212">
+          <inertial mass="0.05" pos="-8.89762214511e-07 0.0279092873947 -0.00216940109303" fullinertia="1.10412368074e-05 1.77881179518e-06 1.15652864677e-05 0 0 2.75542392609e-08" />
+          <joint name="right_thumb_proximal_joint" type="hinge" axis="1 0 0" range="0 1.03" actuatorfrcrange="-1.1 1.1" />
+          <geom name="right_thumb_proximal_link_visual_0" class="visual" mesh="right_thumb_proximal_link_visual_0_right_thumb_proximal_visual_link" rgba="1 1 1 1" />
+          <geom name="right_thumb_proximal_link_collision_0" class="collision" mesh="right_thumb_proximal_link_collision_0_right_thumb_proximal_link" />
+          <body name="right_thumb_distal_link" pos="0 0.052 0">
+            <inertial mass="0.01" pos="1.49655290334e-05 0.00922852132423 -0.00225603078695" fullinertia="4.53319679276e-07 2.60156541182e-07 5.19783541213e-07 0 0 1.1609788285e-08" />
+            <joint name="right_thumb_distal_joint" type="hinge" axis="1 0 0" range="0 1.03" actuatorfrcrange="-1.1 1.1" />
+            <geom name="right_thumb_distal_link_visual_0" class="visual" mesh="right_thumb_distal_link_visual_0_right_thumb_distal_link" rgba="1 1 1 1" />
+            <geom name="right_thumb_distal_link_collision_0" class="collision" mesh="right_thumb_distal_link_collision_0_right_thumb_distal_link" />
+            <body name="right_thumb_tip_link" pos="0 0.0265287811636 -0.00177344281308" quat="0.999443098864 -0.0333690295624 0 0" />
+            <body name="right_thumb_touch_link" pos="0 0.0137927522749 0.00767659940412" quat="0.999443098864 -0.0333690295624 0 0">
+              <inertial mass="0.002" pos="5.68135746383e-08 0.00098883010262 -0.0058303970076" fullinertia="6.93283042171e-08 5.81285535805e-08 1.0158078426e-07 0 0 8.37483596547e-09" />
+              <geom name="right_thumb_touch_link_visual_0" class="visual" mesh="right_thumb_touch_link_visual_0_right_thumb_touch_link" rgba="1 1 1 1" />
+              <geom name="right_thumb_touch_link_collision_0" class="collision" mesh="right_thumb_touch_link_collision_0_right_thumb_touch_link" />
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="right_index_proximal_link" pos="-0.0021181 0.029568 0.080876" quat="0.992147063362 -0.0522806833485 0.0783652462556 -0.0822789340577">
+        <inertial mass="0.009" pos="-0.0021097272761 7.63064164078e-07 0.0174334820659" fullinertia="8.07303137168e-07 7.65224563984e-07 2.71306397962e-07 0 -1.8482997741e-08 0" />
+        <joint name="right_index_proximal_joint" type="hinge" axis="0 1 0" range="0 1.41" actuatorfrcrange="-2 2" />
+        <geom name="right_index_proximal_link_visual_0" class="visual" mesh="right_index_proximal_link_visual_0_right_index_proximal_link" rgba="1 1 1 1" />
+        <geom name="right_index_proximal_link_collision_0" class="collision" mesh="right_index_proximal_link_collision_0_right_index_proximal_link" />
+        <body name="right_index_distal_link" pos="0 0 0.032">
+          <inertial mass="0.009" pos="0.00349732370262 -2.43970736749e-08 0.0140241097206" fullinertia="9.57356237219e-07 1.05382469611e-06 2.4207960788e-07 0 -2.92415838167e-07 0" />
+          <joint name="right_index_distal_joint" type="hinge" axis="0 1 0" range="0 1.63" actuatorfrcrange="-2 2" />
+          <geom name="right_index_distal_link_visual_0" class="visual" mesh="right_index_distal_link_visual_0_right_index_distal_link" rgba="1 1 1 1" />
+          <geom name="right_index_distal_link_collision_0" class="collision" mesh="right_index_distal_link_collision_0_right_index_distal_link" />
+          <body name="right_index_tip_link" pos="0.011097 0 0.035739" quat="0.971858569571 0 0.235565109366 0" />
+          <body name="right_index_touch_link" pos="0.014497 0 0.023303" quat="0.63609996281 0.734769294787 0.15418185526 -0.178097940076">
+            <inertial mass="0.002" pos="-0.00307564251221 0.00259784853355 -0.000375910280319" fullinertia="3.65246739943e-08 1.74738279331e-08 2.95384354001e-08 8.51755341147e-09 0 0" />
+            <geom name="right_index_touch_link_visual_0" class="visual" mesh="right_index_touch_link_visual_0_right_index_touch_link" rgba="1 1 1 1" />
+            <geom name="right_index_touch_link_collision_0" class="collision" mesh="right_index_touch_link_collision_0_right_index_touch_link" />
+          </body>
+        </body>
+      </body>
+      <body name="right_middle_proximal_link" pos="-0.0045767 0.010051 0.084993" quat="0.996681471076 -0.0175234943017 0.0746068794758 -0.0274369440089">
+        <inertial mass="0.009" pos="-0.00214650088166 7.01989779722e-07 0.020085720079" fullinertia="9.9491303633e-07 9.6311492132e-07 2.75113780461e-07 0 -2.47547915686e-08 0" />
+        <joint name="right_middle_proximal_joint" type="hinge" axis="0 1 0" range="0 1.41" actuatorfrcrange="-2 2" />
+        <geom name="right_middle_proximal_link_visual_0" class="visual" mesh="right_middle_proximal_link_visual_0_right_middle_proximal_link" rgba="1 1 1 1" />
+        <geom name="right_middle_proximal_link_collision_0" class="collision" mesh="right_middle_proximal_link_collision_0_right_middle_proximal_link" />
+        <body name="right_middle_distal_link" pos="0 0 0.037">
+          <inertial mass="0.009" pos="0.00418379295608 -2.44344999297e-07 0.0163193896289" fullinertia="1.17987538379e-06 1.30276578051e-06 2.7460891941e-07 0 -3.65063113523e-07 0" />
+          <joint name="right_middle_distal_joint" type="hinge" axis="0 1 0" range="0 1.63" actuatorfrcrange="-2 2" />
+          <geom name="right_middle_distal_link_visual_0" class="visual" mesh="right_middle_distal_link_visual_0_right_middle_distal_link" rgba="1 1 1 1" />
+          <geom name="right_middle_distal_link_collision_0" class="collision" mesh="right_middle_distal_link_collision_0_right_middle_distal_link" />
+          <body name="right_middle_tip_link" pos="0.012558 0 0.040442" quat="0.971858569571 0 0.235565109366 0" />
+          <body name="right_middle_touch_link" pos="0.0159758719979 0 0.0265894268904" quat="0.971858307956 0 0.235566188697 0">
+            <inertial mass="0.002" pos="-0.00322648744586 -1.64628381334e-08 0.00301991569053" fullinertia="4.37515621458e-08 3.61552579791e-08 1.92036823826e-08 0 1.00618535859e-08 0" />
+            <geom name="right_middle_touch_link_visual_0" class="visual" mesh="right_middle_touch_link_visual_0_right_middle_touch_link" rgba="1 1 1 1" />
+            <geom name="right_middle_touch_link_collision_0" class="collision" mesh="right_middle_touch_link_collision_0_right_middle_touch_link" />
+          </body>
+        </body>
+      </body>
+      <body name="right_ring_proximal_link" pos="-0.0046709 -0.010037 0.083982" quat="0.996722004661 0.0175386397699 0.0740632637929 0.0274276228537">
+        <inertial mass="0.009" pos="-0.00224004194513 -3.16420215091e-07 0.0189747684926" fullinertia="9.2192274611e-07 8.79780628424e-07 2.69827216148e-07 0 -2.1434689277e-08 0" />
+        <joint name="right_ring_proximal_joint" type="hinge" axis="0 1 0" range="0 1.41" actuatorfrcrange="-2 2" />
+        <geom name="right_ring_proximal_link_visual_0" class="visual" mesh="right_ring_proximal_link_visual_0_right_ring_proximal_link" rgba="1 1 1 1" />
+        <geom name="right_ring_proximal_link_collision_0" class="collision" mesh="right_ring_proximal_link_collision_0_right_ring_proximal_link" />
+        <body name="right_ring_distal_link" pos="0 0 0.035">
+          <inertial mass="0.009" pos="0.00400152072427 -8.86239943177e-09 0.0158507854778" fullinertia="1.12885956258e-06 1.24609808053e-06 2.66952445897e-07 0 -3.51697800791e-07 0" />
+          <joint name="right_ring_distal_joint" type="hinge" axis="0 1 0" range="0 1.63" actuatorfrcrange="-2 2" />
+          <geom name="right_ring_distal_link_visual_0" class="visual" mesh="right_ring_distal_link_visual_0_right_ring_distal_link" rgba="1 1 1 1" />
+          <geom name="right_ring_distal_link_collision_0" class="collision" mesh="right_ring_distal_link_collision_0_right_ring_distal_link" />
+          <body name="right_ring_tip_link" pos="0.012266 0 0.039501" quat="0.971858569571 0 0.235565109366 0" />
+          <body name="right_ring_touch_link" pos="0.0154392324698 0 0.0260561041382" quat="0.971858307956 0 0.235566188697 0">
+            <inertial mass="0.002" pos="-0.00305368567531 -2.24268923991e-08 0.00307741561387" fullinertia="4.07923039609e-08 3.32849436641e-08 1.7990090995e-08 0 9.30939975411e-09 0" />
+            <geom name="right_ring_touch_link_visual_0" class="visual" mesh="right_ring_touch_link_visual_0_right_ring_touch_link" rgba="1 1 1 1" />
+            <geom name="right_ring_touch_link_collision_0" class="collision" mesh="right_ring_touch_link_collision_0_right_ring_touch_link" />
+          </body>
+        </body>
+      </body>
+      <body name="right_pinky_proximal_link" pos="-0.0023566 -0.029366 0.078694" quat="0.992245493622 0.0523869549011 0.0771065283009 0.0822135672249">
+        <inertial mass="0.009" pos="-0.00197533466253 -2.90234586164e-07 0.0158239877313" fullinertia="7.07777662099e-07 6.61135925068e-07 2.70140803715e-07 0 -1.37075703489e-08 0" />
+        <joint name="right_pinky_proximal_joint" type="hinge" axis="0 1 0" range="0 1.41" actuatorfrcrange="-2 2" />
+        <geom name="right_pinky_proximal_link_visual_0" class="visual" mesh="right_pinky_proximal_link_visual_0_right_pinky_proximal_link" rgba="1 1 1 1" />
+        <geom name="right_pinky_proximal_link_collision_0" class="collision" mesh="right_pinky_proximal_link_collision_0_right_pinky_proximal_link" />
+        <body name="right_pinky_distal_link" pos="0 0 0.029">
+          <inertial mass="0.009" pos="0.00325665294414 -3.00436958265e-07 0.0128483833407" fullinertia="8.43985852774e-07 9.27716589164e-07 2.29731897956e-07 0 -2.5703935799e-07 0" />
+          <joint name="right_pinky_distal_joint" type="hinge" axis="0 1 0" range="0 1.63" actuatorfrcrange="-2 2" />
+          <geom name="right_pinky_distal_link_visual_0" class="visual" mesh="right_pinky_distal_link_visual_0_right_pinky_distal_link" rgba="1 1 1 1" />
+          <geom name="right_pinky_distal_link_collision_0" class="collision" mesh="right_pinky_distal_link_collision_0_right_pinky_distal_link" />
+          <body name="right_pinky_tip_link" pos="0.010221 0 0.032918" quat="0.971858569571 0 0.235565109366 0" />
+          <body name="right_pinky_touch_link" pos="0.01401 0 0.021124" quat="0.971858569571 0 0.235565109366 0">
+            <inertial mass="0.002" pos="-0.00289600606139 1.33924877412e-08 0.00165313291447" fullinertia="3.69716839175e-08 2.85901106741e-08 1.75392447475e-08 0 7.65650299473e-09 0" />
+            <geom name="right_pinky_touch_link_visual_0" class="visual" mesh="right_pinky_touch_link_visual_0_right_pinky_touch_link" rgba="1 1 1 1" />
+            <geom name="right_pinky_touch_link_collision_0" class="collision" mesh="right_pinky_touch_link_collision_0_right_pinky_touch_link" />
+          </body>
+        </body>
+      </body>
+    </body>
+  </worldbody>
+</mujoco>

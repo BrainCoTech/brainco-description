@@ -1,0 +1,20 @@
+# Internal tooling and generated caches
+*.py
+*.sh
+__pycache__/
+*.py[cod]
+
+# Internal or non-public model sets
+flexiv_system/
+**/*_none.urdf
+**/*_none.xml
+
+# Local workspace/editor state
+.agents/
+.codex/
+.vscode/
+.idea/
+
+# OS metadata
+.DS_Store
+Thumbs.db
