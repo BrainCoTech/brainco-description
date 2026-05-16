@@ -20,7 +20,7 @@
         <mesh filename="../meshes/arm/visual/Base_L.STL" />
       </geometry>
       <material name="">
-        <color rgba="1 0 0 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -42,7 +42,7 @@
         <mesh filename="../meshes/arm/visual/Link1_L.STL" />
       </geometry>
       <material name="">
-        <color rgba="0 1 0 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -71,7 +71,7 @@
         <mesh filename="../meshes/arm/visual/Link2_L.STL" />
       </geometry>
       <material name="">
-        <color rgba="0 0 1 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -100,7 +100,7 @@
         <mesh filename="../meshes/arm/visual/Link3_L.STL" />
       </geometry>
       <material name="">
-        <color rgba="1 0 0 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -129,7 +129,7 @@
         <mesh filename="../meshes/arm/visual/Link4_L.STL" />
       </geometry>
       <material name="">
-        <color rgba="0 1 0 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -158,7 +158,7 @@
         <mesh filename="../meshes/arm/visual/Link5_L.STL" />
       </geometry>
       <material name="">
-        <color rgba="0 0 1 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -187,7 +187,7 @@
         <mesh filename="../meshes/arm/visual/Link6_L.STL" />
       </geometry>
       <material name="">
-        <color rgba="1 0 0 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -216,7 +216,7 @@
         <mesh filename="../meshes/arm/visual/Link7_L.STL" />
       </geometry>
       <material name="">
-        <color rgba="0 1 0 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -251,7 +251,7 @@
         <mesh filename="../meshes/connector/visual/revo3_connector.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.250980392156863 1 0.67843137254902 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
