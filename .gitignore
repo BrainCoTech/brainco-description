@@ -8,7 +8,13 @@ __pycache__/
 flexiv_system/
 **/*_none.urdf
 **/*_none.xml
-
+**/*_none.usd
+**/*_none_base.usd
+**/*_none_physics.usd
+**/*_none_robot.usd
+**/*_none_sensor.usd
+**/*.asset_hash
+**/*config.yaml
 # Local workspace/editor state
 .agents/
 .codex/
