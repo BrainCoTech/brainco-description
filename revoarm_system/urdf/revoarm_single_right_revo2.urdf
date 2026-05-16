@@ -257,7 +257,7 @@
   <joint name="right_hand_base_joint" type="fixed">
     <parent link="right_connector_tip" />
     <child link="right_hand_base_link" />
-    <origin rpy="0 0 0" xyz="0 0 -0.0118" />
+    <origin rpy="0 0 1.5708" xyz="0 0 -0.0118" />
   </joint>
   <link name="right_hand_base_link">
     <inertial>

@@ -106,7 +106,7 @@
                         <geom name="right_connector_link_visual_0" class="visual" mesh="right_connector_link_visual_0_right_revo2_connector" rgba="0.79216 0.81961 0.93333 1.0" />
                         <geom name="right_connector_link_collision_0" class="collision" mesh="right_connector_link_collision_0_right_revo2_connector" />
                         <body name="right_connector_tip" pos="7.6e-05 -0.0001518 -0.0583" quat="0.000796326710733 0 0.999999682932 0">
-                          <body name="right_hand_base_link" pos="0 0 -0.0118">
+                          <body name="right_hand_base_link" pos="0 0 -0.0118" quat="0.707105482511 0 0 0.707108079859">
                             <inertial mass="0.238" pos="-0.00499090399733 -0.0032037440312 0.0440507784562" fullinertia="0.000212430690833 0.000160132967062 7.74219628519e-05 2.16367569398e-06 3.61502824762e-06 -1.22355213676e-05" />
                             <geom name="right_hand_base_link_visual_0" class="visual" mesh="right_hand_base_link_visual_0_right_base_link" rgba="1 1 1 1" />
                             <geom name="right_hand_base_link_visual_1" class="visual" mesh="right_hand_base_link_visual_1_right_base_visual_link" rgba="1 1 1 1" />
