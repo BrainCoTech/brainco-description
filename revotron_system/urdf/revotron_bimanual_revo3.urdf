@@ -1,5 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <robot name="revotron_bimanual">
+  
+  <link name="world" />
   <link name="base_link">
     <inertial>
       <origin rpy="0 0 0" xyz="0.00020071073912146 -8.29783635572738E-06 0.410515289206891" />
@@ -22,6 +24,11 @@
       </geometry>
     </collision>
   </link>
+  <joint name="world_to_base" type="fixed">
+    <parent link="world" />
+    <child link="base_link" />
+    <origin rpy="0 0 0" xyz="0 0 0" />
+  </joint>
   <link name="Base_L">
     <inertial>
       <origin rpy="0 0 0" xyz="0.00032267 4.798E-05 0.04066353" />
@@ -247,6 +254,11 @@
     <axis xyz="0 0 1" />
     <limit effort="18" lower="-1.5708" upper="1.5708" velocity="3.1416" />
   </joint>
+  <joint name="base_to_left_arm" type="fixed">
+    <parent link="base_link" />
+    <child link="Base_L" />
+    <origin rpy="-1.57 0 0" xyz="0 0.08 1.270" />
+  </joint>
   <link name="Base_R">
     <inertial>
       <origin rpy="0 0 0" xyz="0.00032267 4.798E-05 0.04066353" />
@@ -471,19 +483,6 @@
     <child link="Link7_R" />
     <axis xyz="0 0 -1" />
     <limit effort="18" lower="-1.5708" upper="1.5708" velocity="3.1416" />
-  </joint>
-  
-  <link name="world" />
-  <joint name="world_to_base" type="fixed">
-    <parent link="world" />
-    <child link="base_link" />
-    <origin rpy="0 0 0" xyz="0 0 0" />
-  </joint>
-  
-  <joint name="base_to_left_arm" type="fixed">
-    <parent link="base_link" />
-    <child link="Base_L" />
-    <origin rpy="-1.57 0 0" xyz="0 0.08 1.270" />
   </joint>
   <joint name="base_to_right_arm" type="fixed">
     <parent link="base_link" />
