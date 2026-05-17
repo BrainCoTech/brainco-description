@@ -230,7 +230,7 @@
         <mesh filename="../meshes/connector/visual/left_revo3_connector.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.79216 0.81961 0.93333 1.0" />
+        <color rgba="1.0 1.0 1.0 1.0" />
       </material>
     </visual>
     <collision>

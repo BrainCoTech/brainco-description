@@ -136,7 +136,7 @@
                       <joint name="revoarm_left_joint7" type="hinge" axis="0 -1 0" range="-1.5708 1.5708" actuatorfrcrange="-7 7" />
                       <body name="left_connector_link" pos="0 0 -0.06054" quat="0.000796326710733 0 0 0.999999682932">
                         <inertial mass="0.49311" pos="-0.000112789719115 3.15409595372e-05 0.0332550987036" fullinertia="0.000363541323954 0.000228003269421 0.000267966997878 -1.86964397359e-06 -1.25245784266e-06 -5.07776634422e-06" />
-                        <geom name="left_connector_link_visual_0" class="visual" mesh="left_connector_link_visual_0_left_revo3_connector" rgba="0.79216 0.81961 0.93333 1.0" />
+                        <geom name="left_connector_link_visual_0" class="visual" mesh="left_connector_link_visual_0_left_revo3_connector" rgba="1.0 1.0 1.0 1.0" />
                         <geom name="left_connector_link_collision_0" class="collision" mesh="left_connector_link_collision_0_left_revo3_connector" />
                         <body name="left_connector_tip" quat="0.00056308698303 0.707107855658 0.707105258311 -0.000563089051367">
                           <body name="left_hand_base_link" pos="0 0 -0.0118" quat="0.707105482511 0 0 -0.707108079859">

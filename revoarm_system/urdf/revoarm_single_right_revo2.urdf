@@ -40,7 +40,7 @@
         <mesh filename="../meshes/arm/visual/right_arm_link1.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.89804 0.91765 0.92941 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -69,7 +69,7 @@
         <mesh filename="../meshes/arm/visual/right_arm_link2.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.556863 0.556863 0.556863 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -98,7 +98,7 @@
         <mesh filename="../meshes/arm/visual/right_arm_link3.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.054902 0.054902 0.054902 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -127,7 +127,7 @@
         <mesh filename="../meshes/arm/visual/right_arm_link4.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.556863 0.556863 0.556863 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -156,7 +156,7 @@
         <mesh filename="../meshes/arm/visual/right_arm_link5.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.054902 0.054902 0.054902 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -185,7 +185,7 @@
         <mesh filename="../meshes/arm/visual/right_arm_link6.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.556863 0.556863 0.556863 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -230,7 +230,7 @@
         <mesh filename="../meshes/connector/visual/right_revo2_connector.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.79216 0.81961 0.93333 1.0" />
+        <color rgba="1.0 1.0 1.0 1.0" />
       </material>
     </visual>
     <collision>

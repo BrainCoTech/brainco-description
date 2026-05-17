@@ -242,7 +242,7 @@
         <mesh filename="../meshes/arm/visual/right_arm_link1.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.89804 0.91765 0.92941 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -271,7 +271,7 @@
         <mesh filename="../meshes/arm/visual/right_arm_link2.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.556863 0.556863 0.556863 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -300,7 +300,7 @@
         <mesh filename="../meshes/arm/visual/right_arm_link3.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.054902 0.054902 0.054902 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -329,7 +329,7 @@
         <mesh filename="../meshes/arm/visual/right_arm_link4.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.556863 0.556863 0.556863 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -358,7 +358,7 @@
         <mesh filename="../meshes/arm/visual/right_arm_link5.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.054902 0.054902 0.054902 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -387,7 +387,7 @@
         <mesh filename="../meshes/arm/visual/right_arm_link6.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.556863 0.556863 0.556863 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -432,7 +432,7 @@
         <mesh filename="../meshes/connector/visual/left_revo3_connector.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.79216 0.81961 0.93333 1.0" />
+        <color rgba="1.0 1.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -468,7 +468,7 @@
         <mesh filename="../meshes/connector/visual/right_revo3_connector.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.79216 0.81961 0.93333 1.0" />
+        <color rgba="1.0 1.0 1.0 1.0" />
       </material>
     </visual>
     <collision>
@@ -1379,7 +1379,7 @@
         <mesh filename="../meshes/hands/visual/right/base_link.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -1563,7 +1563,7 @@
         <mesh filename="../meshes/hands/visual/right/right_thumb_CMP_Link.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -1592,7 +1592,7 @@
         <mesh filename="../meshes/hands/visual/right/right_thumb_CMR_Link.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -1621,7 +1621,7 @@
         <mesh filename="../meshes/hands/visual/right/right_thumb_MCP_Link.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -1650,7 +1650,7 @@
         <mesh filename="../meshes/hands/visual/right/right_thumb_PIP_Link.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -1679,7 +1679,7 @@
         <mesh filename="../meshes/hands/visual/right/right_thumb_DIP_Link.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -1721,7 +1721,7 @@
         <mesh filename="../meshes/hands/visual/right/right_index_MPR_Link.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -1750,7 +1750,7 @@
         <mesh filename="../meshes/hands/visual/right/right_index_MCP_Link.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -1779,7 +1779,7 @@
         <mesh filename="../meshes/hands/visual/right/right_index_PIP_Link.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -1808,7 +1808,7 @@
         <mesh filename="../meshes/hands/visual/right/right_index_DIP_Link.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -1850,7 +1850,7 @@
         <mesh filename="../meshes/hands/visual/right/right_middle_MPR_Link.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -1879,7 +1879,7 @@
         <mesh filename="../meshes/hands/visual/right/right_middle_MCP_Link.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -1908,7 +1908,7 @@
         <mesh filename="../meshes/hands/visual/right/right_middle_PIP_Link.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -1937,7 +1937,7 @@
         <mesh filename="../meshes/hands/visual/right/right_middle_DIP_Link.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -1979,7 +1979,7 @@
         <mesh filename="../meshes/hands/visual/right/right_ring_MPR_Link.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -2008,7 +2008,7 @@
         <mesh filename="../meshes/hands/visual/right/right_ring_MCP_Link.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -2037,7 +2037,7 @@
         <mesh filename="../meshes/hands/visual/right/right_ring_PIP_Link.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -2066,7 +2066,7 @@
         <mesh filename="../meshes/hands/visual/right/right_ring_DIP_Link.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -2108,7 +2108,7 @@
         <mesh filename="../meshes/hands/visual/right/right_little_MPR_Link.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -2137,7 +2137,7 @@
         <mesh filename="../meshes/hands/visual/right/right_little_MCP_Link.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -2166,7 +2166,7 @@
         <mesh filename="../meshes/hands/visual/right/right_little_PIP_Link.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -2195,7 +2195,7 @@
         <mesh filename="../meshes/hands/visual/right/right_little_DIP_Link.STL" />
       </geometry>
       <material name="">
-        <color rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
+        <color rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
