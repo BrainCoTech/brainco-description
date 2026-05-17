@@ -1,5 +1,6 @@
 # Internal tooling and generated caches
 *.py
+scripts/*.py
 *.sh
 __pycache__/
 *.py[cod]

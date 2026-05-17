@@ -11,62 +11,39 @@ The public release includes URDF, MJCF, and USD descriptions, together with the 
 | `revo2_system` | Revo2 left and right dexterous hands | URDF, MJCF, USD |
 | `revo3_system` | Revo3 left and right dexterous hands | URDF, MJCF, USD |
 | `revoarm_system` | Single-arm and bimanual RevoArm assemblies with Revo2/Revo3 hands | URDF, MJCF, USD |
-| `revotron_system` | Revotron bimanual platform assemblies | URDF, MJCF, USD |
+| `revotron_system` | Single-arm and bimanual RevoTron platform assemblies with Revo3 hands | URDF, MJCF, USD |
 
-## Repository Layout
+## Visual Catalog
 
-```text
-.
-├── revo2_system/
-│   ├── meshes/
-│   ├── urdf/
-│   ├── mjcf/
-│   └── usd/
-├── revo3_system/
-│   ├── meshes/
-│   ├── urdf/
-│   ├── mjcf/
-│   └── usd/
-├── revoarm_system/
-│   ├── meshes/
-│   ├── urdf/
-│   ├── mjcf/
-│   └── usd/
-└── revotron_system/
-    ├── meshes/
-    ├── urdf/
-    ├── mjcf/
-    └── usd/
-```
+The rendered previews below correspond to the robot description entry points in this repository. `Arm: None` means the model is a standalone dexterous hand with no arm assembly.
 
-Each system directory follows the same convention:
+### Standalone Hands
 
-- `urdf/`: URDF robot description files.
-- `mjcf/`: MuJoCo XML model files.
-- `usd/`: OpenUSD robot description files for visualization and Isaac Sim / Isaac Lab workflows.
-- `meshes/`: Visual and collision geometry referenced by the descriptions.
-- `README.md`: Optional system-specific notes.
+| Preview | Description files | Arm | Hand | Configuration | Side |
+| --- | --- | --- | --- | --- | --- |
+| <img src="visualizations/revo2_system/urdf/revo2_left.png" alt="revo2_left" width="120"> | URDF: `revo2_system/urdf/revo2_left.urdf`<br>MJCF: `revo2_system/mjcf/revo2_left.xml`<br>USD: `revo2_system/usd/revo2_left.usd` | None | Revo2 | Single hand | Left |
+| <img src="visualizations/revo2_system/urdf/revo2_right.png" alt="revo2_right" width="120"> | URDF: `revo2_system/urdf/revo2_right.urdf`<br>MJCF: `revo2_system/mjcf/revo2_right.xml`<br>USD: `revo2_system/usd/revo2_right.usd` | None | Revo2 | Single hand | Right |
+| <img src="visualizations/revo3_system/urdf/revo3_left.png" alt="revo3_left" width="120"> | URDF: `revo3_system/urdf/revo3_left.urdf`<br>MJCF: `revo3_system/mjcf/revo3_left.xml`<br>USD: `revo3_system/usd/revo3_left.usd` | None | Revo3 | Single hand | Left |
+| <img src="visualizations/revo3_system/urdf/revo3_right.png" alt="revo3_right" width="120"> | URDF: `revo3_system/urdf/revo3_right.urdf`<br>MJCF: `revo3_system/mjcf/revo3_right.xml`<br>USD: `revo3_system/usd/revo3_right.usd` | None | Revo3 | Single hand | Right |
 
-## File Naming
+### RevoArm Assemblies
 
-The file names encode the robot configuration:
+| Preview | Description files | Arm | Hand | Configuration | Side |
+| --- | --- | --- | --- | --- | --- |
+| <img src="visualizations/revoarm_system/urdf/revoarm_single_left_revo2.png" alt="revoarm_single_left_revo2" width="120"> | URDF: `revoarm_system/urdf/revoarm_single_left_revo2.urdf`<br>MJCF: `revoarm_system/mjcf/revoarm_single_left_revo2.xml`<br>USD: `revoarm_system/usd/revoarm_single_left_revo2.usd` | RevoArm | Revo2 | Single arm | Left |
+| <img src="visualizations/revoarm_system/urdf/revoarm_single_right_revo2.png" alt="revoarm_single_right_revo2" width="120"> | URDF: `revoarm_system/urdf/revoarm_single_right_revo2.urdf`<br>MJCF: `revoarm_system/mjcf/revoarm_single_right_revo2.xml`<br>USD: `revoarm_system/usd/revoarm_single_right_revo2.usd` | RevoArm | Revo2 | Single arm | Right |
+| <img src="visualizations/revoarm_system/urdf/revoarm_bimanual_revo2.png" alt="revoarm_bimanual_revo2" width="120"> | URDF: `revoarm_system/urdf/revoarm_bimanual_revo2.urdf`<br>MJCF: `revoarm_system/mjcf/revoarm_bimanual_revo2.xml`<br>USD: `revoarm_system/usd/revoarm_bimanual_revo2.usd` | RevoArm | Revo2 | Bimanual | Left + right |
+| <img src="visualizations/revoarm_system/urdf/revoarm_single_left_revo3.png" alt="revoarm_single_left_revo3" width="120"> | URDF: `revoarm_system/urdf/revoarm_single_left_revo3.urdf`<br>MJCF: `revoarm_system/mjcf/revoarm_single_left_revo3.xml`<br>USD: `revoarm_system/usd/revoarm_single_left_revo3.usd` | RevoArm | Revo3 | Single arm | Left |
+| <img src="visualizations/revoarm_system/urdf/revoarm_single_right_revo3.png" alt="revoarm_single_right_revo3" width="120"> | URDF: `revoarm_system/urdf/revoarm_single_right_revo3.urdf`<br>MJCF: `revoarm_system/mjcf/revoarm_single_right_revo3.xml`<br>USD: `revoarm_system/usd/revoarm_single_right_revo3.usd` | RevoArm | Revo3 | Single arm | Right |
+| <img src="visualizations/revoarm_system/urdf/revoarm_bimanual_revo3.png" alt="revoarm_bimanual_revo3" width="120"> | URDF: `revoarm_system/urdf/revoarm_bimanual_revo3.urdf`<br>MJCF: `revoarm_system/mjcf/revoarm_bimanual_revo3.xml`<br>USD: `revoarm_system/usd/revoarm_bimanual_revo3.usd` | RevoArm | Revo3 | Bimanual | Left + right |
 
-| Pattern | Meaning |
-| --- | --- |
-| `left` / `right` | Left-hand or right-hand model |
-| `single_left` / `single_right` | Single-arm system with the arm mounted on one side |
-| `bimanual` | Dual-arm system |
-| `revo2` | Configuration with Revo2 hand attached |
-| `revo3` | Configuration with Revo3 hand attached |
+### RevoTron Assemblies
 
-Examples:
-
-```text
-revoarm_system/urdf/revoarm_single_right_revo3.urdf
-revoarm_system/mjcf/revoarm_bimanual_revo2.xml
-revoarm_system/usd/revoarm_bimanual_revo3.usd
-revotron_system/mjcf/revotron_bimanual_revo3.xml
-```
+| Preview | Description files | Arm | Hand | Configuration | Side |
+| --- | --- | --- | --- | --- | --- |
+| <img src="visualizations/revotron_system/urdf/revotron_single_left_revo3.png" alt="revotron_single_left_revo3" width="120"> | URDF: `revotron_system/urdf/revotron_single_left_revo3.urdf`<br>MJCF: `revotron_system/mjcf/revotron_single_left_revo3.xml`<br>USD: `revotron_system/usd/revotron_single_left_revo3.usd` | RevoTron | Revo3 | Single arm | Left |
+| <img src="visualizations/revotron_system/urdf/revotron_single_right_revo3.png" alt="revotron_single_right_revo3" width="120"> | URDF: `revotron_system/urdf/revotron_single_right_revo3.urdf`<br>MJCF: `revotron_system/mjcf/revotron_single_right_revo3.xml`<br>USD: `revotron_system/usd/revotron_single_right_revo3.usd` | RevoTron | Revo3 | Single arm | Right |
+| <img src="visualizations/revotron_system/urdf/revotron_bimanual_revo3.png" alt="revotron_bimanual_revo3" width="120"> | URDF: `revotron_system/urdf/revotron_bimanual_revo3.urdf`<br>MJCF: `revotron_system/mjcf/revotron_bimanual_revo3.xml`<br>USD: `revotron_system/usd/revotron_bimanual_revo3.usd` | RevoTron | Revo3 | Bimanual | Left + right |
 
 ## Using the Models
 
