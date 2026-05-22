@@ -194,7 +194,7 @@
       <inertial mass="12.5413692609" pos="0.000200710739121 -8.29783635573e-06 0.410515289207" fullinertia="1.2588873151 1.26091957891 0.453642596836 5.95259938467e-08 0 0" />
       <geom name="base_link_visual_0" class="visual" mesh="base_link_visual_0_base_link" rgba="1 1 1 1" />
       <geom name="base_link_collision_0" class="collision" mesh="base_link_collision_0_base_link" />
-      <body name="Base_L" pos="0 0.08 1.27" quat="0.707388269167 -0.706825181105 0 0">
+      <body name="Base_L" pos="0 0.08 1.27" quat="0.500398163355 -0.499999841466 -0.499999841466 -0.499601836645">
         <inertial mass="1.1962" pos="0.00032267 4.798e-05 0.04066353" fullinertia="0.00107329 0.00107003 0.00127315 -1.68e-06 -1.05e-05 -3.43e-06" />
         <geom name="Base_L_visual_0" class="visual" mesh="Base_L_visual_0_Base_L" rgba="1 1 1 1" />
         <geom name="Base_L_collision_0" class="collision" mesh="Base_L_collision_0_Base_L" />
@@ -419,7 +419,7 @@
           </body>
         </body>
       </body>
-      <body name="Base_R" pos="0 -0.08 1.27" quat="0.707388269167 0.706825181105 0 0">
+      <body name="Base_R" pos="0 -0.08 1.27" quat="0.500398163355 0.499999841466 -0.499999841466 0.499601836645">
         <inertial mass="1.1962" pos="0.00032267 4.798e-05 0.04066353" fullinertia="0.00107329 0.00107003 0.00127315 -1.68e-06 -1.05e-05 -3.43e-06" />
         <geom name="Base_R_visual_0" class="visual" mesh="Base_R_visual_0_Base_R" rgba="1 1 1 1" />
         <geom name="Base_R_collision_0" class="collision" mesh="Base_R_collision_0_Base_R" />
