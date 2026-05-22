@@ -516,7 +516,7 @@
   <joint name="left_connector_mount" type="fixed">
     <parent link="Link7_L" />
     <child link="left_connector_link" />
-    <origin rpy="0.0 0.785 3.14" xyz="0 -0.095 0" />
+    <origin rpy="0.0 2.355 3.14" xyz="0 -0.095 0" />
   </joint>
   
   <link name="left_connector_tip" />
@@ -552,7 +552,7 @@
   <joint name="right_connector_mount" type="fixed">
     <parent link="Link7_R" />
     <child link="right_connector_link" />
-    <origin rpy="0.0 0.785 3.14" xyz="0 -0.095 0" />
+    <origin rpy="0.0 -0.785 3.14" xyz="0 -0.095 0" />
   </joint>
   
   <link name="right_connector_tip" />

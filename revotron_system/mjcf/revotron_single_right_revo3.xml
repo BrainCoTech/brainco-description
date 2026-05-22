@@ -142,7 +142,7 @@
                       <joint name="Joint7_R" type="hinge" axis="0 0 -1" range="-1.5708 1.5708" actuatorfrcrange="-18 18" />
                       <geom name="Link7_R_visual_0" class="visual" mesh="Link7_R_visual_0_Link7_R" rgba="1 1 1 1" />
                       <geom name="Link7_R_collision_0" class="collision" mesh="Link7_R_collision_0_Link7_R" />
-                      <body name="right_connector_link" pos="0 -0.095 0" quat="0.000735770603022 -0.382499375998 0.000304594566523 0.923955406513">
+                      <body name="right_connector_link" pos="0 -0.095 0" quat="0.000735770603022 0.382499375998 -0.000304594566523 0.923955406513">
                         <inertial mass="0.0192128045884" pos="-0.00055791562502 0.00827644927446 -0.000561061156443" fullinertia="4.74164922924e-06 8.5242928506e-06 4.74315098009e-06 -5.21211987251e-08 5.04867620952e-07 -5.21987747649e-08" />
                         <geom name="right_connector_link_visual_0" class="visual" mesh="right_connector_link_visual_0_revo3_connector" rgba="1 1 1 1" />
                         <geom name="right_connector_link_collision_0" class="collision" mesh="right_connector_link_collision_0_revo3_connector" />
