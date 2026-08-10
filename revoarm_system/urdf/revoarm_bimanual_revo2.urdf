@@ -120,7 +120,7 @@
     <parent link="left_arm_link2" />
     <child link="left_arm_link3" />
     <axis xyz="0 0 -1" />
-    <limit effort="27" lower="-3.6652" upper="0.5236" velocity="1.745" />
+    <limit effort="27" lower="-2.0" upper="2.0" velocity="1.745" />
   </joint>
   <link name="left_arm_link4">
     <inertial>
@@ -178,7 +178,7 @@
     <parent link="left_arm_link4" />
     <child link="left_arm_link5" />
     <axis xyz="0 0 -1" />
-    <limit effort="7" lower="-3.1444" upper="0.9044" velocity="6.98" />
+    <limit effort="7" lower="-3.1444" upper="0.500" velocity="6.98" />
   </joint>
   <link name="left_arm_link6">
     <inertial>
