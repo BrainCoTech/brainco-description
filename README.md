@@ -4,6 +4,15 @@ This repository contains public robot description assets for BrainCo robot hands
 
 The public release includes URDF, MJCF, and USD descriptions, together with the mesh assets they reference.
 
+## Release Notes — v2026.09.26
+
+- Add Revo3 MX touch and without-touch model variants.
+- Fix Revo3 inertia parameters using legacy mass properties transformed into the updated link frames.
+- Fix Revo3 MPR joint definitions.
+- Add Revo3 appearance materials and updated previews.
+- Revo3 collision meshes are not yet processed.
+- Add the RevoTron ID appearance.
+
 ## What Is Included
 
 | System | Description | Formats |
@@ -16,6 +25,12 @@ The public release includes URDF, MJCF, and USD descriptions, together with the 
 ## Visual Catalog
 
 The rendered previews below correspond to the robot description entry points in this repository. `Arm: None` means the model is a standalone dexterous hand with no arm assembly.
+
+Previews are rendered directly from the current URDF visual geometry in the
+zero joint configuration. Revo3 files ending in `_mx_touch` include the pink
+tactile point markers; unsuffixed files show the same physical model without
+the markers. Both variants have matching PNGs under
+`visualizations/<system>/urdf/<urdf_name>.png`.
 
 ### Standalone Hands
 

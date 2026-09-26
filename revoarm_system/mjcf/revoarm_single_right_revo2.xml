@@ -71,7 +71,7 @@
       <body name="right_base_link" pos="0 0 0.0997" quat="0.707105482511 -0.707108079859 0 0">
         <body name="right_arm_link1" quat="0.707105482511 0 0.707108079859 0">
           <inertial mass="0.99862" pos="0.00138261246537 -0.0527123429468 -0.00121652148011" fullinertia="0.00134544913222 0.000834135586928 0.00103343870055 9.35736730946e-06 3.47820470915e-07 4.90367363186e-05" />
-          <joint name="revoarm_right_joint1" type="hinge" axis="0 1 0" range="-4.1015 0.7854" actuatorfrcrange="-40 40" />
+          <joint name="revoarm_right_joint1" type="hinge" axis="0 1 0" range="-2.44345 2.44345" actuatorfrcrange="-40 40" />
           <geom name="right_arm_link1_visual_0" class="visual" mesh="right_arm_link1_visual_0_right_arm_link1" rgba="1 1 1 1" />
           <geom name="right_arm_link1_collision_0" class="collision" mesh="right_arm_link1_collision_0_right_arm_link1" />
           <body name="right_arm_link2" pos="0 -0.06 0" quat="0.707105482511 -0.707108079859 0 0">
@@ -81,7 +81,7 @@
             <geom name="right_arm_link2_collision_0" class="collision" mesh="right_arm_link2_collision_0_right_arm_link2" />
             <body name="right_arm_link3" pos="0 0 -0.099" quat="0.707105482511 0 0 0.707108079859">
               <inertial mass="0.56897" pos="-0.000454569614792 3.12449787288e-05 -0.0666939671661" fullinertia="0.00134243655403 0.00131310898292 0.000492154320293 -1.10159695691e-06 -8.9867271334e-06 1.87663764445e-06" />
-              <joint name="revoarm_right_joint3" type="hinge" axis="0 0 1" range="-3.6652 0.5236" actuatorfrcrange="-27 27" />
+              <joint name="revoarm_right_joint3" type="hinge" axis="0 0 1" range="-0.5236 3.6652" actuatorfrcrange="-27 27" />
               <geom name="right_arm_link3_visual_0" class="visual" mesh="right_arm_link3_visual_0_right_arm_link3" rgba="1 1 1 1" />
               <geom name="right_arm_link3_collision_0" class="collision" mesh="right_arm_link3_collision_0_right_arm_link3" />
               <body name="right_arm_link4" pos="0 0 -0.121">
@@ -91,7 +91,7 @@
                 <geom name="right_arm_link4_collision_0" class="collision" mesh="right_arm_link4_collision_0_right_arm_link4" />
                 <body name="right_arm_link5" pos="0 0 -0.0635">
                   <inertial mass="0.80969" pos="0.000915076828994 1.83496866724e-05 -0.0751470282845" fullinertia="0.00182931151009 0.00183450989562 0.00056086991064 9.37494132217e-07 3.67371332139e-05 -1.6270176108e-06" />
-                  <joint name="revoarm_right_joint5" type="hinge" axis="0 0 1" range="-3.1444 0.9044" actuatorfrcrange="-7 7" />
+                  <joint name="revoarm_right_joint5" type="hinge" axis="0 0 1" range="-2.0244 2.0244" actuatorfrcrange="-7 7" />
                   <geom name="right_arm_link5_visual_0" class="visual" mesh="right_arm_link5_visual_0_right_arm_link5" rgba="1 1 1 1" />
                   <geom name="right_arm_link5_collision_0" class="collision" mesh="right_arm_link5_collision_0_right_arm_link5" />
                   <body name="right_arm_link6" pos="0 0 -0.1525">

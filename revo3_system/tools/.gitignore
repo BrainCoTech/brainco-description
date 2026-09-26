@@ -1,0 +1,2 @@
+# Keep the generator distributed with the appearance assets it documents.
+!build_left_appearance.py

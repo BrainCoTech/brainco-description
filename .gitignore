@@ -25,3 +25,7 @@ flexiv_system/
 # OS metadata
 .DS_Store
 Thumbs.db
+
+# Previews of model sets excluded from the public repository
+visualizations/flexiv_system/
+visualizations/**/*_none.png
