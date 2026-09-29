@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <robot name="revoarm_bimanual">
-
+  
   <link name="world" />
   <link name="base_link">
     <inertial>
@@ -209,7 +209,7 @@
     <axis xyz="-1 0 0" />
     <limit effort="7" lower="-0.64577" upper="0.64577" velocity="6.98" />
   </joint>
-
+  
   <link name="left_arm_link7">
     <inertial>
       <origin rpy="0 0 0" xyz="0 0 0" />
@@ -404,7 +404,7 @@
     <axis xyz="1 0 0" />
     <limit effort="7" lower="-0.64577" upper="0.64577" velocity="6.98" />
   </joint>
-
+  
   <link name="right_arm_link7">
     <inertial>
       <origin rpy="0 0 0" xyz="0 0 0" />
@@ -419,7 +419,7 @@
     <axis xyz="0 -1 0" />
     <limit effort="7" lower="-1.5708" upper="1.5708" velocity="6.98" />
   </joint>
-
+  
   <link name="left_connector_link">
     <inertial>
       <origin rpy="0 0 0" xyz="-0.0001127897191147954 3.154095953719937e-05 0.033255098703552484" />
@@ -442,20 +442,20 @@
       </geometry>
     </collision>
   </link>
-
+  
   <joint name="left_connector_mount" type="fixed">
     <parent link="left_arm_link7" />
     <child link="left_connector_link" />
     <origin rpy="0 0 3.14" xyz="0 0 -0.06054" />
   </joint>
-
+  
   <link name="left_connector_tip" />
   <joint name="left_connector_tip_joint" type="fixed">
     <parent link="left_connector_link" />
     <child link="left_connector_tip" />
     <origin rpy="0 3.14 3.14" xyz="0.0 0.0 0.0" />
   </joint>
-
+  
   <link name="right_connector_link">
     <inertial>
       <origin rpy="0 0 0" xyz="-0.0001127897191147954 3.154095953719937e-05 0.033255098703552484" />
@@ -478,20 +478,20 @@
       </geometry>
     </collision>
   </link>
-
+  
   <joint name="right_connector_mount" type="fixed">
     <parent link="right_arm_link7" />
     <child link="right_connector_link" />
     <origin rpy="0 0 0" xyz="0 0 -0.06054" />
   </joint>
-
+  
   <link name="right_connector_tip" />
   <joint name="right_connector_tip_joint" type="fixed">
     <parent link="right_connector_link" />
     <child link="right_connector_tip" />
     <origin rpy="0 3.14 0" xyz="0.0 0.0 0.0" />
   </joint>
-
+  
   <joint name="left_hand_base_joint" type="fixed">
     <parent link="left_connector_tip" />
     <child link="left_hand_base_link" />
@@ -1814,7 +1814,7 @@
     <parent link="left_little_DIP_link" />
     <child link="left_little_tip_Link" />
   </joint>
-
+  
   <joint name="right_hand_base_joint" type="fixed">
     <parent link="right_connector_tip" />
     <child link="right_hand_base_link" />

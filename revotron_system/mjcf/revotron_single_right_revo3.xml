@@ -137,6 +137,8 @@
     <mesh name="right_plam_link_collision_0_right_plam_link" file="../meshes/hands/collision/right/right_plam_link.STL" />
     <mesh name="right_plam_led_link_visual_0_right_plam_led_link" file="../meshes/hands/visual/right/right_plam_led_link.STL" />
     <mesh name="right_plam_led_link_collision_0_right_plam_led_link" file="../meshes/hands/collision/right/right_plam_led_link.STL" />
+    <mesh name="right_wrist_camera_frame_visual_0_right_wrist_camera_link" file="../meshes/arm/visual/right_wrist_camera_link.STL" />
+    <mesh name="right_wrist_camera_frame_collision_0_right_wrist_camera_link" file="../meshes/arm/collision/right_wrist_camera_link.STL" />
   </asset>
   <worldbody>
     <body name="base_link">
@@ -179,11 +181,11 @@
                       <joint name="Joint7_R" type="hinge" axis="0 0 -1" range="-1.5708 1.5708" actuatorfrcrange="-18 18" />
                       <geom name="Link7_R_visual_0" class="visual" mesh="Link7_R_visual_0_Link7_R" rgba="1 1 1 1" />
                       <geom name="Link7_R_collision_0" class="collision" mesh="Link7_R_collision_0_Link7_R" />
-                      <body name="right_connector_link" pos="0 -0.095 0" quat="0.000563312173597 -0.000562863771533 0.707388044877 0.706824956994">
-                        <inertial mass="0.113854198701" pos="-0.0158685394574 0.0280741788303 -0.0161294984621" fullinertia="6.80261938193e-05 6.63782562115e-05 0.000109517062794 6.78647450735e-06 -7.05129347787e-06 4.23399904953e-06" />
-                        <geom name="right_connector_link_visual_0" class="visual" mesh="right_connector_link_visual_0_right_connector_wrist_link" rgba="1 1 1 1" />
+                      <body name="right_connector_link" pos="0 -0.10695 0" quat="0.5 0.5 -0.5 0.5">
+                        <inertial mass="0.25057" pos="0.012345 0.021702 0.0041649" fullinertia="0.00018891 0.00029199 0.00042456 0.00011511 -3.031e-05 2.64e-05" />
+                        <geom name="right_connector_link_visual_0" class="visual" mesh="right_connector_link_visual_0_right_connector_wrist_link" rgba="0.89804 0.91765 0.92941 1" />
                         <geom name="right_connector_link_collision_0" class="collision" mesh="right_connector_link_collision_0_right_connector_wrist_link" />
-                        <body name="right_connector_tip" pos="0 0 -0.018" quat="0.000563312173597 0.707388044877 0.706824956994 0.000562863771533">
+                        <body name="right_connector_tip">
                           <body name="right_hand_base_link">
                             <inertial mass="0.462" pos="-0.00345736 0.00054338 0.03983468" fullinertia="0.00080601 0.0006104 0.00041275 1.197e-05 5.633e-05 -1.657e-05" />
                             <geom name="right_hand_base_link_visual_0" class="visual" mesh="right_hand_base_link_visual_0_right_hand_base_link" />
@@ -444,7 +446,11 @@
                             <body name="right_palm" pos="0.0155 0 0.055" />
                           </body>
                         </body>
-                        <body name="right_wrist_camera_frame" pos="-0.0528 0.07508 -0.0225" quat="0.969846310461 -0.171010071475 -0.171010071475 -0.0301536895388" />
+                        <body name="right_wrist_camera_frame" pos="0.0354789118166 0.0724666383279 0.0307759368725" quat="0.68373846485 -0.180282311071 -0.180282311071 0.68373846485">
+                          <inertial mass="0.049871" pos="0.00015467 3.4615e-06 -0.018703" fullinertia="5.88e-06 5.47e-06 4.55e-06 4e-08 1.1e-07 -7.6e-07" />
+                          <geom name="right_wrist_camera_frame_visual_0" class="visual" mesh="right_wrist_camera_frame_visual_0_right_wrist_camera_link" rgba="0.69804 0.69804 0.69804 1" />
+                          <geom name="right_wrist_camera_frame_collision_0" class="collision" mesh="right_wrist_camera_frame_collision_0_right_wrist_camera_link" />
+                        </body>
                       </body>
                     </body>
                   </body>

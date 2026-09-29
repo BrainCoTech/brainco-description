@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <robot name="revotron_single">
-
+  
   <link name="world" />
   <link name="base_link" />
   <joint name="world_to_base" type="fixed">
@@ -240,9 +240,9 @@
   </joint>
   <link name="left_connector_link">
     <inertial>
-      <origin rpy="0 0 0" xyz="0.0158842688232219 0.0280743674204184 -0.0161296316521297" />
-      <mass value="0.113854752828569" />
-      <inertia ixx="6.80266915155639E-05" ixy="-6.75136415206972E-06" ixz="7.05553833554506E-06" iyy="6.63787107888454E-05" iyz="4.23409218766119E-06" izz="0.000109517479126528" />
+      <origin rpy="0 0 0" xyz="0.021579 0.012376 0.0042454" />
+      <mass value="0.25057" />
+      <inertia ixx="0.00018951" ixy="-0.0001147" ixz="-3.085E-05" iyy="0.0002902" iyz="-2.691E-05" izz="0.00042284" />
     </inertial>
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0" />
@@ -250,7 +250,7 @@
         <mesh filename="../meshes/connector/visual/left_connector_wrist_link.STL" />
       </geometry>
       <material name="">
-        <color rgba="1 1 1 1" />
+        <color rgba="0.89804 0.91765 0.92941 1" />
       </material>
     </visual>
     <collision>
@@ -260,26 +260,47 @@
       </geometry>
     </collision>
   </link>
-
+  
   <joint name="left_connector_mount" type="fixed">
     <parent link="Link7_L" />
     <child link="left_connector_link" />
-    <origin rpy="-1.57 3.14 0.0" xyz="0 -0.095 0" />
+    <origin rpy="1.5707963267948966 -1.5707963267948966 0" xyz="0 -0.10695 0" />
   </joint>
-
+  
   <link name="left_connector_tip" />
   <joint name="left_connector_tip_joint" type="fixed">
     <parent link="left_connector_link" />
     <child link="left_connector_tip" />
-    <origin rpy="3.14 0.0 1.57" xyz="0 0.00 -0.018" />
+    <origin rpy="0 0 0" xyz="0 0 0" />
   </joint>
-  <link name="left_wrist_camera_frame" />
+  <link name="left_wrist_camera_frame">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0.00015466 3.5904E-06 -0.018703" />
+      <mass value="0.049871" />
+      <inertia ixx="5.88E-06" ixy="-7E-08" ixz="9E-08" iyy="5.47E-06" iyz="7.7E-07" izz="4.56E-06" />
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/arm/visual/left_wrist_camera_link.STL" />
+      </geometry>
+      <material name="">
+        <color rgba="0.69804 0.69804 0.69804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/arm/collision/left_wrist_camera_link.STL" />
+      </geometry>
+    </collision>
+  </link>
   <joint name="left_wrist_camera_joint" type="fixed">
+    <origin rpy="0.51561 0 0" xyz="0.072095 0.035586 0.030977" />
     <parent link="left_connector_link" />
     <child link="left_wrist_camera_frame" />
-    <origin rpy="-0.34906585 0.34906585 0" xyz="0.0528 0.07508 -0.0225" />
   </joint>
-
+  
   <joint name="left_hand_base_joint" type="fixed">
     <parent link="left_connector_tip" />
     <child link="left_hand_base_link" />
