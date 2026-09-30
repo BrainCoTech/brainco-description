@@ -51,7 +51,38 @@
     <mesh name="left_thumb_CMP_link_visual_0_left_thumb_CMP_link" file="../meshes/hands/visual/left/left_thumb_CMP_link.STL" />
     <mesh name="left_thumb_CMP_link_collision_0_left_thumb_CMP_link" file="../meshes/hands/collision/left/left_thumb_CMP_link.STL" />
     <mesh name="left_thumb_CMR_link_visual_0_left_thumb_CMR_link" file="../meshes/hands/visual/left/left_thumb_CMR_link.STL" />
-    <mesh name="left_thumb_CMR_link_collision_0_left_thumb_CMR_link" file="../meshes/hands/collision/left/left_thumb_CMR_link.STL" />
+    <mesh name="left_thumb_CMR_link_collision_0_cmr_v4_00" file="../meshes/hands/collision/left/cmr_v4_00.obj" />
+    <mesh name="left_thumb_CMR_link_collision_1_cmr_v4_01" file="../meshes/hands/collision/left/cmr_v4_01.obj" />
+    <mesh name="left_thumb_CMR_link_collision_2_cmr_v4_02" file="../meshes/hands/collision/left/cmr_v4_02.obj" />
+    <mesh name="left_thumb_CMR_link_collision_3_cmr_v4_03" file="../meshes/hands/collision/left/cmr_v4_03.obj" />
+    <mesh name="left_thumb_CMR_link_collision_4_cmr_v4_04" file="../meshes/hands/collision/left/cmr_v4_04.obj" />
+    <mesh name="left_thumb_CMR_link_collision_5_cmr_v4_05" file="../meshes/hands/collision/left/cmr_v4_05.obj" />
+    <mesh name="left_thumb_CMR_link_collision_6_cmr_v4_06" file="../meshes/hands/collision/left/cmr_v4_06.obj" />
+    <mesh name="left_thumb_CMR_link_collision_7_cmr_v4_07" file="../meshes/hands/collision/left/cmr_v4_07.obj" />
+    <mesh name="left_thumb_CMR_link_collision_8_cmr_v4_08" file="../meshes/hands/collision/left/cmr_v4_08.obj" />
+    <mesh name="left_thumb_CMR_link_collision_9_cmr_v4_09" file="../meshes/hands/collision/left/cmr_v4_09.obj" />
+    <mesh name="left_thumb_CMR_link_collision_10_cmr_v4_10" file="../meshes/hands/collision/left/cmr_v4_10.obj" />
+    <mesh name="left_thumb_CMR_link_collision_11_cmr_v4_11" file="../meshes/hands/collision/left/cmr_v4_11.obj" />
+    <mesh name="left_thumb_CMR_link_collision_12_cmr_v4_12" file="../meshes/hands/collision/left/cmr_v4_12.obj" />
+    <mesh name="left_thumb_CMR_link_collision_13_cmr_v4_13" file="../meshes/hands/collision/left/cmr_v4_13.obj" />
+    <mesh name="left_thumb_CMR_link_collision_14_cmr_v4_14" file="../meshes/hands/collision/left/cmr_v4_14.obj" />
+    <mesh name="left_thumb_CMR_link_collision_15_cmr_v4_15" file="../meshes/hands/collision/left/cmr_v4_15.obj" />
+    <mesh name="left_thumb_CMR_link_collision_16_cmr_v4_16" file="../meshes/hands/collision/left/cmr_v4_16.obj" />
+    <mesh name="left_thumb_CMR_link_collision_17_cmr_v4_17" file="../meshes/hands/collision/left/cmr_v4_17.obj" />
+    <mesh name="left_thumb_CMR_link_collision_18_cmr_v4_18" file="../meshes/hands/collision/left/cmr_v4_18.obj" />
+    <mesh name="left_thumb_CMR_link_collision_19_cmr_v4_19" file="../meshes/hands/collision/left/cmr_v4_19.obj" />
+    <mesh name="left_thumb_CMR_link_collision_20_cmr_v4_20" file="../meshes/hands/collision/left/cmr_v4_20.obj" />
+    <mesh name="left_thumb_CMR_link_collision_21_cmr_v4_21" file="../meshes/hands/collision/left/cmr_v4_21.obj" />
+    <mesh name="left_thumb_CMR_link_collision_22_cmr_v4_22" file="../meshes/hands/collision/left/cmr_v4_22.obj" />
+    <mesh name="left_thumb_CMR_link_collision_23_cmr_v4_23" file="../meshes/hands/collision/left/cmr_v4_23.obj" />
+    <mesh name="left_thumb_CMR_link_collision_24_cmr_v4_24" file="../meshes/hands/collision/left/cmr_v4_24.obj" />
+    <mesh name="left_thumb_CMR_link_collision_25_cmr_v4_25" file="../meshes/hands/collision/left/cmr_v4_25.obj" />
+    <mesh name="left_thumb_CMR_link_collision_26_cmr_v4_26" file="../meshes/hands/collision/left/cmr_v4_26.obj" />
+    <mesh name="left_thumb_CMR_link_collision_27_cmr_v4_27" file="../meshes/hands/collision/left/cmr_v4_27.obj" />
+    <mesh name="left_thumb_CMR_link_collision_28_cmr_v4_28" file="../meshes/hands/collision/left/cmr_v4_28.obj" />
+    <mesh name="left_thumb_CMR_link_collision_29_cmr_v4_29" file="../meshes/hands/collision/left/cmr_v4_29.obj" />
+    <mesh name="left_thumb_CMR_link_collision_30_cmr_v4_30" file="../meshes/hands/collision/left/cmr_v4_30.obj" />
+    <mesh name="left_thumb_CMR_link_collision_31_cmr_v4_31" file="../meshes/hands/collision/left/cmr_v4_31.obj" />
     <mesh name="left_thumb_MCP_link_visual_0_left_thumb_MCP_link" file="../meshes/hands/visual/left/left_thumb_MCP_link.STL" />
     <mesh name="left_thumb_MCP_link_collision_0_left_thumb_MCP_link" file="../meshes/hands/collision/left/left_thumb_MCP_link.STL" />
     <mesh name="left_thumb_PIP_link_visual_0_left_thumb_PIP_link" file="../meshes/hands/visual/left/left_thumb_PIP_link.STL" />
@@ -132,7 +163,7 @@
     <mesh name="left_plam_rubber_link_collision_0_left_plam_rubber_link" file="../meshes/hands/collision/left/left_plam_rubber_link.STL" />
     <mesh name="left_plam_link_visual_0_left_plam_link__revo3_white_pc" file="../meshes/hands/visual/left/left_plam_link__revo3_white_pc.stl" />
     <mesh name="left_plam_link_visual_1_left_plam_link__revo3_aluminum" file="../meshes/hands/visual/left/left_plam_link__revo3_aluminum.stl" />
-    <mesh name="left_plam_link_collision_0_left_plam_link" file="../meshes/hands/collision/left/left_plam_link.STL" />
+    <mesh name="left_plam_link_collision_0_left_plam_backtrim_v2" file="../meshes/hands/collision/left/left_plam_backtrim_v2.obj" />
     <mesh name="left_plam_led_link_visual_0_left_plam_led_link" file="../meshes/hands/visual/left/left_plam_led_link.STL" />
     <mesh name="left_plam_led_link_collision_0_left_plam_led_link" file="../meshes/hands/collision/left/left_plam_led_link.STL" />
   </asset>
@@ -238,7 +269,38 @@
                                 <inertial mass="0.012" pos="-0.00128415629306 -0.00601564071817 -4.05556997605e-06" fullinertia="9.29999771711e-07 9.5e-07 5.70000228289e-07 -1.99999936586e-08 2.86677524968e-10 -1.59265342147e-11" />
                                 <joint name="left_thumb_CMR_joint" type="hinge" axis="0 -0.999999985457346 0.000170544153169872" range="-0.4224 1.4277" />
                                 <geom name="left_thumb_CMR_link_visual_0" class="visual" mesh="left_thumb_CMR_link_visual_0_left_thumb_CMR_link" />
-                                <geom name="left_thumb_CMR_link_collision_0" class="collision" mesh="left_thumb_CMR_link_collision_0_left_thumb_CMR_link" />
+                                <geom name="left_thumb_CMR_link_collision_0" class="collision" mesh="left_thumb_CMR_link_collision_0_cmr_v4_00" />
+                                <geom name="left_thumb_CMR_link_collision_1" class="collision" mesh="left_thumb_CMR_link_collision_1_cmr_v4_01" />
+                                <geom name="left_thumb_CMR_link_collision_2" class="collision" mesh="left_thumb_CMR_link_collision_2_cmr_v4_02" />
+                                <geom name="left_thumb_CMR_link_collision_3" class="collision" mesh="left_thumb_CMR_link_collision_3_cmr_v4_03" />
+                                <geom name="left_thumb_CMR_link_collision_4" class="collision" mesh="left_thumb_CMR_link_collision_4_cmr_v4_04" />
+                                <geom name="left_thumb_CMR_link_collision_5" class="collision" mesh="left_thumb_CMR_link_collision_5_cmr_v4_05" />
+                                <geom name="left_thumb_CMR_link_collision_6" class="collision" mesh="left_thumb_CMR_link_collision_6_cmr_v4_06" />
+                                <geom name="left_thumb_CMR_link_collision_7" class="collision" mesh="left_thumb_CMR_link_collision_7_cmr_v4_07" />
+                                <geom name="left_thumb_CMR_link_collision_8" class="collision" mesh="left_thumb_CMR_link_collision_8_cmr_v4_08" />
+                                <geom name="left_thumb_CMR_link_collision_9" class="collision" mesh="left_thumb_CMR_link_collision_9_cmr_v4_09" />
+                                <geom name="left_thumb_CMR_link_collision_10" class="collision" mesh="left_thumb_CMR_link_collision_10_cmr_v4_10" />
+                                <geom name="left_thumb_CMR_link_collision_11" class="collision" mesh="left_thumb_CMR_link_collision_11_cmr_v4_11" />
+                                <geom name="left_thumb_CMR_link_collision_12" class="collision" mesh="left_thumb_CMR_link_collision_12_cmr_v4_12" />
+                                <geom name="left_thumb_CMR_link_collision_13" class="collision" mesh="left_thumb_CMR_link_collision_13_cmr_v4_13" />
+                                <geom name="left_thumb_CMR_link_collision_14" class="collision" mesh="left_thumb_CMR_link_collision_14_cmr_v4_14" />
+                                <geom name="left_thumb_CMR_link_collision_15" class="collision" mesh="left_thumb_CMR_link_collision_15_cmr_v4_15" />
+                                <geom name="left_thumb_CMR_link_collision_16" class="collision" mesh="left_thumb_CMR_link_collision_16_cmr_v4_16" />
+                                <geom name="left_thumb_CMR_link_collision_17" class="collision" mesh="left_thumb_CMR_link_collision_17_cmr_v4_17" />
+                                <geom name="left_thumb_CMR_link_collision_18" class="collision" mesh="left_thumb_CMR_link_collision_18_cmr_v4_18" />
+                                <geom name="left_thumb_CMR_link_collision_19" class="collision" mesh="left_thumb_CMR_link_collision_19_cmr_v4_19" />
+                                <geom name="left_thumb_CMR_link_collision_20" class="collision" mesh="left_thumb_CMR_link_collision_20_cmr_v4_20" />
+                                <geom name="left_thumb_CMR_link_collision_21" class="collision" mesh="left_thumb_CMR_link_collision_21_cmr_v4_21" />
+                                <geom name="left_thumb_CMR_link_collision_22" class="collision" mesh="left_thumb_CMR_link_collision_22_cmr_v4_22" />
+                                <geom name="left_thumb_CMR_link_collision_23" class="collision" mesh="left_thumb_CMR_link_collision_23_cmr_v4_23" />
+                                <geom name="left_thumb_CMR_link_collision_24" class="collision" mesh="left_thumb_CMR_link_collision_24_cmr_v4_24" />
+                                <geom name="left_thumb_CMR_link_collision_25" class="collision" mesh="left_thumb_CMR_link_collision_25_cmr_v4_25" />
+                                <geom name="left_thumb_CMR_link_collision_26" class="collision" mesh="left_thumb_CMR_link_collision_26_cmr_v4_26" />
+                                <geom name="left_thumb_CMR_link_collision_27" class="collision" mesh="left_thumb_CMR_link_collision_27_cmr_v4_27" />
+                                <geom name="left_thumb_CMR_link_collision_28" class="collision" mesh="left_thumb_CMR_link_collision_28_cmr_v4_28" />
+                                <geom name="left_thumb_CMR_link_collision_29" class="collision" mesh="left_thumb_CMR_link_collision_29_cmr_v4_29" />
+                                <geom name="left_thumb_CMR_link_collision_30" class="collision" mesh="left_thumb_CMR_link_collision_30_cmr_v4_30" />
+                                <geom name="left_thumb_CMR_link_collision_31" class="collision" mesh="left_thumb_CMR_link_collision_31_cmr_v4_31" />
                                 <body name="left_thumb_MCP_link" pos="0 -0.0119999521611 0">
                                   <inertial mass="0.067" pos="-0.00233556591801 -0.0225090785571 -1.7502839808e-05" fullinertia="1.4220000241e-05 6.6e-06 1.4599999759e-05 -7.99983819811e-07 -3.02604054132e-10 -2.06370550272e-08" />
                                   <joint name="left_thumb_MCP_joint" type="hinge" axis="-0.142628833818122 0.000168800639916136 0.989776230907788" range="-0.0845 1.3292" />
@@ -430,7 +492,7 @@
                             <body name="left_plam_link">
                               <geom name="left_plam_link_visual_0" class="visual" mesh="left_plam_link_visual_0_left_plam_link__revo3_white_pc" />
                               <geom name="left_plam_link_visual_1" class="visual" mesh="left_plam_link_visual_1_left_plam_link__revo3_aluminum" />
-                              <geom name="left_plam_link_collision_0" class="collision" mesh="left_plam_link_collision_0_left_plam_link" />
+                              <geom name="left_plam_link_collision_0" class="collision" mesh="left_plam_link_collision_0_left_plam_backtrim_v2" />
                               <body name="left_plam_led_link">
                                 <geom name="left_plam_led_link_visual_0" class="visual" mesh="left_plam_led_link_visual_0_left_plam_led_link" />
                                 <geom name="left_plam_led_link_collision_0" class="collision" mesh="left_plam_led_link_collision_0_left_plam_led_link" />
