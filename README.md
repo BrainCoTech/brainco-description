@@ -4,14 +4,7 @@ This repository contains public robot description assets for BrainCo robot hands
 
 The public release includes URDF, MJCF, and USD descriptions, together with the mesh assets they reference.
 
-## Release Notes — v2026.09.26
-
-- Add Revo3 MX touch and without-touch model variants.
-- Fix Revo3 inertia parameters using legacy mass properties transformed into the updated link frames.
-- Fix Revo3 MPR joint definitions.
-- Add Revo3 appearance materials and updated previews.
-- Revo3 collision meshes are not yet processed.
-- Add the RevoTron ID appearance.
+Current release: **v2026.09.30**. See [Release Notes](RELEASE_NOTES.md) for version history and model validation status.
 
 ## What Is Included
 
