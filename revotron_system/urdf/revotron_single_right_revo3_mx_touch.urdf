@@ -1,6 +1,77 @@
 <?xml version='1.0' encoding='utf-8'?>
 <robot name="revotron_single">
-  
+  <material name="tron_silver_10077c_approx">
+    <color rgba="0.76 0.78 0.80 1" />
+  </material>
+  <material name="tron_cool_gray_11c_approx">
+    <color rgba="0.25 0.26 0.28 1" />
+  </material>
+  <material name="tron_433c_approx">
+    <color rgba="0.12 0.14 0.16 1" />
+  </material>
+  <material name="tron_black_pc">
+    <color rgba="0.025 0.030 0.035 1" />
+  </material>
+  <material name="tron_rear_pc_approx">
+    <color rgba="0.58 0.61 0.64 1" />
+  </material>
+  <material name="tron_light_2985c_approx">
+    <color rgba="0.22 0.78 0.90 1" />
+  </material>
+  <material name="tron_display_white">
+    <color rgba="0.88 0.90 0.92 1" />
+  </material>
+  <material name="tron_emergency_red">
+    <color rgba="0.78 0.025 0.025 1" />
+  </material>
+  <material name="tron_art_50_51_51">
+    <color rgba="0.196000 0.200000 0.200000 1.000000" />
+  </material>
+  <material name="tron_art_222_100_18">
+    <color rgba="0.871000 0.392000 0.071000 1.000000" />
+  </material>
+  <material name="tron_art_237_182_31">
+    <color rgba="0.929000 0.714000 0.122000 1.000000" />
+  </material>
+  <material name="tron_art_26_110_174">
+    <color rgba="0.102000 0.431000 0.682000 1.000000" />
+  </material>
+  <material name="tron_art_135_185_58">
+    <color rgba="0.529000 0.725000 0.227000 1.000000" />
+  </material>
+  <material name="tron_art_32_168_193">
+    <color rgba="0.125000 0.659000 0.757000 1.000000" />
+  </material>
+  <material name="tron_art_23_153_59">
+    <color rgba="0.090000 0.600000 0.231000 1.000000" />
+  </material>
+  <material name="tron_art_217_65_48">
+    <color rgba="0.851000 0.255000 0.188000 1.000000" />
+  </material>
+  <material name="tron_art_255_255_255">
+    <color rgba="1.000000 1.000000 1.000000 1.000000" />
+  </material>
+  <material name="tron_transfer_0">
+    <color rgba="0.1 0.43 0.68 1" />
+  </material>
+  <material name="tron_transfer_1">
+    <color rgba="0.13 0.66 0.76 1" />
+  </material>
+  <material name="tron_transfer_2">
+    <color rgba="0.09 0.6 0.23 1" />
+  </material>
+  <material name="tron_transfer_3">
+    <color rgba="0.53 0.73 0.23 1" />
+  </material>
+  <material name="tron_transfer_4">
+    <color rgba="0.93 0.71 0.12 1" />
+  </material>
+  <material name="tron_transfer_5">
+    <color rgba="0.87 0.39 0.07 1" />
+  </material>
+  <material name="tron_transfer_6">
+    <color rgba="0.85 0.25 0.19 1" />
+  </material>
   <link name="world" />
   <link name="base_link" />
   <joint name="world_to_base" type="fixed">
@@ -14,21 +85,21 @@
       <mass value="1.1962" />
       <inertia ixx="0.00107329" ixy="-1.68E-06" ixz="-1.05E-05" iyy="0.00107003" iyz="-3.43E-06" izz="0.00127315" />
     </inertial>
-    <visual>
-      <origin rpy="0 0 0" xyz="0 0 0" />
-      <geometry>
-        <mesh filename="../meshes/arm/visual/Base_R.STL" />
-      </geometry>
-      <material name="">
-        <color rgba="1 1 1 1" />
-      </material>
-    </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
         <mesh filename="../meshes/arm/collision/Base_R.STL" />
       </geometry>
     </collision>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/arm/visual/Base_R.STL" />
+      </geometry>
+      <material name="tron_silver_10077c_approx">
+        <color rgba="0.76 0.78 0.80 1" />
+      </material>
+    </visual>
   </link>
   <link name="Link1_R">
     <inertial>
@@ -36,21 +107,21 @@
       <mass value="1.9705" />
       <inertia ixx="0.00492293" ixy="0.00000550" ixz="0.00000193" iyy="0.00526513" iyz="0.00033232" izz="0.00188107" />
     </inertial>
-    <visual>
-      <origin rpy="0 0 0" xyz="0 0 0" />
-      <geometry>
-        <mesh filename="../meshes/arm/visual/Link1_R.STL" />
-      </geometry>
-      <material name="">
-        <color rgba="1 1 1 1" />
-      </material>
-    </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
         <mesh filename="../meshes/arm/collision/Link1_R.STL" />
       </geometry>
     </collision>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/arm/visual/Link1_R.STL" />
+      </geometry>
+      <material name="tron_silver_10077c_approx">
+        <color rgba="0.76 0.78 0.80 1" />
+      </material>
+    </visual>
   </link>
   <joint name="Joint1_R" type="revolute">
     <origin rpy="0 0 -1.5707963" xyz="0 0 0.1745" />
@@ -65,21 +136,21 @@
       <mass value="2.24398" />
       <inertia ixx="0.01194933" ixy="0.00000336" ixz="0.00000091" iyy="0.00361581" iyz="-0.00132804" izz="0.01098356" />
     </inertial>
-    <visual>
-      <origin rpy="0 0 0" xyz="0 0 0" />
-      <geometry>
-        <mesh filename="../meshes/arm/visual/Link2_R.STL" />
-      </geometry>
-      <material name="">
-        <color rgba="1 1 1 1" />
-      </material>
-    </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
         <mesh filename="../meshes/arm/collision/Link2_R.STL" />
       </geometry>
     </collision>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/arm/visual/Link2_R.STL" />
+      </geometry>
+      <material name="tron_silver_10077c_approx">
+        <color rgba="0.76 0.78 0.80 1" />
+      </material>
+    </visual>
   </link>
   <joint name="Joint2_R" type="revolute">
     <origin rpy="1.5708 -0.0 0" xyz="0 0 0" />
@@ -94,21 +165,21 @@
       <mass value="1.9242" />
       <inertia ixx="0.00718224" ixy="0.00004413" ixz="0.00089552" iyy="0.00762563" iyz="0.00022096" izz="0.00178597" />
     </inertial>
-    <visual>
-      <origin rpy="0 0 0" xyz="0 0 0" />
-      <geometry>
-        <mesh filename="../meshes/arm/visual/Link3_R.STL" />
-      </geometry>
-      <material name="">
-        <color rgba="1 1 1 1" />
-      </material>
-    </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
         <mesh filename="../meshes/arm/collision/Link3_R.STL" />
       </geometry>
     </collision>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/arm/visual/Link3_R.STL" />
+      </geometry>
+      <material name="tron_silver_10077c_approx">
+        <color rgba="0.76 0.78 0.80 1" />
+      </material>
+    </visual>
   </link>
   <joint name="Joint3_R" type="revolute">
     <origin rpy="-1.5708 0.0 0" xyz="0 0.287 0" />
@@ -123,21 +194,21 @@
       <mass value="1.6085" />
       <inertia ixx="0.00580480" ixy="-0.00066669" ixz="-0.00012722" iyy="0.00223807" iyz="0.00070523" izz="0.00533060" />
     </inertial>
-    <visual>
-      <origin rpy="0 0 0" xyz="0 0 0" />
-      <geometry>
-        <mesh filename="../meshes/arm/visual/Link4_R.STL" />
-      </geometry>
-      <material name="">
-        <color rgba="1 1 1 1" />
-      </material>
-    </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
         <mesh filename="../meshes/arm/collision/Link4_R.STL" />
       </geometry>
     </collision>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/arm/visual/Link4_R.STL" />
+      </geometry>
+      <material name="tron_silver_10077c_approx">
+        <color rgba="0.76 0.78 0.80 1" />
+      </material>
+    </visual>
   </link>
   <joint name="Joint4_R" type="revolute">
     <origin rpy="-1.5708 0.0 3.1416" xyz="0.018 0 0" />
@@ -152,21 +223,21 @@
       <mass value="2.0883" />
       <inertia ixx="0.00626603" ixy="0.00004009" ixz="-0.00005338" iyy="0.00564387" iyz="0.00006193" izz="0.00243632" />
     </inertial>
-    <visual>
-      <origin rpy="0 0 0" xyz="0 0 0" />
-      <geometry>
-        <mesh filename="../meshes/arm/visual/Link5_R.STL" />
-      </geometry>
-      <material name="">
-        <color rgba="1 1 1 1" />
-      </material>
-    </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
         <mesh filename="../meshes/arm/collision/Link5_R.STL" />
       </geometry>
     </collision>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/arm/visual/Link5_R.STL" />
+      </geometry>
+      <material name="tron_silver_10077c_approx">
+        <color rgba="0.76 0.78 0.80 1" />
+      </material>
+    </visual>
   </link>
   <joint name="Joint5_R" type="revolute">
     <origin rpy="-1.5708 0.0 3.1416" xyz="0.018 -0.314 0" />
@@ -181,21 +252,21 @@
       <mass value="0.72496" />
       <inertia ixx="0.00046040" ixy="-0.00000189" ixz="-0.00000083" iyy="0.00051716" iyz="-0.00000346" izz="0.00042521" />
     </inertial>
-    <visual>
-      <origin rpy="0 0 0" xyz="0 0 0" />
-      <geometry>
-        <mesh filename="../meshes/arm/visual/Link6_R.STL" />
-      </geometry>
-      <material name="">
-        <color rgba="1 1 1 1" />
-      </material>
-    </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
         <mesh filename="../meshes/arm/collision/Link6_R.STL" />
       </geometry>
     </collision>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/arm/visual/Link6_R.STL" />
+      </geometry>
+      <material name="tron_silver_10077c_approx">
+        <color rgba="0.76 0.78 0.80 1" />
+      </material>
+    </visual>
   </link>
   <joint name="Joint6_R" type="revolute">
     <origin rpy="1.5708 -1.5708 0" xyz="0 0 0" />
@@ -210,21 +281,21 @@
       <mass value="0.68606" />
       <inertia ixx="0.00173687" ixy="-0.00000345" ixz="-0.00000116" iyy="0.00089035" iyz="0.00030680" izz="0.00139406" />
     </inertial>
-    <visual>
-      <origin rpy="0 0 0" xyz="0 0 0" />
-      <geometry>
-        <mesh filename="../meshes/arm/visual/Link7_R.STL" />
-      </geometry>
-      <material name="">
-        <color rgba="1 1 1 1" />
-      </material>
-    </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
         <mesh filename="../meshes/arm/collision/Link7_R.STL" />
       </geometry>
     </collision>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/arm/visual/Link7_R.STL" />
+      </geometry>
+      <material name="tron_silver_10077c_approx">
+        <color rgba="0.76 0.78 0.80 1" />
+      </material>
+    </visual>
   </link>
   <joint name="Joint7_R" type="revolute">
     <origin rpy="1.5708 -1.5708 0" xyz="0 0 0" />
@@ -244,29 +315,27 @@
       <mass value="0.25057" />
       <inertia ixx="0.00018891" ixy="0.00011511" ixz="-3.031E-05" iyy="0.00029199" iyz="2.64E-05" izz="0.00042456" />
     </inertial>
-    <visual>
-      <origin rpy="0 0 0" xyz="0 0 0" />
-      <geometry>
-        <mesh filename="../meshes/connector/visual/right_connector_wrist_link.STL" />
-      </geometry>
-      <material name="">
-        <color rgba="0.89804 0.91765 0.92941 1" />
-      </material>
-    </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
         <mesh filename="../meshes/connector/collision/right_connector_wrist_link.STL" />
       </geometry>
     </collision>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/connector/visual/right_connector_wrist_link.STL" />
+      </geometry>
+      <material name="tron_silver_10077c_approx">
+        <color rgba="0.76 0.78 0.80 1" />
+      </material>
+    </visual>
   </link>
-  
   <joint name="right_connector_mount" type="fixed">
     <parent link="Link7_R" />
     <child link="right_connector_link" />
     <origin rpy="1.5707963267948966 0 0" xyz="0 -0.10695 0" />
   </joint>
-  
   <link name="right_connector_tip" />
   <joint name="right_connector_tip_joint" type="fixed">
     <parent link="right_connector_link" />
@@ -279,28 +348,27 @@
       <mass value="0.049871" />
       <inertia ixx="5.88E-06" ixy="4E-08" ixz="1.1E-07" iyy="5.47E-06" iyz="-7.6E-07" izz="4.55E-06" />
     </inertial>
-    <visual>
-      <origin rpy="0 0 0" xyz="0 0 0" />
-      <geometry>
-        <mesh filename="../meshes/arm/visual/right_wrist_camera_link.STL" />
-      </geometry>
-      <material name="">
-        <color rgba="0.69804 0.69804 0.69804 1" />
-      </material>
-    </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
         <mesh filename="../meshes/arm/collision/right_wrist_camera_link.STL" />
       </geometry>
     </collision>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/arm/visual/right_wrist_camera_link.STL" />
+      </geometry>
+      <material name="tron_black_pc">
+        <color rgba="0.025 0.030 0.035 1" />
+      </material>
+    </visual>
   </link>
   <joint name="right_wrist_camera_joint" type="fixed">
     <origin rpy="-0.51560789253163 0 1.5707963267949" xyz="0.035478911816555 0.0724666383278956 0.0307759368724696" />
     <parent link="right_connector_link" />
     <child link="right_wrist_camera_frame" />
   </joint>
-  
   <joint name="right_hand_base_joint" type="fixed">
     <parent link="right_connector_tip" />
     <child link="right_hand_base_link" />

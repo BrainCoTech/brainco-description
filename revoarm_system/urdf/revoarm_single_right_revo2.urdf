@@ -202,7 +202,6 @@
     <axis xyz="1 0 0" />
     <limit effort="7" lower="-0.64577" upper="0.64577" velocity="6.98" />
   </joint>
-  
   <link name="right_arm_link7">
     <inertial>
       <origin rpy="0 0 0" xyz="0 0 0" />
@@ -217,7 +216,6 @@
     <axis xyz="0 -1 0" />
     <limit effort="7" lower="-1.5708" upper="1.5708" velocity="6.98" />
   </joint>
-  
   <link name="right_connector_link">
     <inertial>
       <origin rpy="0 0 0" xyz="0.006302578116043444 -0.0034524031603394146 -0.02289223897323043" />
@@ -240,20 +238,17 @@
       </geometry>
     </collision>
   </link>
-  
   <joint name="right_connector_mount" type="fixed">
     <parent link="right_arm_link7" />
     <child link="right_connector_link" />
     <origin rpy="0 0 -1.57" xyz="0 0 0" />
   </joint>
-  
   <link name="right_connector_tip" />
   <joint name="right_connector_tip_joint" type="fixed">
     <parent link="right_connector_link" />
     <child link="right_connector_tip" />
     <origin rpy="0 3.14 0" xyz="0.0000760 -0.0001518 -0.0583" />
   </joint>
-  
   <joint name="right_hand_base_joint" type="fixed">
     <parent link="right_connector_tip" />
     <child link="right_hand_base_link" />

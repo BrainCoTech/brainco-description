@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <robot name="revo3_single">
   <link name="world" />
-  
   <joint name="left_hand_base_joint" type="fixed">
     <parent link="world" />
     <child link="left_hand_base_link" />
@@ -5085,4 +5084,4 @@
     <parent link="left_little_DIP_link" />
     <child link="left_little_tip_Link" />
   </joint>
-  </robot>
+</robot>

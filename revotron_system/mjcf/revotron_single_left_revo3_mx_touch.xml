@@ -175,134 +175,188 @@
     <body name="base_link">
       <body name="Base_L">
         <inertial mass="1.1962" pos="0.00032267 4.798e-05 0.04066353" fullinertia="0.00107329 0.00107003 0.00127315 -1.68e-06 -1.05e-05 -3.43e-06" />
-        <geom name="Base_L_visual_0" class="visual" mesh="Base_L_visual_0_Base_L" rgba="1 1 1 1" />
+        <geom name="Base_L_visual_0" class="visual" mesh="Base_L_visual_0_Base_L" rgba="0.76 0.78 0.80 1" />
         <geom name="Base_L_collision_0" class="collision" mesh="Base_L_collision_0_Base_L" />
         <body name="Link1_L" pos="0 0 0.1745" quat="0.70710679066 0 0 0.707106771713">
           <inertial mass="1.9705" pos="2.347e-05 0.0055715 -0.03075998" fullinertia="0.00492293 0.00526513 0.00188107 5.5e-06 1.93e-06 0.00033232" />
           <joint name="Joint1_L" type="hinge" axis="0 0 1" range="-3.1067 3.1067" actuatorfrcrange="-108 108" />
-          <geom name="Link1_L_visual_0" class="visual" mesh="Link1_L_visual_0_Link1_L" rgba="1 1 1 1" />
+          <geom name="Link1_L_visual_0" class="visual" mesh="Link1_L_visual_0_Link1_L" rgba="0.76 0.78 0.80 1" />
           <geom name="Link1_L_collision_0" class="collision" mesh="Link1_L_collision_0_Link1_L" />
           <body name="Link2_L" quat="0.707105482511 0.707108079859 0 0">
             <inertial mass="2.24398" pos="0.00013483 0.0617046 0.00950639" fullinertia="0.01194933 0.00361581 0.01098356 3.36e-06 9.1e-07 -0.00132804" />
             <joint name="Joint2_L" type="hinge" axis="0 0 1" range="-2.0944 2.0944" actuatorfrcrange="-108 108" />
-            <geom name="Link2_L_visual_0" class="visual" mesh="Link2_L_visual_0_Link2_L" rgba="1 1 1 1" />
+            <geom name="Link2_L_visual_0" class="visual" mesh="Link2_L_visual_0_Link2_L" rgba="0.76 0.78 0.80 1" />
             <geom name="Link2_L_collision_0" class="collision" mesh="Link2_L_collision_0_Link2_L" />
             <body name="Link3_L" pos="0 0.287 0" quat="0.707105482511 -0.707108079859 0 0">
               <inertial mass="1.9242" pos="0.00968562 0.00246599 -0.04627302" fullinertia="0.00718224 0.00762563 0.00178597 4.413e-05 0.00089552 0.00022096" />
               <joint name="Joint3_L" type="hinge" axis="0 0 1" range="-3.1067 3.1067" actuatorfrcrange="-66 66" />
-              <geom name="Link3_L_visual_0" class="visual" mesh="Link3_L_visual_0_Link3_L" rgba="1 1 1 1" />
+              <geom name="Link3_L_visual_0" class="visual" mesh="Link3_L_visual_0_Link3_L" rgba="0.76 0.78 0.80 1" />
               <geom name="Link3_L_collision_0" class="collision" mesh="Link3_L_collision_0_Link3_L" />
               <body name="Link4_L" pos="0.018 0 0" quat="-2.59734346696e-06 2.59735300756e-06 -0.707108079855 0.707105482506">
                 <inertial mass="1.6085" pos="0.00850411 -0.04718223 0.00941509" fullinertia="0.0058048 0.00223807 0.0053306 -0.00066669 -0.00012722 0.00070523" />
                 <joint name="Joint4_L" type="hinge" axis="0 0 1" range="-2.5307 1.0472" actuatorfrcrange="-66 66" />
-                <geom name="Link4_L_visual_0" class="visual" mesh="Link4_L_visual_0_Link4_L" rgba="1 1 1 1" />
+                <geom name="Link4_L_visual_0" class="visual" mesh="Link4_L_visual_0_Link4_L" rgba="0.76 0.78 0.80 1" />
                 <geom name="Link4_L_collision_0" class="collision" mesh="Link4_L_collision_0_Link4_L" />
                 <body name="Link5_L" pos="0.018 -0.314 0" quat="-2.59734346696e-06 2.59735300756e-06 -0.707108079855 0.707105482506">
                   <inertial mass="2.0883" pos="0.00051127 0.00101064 -0.11271739" fullinertia="0.00626603 0.00564387 0.00243632 4.009e-05 5.338e-05 -6.193e-05" />
                   <joint name="Joint5_L" type="hinge" axis="0 0 1" range="-3.1067 3.1067" actuatorfrcrange="-18 18" />
-                  <geom name="Link5_L_visual_0" class="visual" mesh="Link5_L_visual_0_Link5_L" rgba="1 1 1 1" />
+                  <geom name="Link5_L_visual_0" class="visual" mesh="Link5_L_visual_0_Link5_L" rgba="0.76 0.78 0.80 1" />
                   <geom name="Link5_L_collision_0" class="collision" mesh="Link5_L_collision_0_Link5_L" />
                   <body name="Link6_L" quat="0.499998163397 0.499999999997 -0.499999999997 0.500001836603">
                     <inertial mass="0.72496" pos="0.00032659 0.00531336 -0.00030182" fullinertia="0.0004604 0.00051716 0.00042521 1.89e-06 8.3e-07 -3.46e-06" />
                     <joint name="Joint6_L" type="hinge" axis="0 0 1" range="-1.0472 1.0472" actuatorfrcrange="-18 18" />
-                    <geom name="Link6_L_visual_0" class="visual" mesh="Link6_L_visual_0_Link6_L" rgba="1 1 1 1" />
+                    <geom name="Link6_L_visual_0" class="visual" mesh="Link6_L_visual_0_Link6_L" rgba="0.76 0.78 0.80 1" />
                     <geom name="Link6_L_collision_0" class="collision" mesh="Link6_L_collision_0_Link6_L" />
                     <body name="Link7_L" quat="0.499998163397 0.499999999997 -0.499999999997 0.500001836603">
                       <inertial mass="0.68606" pos="-9.108e-05 -0.03153255 0.00889371" fullinertia="0.00173687 0.00089035 0.00139406 -3.45e-06 -1.16e-06 0.0003068" />
                       <joint name="Joint7_L" type="hinge" axis="0 0 1" range="-1.5708 1.5708" actuatorfrcrange="-18 18" />
-                      <geom name="Link7_L_visual_0" class="visual" mesh="Link7_L_visual_0_Link7_L" rgba="1 1 1 1" />
+                      <geom name="Link7_L_visual_0" class="visual" mesh="Link7_L_visual_0_Link7_L" rgba="0.76 0.78 0.80 1" />
                       <geom name="Link7_L_collision_0" class="collision" mesh="Link7_L_collision_0_Link7_L" />
                       <body name="left_connector_link" pos="0 -0.10695 0" quat="0.5 0.5 -0.5 0.5">
                         <inertial mass="0.25057" pos="0.021579 0.012376 0.0042454" fullinertia="0.00018951 0.0002902 0.00042284 -0.0001147 -3.085e-05 -2.691e-05" />
-                        <geom name="left_connector_link_visual_0" class="visual" mesh="left_connector_link_visual_0_left_connector_wrist_link" rgba="0.89804 0.91765 0.92941 1" />
+                        <geom name="left_connector_link_visual_0" class="visual" mesh="left_connector_link_visual_0_left_connector_wrist_link" rgba="0.76 0.78 0.80 1" />
                         <geom name="left_connector_link_collision_0" class="collision" mesh="left_connector_link_collision_0_left_connector_wrist_link" />
                         <body name="left_connector_tip">
                           <body name="left_hand_base_link">
                             <inertial mass="0.462" pos="-0.00143242 0.00300504 0.03174006" fullinertia="0.00068956 0.00052166 0.00038263 2.06e-06 1.674e-05 -1.226e-05" />
-                            <geom name="left_hand_base_link_visual_0" class="visual" mesh="left_hand_base_link_visual_0_left_hand_base_link" />
+                            <geom name="left_hand_base_link_visual_0" class="visual" mesh="left_hand_base_link_visual_0_left_hand_base_link" rgba="0.72 0.74 0.78 1" />
                             <geom name="left_hand_base_link_collision_0" class="collision" mesh="left_hand_base_link_collision_0_left_hand_base_link" />
                             <body name="left_middle_MPR_link" pos="-0.00794102299681 -0.0125316383697 0.107927151341">
                               <inertial mass="0.012" pos="-0.000693047003187 -0.000568341630292 0.00815693865909" fullinertia="1.01e-06 1.02e-06 1.14e-06 0 7e-08 0" />
                               <joint name="left_middle_MPR_joint" type="hinge" axis="0.999807814707845 0.019186925647608 -0.00402436744312752" range="-0.3491 0.4363" />
-                              <geom name="left_middle_MPR_link_visual_0" class="visual" mesh="left_middle_MPR_link_visual_0_left_middle_MPR_link" />
+                              <geom name="left_middle_MPR_link_visual_0" class="visual" mesh="left_middle_MPR_link_visual_0_left_middle_MPR_link" rgba="0.72 0.74 0.78 1" />
                               <geom name="left_middle_MPR_link_collision_0" class="collision" mesh="left_middle_MPR_link_collision_0_left_middle_MPR_link" />
                               <body name="left_middle_MCP_link" pos="0.0018749993808 -0.000291231468729 0.0159999493531">
                                 <inertial mass="0.0658" pos="0.000952543616011 -0.000463450161563 0.023522039306" fullinertia="1.605e-05 1.574e-05 4.93e-06 1e-08 -4.3e-07 2.1e-07" />
                                 <joint name="left_middle_MCP_joint" type="hinge" axis="-0.0191008584448429 0.999608742349558 0.0204332920745991" range="-0.0925 1.583" />
-                                <geom name="left_middle_MCP_link_visual_0" class="visual" mesh="left_middle_MCP_link_visual_0_left_middle_MCP_link" />
+                                <geom name="left_middle_MCP_link_visual_0" class="visual" mesh="left_middle_MCP_link_visual_0_left_middle_MCP_link" rgba="0.72 0.74 0.78 1" />
                                 <geom name="left_middle_MCP_link_collision_0" class="collision" mesh="left_middle_MCP_link_collision_0_left_middle_MCP_link" />
                                 <body name="left_middle_PIP_link" pos="0.000264150501423 -0.000955651541311 0.0469979185064">
                                   <inertial mass="0.031" pos="0.00254217311459 -0.000315568620252 0.0177761307995" fullinertia="3.1e-06 2.62e-06 2.36e-06 1e-08 -1e-07 0" />
                                   <joint name="left_middle_PIP_joint" type="hinge" axis="-0.0191008584448413 0.999608742349558 0.0204332920745958" range="-0.1452 1.6001" />
-                                  <geom name="left_middle_PIP_link_visual_0" class="visual" mesh="left_middle_PIP_link_visual_0_left_middle_PIP_link" />
+                                  <geom name="left_middle_PIP_link_visual_0" class="visual" mesh="left_middle_PIP_link_visual_0_left_middle_PIP_link" rgba="0.72 0.74 0.78 1" />
                                   <geom name="left_middle_PIP_link_collision_0" class="collision" mesh="left_middle_PIP_link_collision_0_left_middle_PIP_link" />
                                   <body name="left_middle_DIP_link" pos="0.000167169017596 -0.000600164834044 0.0295166870072">
                                     <inertial mass="0.011" pos="0.00180519864245 -0.0002806046953 0.0155984574286" fullinertia="5.95061118578e-07 6.26795190361e-07 4.72943845799e-07 -2.74499061055e-09 1.00403375622e-08 1.91205801236e-09" />
                                     <joint name="left_middle_DIP_joint" type="hinge" axis="-0.0191008584448469 0.999608742349558 0.0204332920745917" range="-0.322 1.5978" />
-                                    <geom name="left_middle_DIP_link_visual_0" class="visual" mesh="left_middle_DIP_link_visual_0_left_middle_DIP_link__revo3_silicone_2162u_approx" />
-                                    <geom name="left_middle_DIP_link_visual_1" class="visual" mesh="left_middle_DIP_link_visual_1_left_middle_DIP_link__revo3_polished_aluminum" />
+                                    <geom name="left_middle_DIP_link_visual_0" class="visual" mesh="left_middle_DIP_link_visual_0_left_middle_DIP_link__revo3_silicone_2162u_approx" rgba="0.60 0.61 0.67 1" />
+                                    <geom name="left_middle_DIP_link_visual_1" class="visual" mesh="left_middle_DIP_link_visual_1_left_middle_DIP_link__revo3_polished_aluminum" rgba="0.86 0.88 0.92 1" />
                                     <geom name="left_middle_DIP_link_collision_0" class="collision" mesh="left_middle_DIP_link_collision_0_left_middle_DIP_link" />
                                     <body name="left_middle_DIP_rubber_link" pos="-0.000167169017596 0.000600164834044 -0.0295166870072">
-                                      <geom name="left_middle_DIP_rubber_link_visual_0" class="visual" mesh="left_middle_DIP_rubber_link_visual_0_left_middle_DIP_rubber_link" />
+                                      <geom name="left_middle_DIP_rubber_link_visual_0" class="visual" mesh="left_middle_DIP_rubber_link_visual_0_left_middle_DIP_rubber_link" rgba="0.60 0.61 0.67 1" />
                                       <geom name="left_middle_DIP_rubber_link_collision_0" class="collision" mesh="left_middle_DIP_rubber_link_collision_0_left_middle_DIP_rubber_link" />
                                     </body>
                                     <body name="left_middle_tip_Link" pos="0.0084 0 0.01" />
                                   </body>
                                   <body name="left_middle_PIP_touch_link">
-                                    <geom name="left_middle_PIP_touch_link_visual_0" class="visual" mesh="left_middle_PIP_touch_link_visual_0_left_middle_PIP_touch_link" />
+                                    <geom name="left_middle_PIP_touch_link_visual_0" class="visual" mesh="left_middle_PIP_touch_link_visual_0_left_middle_PIP_touch_link" rgba="0.60 0.61 0.67 1" />
                                     <geom name="left_middle_PIP_touch_link_collision_0" class="collision" mesh="left_middle_PIP_touch_link_collision_0_left_middle_PIP_touch_link" />
                                   </body>
                                   <body name="left_middle_PIP_rubber_link">
-                                    <geom name="left_middle_PIP_rubber_link_visual_0" class="visual" mesh="left_middle_PIP_rubber_link_visual_0_left_middle_PIP_rubber_link" />
+                                    <geom name="left_middle_PIP_rubber_link_visual_0" class="visual" mesh="left_middle_PIP_rubber_link_visual_0_left_middle_PIP_rubber_link" rgba="0.60 0.61 0.67 1" />
                                     <geom name="left_middle_PIP_rubber_link_collision_0" class="collision" mesh="left_middle_PIP_rubber_link_collision_0_left_middle_PIP_rubber_link" />
                                   </body>
-                                  <body name="left_middle_fingerpad_23" pos="-0.00106291742114 0.00940472045323 0.0150324025878" />
-                                  <body name="left_middle_fingerpad_24" pos="0.00202392627177 -0.0100785412052 0.0170622013907" />
-                                  <body name="left_middle_fingerpad_25" pos="0.00915679316309 0.00159894181438 0.0174045105208" />
-                                  <body name="left_middle_fingerpad_26" pos="0.00920818571718 -0.00244841562317 0.0173007202942" />
+                                  <body name="left_middle_fingerpad_23" pos="-0.00106291742114 0.00940472045323 0.0150324025878">
+                                    <geom name="left_middle_fingerpad_23_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                  </body>
+                                  <body name="left_middle_fingerpad_24" pos="0.00202392627177 -0.0100785412052 0.0170622013907">
+                                    <geom name="left_middle_fingerpad_24_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                  </body>
+                                  <body name="left_middle_fingerpad_25" pos="0.00915679316309 0.00159894181438 0.0174045105208">
+                                    <geom name="left_middle_fingerpad_25_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                  </body>
+                                  <body name="left_middle_fingerpad_26" pos="0.00920818571718 -0.00244841562317 0.0173007202942">
+                                    <geom name="left_middle_fingerpad_26_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                  </body>
                                 </body>
                                 <body name="left_middle_MCP_touch_link">
-                                  <geom name="left_middle_MCP_touch_link_visual_0" class="visual" mesh="left_middle_MCP_touch_link_visual_0_left_middle_MCP_touch_link" />
+                                  <geom name="left_middle_MCP_touch_link_visual_0" class="visual" mesh="left_middle_MCP_touch_link_visual_0_left_middle_MCP_touch_link" rgba="0.60 0.61 0.67 1" />
                                   <geom name="left_middle_MCP_touch_link_collision_0" class="collision" mesh="left_middle_MCP_touch_link_collision_0_left_middle_MCP_touch_link" />
                                 </body>
                                 <body name="left_middle_MCP_rubber_link">
-                                  <geom name="left_middle_MCP_rubber_link_visual_0" class="visual" mesh="left_middle_MCP_rubber_link_visual_0_left_middle_MCP_rubber_link" />
+                                  <geom name="left_middle_MCP_rubber_link_visual_0" class="visual" mesh="left_middle_MCP_rubber_link_visual_0_left_middle_MCP_rubber_link" rgba="0.60 0.61 0.67 1" />
                                   <geom name="left_middle_MCP_rubber_link_collision_0" class="collision" mesh="left_middle_MCP_rubber_link_collision_0_left_middle_MCP_rubber_link" />
                                 </body>
-                                <body name="left_middle_fingerpad_0" pos="-0.000448162411558 0.0100369145963 0.0143982976633" />
-                                <body name="left_middle_fingerpad_1" pos="-0.000307468146247 0.00994442795525 0.0180869596882" />
-                                <body name="left_middle_fingerpad_2" pos="0.0107936603951 0.00378940214165 0.0186785720167" />
-                                <body name="left_middle_fingerpad_3" pos="0.0114777862003 4.81440235428e-05 0.0186384414482" />
-                                <body name="left_middle_fingerpad_4" pos="0.0110543642681 -0.00373362157321 0.0185277950295" />
-                                <body name="left_middle_fingerpad_5" pos="-0.000164375315496 0.00986738257247 0.0217764472848" />
-                                <body name="left_middle_fingerpad_6" pos="0.00357670769741 0.00961551393346 0.0216371757566" />
-                                <body name="left_middle_fingerpad_7" pos="0.0105186135619 0.00369408973332 0.022676638088" />
-                                <body name="left_middle_fingerpad_8" pos="0.0112056392443 -4.177109811e-05 0.0226380623512" />
-                                <body name="left_middle_fingerpad_9" pos="0.0107777174918 -0.00382077416274 0.0225148791815" />
-                                <body name="left_middle_fingerpad_10" pos="-1.79758741577e-05 0.00980698717685 0.0254681543076" />
-                                <body name="left_middle_fingerpad_11" pos="0.00372997171565 0.00953022783237 0.0253285333979" />
-                                <body name="left_middle_fingerpad_12" pos="0.0102343941589 0.00360262007614 0.0266830959761" />
-                                <body name="left_middle_fingerpad_13" pos="0.0109033288266 -0.000131201182031 0.0266419420389" />
-                                <body name="left_middle_fingerpad_14" pos="0.0104903123227 -0.00390738722223 0.0264997169613" />
-                                <body name="left_middle_fingerpad_15" pos="0.000125526671964 0.00976080350751 0.0291549666508" />
-                                <body name="left_middle_fingerpad_16" pos="0.00994122763818 0.00351351648192 0.0307030654679" />
-                                <body name="left_middle_fingerpad_17" pos="0.0105501820072 -0.000238925931917 0.0306573088822" />
-                                <body name="left_middle_fingerpad_18" pos="0.0101866834748 -0.00401509327875 0.0304819198097" />
-                                <body name="left_middle_fingerpad_19" pos="0.000264613155415 0.00972083852009 0.0328402453146" />
-                                <body name="left_middle_fingerpad_20" pos="0.00947316988456 0.00337093979466 0.0347171522795" />
-                                <body name="left_middle_fingerpad_21" pos="0.00995448992228 -0.000378820106817 0.0346541337092" />
-                                <body name="left_middle_fingerpad_22" pos="0.00968919998201 -0.00415507670424 0.0344510765596" />
+                                <body name="left_middle_fingerpad_0" pos="-0.000448162411558 0.0100369145963 0.0143982976633">
+                                  <geom name="left_middle_fingerpad_0_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_middle_fingerpad_1" pos="-0.000307468146247 0.00994442795525 0.0180869596882">
+                                  <geom name="left_middle_fingerpad_1_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_middle_fingerpad_2" pos="0.0107936603951 0.00378940214165 0.0186785720167">
+                                  <geom name="left_middle_fingerpad_2_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_middle_fingerpad_3" pos="0.0114777862003 4.81440235428e-05 0.0186384414482">
+                                  <geom name="left_middle_fingerpad_3_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_middle_fingerpad_4" pos="0.0110543642681 -0.00373362157321 0.0185277950295">
+                                  <geom name="left_middle_fingerpad_4_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_middle_fingerpad_5" pos="-0.000164375315496 0.00986738257247 0.0217764472848">
+                                  <geom name="left_middle_fingerpad_5_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_middle_fingerpad_6" pos="0.00357670769741 0.00961551393346 0.0216371757566">
+                                  <geom name="left_middle_fingerpad_6_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_middle_fingerpad_7" pos="0.0105186135619 0.00369408973332 0.022676638088">
+                                  <geom name="left_middle_fingerpad_7_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_middle_fingerpad_8" pos="0.0112056392443 -4.177109811e-05 0.0226380623512">
+                                  <geom name="left_middle_fingerpad_8_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_middle_fingerpad_9" pos="0.0107777174918 -0.00382077416274 0.0225148791815">
+                                  <geom name="left_middle_fingerpad_9_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_middle_fingerpad_10" pos="-1.79758741577e-05 0.00980698717685 0.0254681543076">
+                                  <geom name="left_middle_fingerpad_10_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_middle_fingerpad_11" pos="0.00372997171565 0.00953022783237 0.0253285333979">
+                                  <geom name="left_middle_fingerpad_11_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_middle_fingerpad_12" pos="0.0102343941589 0.00360262007614 0.0266830959761">
+                                  <geom name="left_middle_fingerpad_12_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_middle_fingerpad_13" pos="0.0109033288266 -0.000131201182031 0.0266419420389">
+                                  <geom name="left_middle_fingerpad_13_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_middle_fingerpad_14" pos="0.0104903123227 -0.00390738722223 0.0264997169613">
+                                  <geom name="left_middle_fingerpad_14_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_middle_fingerpad_15" pos="0.000125526671964 0.00976080350751 0.0291549666508">
+                                  <geom name="left_middle_fingerpad_15_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_middle_fingerpad_16" pos="0.00994122763818 0.00351351648192 0.0307030654679">
+                                  <geom name="left_middle_fingerpad_16_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_middle_fingerpad_17" pos="0.0105501820072 -0.000238925931917 0.0306573088822">
+                                  <geom name="left_middle_fingerpad_17_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_middle_fingerpad_18" pos="0.0101866834748 -0.00401509327875 0.0304819198097">
+                                  <geom name="left_middle_fingerpad_18_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_middle_fingerpad_19" pos="0.000264613155415 0.00972083852009 0.0328402453146">
+                                  <geom name="left_middle_fingerpad_19_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_middle_fingerpad_20" pos="0.00947316988456 0.00337093979466 0.0347171522795">
+                                  <geom name="left_middle_fingerpad_20_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_middle_fingerpad_21" pos="0.00995448992228 -0.000378820106817 0.0346541337092">
+                                  <geom name="left_middle_fingerpad_21_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_middle_fingerpad_22" pos="0.00968919998201 -0.00415507670424 0.0344510765596">
+                                  <geom name="left_middle_fingerpad_22_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
                               </body>
                             </body>
                             <body name="left_thumb_CMP_link" pos="0.00199783670091 -0.0195358719276 0.0520279736546">
                               <inertial mass="0.026" pos="2.16329908804e-06 0.000303181927606 0.00104307634536" diaginertia="2.03e-06 2.29e-06 2.22e-06" />
                               <joint name="left_thumb_CMP_joint" type="hinge" axis="0 0 1" range="0 1.92" />
-                              <geom name="left_thumb_CMP_link_visual_0" class="visual" mesh="left_thumb_CMP_link_visual_0_left_thumb_CMP_link" />
+                              <geom name="left_thumb_CMP_link_visual_0" class="visual" mesh="left_thumb_CMP_link_visual_0_left_thumb_CMP_link" rgba="0.72 0.74 0.78 1" />
                               <geom name="left_thumb_CMP_link_collision_0" class="collision" mesh="left_thumb_CMP_link_collision_0_left_thumb_CMP_link" />
                               <body name="left_thumb_CMR_link" pos="0 -0.00946412735422 -3.19424156357e-05">
                                 <inertial mass="0.012" pos="-0.00128415629306 -0.00601564071817 -4.05556997605e-06" fullinertia="9.29999771711e-07 9.5e-07 5.70000228289e-07 -1.99999936586e-08 2.86677524968e-10 -1.59265342147e-11" />
                                 <joint name="left_thumb_CMR_joint" type="hinge" axis="0 -0.999999985457346 0.000170544153169872" range="-0.4224 1.4277" />
-                                <geom name="left_thumb_CMR_link_visual_0" class="visual" mesh="left_thumb_CMR_link_visual_0_left_thumb_CMR_link" />
+                                <geom name="left_thumb_CMR_link_visual_0" class="visual" mesh="left_thumb_CMR_link_visual_0_left_thumb_CMR_link" rgba="0.72 0.74 0.78 1" />
                                 <geom name="left_thumb_CMR_link_collision_0" class="collision" mesh="left_thumb_CMR_link_collision_0_cmr_v4_00" />
                                 <geom name="left_thumb_CMR_link_collision_1" class="collision" mesh="left_thumb_CMR_link_collision_1_cmr_v4_01" />
                                 <geom name="left_thumb_CMR_link_collision_2" class="collision" mesh="left_thumb_CMR_link_collision_2_cmr_v4_02" />
@@ -338,417 +392,857 @@
                                 <body name="left_thumb_MCP_link" pos="0 -0.0119999521611 0">
                                   <inertial mass="0.067" pos="-0.00233556591801 -0.0225090785571 -1.7502839808e-05" fullinertia="1.4220000241e-05 6.6e-06 1.4599999759e-05 -7.99983819811e-07 -3.02604054132e-10 -2.06370550272e-08" />
                                   <joint name="left_thumb_MCP_joint" type="hinge" axis="-0.142628833818122 0.000168800639916136 0.989776230907788" range="-0.0845 1.3292" />
-                                  <geom name="left_thumb_MCP_link_visual_0" class="visual" mesh="left_thumb_MCP_link_visual_0_left_thumb_MCP_link" />
+                                  <geom name="left_thumb_MCP_link_visual_0" class="visual" mesh="left_thumb_MCP_link_visual_0_left_thumb_MCP_link" rgba="0.72 0.74 0.78 1" />
                                   <geom name="left_thumb_MCP_link_collision_0" class="collision" mesh="left_thumb_MCP_link_collision_0_left_thumb_MCP_link" />
                                   <body name="left_thumb_PIP_link" pos="0 -0.0426092196906 0">
                                     <inertial mass="0.035" pos="-0.00100809586584 -0.0191325988665 -9.23857636908e-05" fullinertia="4.06999951806e-06 2.69e-06 3.31000048194e-06 3.00238802893e-08 6.05208108265e-10 -2.99761006866e-08" />
                                     <joint name="left_thumb_PIP_joint" type="hinge" axis="-0.142628833818122 0.000168800639916073 0.989776230907788" range="-0.2618 1.5533" />
-                                    <geom name="left_thumb_PIP_link_visual_0" class="visual" mesh="left_thumb_PIP_link_visual_0_left_thumb_PIP_link" />
+                                    <geom name="left_thumb_PIP_link_visual_0" class="visual" mesh="left_thumb_PIP_link_visual_0_left_thumb_PIP_link" rgba="0.72 0.74 0.78 1" />
                                     <geom name="left_thumb_PIP_link_collision_0" class="collision" mesh="left_thumb_PIP_link_collision_0_left_thumb_PIP_link" />
                                     <body name="left_thumb_DIP_link" pos="0.000494631282395 -0.0320003149826 7.56677809711e-05">
                                       <inertial mass="0.011" pos="-0.00296474682349 -0.0148353502475 -0.000223840534942" fullinertia="1.57714408407e-06 1.0708511508e-06 1.62694504203e-06 1.86206200482e-07 -1.61976706687e-09 1.93808641173e-08" />
                                       <joint name="left_thumb_DIP_joint" type="hinge" axis="-0.142628833818122 0.000168800639915566 0.989776230907788" range="-0.16 1.7616" />
-                                      <geom name="left_thumb_DIP_link_visual_0" class="visual" mesh="left_thumb_DIP_link_visual_0_left_thumb_DIP_link__revo3_silicone_2162u_approx" />
-                                      <geom name="left_thumb_DIP_link_visual_1" class="visual" mesh="left_thumb_DIP_link_visual_1_left_thumb_DIP_link__revo3_polished_aluminum" />
+                                      <geom name="left_thumb_DIP_link_visual_0" class="visual" mesh="left_thumb_DIP_link_visual_0_left_thumb_DIP_link__revo3_silicone_2162u_approx" rgba="0.60 0.61 0.67 1" />
+                                      <geom name="left_thumb_DIP_link_visual_1" class="visual" mesh="left_thumb_DIP_link_visual_1_left_thumb_DIP_link__revo3_polished_aluminum" rgba="0.86 0.88 0.92 1" />
                                       <geom name="left_thumb_DIP_link_collision_0" class="collision" mesh="left_thumb_DIP_link_collision_0_left_thumb_DIP_link" />
                                       <body name="left_thumb_DIP_rubber_link">
-                                        <geom name="left_thumb_DIP_rubber_link_visual_0" class="visual" mesh="left_thumb_DIP_rubber_link_visual_0_left_thumb_DIP_rubber_link" />
+                                        <geom name="left_thumb_DIP_rubber_link_visual_0" class="visual" mesh="left_thumb_DIP_rubber_link_visual_0_left_thumb_DIP_rubber_link" rgba="0.60 0.61 0.67 1" />
                                         <geom name="left_thumb_DIP_rubber_link_collision_0" class="collision" mesh="left_thumb_DIP_rubber_link_collision_0_left_thumb_DIP_rubber_link" />
                                       </body>
                                       <body name="left_thumb_tip_Link" pos="0 -0.01 0.0098" />
                                     </body>
                                     <body name="left_thumb_PIP_touch_link">
-                                      <geom name="left_thumb_PIP_touch_link_visual_0" class="visual" mesh="left_thumb_PIP_touch_link_visual_0_left_thumb_PIP_touch_link" />
+                                      <geom name="left_thumb_PIP_touch_link_visual_0" class="visual" mesh="left_thumb_PIP_touch_link_visual_0_left_thumb_PIP_touch_link" rgba="0.60 0.61 0.67 1" />
                                       <geom name="left_thumb_PIP_touch_link_collision_0" class="collision" mesh="left_thumb_PIP_touch_link_collision_0_left_thumb_PIP_touch_link" />
                                     </body>
                                     <body name="left_thumb_PIP_rubber_link">
-                                      <geom name="left_thumb_PIP_rubber_link_visual_0" class="visual" mesh="left_thumb_PIP_rubber_link_visual_0_left_thumb_PIP_rubber_link" />
+                                      <geom name="left_thumb_PIP_rubber_link_visual_0" class="visual" mesh="left_thumb_PIP_rubber_link_visual_0_left_thumb_PIP_rubber_link" rgba="0.60 0.61 0.67 1" />
                                       <geom name="left_thumb_PIP_rubber_link_collision_0" class="collision" mesh="left_thumb_PIP_rubber_link_collision_0_left_thumb_PIP_rubber_link" />
                                     </body>
-                                    <body name="left_thumb_fingerpad_18" pos="-0.00259012565796 -0.0160665685656 0.0115018020802" />
-                                    <body name="left_thumb_fingerpad_19" pos="0.00153711589749 -0.018065296693 -0.0117024070857" />
-                                    <body name="left_thumb_fingerpad_20" pos="0.00970064293832 -0.0171463388883 0.00244609762724" />
-                                    <body name="left_thumb_fingerpad_21" pos="0.0101227667866 -0.01716737131 -0.00130139788074" />
+                                    <body name="left_thumb_fingerpad_18" pos="-0.00259012565796 -0.0160665685656 0.0115018020802">
+                                      <geom name="left_thumb_fingerpad_18_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                    </body>
+                                    <body name="left_thumb_fingerpad_19" pos="0.00153711589749 -0.018065296693 -0.0117024070857">
+                                      <geom name="left_thumb_fingerpad_19_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                    </body>
+                                    <body name="left_thumb_fingerpad_20" pos="0.00970064293832 -0.0171463388883 0.00244609762724">
+                                      <geom name="left_thumb_fingerpad_20_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                    </body>
+                                    <body name="left_thumb_fingerpad_21" pos="0.0101227667866 -0.01716737131 -0.00130139788074">
+                                      <geom name="left_thumb_fingerpad_21_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                    </body>
                                   </body>
                                   <body name="left_thumb_MCP_touch_link">
-                                    <geom name="left_thumb_MCP_touch_link_visual_0" class="visual" mesh="left_thumb_MCP_touch_link_visual_0_left_thumb_MCP_touch_link" />
+                                    <geom name="left_thumb_MCP_touch_link_visual_0" class="visual" mesh="left_thumb_MCP_touch_link_visual_0_left_thumb_MCP_touch_link" rgba="0.60 0.61 0.67 1" />
                                     <geom name="left_thumb_MCP_touch_link_collision_0" class="collision" mesh="left_thumb_MCP_touch_link_collision_0_left_thumb_MCP_touch_link" />
                                   </body>
                                   <body name="left_thumb_MCP_rubber_link">
-                                    <geom name="left_thumb_MCP_rubber_link_visual_0" class="visual" mesh="left_thumb_MCP_rubber_link_visual_0_left_thumb_MCP_rubber_link" />
+                                    <geom name="left_thumb_MCP_rubber_link_visual_0" class="visual" mesh="left_thumb_MCP_rubber_link_visual_0_left_thumb_MCP_rubber_link" rgba="0.60 0.61 0.67 1" />
                                     <geom name="left_thumb_MCP_rubber_link_collision_0" class="collision" mesh="left_thumb_MCP_rubber_link_collision_0_left_thumb_MCP_rubber_link" />
                                   </body>
-                                  <body name="left_thumb_fingerpad_0" pos="-0.00435929092867 -0.02172532609 0.0125260585095" />
-                                  <body name="left_thumb_fingerpad_1" pos="0.0103949055275 -0.017911244915 0.0100698493052" />
-                                  <body name="left_thumb_fingerpad_2" pos="0.0120651917538 -0.0179098043944 0.00660734129278" />
-                                  <body name="left_thumb_fingerpad_3" pos="0.0128335277114 -0.017920343875 0.00292637701768" />
-                                  <body name="left_thumb_fingerpad_4" pos="0.0133175022007 -0.017921844969 -0.000778295550157" />
-                                  <body name="left_thumb_fingerpad_5" pos="0.0133568255737 -0.0179169334834 -0.00457202557831" />
-                                  <body name="left_thumb_fingerpad_6" pos="-0.00314959400083 -0.0327529648967 0.0132291218367" />
-                                  <body name="left_thumb_fingerpad_7" pos="0.0106837615538 -0.0216241458563 0.0101654356329" />
-                                  <body name="left_thumb_fingerpad_8" pos="0.0122184287913 -0.0216251436461 0.0066393799019" />
-                                  <body name="left_thumb_fingerpad_9" pos="0.0129458933853 -0.0216327473407 0.00294792898109" />
-                                  <body name="left_thumb_fingerpad_10" pos="0.0134396764305 -0.0216347634088 -0.00075282162392" />
-                                  <body name="left_thumb_fingerpad_11" pos="0.0135607842409 -0.0216347197843 -0.00454335488753" />
-                                  <body name="left_thumb_fingerpad_12" pos="-0.00272477326626 -0.0364361896645 0.0133687377872" />
-                                  <body name="left_thumb_fingerpad_13" pos="0.0108363763206 -0.0253459800936 0.0101897359849" />
-                                  <body name="left_thumb_fingerpad_14" pos="0.0122224635895 -0.0253430117973 0.00662057763309" />
-                                  <body name="left_thumb_fingerpad_15" pos="0.0129084295988 -0.0253492710106 0.00294477908246" />
-                                  <body name="left_thumb_fingerpad_16" pos="0.0134089273143 -0.0253526118521 -0.00074147839944" />
-                                  <body name="left_thumb_fingerpad_17" pos="0.0136036787887 -0.0253584202125 -0.00451250183954" />
+                                  <body name="left_thumb_fingerpad_0" pos="-0.00435929092867 -0.02172532609 0.0125260585095">
+                                    <geom name="left_thumb_fingerpad_0_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                  </body>
+                                  <body name="left_thumb_fingerpad_1" pos="0.0103949055275 -0.017911244915 0.0100698493052">
+                                    <geom name="left_thumb_fingerpad_1_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                  </body>
+                                  <body name="left_thumb_fingerpad_2" pos="0.0120651917538 -0.0179098043944 0.00660734129278">
+                                    <geom name="left_thumb_fingerpad_2_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                  </body>
+                                  <body name="left_thumb_fingerpad_3" pos="0.0128335277114 -0.017920343875 0.00292637701768">
+                                    <geom name="left_thumb_fingerpad_3_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                  </body>
+                                  <body name="left_thumb_fingerpad_4" pos="0.0133175022007 -0.017921844969 -0.000778295550157">
+                                    <geom name="left_thumb_fingerpad_4_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                  </body>
+                                  <body name="left_thumb_fingerpad_5" pos="0.0133568255737 -0.0179169334834 -0.00457202557831">
+                                    <geom name="left_thumb_fingerpad_5_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                  </body>
+                                  <body name="left_thumb_fingerpad_6" pos="-0.00314959400083 -0.0327529648967 0.0132291218367">
+                                    <geom name="left_thumb_fingerpad_6_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                  </body>
+                                  <body name="left_thumb_fingerpad_7" pos="0.0106837615538 -0.0216241458563 0.0101654356329">
+                                    <geom name="left_thumb_fingerpad_7_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                  </body>
+                                  <body name="left_thumb_fingerpad_8" pos="0.0122184287913 -0.0216251436461 0.0066393799019">
+                                    <geom name="left_thumb_fingerpad_8_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                  </body>
+                                  <body name="left_thumb_fingerpad_9" pos="0.0129458933853 -0.0216327473407 0.00294792898109">
+                                    <geom name="left_thumb_fingerpad_9_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                  </body>
+                                  <body name="left_thumb_fingerpad_10" pos="0.0134396764305 -0.0216347634088 -0.00075282162392">
+                                    <geom name="left_thumb_fingerpad_10_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                  </body>
+                                  <body name="left_thumb_fingerpad_11" pos="0.0135607842409 -0.0216347197843 -0.00454335488753">
+                                    <geom name="left_thumb_fingerpad_11_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                  </body>
+                                  <body name="left_thumb_fingerpad_12" pos="-0.00272477326626 -0.0364361896645 0.0133687377872">
+                                    <geom name="left_thumb_fingerpad_12_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                  </body>
+                                  <body name="left_thumb_fingerpad_13" pos="0.0108363763206 -0.0253459800936 0.0101897359849">
+                                    <geom name="left_thumb_fingerpad_13_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                  </body>
+                                  <body name="left_thumb_fingerpad_14" pos="0.0122224635895 -0.0253430117973 0.00662057763309">
+                                    <geom name="left_thumb_fingerpad_14_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                  </body>
+                                  <body name="left_thumb_fingerpad_15" pos="0.0129084295988 -0.0253492710106 0.00294477908246">
+                                    <geom name="left_thumb_fingerpad_15_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                  </body>
+                                  <body name="left_thumb_fingerpad_16" pos="0.0134089273143 -0.0253526118521 -0.00074147839944">
+                                    <geom name="left_thumb_fingerpad_16_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                  </body>
+                                  <body name="left_thumb_fingerpad_17" pos="0.0136036787887 -0.0253584202125 -0.00451250183954">
+                                    <geom name="left_thumb_fingerpad_17_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                  </body>
                                 </body>
                               </body>
                             </body>
                             <body name="left_index_MPR_link" pos="-0.00729368998766 -0.0369763932446 0.0978111781534">
                               <inertial mass="0.013" pos="-0.000716030012338 -0.000929936755382 0.00813548184659" fullinertia="1.01e-06 1.02e-06 1.14e-06 0 7e-08 0" />
                               <joint name="left_index_MPR_joint" type="hinge" axis="0.99835714347749 0.0572975918787191 0" range="-0.1745 0.5236" />
-                              <geom name="left_index_MPR_link_visual_0" class="visual" mesh="left_index_MPR_link_visual_0_left_index_MPR_link" />
+                              <geom name="left_index_MPR_link_visual_0" class="visual" mesh="left_index_MPR_link_visual_0_left_index_MPR_link" rgba="0.72 0.74 0.78 1" />
                               <geom name="left_index_MPR_link_collision_0" class="collision" mesh="left_index_MPR_link_collision_0_left_index_MPR_link" />
                               <body name="left_index_MCP_link" pos="0.00185797304403 -0.000875573004293 0.0159806171918">
                                 <inertial mass="0.0658" pos="0.00103075494363 -0.00138437375109 0.0234830846548" fullinertia="1.605e-05 1.571e-05 4.97e-06 5e-08 -4.6e-07 6.4e-07" />
                                 <joint name="left_index_MCP_joint" type="hinge" axis="-0.0571896789948211 0.996482943134821 0.0612460991234106" range="-0.0925 1.583" />
-                                <geom name="left_index_MCP_link_visual_0" class="visual" mesh="left_index_MCP_link_visual_0_left_index_MCP_link" />
+                                <geom name="left_index_MCP_link_visual_0" class="visual" mesh="left_index_MCP_link_visual_0_left_index_MCP_link" rgba="0.72 0.74 0.78 1" />
                                 <geom name="left_index_MCP_link_collision_0" class="collision" mesh="left_index_MCP_link_collision_0_left_index_MCP_link" />
                                 <body name="left_index_PIP_link" pos="0.000221764554224 -0.00287108870207 0.0469200922787">
                                   <inertial mass="0.031" pos="0.0027887703894 -0.000930845049017 0.0177465923761" fullinertia="3.09e-06 2.62e-06 2.36e-06 3e-08 -1e-07 1e-08" />
                                   <joint name="left_index_PIP_joint" type="hinge" axis="-0.0571896789948195 0.996482943134821 0.0612460991234103" range="-0.1452 1.6001" />
-                                  <geom name="left_index_PIP_link_visual_0" class="visual" mesh="left_index_PIP_link_visual_0_left_index_PIP_link" />
+                                  <geom name="left_index_PIP_link_visual_0" class="visual" mesh="left_index_PIP_link_visual_0_left_index_PIP_link" rgba="0.72 0.74 0.78 1" />
                                   <geom name="left_index_PIP_link_collision_0" class="collision" mesh="left_index_PIP_link_collision_0_left_index_PIP_link" />
                                   <body name="left_index_DIP_link" pos="0.000140546972591 -0.00180309239697 0.0294678139594">
                                     <inertial mass="0.009" pos="0.00234140341681 -0.000855644874273 0.0154493695278" fullinertia="5.94123605446e-07 6.2332064711e-07 4.70674098945e-07 -4.0696894448e-09 8.4343480992e-09 2.83878643698e-09" />
                                     <joint name="left_index_DIP_joint" type="hinge" axis="-0.057189678994825 0.996482943134821 0.061246099123401" range="-0.322 1.5978" />
-                                    <geom name="left_index_DIP_link_visual_0" class="visual" mesh="left_index_DIP_link_visual_0_left_index_DIP_link__revo3_silicone_2162u_approx" />
-                                    <geom name="left_index_DIP_link_visual_1" class="visual" mesh="left_index_DIP_link_visual_1_left_index_DIP_link__revo3_polished_aluminum" />
+                                    <geom name="left_index_DIP_link_visual_0" class="visual" mesh="left_index_DIP_link_visual_0_left_index_DIP_link__revo3_silicone_2162u_approx" rgba="0.60 0.61 0.67 1" />
+                                    <geom name="left_index_DIP_link_visual_1" class="visual" mesh="left_index_DIP_link_visual_1_left_index_DIP_link__revo3_polished_aluminum" rgba="0.86 0.88 0.92 1" />
                                     <geom name="left_index_DIP_link_collision_0" class="collision" mesh="left_index_DIP_link_collision_0_left_index_DIP_link" />
                                     <body name="left_index_DIP_rubber_link">
-                                      <geom name="left_index_DIP_rubber_link_visual_0" class="visual" mesh="left_index_DIP_rubber_link_visual_0_left_index_DIP_rubber_link" />
+                                      <geom name="left_index_DIP_rubber_link_visual_0" class="visual" mesh="left_index_DIP_rubber_link_visual_0_left_index_DIP_rubber_link" rgba="0.60 0.61 0.67 1" />
                                       <geom name="left_index_DIP_rubber_link_collision_0" class="collision" mesh="left_index_DIP_rubber_link_collision_0_left_index_DIP_rubber_link" />
                                     </body>
                                     <body name="left_index_tip_Link" pos="0.0084 -0.0005 0.01" />
                                   </body>
                                   <body name="left_index_PIP_touch_link">
-                                    <geom name="left_index_PIP_touch_link_visual_0" class="visual" mesh="left_index_PIP_touch_link_visual_0_left_index_PIP_touch_link" />
+                                    <geom name="left_index_PIP_touch_link_visual_0" class="visual" mesh="left_index_PIP_touch_link_visual_0_left_index_PIP_touch_link" rgba="0.60 0.61 0.67 1" />
                                     <geom name="left_index_PIP_touch_link_collision_0" class="collision" mesh="left_index_PIP_touch_link_collision_0_left_index_PIP_touch_link" />
                                   </body>
                                   <body name="left_index_PIP_rubber_link">
-                                    <geom name="left_index_PIP_rubber_link_visual_0" class="visual" mesh="left_index_PIP_rubber_link_visual_0_left_index_PIP_rubber_link" />
+                                    <geom name="left_index_PIP_rubber_link_visual_0" class="visual" mesh="left_index_PIP_rubber_link_visual_0_left_index_PIP_rubber_link" rgba="0.60 0.61 0.67 1" />
                                     <geom name="left_index_PIP_rubber_link_collision_0" class="collision" mesh="left_index_PIP_rubber_link_collision_0_left_index_PIP_rubber_link" />
                                   </body>
-                                  <body name="left_index_fingerpad_23" pos="-0.00144544563984 0.00873330272386 0.0154010324011" />
-                                  <body name="left_index_fingerpad_24" pos="0.00237774981082 -0.010685480759 0.0166420789791" />
-                                  <body name="left_index_fingerpad_25" pos="0.00906014119672 0.00123064130611 0.0174848456125" />
-                                  <body name="left_index_fingerpad_26" pos="0.00926580723064 -0.00280418208749 0.0172157406182" />
+                                  <body name="left_index_fingerpad_23" pos="-0.00144544563984 0.00873330272386 0.0154010324011">
+                                    <geom name="left_index_fingerpad_23_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                  </body>
+                                  <body name="left_index_fingerpad_24" pos="0.00237774981082 -0.010685480759 0.0166420789791">
+                                    <geom name="left_index_fingerpad_24_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                  </body>
+                                  <body name="left_index_fingerpad_25" pos="0.00906014119672 0.00123064130611 0.0174848456125">
+                                    <geom name="left_index_fingerpad_25_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                  </body>
+                                  <body name="left_index_fingerpad_26" pos="0.00926580723064 -0.00280418208749 0.0172157406182">
+                                    <geom name="left_index_fingerpad_26_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                  </body>
                                 </body>
                                 <body name="left_index_MCP_touch_link">
-                                  <geom name="left_index_MCP_touch_link_visual_0" class="visual" mesh="left_index_MCP_touch_link_visual_0_left_index_MCP_touch_link" />
+                                  <geom name="left_index_MCP_touch_link_visual_0" class="visual" mesh="left_index_MCP_touch_link_visual_0_left_index_MCP_touch_link" rgba="0.60 0.61 0.67 1" />
                                   <geom name="left_index_MCP_touch_link_collision_0" class="collision" mesh="left_index_MCP_touch_link_collision_0_left_index_MCP_touch_link" />
                                 </body>
                                 <body name="left_index_MCP_rubber_link">
-                                  <geom name="left_index_MCP_rubber_link_visual_0" class="visual" mesh="left_index_MCP_rubber_link_visual_0_left_index_MCP_rubber_link" />
+                                  <geom name="left_index_MCP_rubber_link_visual_0" class="visual" mesh="left_index_MCP_rubber_link_visual_0_left_index_MCP_rubber_link" rgba="0.60 0.61 0.67 1" />
                                   <geom name="left_index_MCP_rubber_link_collision_0" class="collision" mesh="left_index_MCP_rubber_link_collision_0_left_index_MCP_rubber_link" />
                                 </body>
-                                <body name="left_index_fingerpad_0" pos="-0.000854602323152 0.00941748490288 0.0147984776959" />
-                                <body name="left_index_fingerpad_1" pos="-0.000716595905814 0.00917820574772 0.0184806341163" />
-                                <body name="left_index_fingerpad_2" pos="0.0106100204817 0.00343035911256 0.0188540281074" />
-                                <body name="left_index_fingerpad_3" pos="0.0114362808279 -0.00027734660165 0.0186620305466" />
-                                <body name="left_index_fingerpad_4" pos="0.0111574597782 -0.00406467779577 0.0183943347497" />
-                                <body name="left_index_fingerpad_5" pos="-0.000576782446739 0.00895440059598 0.0221642591957" />
-                                <body name="left_index_fingerpad_6" pos="0.00317140672793 0.00885086084349 0.0220268040761" />
-                                <body name="left_index_fingerpad_7" pos="0.0103321835207 0.00315968447529 0.0228438663736" />
-                                <body name="left_index_fingerpad_8" pos="0.0111611333873 -0.000542586435723 0.0226536539982" />
-                                <body name="left_index_fingerpad_9" pos="0.0108777312871 -0.0043268128927 0.0223735314286" />
-                                <body name="left_index_fingerpad_10" pos="-0.000434302930605 0.00874725323794 0.0258507983182" />
-                                <body name="left_index_fingerpad_11" pos="0.00332169489973 0.00861913731624 0.025711990976" />
-                                <body name="left_index_fingerpad_12" pos="0.0100450203312 0.00289215147102 0.0268422179802" />
-                                <body name="left_index_fingerpad_13" pos="0.0108558188973 -0.000808664200633 0.0266494552404" />
-                                <body name="left_index_fingerpad_14" pos="0.0105872353932 -0.00458872544839 0.0263504711608" />
-                                <body name="left_index_fingerpad_15" pos="-0.000295251652046 0.00855438719037 0.0295330229984" />
-                                <body name="left_index_fingerpad_16" pos="0.00974880399227 0.00262608293775 0.0308541382425" />
-                                <body name="left_index_fingerpad_17" pos="0.0105003831155 -0.00109541411902 0.0306558161919" />
-                                <body name="left_index_fingerpad_18" pos="0.0102813357689 -0.00487220557431 0.0303238570011" />
-                                <body name="left_index_fingerpad_19" pos="-0.000160847653921 0.0083676255084 0.0332139572168" />
-                                <body name="left_index_fingerpad_20" pos="0.00927987109753 0.00230022157984 0.0348574138286" />
-                                <body name="left_index_fingerpad_21" pos="0.00990383513852 -0.00142273535882 0.0346415431588" />
-                                <body name="left_index_fingerpad_22" pos="0.0097829741488 -0.00519474117501 0.0342822527585" />
+                                <body name="left_index_fingerpad_0" pos="-0.000854602323152 0.00941748490288 0.0147984776959">
+                                  <geom name="left_index_fingerpad_0_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_index_fingerpad_1" pos="-0.000716595905814 0.00917820574772 0.0184806341163">
+                                  <geom name="left_index_fingerpad_1_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_index_fingerpad_2" pos="0.0106100204817 0.00343035911256 0.0188540281074">
+                                  <geom name="left_index_fingerpad_2_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_index_fingerpad_3" pos="0.0114362808279 -0.00027734660165 0.0186620305466">
+                                  <geom name="left_index_fingerpad_3_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_index_fingerpad_4" pos="0.0111574597782 -0.00406467779577 0.0183943347497">
+                                  <geom name="left_index_fingerpad_4_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_index_fingerpad_5" pos="-0.000576782446739 0.00895440059598 0.0221642591957">
+                                  <geom name="left_index_fingerpad_5_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_index_fingerpad_6" pos="0.00317140672793 0.00885086084349 0.0220268040761">
+                                  <geom name="left_index_fingerpad_6_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_index_fingerpad_7" pos="0.0103321835207 0.00315968447529 0.0228438663736">
+                                  <geom name="left_index_fingerpad_7_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_index_fingerpad_8" pos="0.0111611333873 -0.000542586435723 0.0226536539982">
+                                  <geom name="left_index_fingerpad_8_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_index_fingerpad_9" pos="0.0108777312871 -0.0043268128927 0.0223735314286">
+                                  <geom name="left_index_fingerpad_9_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_index_fingerpad_10" pos="-0.000434302930605 0.00874725323794 0.0258507983182">
+                                  <geom name="left_index_fingerpad_10_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_index_fingerpad_11" pos="0.00332169489973 0.00861913731624 0.025711990976">
+                                  <geom name="left_index_fingerpad_11_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_index_fingerpad_12" pos="0.0100450203312 0.00289215147102 0.0268422179802">
+                                  <geom name="left_index_fingerpad_12_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_index_fingerpad_13" pos="0.0108558188973 -0.000808664200633 0.0266494552404">
+                                  <geom name="left_index_fingerpad_13_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_index_fingerpad_14" pos="0.0105872353932 -0.00458872544839 0.0263504711608">
+                                  <geom name="left_index_fingerpad_14_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_index_fingerpad_15" pos="-0.000295251652046 0.00855438719037 0.0295330229984">
+                                  <geom name="left_index_fingerpad_15_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_index_fingerpad_16" pos="0.00974880399227 0.00262608293775 0.0308541382425">
+                                  <geom name="left_index_fingerpad_16_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_index_fingerpad_17" pos="0.0105003831155 -0.00109541411902 0.0306558161919">
+                                  <geom name="left_index_fingerpad_17_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_index_fingerpad_18" pos="0.0102813357689 -0.00487220557431 0.0303238570011">
+                                  <geom name="left_index_fingerpad_18_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_index_fingerpad_19" pos="-0.000160847653921 0.0083676255084 0.0332139572168">
+                                  <geom name="left_index_fingerpad_19_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_index_fingerpad_20" pos="0.00927987109753 0.00230022157984 0.0348574138286">
+                                  <geom name="left_index_fingerpad_20_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_index_fingerpad_21" pos="0.00990383513852 -0.00142273535882 0.0346415431588">
+                                  <geom name="left_index_fingerpad_21_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_index_fingerpad_22" pos="0.0097829741488 -0.00519474117501 0.0342822527585">
+                                  <geom name="left_index_fingerpad_22_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
                               </body>
                             </body>
                             <body name="left_ring_MPR_link" pos="-0.00808842265878 0.0124508350539 0.103836133387">
                               <inertial mass="0.013" pos="-0.000734737341223 -0.000207035053863 0.00817378661267" fullinertia="1.01e-06 1.02e-06 1.14e-06 0 7e-08 0" />
                               <joint name="left_ring_MPR_joint" type="hinge" axis="0.999813819455818 -0.0191527157615282 -0.00234518743967805" range="-0.4363 0.3491" />
-                              <geom name="left_ring_MPR_link_visual_0" class="visual" mesh="left_ring_MPR_link_visual_0_left_ring_MPR_link" />
+                              <geom name="left_ring_MPR_link_visual_0" class="visual" mesh="left_ring_MPR_link_visual_0_left_ring_MPR_link" rgba="0.72 0.74 0.78 1" />
                               <geom name="left_ring_MPR_link_collision_0" class="collision" mesh="left_ring_MPR_link_collision_0_left_ring_MPR_link" />
                               <body name="left_ring_MCP_link" pos="0.00184812472405 0.000291808729387 0.0160030653445">
                                 <inertial mass="0.0658" pos="0.000952527934724 0.00046169621675 0.0235199212682" fullinertia="1.605e-05 1.574e-05 4.93e-06 1e-08 -4.3e-07 2.1e-07" />
                                 <joint name="left_ring_MCP_joint" type="hinge" axis="0.0191008584234173 0.999608742351176 -0.0204332920154781" range="-0.0925 1.583" />
-                                <geom name="left_ring_MCP_link_visual_0" class="visual" mesh="left_ring_MCP_link_visual_0_left_ring_MCP_link" />
+                                <geom name="left_ring_MCP_link_visual_0" class="visual" mesh="left_ring_MCP_link_visual_0_left_ring_MCP_link" rgba="0.72 0.74 0.78 1" />
                                 <geom name="left_ring_MCP_link_collision_0" class="collision" mesh="left_ring_MCP_link_collision_0_left_ring_MCP_link" />
                                 <body name="left_ring_PIP_link" pos="0.000185213362502 0.000957165097566 0.0469982650773">
                                   <inertial mass="0.0332" pos="0.00262109457222 0.000312411119184 0.0177736861909" fullinertia="3.1e-06 2.62e-06 2.36e-06 1e-08 -1e-07 0" />
                                   <joint name="left_ring_PIP_joint" type="hinge" axis="0.0191008584234188 0.999608742351175 -0.0204332920154819" range="-0.1452 1.6001" />
-                                  <geom name="left_ring_PIP_link_visual_0" class="visual" mesh="left_ring_PIP_link_visual_0_left_ring_PIP_link" />
+                                  <geom name="left_ring_PIP_link_visual_0" class="visual" mesh="left_ring_PIP_link_visual_0_left_ring_PIP_link" rgba="0.72 0.74 0.78 1" />
                                   <geom name="left_ring_PIP_link_collision_0" class="collision" mesh="left_ring_PIP_link_collision_0_left_ring_PIP_link" />
                                   <body name="left_ring_DIP_link" pos="0.00011759316658 0.000601116636665 0.0295169067795">
                                     <inertial mass="0.011" pos="0.00193370413291 0.000294401755246 0.015595765775" fullinertia="5.94978020293e-07 6.26794529358e-07 4.72860762011e-07 1.26076786782e-09 1.00399825391e-08 -8.78201564091e-10" />
                                     <joint name="left_ring_DIP_joint" type="hinge" axis="0.0191008584234135 0.999608742351175 -0.0204332920154918" range="-0.322 1.5978" />
-                                    <geom name="left_ring_DIP_link_visual_0" class="visual" mesh="left_ring_DIP_link_visual_0_left_ring_DIP_link__revo3_silicone_2162u_approx" />
-                                    <geom name="left_ring_DIP_link_visual_1" class="visual" mesh="left_ring_DIP_link_visual_1_left_ring_DIP_link__revo3_polished_aluminum" />
+                                    <geom name="left_ring_DIP_link_visual_0" class="visual" mesh="left_ring_DIP_link_visual_0_left_ring_DIP_link__revo3_silicone_2162u_approx" rgba="0.60 0.61 0.67 1" />
+                                    <geom name="left_ring_DIP_link_visual_1" class="visual" mesh="left_ring_DIP_link_visual_1_left_ring_DIP_link__revo3_polished_aluminum" rgba="0.86 0.88 0.92 1" />
                                     <geom name="left_ring_DIP_link_collision_0" class="collision" mesh="left_ring_DIP_link_collision_0_left_ring_DIP_link" />
                                     <body name="left_ring_DIP_rubber_link">
-                                      <geom name="left_ring_DIP_rubber_link_visual_0" class="visual" mesh="left_ring_DIP_rubber_link_visual_0_left_ring_DIP_rubber_link" />
+                                      <geom name="left_ring_DIP_rubber_link_visual_0" class="visual" mesh="left_ring_DIP_rubber_link_visual_0_left_ring_DIP_rubber_link" rgba="0.60 0.61 0.67 1" />
                                       <geom name="left_ring_DIP_rubber_link_collision_0" class="collision" mesh="left_ring_DIP_rubber_link_collision_0_left_ring_DIP_rubber_link" />
                                     </body>
                                     <body name="left_ring_tip_Link" pos="0.0084 0.000185 0.01" />
                                   </body>
                                   <body name="left_ring_PIP_touch_link">
-                                    <geom name="left_ring_PIP_touch_link_visual_0" class="visual" mesh="left_ring_PIP_touch_link_visual_0_left_ring_PIP_touch_link" />
+                                    <geom name="left_ring_PIP_touch_link_visual_0" class="visual" mesh="left_ring_PIP_touch_link_visual_0_left_ring_PIP_touch_link" rgba="0.60 0.61 0.67 1" />
                                     <geom name="left_ring_PIP_touch_link_collision_0" class="collision" mesh="left_ring_PIP_touch_link_collision_0_left_ring_PIP_touch_link" />
                                   </body>
                                   <body name="left_ring_PIP_tubber_link">
-                                    <geom name="left_ring_PIP_tubber_link_visual_0" class="visual" mesh="left_ring_PIP_tubber_link_visual_0_left_ring_PIP_tubber_link" />
+                                    <geom name="left_ring_PIP_tubber_link_visual_0" class="visual" mesh="left_ring_PIP_tubber_link_visual_0_left_ring_PIP_tubber_link" rgba="0.60 0.61 0.67 1" />
                                     <geom name="left_ring_PIP_tubber_link_collision_0" class="collision" mesh="left_ring_PIP_tubber_link_collision_0_left_ring_PIP_tubber_link" />
                                   </body>
-                                  <body name="left_ring_fingerpad_23" pos="-0.000716539619757 0.0100464511677 0.014582322662" />
-                                  <body name="left_ring_fingerpad_24" pos="0.00162264242426 -0.00942592202958 0.017515082701" />
-                                  <body name="left_ring_fingerpad_25" pos="0.0091958305198 0.00197468617053 0.0173375156999" />
-                                  <body name="left_ring_fingerpad_26" pos="0.00909275765152 -0.00207216815156 0.0174203523622" />
+                                  <body name="left_ring_fingerpad_23" pos="-0.000716539619757 0.0100464511677 0.014582322662">
+                                    <geom name="left_ring_fingerpad_23_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                  </body>
+                                  <body name="left_ring_fingerpad_24" pos="0.00162264242426 -0.00942592202958 0.017515082701">
+                                    <geom name="left_ring_fingerpad_24_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                  </body>
+                                  <body name="left_ring_fingerpad_25" pos="0.0091958305198 0.00197468617053 0.0173375156999">
+                                    <geom name="left_ring_fingerpad_25_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                  </body>
+                                  <body name="left_ring_fingerpad_26" pos="0.00909275765152 -0.00207216815156 0.0174203523622">
+                                    <geom name="left_ring_fingerpad_26_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                  </body>
                                 </body>
                                 <body name="left_ring_MCP_touch_link">
-                                  <geom name="left_ring_MCP_touch_link_visual_0" class="visual" mesh="left_ring_MCP_touch_link_visual_0_left_ring_MCP_touch_link" />
+                                  <geom name="left_ring_MCP_touch_link_visual_0" class="visual" mesh="left_ring_MCP_touch_link_visual_0_left_ring_MCP_touch_link" rgba="0.60 0.61 0.67 1" />
                                   <geom name="left_ring_MCP_touch_link_collision_0" class="collision" mesh="left_ring_MCP_touch_link_collision_0_left_ring_MCP_touch_link" />
                                 </body>
                                 <body name="left_ring_MCP_rubber_link">
-                                  <geom name="left_ring_MCP_rubber_link_visual_0" class="visual" mesh="left_ring_MCP_rubber_link_visual_0_left_ring_MCP_rubber_link" />
+                                  <geom name="left_ring_MCP_rubber_link_visual_0" class="visual" mesh="left_ring_MCP_rubber_link_visual_0_left_ring_MCP_rubber_link" rgba="0.60 0.61 0.67 1" />
                                   <geom name="left_ring_MCP_rubber_link_collision_0" class="collision" mesh="left_ring_MCP_rubber_link_collision_0_left_ring_MCP_rubber_link" />
                                 </body>
-                                <body name="left_ring_fingerpad_0" pos="-7.73063650354e-05 0.0106308455893 0.0139783208346" />
-                                <body name="left_ring_fingerpad_1" pos="5.64170622362e-05 0.0106828922909 0.0176680342889" />
-                                <body name="left_ring_fingerpad_2" pos="0.0109137927028 0.00413815173998 0.0185358868831" />
-                                <body name="left_ring_fingerpad_3" pos="0.0114545454879 0.000374986044183 0.0186491178754" />
-                                <body name="left_ring_fingerpad_4" pos="0.0108870757438 -0.00338925613388 0.0186908156676" />
-                                <body name="left_ring_fingerpad_5" pos="0.000193126386929 0.0107502983408 0.0213579526159" />
-                                <body name="left_ring_fingerpad_6" pos="0.00392198251785 0.0103505183891 0.0212381844046" />
-                                <body name="left_ring_fingerpad_7" pos="0.0106316909178 0.0042157906985 0.0225338436489" />
-                                <body name="left_ring_fingerpad_8" pos="0.0111755462239 0.000457966462488 0.0226484165294" />
-                                <body name="left_ring_fingerpad_9" pos="0.0106036968051 -0.00330385486725 0.0226774648933" />
-                                <body name="left_ring_fingerpad_10" pos="0.000333773902195 0.0108342925565 0.0250494217531" />
-                                <body name="left_ring_fingerpad_11" pos="0.00406853913032 0.010409384605 0.0249303302227" />
-                                <body name="left_ring_fingerpad_12" pos="0.0103405624599 0.00429795689052 0.0265400070397" />
-                                <body name="left_ring_fingerpad_13" pos="0.0108664202012 0.000542754203578 0.0266518767856" />
-                                <body name="left_ring_fingerpad_14" pos="0.01030958997 -0.00321759588849 0.0266618213335" />
-                                <body name="left_ring_fingerpad_15" pos="0.000472073927307 0.0109323881798 0.0287354170756" />
-                                <body name="left_ring_fingerpad_16" pos="0.0100405715801 0.00438337517966 0.0305595530293" />
-                                <body name="left_ring_fingerpad_17" pos="0.0105057856873 0.000611680439094 0.0306674315549" />
-                                <body name="left_ring_fingerpad_18" pos="0.00999846796864 -0.00315188552767 0.0306443602029" />
-                                <body name="left_ring_fingerpad_19" pos="0.000606200044375 0.0110367989518 0.0324196170777" />
-                                <body name="left_ring_fingerpad_20" pos="0.00956377991578 0.00442183318151 0.0345749595833" />
-                                <body name="left_ring_fingerpad_21" pos="0.00990157096979 0.000656982693271 0.0346651684671" />
-                                <body name="left_ring_fingerpad_22" pos="0.00949241173645 -0.00311154037876 0.0346146964417" />
+                                <body name="left_ring_fingerpad_0" pos="-7.73063650354e-05 0.0106308455893 0.0139783208346">
+                                  <geom name="left_ring_fingerpad_0_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_ring_fingerpad_1" pos="5.64170622362e-05 0.0106828922909 0.0176680342889">
+                                  <geom name="left_ring_fingerpad_1_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_ring_fingerpad_2" pos="0.0109137927028 0.00413815173998 0.0185358868831">
+                                  <geom name="left_ring_fingerpad_2_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_ring_fingerpad_3" pos="0.0114545454879 0.000374986044183 0.0186491178754">
+                                  <geom name="left_ring_fingerpad_3_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_ring_fingerpad_4" pos="0.0108870757438 -0.00338925613388 0.0186908156676">
+                                  <geom name="left_ring_fingerpad_4_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_ring_fingerpad_5" pos="0.000193126386929 0.0107502983408 0.0213579526159">
+                                  <geom name="left_ring_fingerpad_5_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_ring_fingerpad_6" pos="0.00392198251785 0.0103505183891 0.0212381844046">
+                                  <geom name="left_ring_fingerpad_6_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_ring_fingerpad_7" pos="0.0106316909178 0.0042157906985 0.0225338436489">
+                                  <geom name="left_ring_fingerpad_7_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_ring_fingerpad_8" pos="0.0111755462239 0.000457966462488 0.0226484165294">
+                                  <geom name="left_ring_fingerpad_8_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_ring_fingerpad_9" pos="0.0106036968051 -0.00330385486725 0.0226774648933">
+                                  <geom name="left_ring_fingerpad_9_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_ring_fingerpad_10" pos="0.000333773902195 0.0108342925565 0.0250494217531">
+                                  <geom name="left_ring_fingerpad_10_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_ring_fingerpad_11" pos="0.00406853913032 0.010409384605 0.0249303302227">
+                                  <geom name="left_ring_fingerpad_11_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_ring_fingerpad_12" pos="0.0103405624599 0.00429795689052 0.0265400070397">
+                                  <geom name="left_ring_fingerpad_12_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_ring_fingerpad_13" pos="0.0108664202012 0.000542754203578 0.0266518767856">
+                                  <geom name="left_ring_fingerpad_13_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_ring_fingerpad_14" pos="0.01030958997 -0.00321759588849 0.0266618213335">
+                                  <geom name="left_ring_fingerpad_14_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_ring_fingerpad_15" pos="0.000472073927307 0.0109323881798 0.0287354170756">
+                                  <geom name="left_ring_fingerpad_15_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_ring_fingerpad_16" pos="0.0100405715801 0.00438337517966 0.0305595530293">
+                                  <geom name="left_ring_fingerpad_16_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_ring_fingerpad_17" pos="0.0105057856873 0.000611680439094 0.0306674315549">
+                                  <geom name="left_ring_fingerpad_17_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_ring_fingerpad_18" pos="0.00999846796864 -0.00315188552767 0.0306443602029">
+                                  <geom name="left_ring_fingerpad_18_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_ring_fingerpad_19" pos="0.000606200044375 0.0110367989518 0.0324196170777">
+                                  <geom name="left_ring_fingerpad_19_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_ring_fingerpad_20" pos="0.00956377991578 0.00442183318151 0.0345749595833">
+                                  <geom name="left_ring_fingerpad_20_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_ring_fingerpad_21" pos="0.00990157096979 0.000656982693271 0.0346651684671">
+                                  <geom name="left_ring_fingerpad_21_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_ring_fingerpad_22" pos="0.00949241173645 -0.00311154037876 0.0346146964417">
+                                  <geom name="left_ring_fingerpad_22_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
                               </body>
                             </body>
                             <body name="left_little_MPR_link" pos="-0.00702324534242 0.036511898993 0.0905157916993">
                               <inertial mass="0.013" pos="-0.00080857465758 0.000160681007001 0.00818830830071" diaginertia="4.2e-07 4.2e-07 4.2e-07" />
                               <joint name="left_little_MPR_joint" type="hinge" axis="0.998363207212642 -0.0571125018185487 0.00301141496872135" range="-0.5236 0.1745" />
-                              <geom name="left_little_MPR_link_visual_0" class="visual" mesh="left_little_MPR_link_visual_0_left_little_MPR_link" />
+                              <geom name="left_little_MPR_link_visual_0" class="visual" mesh="left_little_MPR_link_visual_0_left_little_MPR_link" rgba="0.72 0.74 0.78 1" />
                               <geom name="left_little_MPR_link_collision_0" class="collision" mesh="left_little_MPR_link_collision_0_left_little_MPR_link" />
                               <body name="left_little_MCP_link" pos="0.00180966648563 0.00087867560998 0.0159859893073">
                                 <inertial mass="0.0658" pos="0.00103081685679 0.00138377539702 0.0234830889934" fullinertia="1.605e-05 1.574e-05 4.93e-06 1e-08 -4.3e-07 2.1e-07" />
                                 <joint name="left_little_MCP_joint" type="hinge" axis="0.0571896789757587 0.996482943139 -0.0612460990732217" range="-0.0925 1.583" />
-                                <geom name="left_little_MCP_link_visual_0" class="visual" mesh="left_little_MCP_link_visual_0_left_little_MCP_link" />
+                                <geom name="left_little_MCP_link_visual_0" class="visual" mesh="left_little_MCP_link_visual_0_left_little_MCP_link" rgba="0.72 0.74 0.78 1" />
                                 <geom name="left_little_MCP_link_collision_0" class="collision" mesh="left_little_MCP_link_collision_0_left_little_MCP_link" />
                                 <body name="left_little_PIP_link" pos="7.99016655648e-05 0.00287922592171 0.0469200496921">
                                   <inertial mass="0.0332" pos="0.00293070519123 0.00092222947531 0.0177466393013" fullinertia="3.1e-06 2.62e-06 2.36e-06 1e-08 -1e-07 0" />
                                   <joint name="left_little_PIP_joint" type="hinge" axis="0.0571896789757601 0.996482943138999 -0.0612460990732252" range="-0.1452 1.6001" />
-                                  <geom name="left_little_PIP_link_visual_0" class="visual" mesh="left_little_PIP_link_visual_0_left_little_PIP_link" />
+                                  <geom name="left_little_PIP_link_visual_0" class="visual" mesh="left_little_PIP_link_visual_0_left_little_PIP_link" rgba="0.72 0.74 0.78 1" />
                                   <geom name="left_little_PIP_link_collision_0" class="collision" mesh="left_little_PIP_link_collision_0_left_little_PIP_link" />
                                   <body name="left_little_DIP_link" pos="5.14511189704e-05 0.00180820433012 0.0294677909772">
                                     <inertial mass="0.011" pos="0.00239393679953 0.000918788781557 0.0155739237787" fullinertia="5.94688074309e-07 6.25664549309e-07 4.72048578163e-07 -1.60003558909e-09 9.53409363636e-09 1.11608918182e-09" />
                                     <joint name="left_little_DIP_joint" type="hinge" axis="0.0571896789757549 0.996482943138999 -0.0612460990732302" range="-0.322 1.5978" />
-                                    <geom name="left_little_DIP_link_visual_0" class="visual" mesh="left_little_DIP_link_visual_0_left_little_DIP_link__revo3_silicone_2162u_approx" />
-                                    <geom name="left_little_DIP_link_visual_1" class="visual" mesh="left_little_DIP_link_visual_1_left_little_DIP_link__revo3_polished_aluminum" />
+                                    <geom name="left_little_DIP_link_visual_0" class="visual" mesh="left_little_DIP_link_visual_0_left_little_DIP_link__revo3_silicone_2162u_approx" rgba="0.60 0.61 0.67 1" />
+                                    <geom name="left_little_DIP_link_visual_1" class="visual" mesh="left_little_DIP_link_visual_1_left_little_DIP_link__revo3_polished_aluminum" rgba="0.86 0.88 0.92 1" />
                                     <geom name="left_little_DIP_link_collision_0" class="collision" mesh="left_little_DIP_link_collision_0_left_little_DIP_link" />
                                     <body name="left_little_DIP_rubber_link">
-                                      <geom name="left_little_DIP_rubber_link_visual_0" class="visual" mesh="left_little_DIP_rubber_link_visual_0_left_little_DIP_rubber_link" />
+                                      <geom name="left_little_DIP_rubber_link_visual_0" class="visual" mesh="left_little_DIP_rubber_link_visual_0_left_little_DIP_rubber_link" rgba="0.60 0.61 0.67 1" />
                                       <geom name="left_little_DIP_rubber_link_collision_0" class="collision" mesh="left_little_DIP_rubber_link_collision_0_left_little_DIP_rubber_link" />
                                     </body>
                                     <body name="left_little_tip_Link" pos="0.0084 0.0012185 0.01" />
                                   </body>
                                   <body name="left_little_PIP_touch_link">
-                                    <geom name="left_little_PIP_touch_link_visual_0" class="visual" mesh="left_little_PIP_touch_link_visual_0_left_little_PIP_touch_link" />
+                                    <geom name="left_little_PIP_touch_link_visual_0" class="visual" mesh="left_little_PIP_touch_link_visual_0_left_little_PIP_touch_link" rgba="0.60 0.61 0.67 1" />
                                     <geom name="left_little_PIP_touch_link_collision_0" class="collision" mesh="left_little_PIP_touch_link_collision_0_left_little_PIP_touch_link" />
                                   </body>
                                   <body name="left_little_PIP_rubber_link">
-                                    <geom name="left_little_PIP_rubber_link_visual_0" class="visual" mesh="left_little_PIP_rubber_link_visual_0_left_little_PIP_rubber_link" />
+                                    <geom name="left_little_PIP_rubber_link_visual_0" class="visual" mesh="left_little_PIP_rubber_link_visual_0_left_little_PIP_rubber_link" rgba="0.60 0.61 0.67 1" />
                                     <geom name="left_little_PIP_rubber_link_collision_0" class="collision" mesh="left_little_PIP_rubber_link_collision_0_left_little_PIP_rubber_link" />
                                   </body>
-                                  <body name="left_little_fingerpad_23" pos="-0.00037747479011 0.0106576660245 0.0142064546639" />
-                                  <body name="left_little_fingerpad_24" pos="0.00120876393249 -0.0087717604199 0.017843404866" />
-                                  <body name="left_little_fingerpad_25" pos="0.00921114626921 0.00231963224939 0.0172943503188" />
-                                  <body name="left_little_fingerpad_26" pos="0.0089537681535 -0.00171482513833 0.0175211231683" />
+                                  <body name="left_little_fingerpad_23" pos="-0.00037747479011 0.0106576660245 0.0142064546639">
+                                    <geom name="left_little_fingerpad_23_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                  </body>
+                                  <body name="left_little_fingerpad_24" pos="0.00120876393249 -0.0087717604199 0.017843404866">
+                                    <geom name="left_little_fingerpad_24_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                  </body>
+                                  <body name="left_little_fingerpad_25" pos="0.00921114626921 0.00231963224939 0.0172943503188">
+                                    <geom name="left_little_fingerpad_25_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                  </body>
+                                  <body name="left_little_fingerpad_26" pos="0.0089537681535 -0.00171482513833 0.0175211231683">
+                                    <geom name="left_little_fingerpad_26_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                  </body>
                                 </body>
                                 <body name="left_little_MCP_touch_link">
-                                  <geom name="left_little_MCP_touch_link_visual_0" class="visual" mesh="left_little_MCP_touch_link_visual_0_left_little_MCP_touch_link" />
+                                  <geom name="left_little_MCP_touch_link_visual_0" class="visual" mesh="left_little_MCP_touch_link_visual_0_left_little_MCP_touch_link" rgba="0.60 0.61 0.67 1" />
                                   <geom name="left_little_MCP_touch_link_collision_0" class="collision" mesh="left_little_MCP_touch_link_collision_0_left_little_MCP_touch_link" />
                                 </body>
                                 <body name="left_little_MCP_rubber_link">
-                                  <geom name="left_little_MCP_rubber_link_visual_0" class="visual" mesh="left_little_MCP_rubber_link_visual_0_left_little_MCP_rubber_link" />
+                                  <geom name="left_little_MCP_rubber_link_visual_0" class="visual" mesh="left_little_MCP_rubber_link_visual_0_left_little_MCP_rubber_link" rgba="0.60 0.61 0.67 1" />
                                   <geom name="left_little_MCP_rubber_link_collision_0" class="collision" mesh="left_little_MCP_rubber_link_collision_0_left_little_MCP_rubber_link" />
                                 </body>
-                                <body name="left_little_fingerpad_0" pos="0.000285221848166 0.0111873397309 0.0135282503127" />
-                                <body name="left_little_fingerpad_1" pos="0.000409770997007 0.0113868443258 0.0172132552808" />
-                                <body name="left_little_fingerpad_2" pos="0.0110073988289 0.00447656109504 0.0183997091621" />
-                                <body name="left_little_fingerpad_3" pos="0.0114041166426 0.000703501168553 0.0186704205464" />
-                                <body name="left_little_fingerpad_4" pos="0.0106935941081 -0.00303156445419 0.0188646428755" />
-                                <body name="left_little_fingerpad_5" pos="0.000537888132541 0.0116015793049 0.0208978455108" />
-                                <body name="left_little_fingerpad_6" pos="0.00424915833921 0.0110560638656 0.0208116896173" />
-                                <body name="left_little_fingerpad_7" pos="0.0107164769329 0.00473013654174 0.0223897381682" />
-                                <body name="left_little_fingerpad_8" pos="0.0111164943838 0.000962347501796 0.0226615842958" />
-                                <body name="left_little_fingerpad_9" pos="0.0104017254687 -0.00277065819037 0.022843048293" />
-                                <body name="left_little_fingerpad_10" pos="0.000670567612197 0.0118327911045 0.0245833194833" />
-                                <body name="left_little_fingerpad_11" pos="0.00438678370387 0.0112619911542 0.0244989023893" />
-                                <body name="left_little_fingerpad_12" pos="0.0104166827517 0.00498891384856 0.0263877389099" />
-                                <body name="left_little_fingerpad_13" pos="0.0107988237024 0.00122431295436 0.0266566939716" />
-                                <body name="left_little_fingerpad_14" pos="0.0100991762955 -0.00250858355792 0.0268190785456" />
-                                <body name="left_little_fingerpad_15" pos="0.000801454700877 0.0120779447134 0.0282627324044" />
-                                <body name="left_little_fingerpad_16" pos="0.0101081163463 0.00525182774419 0.0303989362164" />
-                                <body name="left_little_fingerpad_17" pos="0.0104290418671 0.00147289552649 0.0306643062637" />
-                                <body name="left_little_fingerpad_18" pos="0.00977884733198 -0.00226645506517 0.0307940620356" />
-                                <body name="left_little_fingerpad_19" pos="0.00092841678867 0.012329487553 0.0319400721913" />
-                                <body name="left_little_fingerpad_20" pos="0.00962110234863 0.00547438905944 0.0344071256992" />
-                                <body name="left_little_fingerpad_21" pos="0.00981501139617 0.00170639181235 0.0346539772029" />
-                                <body name="left_little_fingerpad_22" pos="0.00926279706847 -0.00204276392336 0.0347570085264" />
+                                <body name="left_little_fingerpad_0" pos="0.000285221848166 0.0111873397309 0.0135282503127">
+                                  <geom name="left_little_fingerpad_0_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_little_fingerpad_1" pos="0.000409770997007 0.0113868443258 0.0172132552808">
+                                  <geom name="left_little_fingerpad_1_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_little_fingerpad_2" pos="0.0110073988289 0.00447656109504 0.0183997091621">
+                                  <geom name="left_little_fingerpad_2_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_little_fingerpad_3" pos="0.0114041166426 0.000703501168553 0.0186704205464">
+                                  <geom name="left_little_fingerpad_3_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_little_fingerpad_4" pos="0.0106935941081 -0.00303156445419 0.0188646428755">
+                                  <geom name="left_little_fingerpad_4_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_little_fingerpad_5" pos="0.000537888132541 0.0116015793049 0.0208978455108">
+                                  <geom name="left_little_fingerpad_5_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_little_fingerpad_6" pos="0.00424915833921 0.0110560638656 0.0208116896173">
+                                  <geom name="left_little_fingerpad_6_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_little_fingerpad_7" pos="0.0107164769329 0.00473013654174 0.0223897381682">
+                                  <geom name="left_little_fingerpad_7_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_little_fingerpad_8" pos="0.0111164943838 0.000962347501796 0.0226615842958">
+                                  <geom name="left_little_fingerpad_8_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_little_fingerpad_9" pos="0.0104017254687 -0.00277065819037 0.022843048293">
+                                  <geom name="left_little_fingerpad_9_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_little_fingerpad_10" pos="0.000670567612197 0.0118327911045 0.0245833194833">
+                                  <geom name="left_little_fingerpad_10_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_little_fingerpad_11" pos="0.00438678370387 0.0112619911542 0.0244989023893">
+                                  <geom name="left_little_fingerpad_11_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_little_fingerpad_12" pos="0.0104166827517 0.00498891384856 0.0263877389099">
+                                  <geom name="left_little_fingerpad_12_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_little_fingerpad_13" pos="0.0107988237024 0.00122431295436 0.0266566939716">
+                                  <geom name="left_little_fingerpad_13_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_little_fingerpad_14" pos="0.0100991762955 -0.00250858355792 0.0268190785456">
+                                  <geom name="left_little_fingerpad_14_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_little_fingerpad_15" pos="0.000801454700877 0.0120779447134 0.0282627324044">
+                                  <geom name="left_little_fingerpad_15_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_little_fingerpad_16" pos="0.0101081163463 0.00525182774419 0.0303989362164">
+                                  <geom name="left_little_fingerpad_16_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_little_fingerpad_17" pos="0.0104290418671 0.00147289552649 0.0306643062637">
+                                  <geom name="left_little_fingerpad_17_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_little_fingerpad_18" pos="0.00977884733198 -0.00226645506517 0.0307940620356">
+                                  <geom name="left_little_fingerpad_18_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_little_fingerpad_19" pos="0.00092841678867 0.012329487553 0.0319400721913">
+                                  <geom name="left_little_fingerpad_19_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_little_fingerpad_20" pos="0.00962110234863 0.00547438905944 0.0344071256992">
+                                  <geom name="left_little_fingerpad_20_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_little_fingerpad_21" pos="0.00981501139617 0.00170639181235 0.0346539772029">
+                                  <geom name="left_little_fingerpad_21_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
+                                <body name="left_little_fingerpad_22" pos="0.00926279706847 -0.00204276392336 0.0347570085264">
+                                  <geom name="left_little_fingerpad_22_visual_0" class="visual" type="sphere" size="0.0012" rgba="1.0 0.12 0.48 1" />
+                                </body>
                               </body>
                             </body>
                             <body name="left_plam_touch_link">
-                              <geom name="left_plam_touch_link_visual_0" class="visual" mesh="left_plam_touch_link_visual_0_left_plam_touch_link" />
+                              <geom name="left_plam_touch_link_visual_0" class="visual" mesh="left_plam_touch_link_visual_0_left_plam_touch_link" rgba="0.60 0.61 0.67 1" />
                               <geom name="left_plam_touch_link_collision_0" class="collision" mesh="left_plam_touch_link_collision_0_left_plam_touch_link" />
-                              <body name="left_hand_touch_0_link" pos="0.0226397697675 0.0234760858242 0.0337138043311" />
-                              <body name="left_hand_touch_1_link" pos="0.0230459005561 0.0189695273617 0.0338488116059" />
-                              <body name="left_hand_touch_2_link" pos="0.0231983452971 0.0144089149658 0.0339101664932" />
-                              <body name="left_hand_touch_3_link" pos="0.0236404317429 0.00940974107791 0.0281048775224" />
-                              <body name="left_hand_touch_4_link" pos="0.0237454383559 0.00329811799986 0.0278312259291" />
-                              <body name="left_hand_touch_5_link" pos="0.0237451302495 -0.00283596338392 0.0275267042916" />
-                              <body name="left_hand_touch_6_link" pos="0.0236139163798 -0.00899829880707 0.0271832168967" />
-                              <body name="left_hand_touch_7_link" pos="0.0232369219984 -0.0152165879929 0.0267669180098" />
-                              <body name="left_hand_touch_8_link" pos="0.0221830145353 -0.0215680177812 0.026180407076" />
-                              <body name="left_hand_touch_9_link" pos="0.0218506017662 0.0283128872057 0.0381517526606" />
-                              <body name="left_hand_touch_10_link" pos="0.0223347962635 0.0238220690141 0.038291816128" />
-                              <body name="left_hand_touch_11_link" pos="0.0225323633017 0.0192710324002 0.0383493849794" />
-                              <body name="left_hand_touch_12_link" pos="0.0225352893573 0.0146789378144 0.0383504120359" />
-                              <body name="left_hand_touch_13_link" pos="0.021339425657 0.0284646754197 0.0426879327235" />
-                              <body name="left_hand_touch_14_link" pos="0.0216302046749 0.0239332938883 0.0427721380609" />
-                              <body name="left_hand_touch_15_link" pos="0.0216538265315 0.0193461744039 0.0427794557336" />
-                              <body name="left_hand_touch_16_link" pos="0.0215338845551 0.0147290814482 0.0427450257572" />
-                              <body name="left_hand_touch_17_link" pos="0.0204395596137 0.028534635563 0.0471123674251" />
-                              <body name="left_hand_touch_18_link" pos="0.0205699629496 0.0239697176453 0.0471503849867" />
-                              <body name="left_hand_touch_19_link" pos="0.0204632066345 0.0193562675588 0.0471190931897" />
-                              <body name="left_hand_touch_20_link" pos="0.0202803322234 0.014725606407 0.0470666559906" />
-                              <body name="left_hand_touch_21_link" pos="0.019217432187 0.0285364127896 0.0514443845603" />
-                              <body name="left_hand_touch_22_link" pos="0.0191988911569 0.0239418604492 0.0514380954389" />
-                              <body name="left_hand_touch_23_link" pos="0.0190404598491 0.0193168775079 0.0513923659073" />
-                              <body name="left_hand_touch_24_link" pos="0.0188743724514 0.0146894869318 0.0513447847534" />
-                              <body name="left_hand_touch_25_link" pos="0.0177490280928 0.0284877468442 0.0557041710736" />
-                              <body name="left_hand_touch_26_link" pos="0.0176666864571 0.0238795416962 0.0556799787911" />
-                              <body name="left_hand_touch_27_link" pos="0.0175294125164 0.0192586856158 0.0556403974041" />
-                              <body name="left_hand_touch_28_link" pos="0.0174069222717 0.0146402532468 0.0556053801889" />
-                              <body name="left_hand_touch_29_link" pos="0.016182021558 0.0284181370627 0.0599361346329" />
-                              <body name="left_hand_touch_30_link" pos="0.0160961591058 0.0238090001959 0.0599110175482" />
-                              <body name="left_hand_touch_31_link" pos="0.0160961591058 0.0238090001959 0.0599110175482" />
-                              <body name="left_hand_touch_32_link" pos="0.0159425353706 0.0145915912905 0.0598669863035" />
-                              <body name="left_hand_touch_33_link" pos="0.0159425353706 0.0145915912905 0.0598669863035" />
-                              <body name="left_hand_touch_34_link" pos="0.0145509389626 0.0237436636236 0.064149468405" />
-                              <body name="left_hand_touch_35_link" pos="0.0145211503813 0.019144834339 0.0641408788367" />
-                              <body name="left_hand_touch_36_link" pos="0.0145254462075 0.0145529048276 0.0641422361481" />
-                              <body name="left_hand_touch_37_link" pos="0.0131041876516 0.0282905880161 0.0684165008997" />
-                              <body name="left_hand_touch_38_link" pos="0.0130764464454 0.0236931576295 0.0684083034288" />
-                              <body name="left_hand_touch_39_link" pos="0.0131135600317 0.0191082153725 0.0684189186307" />
-                              <body name="left_hand_touch_40_link" pos="0.0131842332552 0.0145302834059 0.0684392499849" />
-                              <body name="left_hand_touch_41_link" pos="0.0116901201166 0.0282530200742 0.0726926086275" />
-                              <body name="left_hand_touch_42_link" pos="0.0117050680857 0.0236643843353 0.0726967328412" />
-                              <body name="left_hand_touch_43_link" pos="0.0118067898625 0.0190929202488 0.0727258428964" />
-                              <body name="left_hand_touch_44_link" pos="0.0119370370107 0.0145275986472 0.0727631690551" />
-                              <body name="left_hand_touch_45_link" pos="0.0104066151934 0.0282597783159 0.0770060348017" />
-                              <body name="left_hand_touch_46_link" pos="0.0104552122596 0.023712756067 0.0770368607284" />
-                              <body name="left_hand_touch_47_link" pos="0.0106128503371 0.0191530686459 0.0770821320872" />
-                              <body name="left_hand_touch_48_link" pos="0.0107905744412 0.0145978195798 0.0771329659825" />
-                              <body name="left_hand_touch_49_link" pos="0.0109183612653 0.0100325147112 0.0771694919602" />
-                              <body name="left_hand_touch_50_link" pos="0.0109988468433 0.00545740554724 0.0771924723088" />
-                              <body name="left_hand_touch_51_link" pos="0.0110646295613 0.000879085658966 0.0772112563256" />
-                              <body name="left_hand_touch_52_link" pos="0.0111362890283 -0.00369821927906 0.0772317458579" />
-                              <body name="left_hand_touch_53_link" pos="0.0112025925833 -0.00827691724674 0.0772507495182" />
-                              <body name="left_hand_touch_54_link" pos="0.0112184763398 -0.0128664194877 0.0772554393971" />
-                              <body name="left_hand_touch_55_link" pos="0.0111344420964 -0.0174764751138 0.0772317168542" />
-                              <body name="left_hand_touch_56_link" pos="0.0109749221971 -0.0221015765618 0.0771863173604" />
-                              <body name="left_hand_touch_57_link" pos="0.0108349499723 -0.0267237494458 0.0771461786729" />
-                              <body name="left_hand_touch_58_link" pos="0.0105425301903 -0.0313732762463 0.0769436018431" />
-                              <body name="left_hand_touch_59_link" pos="0.0104441941736 -0.0359916616672 0.0770341363287" />
-                              <body name="left_hand_touch_60_link" pos="0.0091971502609 0.0282829714021 0.081340630524" />
-                              <body name="left_hand_touch_61_link" pos="0.00932062986403 0.0237338475864 0.081392255988" />
-                              <body name="left_hand_touch_62_link" pos="0.00955183638872 0.0191895650074 0.0814588291198" />
-                              <body name="left_hand_touch_63_link" pos="0.00976643460847 0.0146424316695 0.081520573009" />
-                              <body name="left_hand_touch_64_link" pos="0.00991255371163 0.0100810900446 0.0815622450628" />
-                              <body name="left_hand_touch_65_link" pos="0.0100092079561 0.00550944602958 0.0815898572777" />
-                              <body name="left_hand_touch_66_link" pos="0.0100928792719 0.000934900911033 0.0816137210657" />
-                              <body name="left_hand_touch_67_link" pos="0.0101834954019 -0.00363842512354 0.0816395748458" />
-                              <body name="left_hand_touch_68_link" pos="0.0102663145343 -0.00821367309147 0.0816632266369" />
-                              <body name="left_hand_touch_69_link" pos="0.0102907053186 -0.0128014797424 0.0816702857935" />
-                              <body name="left_hand_touch_70_link" pos="0.0101966578903 -0.0174137579532 0.0816437235745" />
-                              <body name="left_hand_touch_71_link" pos="0.0100003768088 -0.0220463252006 0.0815878153409" />
-                              <body name="left_hand_touch_72_link" pos="0.00982263010656 -0.0266762101577 0.0815366578093" />
-                              <body name="left_hand_touch_73_link" pos="0.00969677149935 -0.0312966935828 0.081500282304" />
-                              <body name="left_hand_touch_74_link" pos="0.00949508262608 -0.035934169442 0.0814426154315" />
-                              <body name="left_hand_touch_75_link" pos="0.00816996129319 0.023751749743 0.0857434768739" />
-                              <body name="left_hand_touch_76_link" pos="0.00856912491648 0.0192422777757 0.0858577544056" />
-                              <body name="left_hand_touch_77_link" pos="0.00885987802324 0.0147115396638 0.0859415205582" />
-                              <body name="left_hand_touch_78_link" pos="0.00901403006452 0.0101525439892 0.0859860145329" />
-                              <body name="left_hand_touch_79_link" pos="0.00910347895394 0.00557947835959 0.086011162167" />
-                              <body name="left_hand_touch_80_link" pos="0.00919566982206 0.0010065467459 0.08603714926" />
-                              <body name="left_hand_touch_81_link" pos="0.00930514817054 -0.00356286533793 0.0860683571577" />
-                              <body name="left_hand_touch_82_link" pos="0.00941242716397 -0.00813300366179 0.0860990614408" />
-                              <body name="left_hand_touch_83_link" pos="0.00945764020538 -0.0127166023403 0.0861123552254" />
-                              <body name="left_hand_touch_84_link" pos="0.00934254376606 -0.0173334546329 0.0860801470267" />
-                              <body name="left_hand_touch_85_link" pos="0.00907467877727 -0.0219802330619 0.0860036032815" />
-                              <body name="left_hand_touch_86_link" pos="0.00886004425242 -0.0266175842934 0.0859410677036" />
-                              <body name="left_hand_touch_87_link" pos="0.00880262518161 -0.0312242826134 0.0859239047547" />
-                              <body name="left_hand_touch_88_link" pos="0.0087343606382 -0.0358334421824 0.0859052627215" />
-                              <body name="left_hand_touch_89_link" pos="0.00764451829746 0.0193255581662 0.0902911065438" />
-                              <body name="left_hand_touch_90_link" pos="0.00807245577855 0.0148233411479 0.0904137295308" />
-                              <body name="left_hand_touch_91_link" pos="0.00822201904762 0.0102640475505 0.090457554783" />
-                              <body name="left_hand_touch_92_link" pos="0.00823613236142 0.00567612779486 0.0904610847357" />
-                              <body name="left_hand_touch_93_link" pos="0.00830885627993 0.00109855501377 0.0904808056919" />
-                              <body name="left_hand_touch_94_link" pos="0.00845297260583 -0.0034639052804 0.0905216155325" />
-                              <body name="left_hand_touch_95_link" pos="0.00862215648199 -0.00802119002414 0.0905700296213" />
-                              <body name="left_hand_touch_96_link" pos="0.00871446474479 -0.0125953915461 0.09059724482" />
-                              <body name="left_hand_touch_97_link" pos="0.0085410746137 -0.0172245455143 0.0905490422992" />
-                              <body name="left_hand_touch_98_link" pos="0.0081401826799 -0.0218972741268 0.0904344317272" />
-                              <body name="left_hand_touch_99_link" pos="0.00788867949593 -0.0265422321339 0.0903603964208" />
-                              <body name="left_hand_touch_100_link" pos="0.00799106644579 -0.0311167996155 0.0903889745146" />
-                              <body name="left_hand_touch_101_link" pos="0.0081672 -0.035675 0.09044" />
-                              <body name="left_hand_touch_102_link" pos="0.0074284 0.014966 0.094927" />
-                              <body name="left_hand_touch_103_link" pos="0.00756056804639 0.0104022805441 0.0949666799866" />
-                              <body name="left_hand_touch_105_link" pos="0.00739933158672 0.00118645186729 0.0949183120595" />
-                              <body name="left_hand_touch_106_link" pos="0.00760107533803 -0.00336476278617 0.0949751421518" />
-                              <body name="left_hand_touch_107_link" pos="0.00789152502059 -0.00789688673316 0.0950582190621" />
-                              <body name="left_hand_touch_108_link" pos="0.00807161001254 -0.0124534710131 0.0951107545655" />
-                              <body name="left_hand_touch_109_link" pos="0.00781468020893 -0.0171002285955 0.095039317756" />
-                              <body name="left_hand_touch_110_link" pos="0.00723482261659 -0.0218073550404 0.094873609013" />
-                              <body name="left_hand_touch_111_link" pos="0.00707595323862 0.0105822907791 0.0995323182446" />
-                              <body name="left_hand_touch_112_link" pos="0.0066621 0.0059119 0.099415" />
-                              <body name="left_hand_touch_113_link" pos="0.00649146755477 0.00128173783927 0.099362541754" />
-                              <body name="left_hand_touch_114_link" pos="0.00676039148319 -0.00325727776148 0.0994380199008" />
-                              <body name="left_hand_touch_115_link" pos="0.00722995291214 -0.0077519991067 0.0995723371899" />
-                              <body name="left_hand_touch_116_link" pos="0.00754482386731 -0.0122809438254 0.0996631662974" />
-                              <body name="left_hand_touch_117_link" pos="0.00720769476787 -0.0169449924526 0.0995691398734" />
+                              <body name="left_hand_touch_0_link" pos="0.0226397697675 0.0234760858242 0.0337138043311">
+                                <geom name="left_hand_touch_0_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_1_link" pos="0.0230459005561 0.0189695273617 0.0338488116059">
+                                <geom name="left_hand_touch_1_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_2_link" pos="0.0231983452971 0.0144089149658 0.0339101664932">
+                                <geom name="left_hand_touch_2_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_3_link" pos="0.0236404317429 0.00940974107791 0.0281048775224">
+                                <geom name="left_hand_touch_3_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_4_link" pos="0.0237454383559 0.00329811799986 0.0278312259291">
+                                <geom name="left_hand_touch_4_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_5_link" pos="0.0237451302495 -0.00283596338392 0.0275267042916">
+                                <geom name="left_hand_touch_5_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_6_link" pos="0.0236139163798 -0.00899829880707 0.0271832168967">
+                                <geom name="left_hand_touch_6_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_7_link" pos="0.0232369219984 -0.0152165879929 0.0267669180098">
+                                <geom name="left_hand_touch_7_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_8_link" pos="0.0221830145353 -0.0215680177812 0.026180407076">
+                                <geom name="left_hand_touch_8_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_9_link" pos="0.0218506017662 0.0283128872057 0.0381517526606">
+                                <geom name="left_hand_touch_9_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_10_link" pos="0.0223347962635 0.0238220690141 0.038291816128">
+                                <geom name="left_hand_touch_10_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_11_link" pos="0.0225323633017 0.0192710324002 0.0383493849794">
+                                <geom name="left_hand_touch_11_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_12_link" pos="0.0225352893573 0.0146789378144 0.0383504120359">
+                                <geom name="left_hand_touch_12_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_13_link" pos="0.021339425657 0.0284646754197 0.0426879327235">
+                                <geom name="left_hand_touch_13_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_14_link" pos="0.0216302046749 0.0239332938883 0.0427721380609">
+                                <geom name="left_hand_touch_14_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_15_link" pos="0.0216538265315 0.0193461744039 0.0427794557336">
+                                <geom name="left_hand_touch_15_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_16_link" pos="0.0215338845551 0.0147290814482 0.0427450257572">
+                                <geom name="left_hand_touch_16_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_17_link" pos="0.0204395596137 0.028534635563 0.0471123674251">
+                                <geom name="left_hand_touch_17_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_18_link" pos="0.0205699629496 0.0239697176453 0.0471503849867">
+                                <geom name="left_hand_touch_18_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_19_link" pos="0.0204632066345 0.0193562675588 0.0471190931897">
+                                <geom name="left_hand_touch_19_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_20_link" pos="0.0202803322234 0.014725606407 0.0470666559906">
+                                <geom name="left_hand_touch_20_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_21_link" pos="0.019217432187 0.0285364127896 0.0514443845603">
+                                <geom name="left_hand_touch_21_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_22_link" pos="0.0191988911569 0.0239418604492 0.0514380954389">
+                                <geom name="left_hand_touch_22_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_23_link" pos="0.0190404598491 0.0193168775079 0.0513923659073">
+                                <geom name="left_hand_touch_23_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_24_link" pos="0.0188743724514 0.0146894869318 0.0513447847534">
+                                <geom name="left_hand_touch_24_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_25_link" pos="0.0177490280928 0.0284877468442 0.0557041710736">
+                                <geom name="left_hand_touch_25_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_26_link" pos="0.0176666864571 0.0238795416962 0.0556799787911">
+                                <geom name="left_hand_touch_26_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_27_link" pos="0.0175294125164 0.0192586856158 0.0556403974041">
+                                <geom name="left_hand_touch_27_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_28_link" pos="0.0174069222717 0.0146402532468 0.0556053801889">
+                                <geom name="left_hand_touch_28_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_29_link" pos="0.016182021558 0.0284181370627 0.0599361346329">
+                                <geom name="left_hand_touch_29_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_30_link" pos="0.0160961591058 0.0238090001959 0.0599110175482">
+                                <geom name="left_hand_touch_30_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_31_link" pos="0.0160961591058 0.0238090001959 0.0599110175482">
+                                <geom name="left_hand_touch_31_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_32_link" pos="0.0159425353706 0.0145915912905 0.0598669863035">
+                                <geom name="left_hand_touch_32_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_33_link" pos="0.0159425353706 0.0145915912905 0.0598669863035">
+                                <geom name="left_hand_touch_33_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_34_link" pos="0.0145509389626 0.0237436636236 0.064149468405">
+                                <geom name="left_hand_touch_34_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_35_link" pos="0.0145211503813 0.019144834339 0.0641408788367">
+                                <geom name="left_hand_touch_35_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_36_link" pos="0.0145254462075 0.0145529048276 0.0641422361481">
+                                <geom name="left_hand_touch_36_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_37_link" pos="0.0131041876516 0.0282905880161 0.0684165008997">
+                                <geom name="left_hand_touch_37_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_38_link" pos="0.0130764464454 0.0236931576295 0.0684083034288">
+                                <geom name="left_hand_touch_38_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_39_link" pos="0.0131135600317 0.0191082153725 0.0684189186307">
+                                <geom name="left_hand_touch_39_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_40_link" pos="0.0131842332552 0.0145302834059 0.0684392499849">
+                                <geom name="left_hand_touch_40_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_41_link" pos="0.0116901201166 0.0282530200742 0.0726926086275">
+                                <geom name="left_hand_touch_41_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_42_link" pos="0.0117050680857 0.0236643843353 0.0726967328412">
+                                <geom name="left_hand_touch_42_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_43_link" pos="0.0118067898625 0.0190929202488 0.0727258428964">
+                                <geom name="left_hand_touch_43_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_44_link" pos="0.0119370370107 0.0145275986472 0.0727631690551">
+                                <geom name="left_hand_touch_44_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_45_link" pos="0.0104066151934 0.0282597783159 0.0770060348017">
+                                <geom name="left_hand_touch_45_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_46_link" pos="0.0104552122596 0.023712756067 0.0770368607284">
+                                <geom name="left_hand_touch_46_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_47_link" pos="0.0106128503371 0.0191530686459 0.0770821320872">
+                                <geom name="left_hand_touch_47_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_48_link" pos="0.0107905744412 0.0145978195798 0.0771329659825">
+                                <geom name="left_hand_touch_48_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_49_link" pos="0.0109183612653 0.0100325147112 0.0771694919602">
+                                <geom name="left_hand_touch_49_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_50_link" pos="0.0109988468433 0.00545740554724 0.0771924723088">
+                                <geom name="left_hand_touch_50_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_51_link" pos="0.0110646295613 0.000879085658966 0.0772112563256">
+                                <geom name="left_hand_touch_51_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_52_link" pos="0.0111362890283 -0.00369821927906 0.0772317458579">
+                                <geom name="left_hand_touch_52_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_53_link" pos="0.0112025925833 -0.00827691724674 0.0772507495182">
+                                <geom name="left_hand_touch_53_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_54_link" pos="0.0112184763398 -0.0128664194877 0.0772554393971">
+                                <geom name="left_hand_touch_54_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_55_link" pos="0.0111344420964 -0.0174764751138 0.0772317168542">
+                                <geom name="left_hand_touch_55_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_56_link" pos="0.0109749221971 -0.0221015765618 0.0771863173604">
+                                <geom name="left_hand_touch_56_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_57_link" pos="0.0108349499723 -0.0267237494458 0.0771461786729">
+                                <geom name="left_hand_touch_57_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_58_link" pos="0.0105425301903 -0.0313732762463 0.0769436018431">
+                                <geom name="left_hand_touch_58_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_59_link" pos="0.0104441941736 -0.0359916616672 0.0770341363287">
+                                <geom name="left_hand_touch_59_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_60_link" pos="0.0091971502609 0.0282829714021 0.081340630524">
+                                <geom name="left_hand_touch_60_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_61_link" pos="0.00932062986403 0.0237338475864 0.081392255988">
+                                <geom name="left_hand_touch_61_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_62_link" pos="0.00955183638872 0.0191895650074 0.0814588291198">
+                                <geom name="left_hand_touch_62_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_63_link" pos="0.00976643460847 0.0146424316695 0.081520573009">
+                                <geom name="left_hand_touch_63_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_64_link" pos="0.00991255371163 0.0100810900446 0.0815622450628">
+                                <geom name="left_hand_touch_64_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_65_link" pos="0.0100092079561 0.00550944602958 0.0815898572777">
+                                <geom name="left_hand_touch_65_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_66_link" pos="0.0100928792719 0.000934900911033 0.0816137210657">
+                                <geom name="left_hand_touch_66_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_67_link" pos="0.0101834954019 -0.00363842512354 0.0816395748458">
+                                <geom name="left_hand_touch_67_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_68_link" pos="0.0102663145343 -0.00821367309147 0.0816632266369">
+                                <geom name="left_hand_touch_68_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_69_link" pos="0.0102907053186 -0.0128014797424 0.0816702857935">
+                                <geom name="left_hand_touch_69_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_70_link" pos="0.0101966578903 -0.0174137579532 0.0816437235745">
+                                <geom name="left_hand_touch_70_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_71_link" pos="0.0100003768088 -0.0220463252006 0.0815878153409">
+                                <geom name="left_hand_touch_71_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_72_link" pos="0.00982263010656 -0.0266762101577 0.0815366578093">
+                                <geom name="left_hand_touch_72_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_73_link" pos="0.00969677149935 -0.0312966935828 0.081500282304">
+                                <geom name="left_hand_touch_73_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_74_link" pos="0.00949508262608 -0.035934169442 0.0814426154315">
+                                <geom name="left_hand_touch_74_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_75_link" pos="0.00816996129319 0.023751749743 0.0857434768739">
+                                <geom name="left_hand_touch_75_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_76_link" pos="0.00856912491648 0.0192422777757 0.0858577544056">
+                                <geom name="left_hand_touch_76_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_77_link" pos="0.00885987802324 0.0147115396638 0.0859415205582">
+                                <geom name="left_hand_touch_77_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_78_link" pos="0.00901403006452 0.0101525439892 0.0859860145329">
+                                <geom name="left_hand_touch_78_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_79_link" pos="0.00910347895394 0.00557947835959 0.086011162167">
+                                <geom name="left_hand_touch_79_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_80_link" pos="0.00919566982206 0.0010065467459 0.08603714926">
+                                <geom name="left_hand_touch_80_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_81_link" pos="0.00930514817054 -0.00356286533793 0.0860683571577">
+                                <geom name="left_hand_touch_81_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_82_link" pos="0.00941242716397 -0.00813300366179 0.0860990614408">
+                                <geom name="left_hand_touch_82_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_83_link" pos="0.00945764020538 -0.0127166023403 0.0861123552254">
+                                <geom name="left_hand_touch_83_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_84_link" pos="0.00934254376606 -0.0173334546329 0.0860801470267">
+                                <geom name="left_hand_touch_84_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_85_link" pos="0.00907467877727 -0.0219802330619 0.0860036032815">
+                                <geom name="left_hand_touch_85_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_86_link" pos="0.00886004425242 -0.0266175842934 0.0859410677036">
+                                <geom name="left_hand_touch_86_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_87_link" pos="0.00880262518161 -0.0312242826134 0.0859239047547">
+                                <geom name="left_hand_touch_87_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_88_link" pos="0.0087343606382 -0.0358334421824 0.0859052627215">
+                                <geom name="left_hand_touch_88_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_89_link" pos="0.00764451829746 0.0193255581662 0.0902911065438">
+                                <geom name="left_hand_touch_89_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_90_link" pos="0.00807245577855 0.0148233411479 0.0904137295308">
+                                <geom name="left_hand_touch_90_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_91_link" pos="0.00822201904762 0.0102640475505 0.090457554783">
+                                <geom name="left_hand_touch_91_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_92_link" pos="0.00823613236142 0.00567612779486 0.0904610847357">
+                                <geom name="left_hand_touch_92_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_93_link" pos="0.00830885627993 0.00109855501377 0.0904808056919">
+                                <geom name="left_hand_touch_93_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_94_link" pos="0.00845297260583 -0.0034639052804 0.0905216155325">
+                                <geom name="left_hand_touch_94_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_95_link" pos="0.00862215648199 -0.00802119002414 0.0905700296213">
+                                <geom name="left_hand_touch_95_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_96_link" pos="0.00871446474479 -0.0125953915461 0.09059724482">
+                                <geom name="left_hand_touch_96_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_97_link" pos="0.0085410746137 -0.0172245455143 0.0905490422992">
+                                <geom name="left_hand_touch_97_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_98_link" pos="0.0081401826799 -0.0218972741268 0.0904344317272">
+                                <geom name="left_hand_touch_98_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_99_link" pos="0.00788867949593 -0.0265422321339 0.0903603964208">
+                                <geom name="left_hand_touch_99_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_100_link" pos="0.00799106644579 -0.0311167996155 0.0903889745146">
+                                <geom name="left_hand_touch_100_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_101_link" pos="0.0081672 -0.035675 0.09044">
+                                <geom name="left_hand_touch_101_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_102_link" pos="0.0074284 0.014966 0.094927">
+                                <geom name="left_hand_touch_102_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_103_link" pos="0.00756056804639 0.0104022805441 0.0949666799866">
+                                <geom name="left_hand_touch_103_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_105_link" pos="0.00739933158672 0.00118645186729 0.0949183120595">
+                                <geom name="left_hand_touch_105_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_106_link" pos="0.00760107533803 -0.00336476278617 0.0949751421518">
+                                <geom name="left_hand_touch_106_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_107_link" pos="0.00789152502059 -0.00789688673316 0.0950582190621">
+                                <geom name="left_hand_touch_107_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_108_link" pos="0.00807161001254 -0.0124534710131 0.0951107545655">
+                                <geom name="left_hand_touch_108_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_109_link" pos="0.00781468020893 -0.0171002285955 0.095039317756">
+                                <geom name="left_hand_touch_109_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_110_link" pos="0.00723482261659 -0.0218073550404 0.094873609013">
+                                <geom name="left_hand_touch_110_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_111_link" pos="0.00707595323862 0.0105822907791 0.0995323182446">
+                                <geom name="left_hand_touch_111_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_112_link" pos="0.0066621 0.0059119 0.099415">
+                                <geom name="left_hand_touch_112_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_113_link" pos="0.00649146755477 0.00128173783927 0.099362541754">
+                                <geom name="left_hand_touch_113_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_114_link" pos="0.00676039148319 -0.00325727776148 0.0994380199008">
+                                <geom name="left_hand_touch_114_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_115_link" pos="0.00722995291214 -0.0077519991067 0.0995723371899">
+                                <geom name="left_hand_touch_115_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_116_link" pos="0.00754482386731 -0.0122809438254 0.0996631662974">
+                                <geom name="left_hand_touch_116_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
+                              <body name="left_hand_touch_117_link" pos="0.00720769476787 -0.0169449924526 0.0995691398734">
+                                <geom name="left_hand_touch_117_link_visual_0" class="visual" type="sphere" size="0.002" rgba="1.0 0.12 0.48 1" />
+                              </body>
                             </body>
                             <body name="left_plam_rubber_link">
-                              <geom name="left_plam_rubber_link_visual_0" class="visual" mesh="left_plam_rubber_link_visual_0_left_plam_rubber_link" />
+                              <geom name="left_plam_rubber_link_visual_0" class="visual" mesh="left_plam_rubber_link_visual_0_left_plam_rubber_link" rgba="0.60 0.61 0.67 1" />
                               <geom name="left_plam_rubber_link_collision_0" class="collision" mesh="left_plam_rubber_link_collision_0_left_plam_rubber_link" />
                             </body>
                             <body name="left_plam_link">
-                              <geom name="left_plam_link_visual_0" class="visual" mesh="left_plam_link_visual_0_left_plam_link__revo3_white_pc" />
-                              <geom name="left_plam_link_visual_1" class="visual" mesh="left_plam_link_visual_1_left_plam_link__revo3_aluminum" />
+                              <geom name="left_plam_link_visual_0" class="visual" mesh="left_plam_link_visual_0_left_plam_link__revo3_white_pc" rgba="0.94 0.95 0.97 1" />
+                              <geom name="left_plam_link_visual_1" class="visual" mesh="left_plam_link_visual_1_left_plam_link__revo3_aluminum" rgba="0.72 0.74 0.78 1" />
                               <geom name="left_plam_link_collision_0" class="collision" mesh="left_plam_link_collision_0_left_plam_backtrim_v2" />
                               <body name="left_plam_led_link">
-                                <geom name="left_plam_led_link_visual_0" class="visual" mesh="left_plam_led_link_visual_0_left_plam_led_link" />
+                                <geom name="left_plam_led_link_visual_0" class="visual" mesh="left_plam_led_link_visual_0_left_plam_led_link" rgba="0.04 0.80 1.0 1" />
                                 <geom name="left_plam_led_link_collision_0" class="collision" mesh="left_plam_led_link_collision_0_left_plam_led_link" />
                               </body>
                             </body>
@@ -757,7 +1251,7 @@
                         </body>
                         <body name="left_wrist_camera_frame" pos="0.072095 0.035586 0.030977" quat="0.966951941448 0.254958708283 0 0">
                           <inertial mass="0.049871" pos="0.00015466 3.5904e-06 -0.018703" fullinertia="5.88e-06 5.47e-06 4.56e-06 -7e-08 9e-08 7.7e-07" />
-                          <geom name="left_wrist_camera_frame_visual_0" class="visual" mesh="left_wrist_camera_frame_visual_0_left_wrist_camera_link" rgba="0.69804 0.69804 0.69804 1" />
+                          <geom name="left_wrist_camera_frame_visual_0" class="visual" mesh="left_wrist_camera_frame_visual_0_left_wrist_camera_link" rgba="0.025 0.030 0.035 1" />
                           <geom name="left_wrist_camera_frame_collision_0" class="collision" mesh="left_wrist_camera_frame_collision_0_left_wrist_camera_link" />
                         </body>
                       </body>

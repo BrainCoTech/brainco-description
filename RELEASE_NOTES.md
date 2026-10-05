@@ -1,5 +1,26 @@
 # Release Notes
 
+## v2026.10.05
+
+### Appearance
+
+- Make the approved 2026-09-20 Revotron metallic-paint appearance the default for single-arm and bimanual Revo3 assemblies, including MX Touch variants, using the existing URDF filenames.
+- Add silver shells, dark gray trim, cyan light covers, logos, a static face expression, rear-head rainbow details, column markings, and control-panel details.
+- Replace the original base, chest, and head visual meshes with 62 split and decorative meshes. Preserve Revotron joint, inertial, and collision definitions.
+- Refresh Revotron URDF previews and add appearance detail views and a MuJoCo preview.
+
+### Model exports
+
+- Regenerate the public URDF, MJCF, and USD assets from the upstream description packages, with appearance definitions maintained in the source packages for future generation.
+- Preserve global and inline URDF colors in MJCF, retain tactile marker primitives, and use shell inertia for decorative surface meshes so they load in MuJoCo.
+- Regenerate USD with v4 settings: fixed bases, merged fixed joints, zero drive stiffness/damping, disabled gravity, self-collision, and 16/4 position/velocity solver iterations. Retain the Revo3 palm decomposition and 32 thumb collision hulls per hand.
+- Preserve USD visual material colors and export flattened, non-instanced assets without unresolved importer references.
+- Store the two bimanual Revotron USD files with Git LFS; run `git lfs pull` after cloning to retrieve the model data.
+
+### Validation
+
+- Validate all 21 public model sets: load MJCF in MuJoCo, reopen USD, compare visual geometry and colors with URDF, and check the USD physics settings. These checks cover loading and exported properties; they do not add new dynamics or collision-accuracy validation.
+
 ## v2026.09.30
 
 - Update both Revo3 hands with 32 trimmed thumb CMR collision meshes per hand and backtrimmed palm collision meshes.

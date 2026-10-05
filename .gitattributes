@@ -1,0 +1,2 @@
+revotron_system/usd/revotron_bimanual_revo3.usd filter=lfs diff=lfs merge=lfs -text
+revotron_system/usd/revotron_bimanual_revo3_mx_touch.usd filter=lfs diff=lfs merge=lfs -text

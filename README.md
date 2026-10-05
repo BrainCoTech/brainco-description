@@ -4,7 +4,7 @@ This repository contains public robot description assets for BrainCo robot hands
 
 The public release includes URDF, MJCF, and USD descriptions, together with the mesh assets they reference.
 
-Current release: **v2026.09.30**. See [Release Notes](RELEASE_NOTES.md) for version history and model validation status.
+Current release: **v2026.10.05**. See [Release Notes](RELEASE_NOTES.md) for version history and model validation status.
 
 ## What Is Included
 
@@ -54,6 +54,14 @@ the markers. Both variants have matching PNGs under
 | <img src="visualizations/revotron_system/urdf/revotron_bimanual_revo3.png" alt="revotron_bimanual_revo3" width="120"> | URDF: `revotron_system/urdf/revotron_bimanual_revo3.urdf`<br>MJCF: `revotron_system/mjcf/revotron_bimanual_revo3.xml`<br>USD: `revotron_system/usd/revotron_bimanual_revo3.usd` | RevoTron | Revo3 | Bimanual | Left + right |
 
 ## Using the Models
+
+The two bimanual Revotron USD files are stored with Git LFS. Install Git LFS and
+run the following after cloning to retrieve the complete model files:
+
+```bash
+git lfs install
+git lfs pull
+```
 
 URDF files can be loaded by common robotics tools such as ROS, RViz, Pinocchio, and other URDF-compatible parsers.
 
