@@ -1,5 +1,9 @@
 # Release Notes
 
+## 20261009
+
+- 优化了revo3外观
+
 ## v2026.10.05
 
 ### Appearance

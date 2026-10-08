@@ -21,8 +21,8 @@
   <material name="right_revo3_led_cyan">
     <color rgba="0.04 0.80 1.0 1" />
   </material>
-  <material name="right_revo3_finger_taxel_pink">
-    <color rgba="1.0 0.12 0.48 1" />
+  <material name="right_revo3_finger_taxel_muted">
+    <color rgba="0.32 0.40 0.44 1" />
   </material>
   <link name="right_hand_base_link">
     <inertial>
@@ -1456,9 +1456,12 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hands/visual/right/right_plam_led_link.STL" />
+        <mesh filename="../meshes/hands/visual/right/right_plam_led_link.dae" />
       </geometry>
-      <material name="right_revo3_led_cyan" />
+      <material name="right_revo3_screen_texture">
+        <color rgba="1 1 1 1" />
+        <texture filename="../meshes/hands/visual/textures/revo3_screen.png" />
+      </material>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />

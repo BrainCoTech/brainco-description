@@ -166,7 +166,9 @@
     <mesh name="right_plam_link_visual_0_right_plam_link__revo3_white_pc" file="../meshes/hands/visual/right/right_plam_link__revo3_white_pc.stl" />
     <mesh name="right_plam_link_visual_1_right_plam_link__revo3_aluminum" file="../meshes/hands/visual/right/right_plam_link__revo3_aluminum.stl" />
     <mesh name="right_plam_link_collision_0_right_plam_backtrim_v2" file="../meshes/hands/collision/right/right_plam_backtrim_v2.obj" />
-    <mesh name="right_plam_led_link_visual_0_right_plam_led_link" file="../meshes/hands/visual/right/right_plam_led_link.STL" />
+    <mesh name="right_plam_led_link_visual_0_right_plam_led_link" file="meshes/right_plam_led_link.obj" />
+    <texture name="right_plam_led_link_visual_0_texture" type="2d" file="../meshes/hands/visual/textures/revo3_screen.png" />
+    <material name="right_plam_led_link_visual_0_material" texture="right_plam_led_link_visual_0_texture" rgba="1 1 1 1" />
     <mesh name="right_plam_led_link_collision_0_right_plam_led_link" file="../meshes/hands/collision/right/right_plam_led_link.STL" />
     <mesh name="right_wrist_camera_frame_visual_0_right_wrist_camera_link" file="../meshes/arm/visual/right_wrist_camera_link.STL" />
     <mesh name="right_wrist_camera_frame_collision_0_right_wrist_camera_link" file="../meshes/arm/collision/right_wrist_camera_link.STL" />
@@ -501,7 +503,7 @@
                               <geom name="right_plam_link_visual_1" class="visual" mesh="right_plam_link_visual_1_right_plam_link__revo3_aluminum" rgba="0.72 0.74 0.78 1" />
                               <geom name="right_plam_link_collision_0" class="collision" mesh="right_plam_link_collision_0_right_plam_backtrim_v2" />
                               <body name="right_plam_led_link">
-                                <geom name="right_plam_led_link_visual_0" class="visual" mesh="right_plam_led_link_visual_0_right_plam_led_link" rgba="0.04 0.80 1.0 1" />
+                                <geom name="right_plam_led_link_visual_0" class="visual" mesh="right_plam_led_link_visual_0_right_plam_led_link" rgba="1 1 1 1" material="right_plam_led_link_visual_0_material" />
                                 <geom name="right_plam_led_link_collision_0" class="collision" mesh="right_plam_led_link_collision_0_right_plam_led_link" />
                               </body>
                             </body>

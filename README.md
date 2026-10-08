@@ -4,7 +4,7 @@ This repository contains public robot description assets for BrainCo robot hands
 
 The public release includes URDF, MJCF, and USD descriptions, together with the mesh assets they reference.
 
-Current release: **v2026.10.05**. See [Release Notes](RELEASE_NOTES.md) for version history and model validation status.
+Current release: **20261009**. See [Release Notes](RELEASE_NOTES.md) for version history and model validation status.
 
 ## What Is Included
 
@@ -20,7 +20,7 @@ Current release: **v2026.10.05**. See [Release Notes](RELEASE_NOTES.md) for vers
 The rendered previews below correspond to the robot description entry points in this repository. `Arm: None` means the model is a standalone dexterous hand with no arm assembly.
 
 Previews are rendered directly from the current URDF visual geometry in the
-zero joint configuration. Revo3 files ending in `_mx_touch` include the pink
+zero joint configuration. Revo3 files ending in `_mx_touch` include the
 tactile point markers; unsuffixed files show the same physical model without
 the markers. Both variants have matching PNGs under
 `visualizations/<system>/urdf/<urdf_name>.png`.
@@ -55,13 +55,15 @@ the markers. Both variants have matching PNGs under
 
 ## Using the Models
 
-The two bimanual Revotron USD files are stored with Git LFS. Install Git LFS and
+Bimanual Revotron USD files are stored with Git LFS. Install Git LFS and
 run the following after cloning to retrieve the complete model files:
 
 ```bash
 git lfs install
 git lfs pull
 ```
+
+All URDF, MJCF and USD models retain the complete visual appearance.
 
 URDF files can be loaded by common robotics tools such as ROS, RViz, Pinocchio, and other URDF-compatible parsers.
 

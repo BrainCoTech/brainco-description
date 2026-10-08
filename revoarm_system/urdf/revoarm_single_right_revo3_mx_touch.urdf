@@ -269,8 +269,8 @@
   <material name="right_revo3_led_cyan">
     <color rgba="0.04 0.80 1.0 1" />
   </material>
-  <material name="right_revo3_finger_taxel_pink">
-    <color rgba="1.0 0.12 0.48 1" />
+  <material name="right_revo3_finger_taxel_muted">
+    <color rgba="0.32 0.40 0.44 1" />
   </material>
   <link name="right_hand_base_link">
     <inertial>
@@ -1657,7 +1657,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_0_joint" type="fixed">
@@ -1672,7 +1672,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_1_joint" type="fixed">
@@ -1687,7 +1687,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_2_joint" type="fixed">
@@ -1702,7 +1702,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_3_joint" type="fixed">
@@ -1717,7 +1717,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_4_joint" type="fixed">
@@ -1732,7 +1732,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_5_joint" type="fixed">
@@ -1747,7 +1747,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_6_joint" type="fixed">
@@ -1762,7 +1762,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_7_joint" type="fixed">
@@ -1777,7 +1777,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_8_joint" type="fixed">
@@ -1792,7 +1792,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_9_joint" type="fixed">
@@ -1807,7 +1807,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_10_joint" type="fixed">
@@ -1822,7 +1822,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_11_joint" type="fixed">
@@ -1837,7 +1837,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_12_joint" type="fixed">
@@ -1852,7 +1852,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_13_joint" type="fixed">
@@ -1867,7 +1867,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_14_joint" type="fixed">
@@ -1882,7 +1882,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_15_joint" type="fixed">
@@ -1897,7 +1897,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_16_joint" type="fixed">
@@ -1912,7 +1912,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_17_joint" type="fixed">
@@ -1927,7 +1927,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_18_joint" type="fixed">
@@ -1942,7 +1942,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_19_joint" type="fixed">
@@ -1957,7 +1957,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_20_joint" type="fixed">
@@ -1972,7 +1972,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_21_joint" type="fixed">
@@ -1987,7 +1987,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_22_joint" type="fixed">
@@ -2002,7 +2002,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_23_joint" type="fixed">
@@ -2017,7 +2017,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_24_joint" type="fixed">
@@ -2032,7 +2032,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_25_joint" type="fixed">
@@ -2047,7 +2047,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_26_joint" type="fixed">
@@ -2062,7 +2062,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_27_joint" type="fixed">
@@ -2077,7 +2077,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_28_joint" type="fixed">
@@ -2092,7 +2092,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_29_joint" type="fixed">
@@ -2107,7 +2107,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_30_joint" type="fixed">
@@ -2122,7 +2122,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_31_joint" type="fixed">
@@ -2137,7 +2137,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_32_joint" type="fixed">
@@ -2152,7 +2152,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_33_joint" type="fixed">
@@ -2167,7 +2167,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_34_joint" type="fixed">
@@ -2182,7 +2182,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_35_joint" type="fixed">
@@ -2197,7 +2197,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_36_joint" type="fixed">
@@ -2212,7 +2212,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_37_joint" type="fixed">
@@ -2227,7 +2227,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_38_joint" type="fixed">
@@ -2242,7 +2242,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_39_joint" type="fixed">
@@ -2257,7 +2257,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_40_joint" type="fixed">
@@ -2272,7 +2272,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_41_joint" type="fixed">
@@ -2287,7 +2287,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_42_joint" type="fixed">
@@ -2302,7 +2302,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_43_joint" type="fixed">
@@ -2317,7 +2317,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_44_joint" type="fixed">
@@ -2332,7 +2332,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_45_joint" type="fixed">
@@ -2347,7 +2347,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_46_joint" type="fixed">
@@ -2362,7 +2362,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_47_joint" type="fixed">
@@ -2377,7 +2377,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_48_joint" type="fixed">
@@ -2392,7 +2392,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_49_joint" type="fixed">
@@ -2407,7 +2407,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_50_joint" type="fixed">
@@ -2422,7 +2422,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_51_joint" type="fixed">
@@ -2437,7 +2437,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_52_joint" type="fixed">
@@ -2452,7 +2452,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_53_joint" type="fixed">
@@ -2467,7 +2467,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_54_joint" type="fixed">
@@ -2482,7 +2482,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_55_joint" type="fixed">
@@ -2497,7 +2497,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_56_joint" type="fixed">
@@ -2512,7 +2512,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_57_joint" type="fixed">
@@ -2527,7 +2527,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_58_joint" type="fixed">
@@ -2542,7 +2542,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_59_joint" type="fixed">
@@ -2557,7 +2557,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_60_joint" type="fixed">
@@ -2572,7 +2572,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_61_joint" type="fixed">
@@ -2587,7 +2587,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_62_joint" type="fixed">
@@ -2602,7 +2602,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_63_joint" type="fixed">
@@ -2617,7 +2617,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_64_joint" type="fixed">
@@ -2632,7 +2632,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_65_joint" type="fixed">
@@ -2647,7 +2647,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_66_joint" type="fixed">
@@ -2662,7 +2662,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_67_joint" type="fixed">
@@ -2677,7 +2677,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_68_joint" type="fixed">
@@ -2692,7 +2692,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_69_joint" type="fixed">
@@ -2707,7 +2707,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_70_joint" type="fixed">
@@ -2722,7 +2722,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_71_joint" type="fixed">
@@ -2737,7 +2737,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_72_joint" type="fixed">
@@ -2752,7 +2752,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_73_joint" type="fixed">
@@ -2767,7 +2767,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_74_joint" type="fixed">
@@ -2782,7 +2782,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_75_joint" type="fixed">
@@ -2797,7 +2797,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_76_joint" type="fixed">
@@ -2812,7 +2812,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_77_joint" type="fixed">
@@ -2827,7 +2827,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_78_joint" type="fixed">
@@ -2842,7 +2842,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_79_joint" type="fixed">
@@ -2857,7 +2857,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_80_joint" type="fixed">
@@ -2872,7 +2872,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_81_joint" type="fixed">
@@ -2887,7 +2887,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_82_joint" type="fixed">
@@ -2902,7 +2902,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_83_joint" type="fixed">
@@ -2917,7 +2917,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_84_joint" type="fixed">
@@ -2932,7 +2932,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_85_joint" type="fixed">
@@ -2947,7 +2947,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_86_joint" type="fixed">
@@ -2962,7 +2962,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_87_joint" type="fixed">
@@ -2977,7 +2977,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_88_joint" type="fixed">
@@ -2992,7 +2992,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_89_joint" type="fixed">
@@ -3007,7 +3007,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_90_joint" type="fixed">
@@ -3022,7 +3022,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_91_joint" type="fixed">
@@ -3037,7 +3037,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_92_joint" type="fixed">
@@ -3052,7 +3052,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_93_joint" type="fixed">
@@ -3067,7 +3067,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_94_joint" type="fixed">
@@ -3082,7 +3082,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_95_joint" type="fixed">
@@ -3097,7 +3097,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_96_joint" type="fixed">
@@ -3112,7 +3112,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_97_joint" type="fixed">
@@ -3127,7 +3127,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_98_joint" type="fixed">
@@ -3142,7 +3142,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_99_joint" type="fixed">
@@ -3157,7 +3157,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_100_joint" type="fixed">
@@ -3172,7 +3172,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_101_joint" type="fixed">
@@ -3187,7 +3187,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_102_joint" type="fixed">
@@ -3202,7 +3202,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_103_joint" type="fixed">
@@ -3217,7 +3217,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_105_joint" type="fixed">
@@ -3232,7 +3232,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_106_joint" type="fixed">
@@ -3247,7 +3247,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_107_joint" type="fixed">
@@ -3262,7 +3262,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_108_joint" type="fixed">
@@ -3277,7 +3277,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_109_joint" type="fixed">
@@ -3292,7 +3292,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_110_joint" type="fixed">
@@ -3307,7 +3307,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_111_joint" type="fixed">
@@ -3322,7 +3322,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_112_joint" type="fixed">
@@ -3337,7 +3337,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_113_joint" type="fixed">
@@ -3352,7 +3352,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_114_joint" type="fixed">
@@ -3367,7 +3367,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_115_joint" type="fixed">
@@ -3382,7 +3382,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_116_joint" type="fixed">
@@ -3397,7 +3397,7 @@
       <geometry>
         <sphere radius="0.002" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_hand_touch_117_joint" type="fixed">
@@ -3459,9 +3459,12 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hands/visual/right/right_plam_led_link.STL" />
+        <mesh filename="../meshes/hands/visual/right/right_plam_led_link.dae" />
       </geometry>
-      <material name="right_revo3_led_cyan" />
+      <material name="right_revo3_screen_texture">
+        <color rgba="1 1 1 1" />
+        <texture filename="../meshes/hands/visual/textures/revo3_screen.png" />
+      </material>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
@@ -3482,7 +3485,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_thumb_fingerpad_0_joint" type="fixed">
@@ -3496,7 +3499,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_thumb_fingerpad_1_joint" type="fixed">
@@ -3510,7 +3513,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_thumb_fingerpad_2_joint" type="fixed">
@@ -3524,7 +3527,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_thumb_fingerpad_3_joint" type="fixed">
@@ -3538,7 +3541,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_thumb_fingerpad_4_joint" type="fixed">
@@ -3552,7 +3555,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_thumb_fingerpad_5_joint" type="fixed">
@@ -3566,7 +3569,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_thumb_fingerpad_6_joint" type="fixed">
@@ -3580,7 +3583,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_thumb_fingerpad_7_joint" type="fixed">
@@ -3594,7 +3597,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_thumb_fingerpad_8_joint" type="fixed">
@@ -3608,7 +3611,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_thumb_fingerpad_9_joint" type="fixed">
@@ -3622,7 +3625,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_thumb_fingerpad_10_joint" type="fixed">
@@ -3636,7 +3639,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_thumb_fingerpad_11_joint" type="fixed">
@@ -3650,7 +3653,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_thumb_fingerpad_12_joint" type="fixed">
@@ -3664,7 +3667,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_thumb_fingerpad_13_joint" type="fixed">
@@ -3678,7 +3681,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_thumb_fingerpad_14_joint" type="fixed">
@@ -3692,7 +3695,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_thumb_fingerpad_15_joint" type="fixed">
@@ -3706,7 +3709,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_thumb_fingerpad_16_joint" type="fixed">
@@ -3720,7 +3723,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_thumb_fingerpad_17_joint" type="fixed">
@@ -3734,7 +3737,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_thumb_fingerpad_18_joint" type="fixed">
@@ -3748,7 +3751,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_thumb_fingerpad_19_joint" type="fixed">
@@ -3762,7 +3765,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_thumb_fingerpad_20_joint" type="fixed">
@@ -3776,7 +3779,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_thumb_fingerpad_21_joint" type="fixed">
@@ -3790,7 +3793,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_index_fingerpad_0_joint" type="fixed">
@@ -3804,7 +3807,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_index_fingerpad_1_joint" type="fixed">
@@ -3818,7 +3821,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_index_fingerpad_2_joint" type="fixed">
@@ -3832,7 +3835,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_index_fingerpad_3_joint" type="fixed">
@@ -3846,7 +3849,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_index_fingerpad_4_joint" type="fixed">
@@ -3860,7 +3863,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_index_fingerpad_5_joint" type="fixed">
@@ -3874,7 +3877,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_index_fingerpad_6_joint" type="fixed">
@@ -3888,7 +3891,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_index_fingerpad_7_joint" type="fixed">
@@ -3902,7 +3905,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_index_fingerpad_8_joint" type="fixed">
@@ -3916,7 +3919,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_index_fingerpad_9_joint" type="fixed">
@@ -3930,7 +3933,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_index_fingerpad_10_joint" type="fixed">
@@ -3944,7 +3947,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_index_fingerpad_11_joint" type="fixed">
@@ -3958,7 +3961,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_index_fingerpad_12_joint" type="fixed">
@@ -3972,7 +3975,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_index_fingerpad_13_joint" type="fixed">
@@ -3986,7 +3989,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_index_fingerpad_14_joint" type="fixed">
@@ -4000,7 +4003,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_index_fingerpad_15_joint" type="fixed">
@@ -4014,7 +4017,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_index_fingerpad_16_joint" type="fixed">
@@ -4028,7 +4031,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_index_fingerpad_17_joint" type="fixed">
@@ -4042,7 +4045,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_index_fingerpad_18_joint" type="fixed">
@@ -4056,7 +4059,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_index_fingerpad_19_joint" type="fixed">
@@ -4070,7 +4073,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_index_fingerpad_20_joint" type="fixed">
@@ -4084,7 +4087,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_index_fingerpad_21_joint" type="fixed">
@@ -4098,7 +4101,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_index_fingerpad_22_joint" type="fixed">
@@ -4112,7 +4115,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_index_fingerpad_23_joint" type="fixed">
@@ -4126,7 +4129,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_index_fingerpad_24_joint" type="fixed">
@@ -4140,7 +4143,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_index_fingerpad_25_joint" type="fixed">
@@ -4154,7 +4157,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_index_fingerpad_26_joint" type="fixed">
@@ -4168,7 +4171,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_middle_fingerpad_0_joint" type="fixed">
@@ -4182,7 +4185,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_middle_fingerpad_1_joint" type="fixed">
@@ -4196,7 +4199,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_middle_fingerpad_2_joint" type="fixed">
@@ -4210,7 +4213,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_middle_fingerpad_3_joint" type="fixed">
@@ -4224,7 +4227,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_middle_fingerpad_4_joint" type="fixed">
@@ -4238,7 +4241,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_middle_fingerpad_5_joint" type="fixed">
@@ -4252,7 +4255,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_middle_fingerpad_6_joint" type="fixed">
@@ -4266,7 +4269,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_middle_fingerpad_7_joint" type="fixed">
@@ -4280,7 +4283,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_middle_fingerpad_8_joint" type="fixed">
@@ -4294,7 +4297,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_middle_fingerpad_9_joint" type="fixed">
@@ -4308,7 +4311,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_middle_fingerpad_10_joint" type="fixed">
@@ -4322,7 +4325,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_middle_fingerpad_11_joint" type="fixed">
@@ -4336,7 +4339,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_middle_fingerpad_12_joint" type="fixed">
@@ -4350,7 +4353,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_middle_fingerpad_13_joint" type="fixed">
@@ -4364,7 +4367,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_middle_fingerpad_14_joint" type="fixed">
@@ -4378,7 +4381,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_middle_fingerpad_15_joint" type="fixed">
@@ -4392,7 +4395,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_middle_fingerpad_16_joint" type="fixed">
@@ -4406,7 +4409,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_middle_fingerpad_17_joint" type="fixed">
@@ -4420,7 +4423,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_middle_fingerpad_18_joint" type="fixed">
@@ -4434,7 +4437,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_middle_fingerpad_19_joint" type="fixed">
@@ -4448,7 +4451,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_middle_fingerpad_20_joint" type="fixed">
@@ -4462,7 +4465,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_middle_fingerpad_21_joint" type="fixed">
@@ -4476,7 +4479,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_middle_fingerpad_22_joint" type="fixed">
@@ -4490,7 +4493,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_middle_fingerpad_23_joint" type="fixed">
@@ -4504,7 +4507,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_middle_fingerpad_24_joint" type="fixed">
@@ -4518,7 +4521,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_middle_fingerpad_25_joint" type="fixed">
@@ -4532,7 +4535,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_middle_fingerpad_26_joint" type="fixed">
@@ -4546,7 +4549,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_ring_fingerpad_0_joint" type="fixed">
@@ -4560,7 +4563,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_ring_fingerpad_1_joint" type="fixed">
@@ -4574,7 +4577,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_ring_fingerpad_2_joint" type="fixed">
@@ -4588,7 +4591,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_ring_fingerpad_3_joint" type="fixed">
@@ -4602,7 +4605,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_ring_fingerpad_4_joint" type="fixed">
@@ -4616,7 +4619,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_ring_fingerpad_5_joint" type="fixed">
@@ -4630,7 +4633,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_ring_fingerpad_6_joint" type="fixed">
@@ -4644,7 +4647,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_ring_fingerpad_7_joint" type="fixed">
@@ -4658,7 +4661,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_ring_fingerpad_8_joint" type="fixed">
@@ -4672,7 +4675,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_ring_fingerpad_9_joint" type="fixed">
@@ -4686,7 +4689,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_ring_fingerpad_10_joint" type="fixed">
@@ -4700,7 +4703,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_ring_fingerpad_11_joint" type="fixed">
@@ -4714,7 +4717,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_ring_fingerpad_12_joint" type="fixed">
@@ -4728,7 +4731,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_ring_fingerpad_13_joint" type="fixed">
@@ -4742,7 +4745,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_ring_fingerpad_14_joint" type="fixed">
@@ -4756,7 +4759,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_ring_fingerpad_15_joint" type="fixed">
@@ -4770,7 +4773,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_ring_fingerpad_16_joint" type="fixed">
@@ -4784,7 +4787,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_ring_fingerpad_17_joint" type="fixed">
@@ -4798,7 +4801,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_ring_fingerpad_18_joint" type="fixed">
@@ -4812,7 +4815,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_ring_fingerpad_19_joint" type="fixed">
@@ -4826,7 +4829,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_ring_fingerpad_20_joint" type="fixed">
@@ -4840,7 +4843,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_ring_fingerpad_21_joint" type="fixed">
@@ -4854,7 +4857,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_ring_fingerpad_22_joint" type="fixed">
@@ -4868,7 +4871,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_ring_fingerpad_23_joint" type="fixed">
@@ -4882,7 +4885,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_ring_fingerpad_24_joint" type="fixed">
@@ -4896,7 +4899,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_ring_fingerpad_25_joint" type="fixed">
@@ -4910,7 +4913,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_ring_fingerpad_26_joint" type="fixed">
@@ -4924,7 +4927,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_little_fingerpad_0_joint" type="fixed">
@@ -4938,7 +4941,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_little_fingerpad_1_joint" type="fixed">
@@ -4952,7 +4955,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_little_fingerpad_2_joint" type="fixed">
@@ -4966,7 +4969,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_little_fingerpad_3_joint" type="fixed">
@@ -4980,7 +4983,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_little_fingerpad_4_joint" type="fixed">
@@ -4994,7 +4997,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_little_fingerpad_5_joint" type="fixed">
@@ -5008,7 +5011,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_little_fingerpad_6_joint" type="fixed">
@@ -5022,7 +5025,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_little_fingerpad_7_joint" type="fixed">
@@ -5036,7 +5039,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_little_fingerpad_8_joint" type="fixed">
@@ -5050,7 +5053,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_little_fingerpad_9_joint" type="fixed">
@@ -5064,7 +5067,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_little_fingerpad_10_joint" type="fixed">
@@ -5078,7 +5081,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_little_fingerpad_11_joint" type="fixed">
@@ -5092,7 +5095,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_little_fingerpad_12_joint" type="fixed">
@@ -5106,7 +5109,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_little_fingerpad_13_joint" type="fixed">
@@ -5120,7 +5123,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_little_fingerpad_14_joint" type="fixed">
@@ -5134,7 +5137,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_little_fingerpad_15_joint" type="fixed">
@@ -5148,7 +5151,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_little_fingerpad_16_joint" type="fixed">
@@ -5162,7 +5165,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_little_fingerpad_17_joint" type="fixed">
@@ -5176,7 +5179,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_little_fingerpad_18_joint" type="fixed">
@@ -5190,7 +5193,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_little_fingerpad_19_joint" type="fixed">
@@ -5204,7 +5207,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_little_fingerpad_20_joint" type="fixed">
@@ -5218,7 +5221,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_little_fingerpad_21_joint" type="fixed">
@@ -5232,7 +5235,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_little_fingerpad_22_joint" type="fixed">
@@ -5246,7 +5249,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_little_fingerpad_23_joint" type="fixed">
@@ -5260,7 +5263,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_little_fingerpad_24_joint" type="fixed">
@@ -5274,7 +5277,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_little_fingerpad_25_joint" type="fixed">
@@ -5288,7 +5291,7 @@
       <geometry>
         <sphere radius="0.0012" />
       </geometry>
-      <material name="right_revo3_finger_taxel_pink" />
+      <material name="right_revo3_finger_taxel_muted" />
     </visual>
   </link>
   <joint name="right_little_fingerpad_26_joint" type="fixed">

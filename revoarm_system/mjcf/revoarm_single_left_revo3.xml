@@ -164,7 +164,9 @@
     <mesh name="left_plam_link_visual_0_left_plam_link__revo3_white_pc" file="../meshes/hands/visual/left/left_plam_link__revo3_white_pc.stl" />
     <mesh name="left_plam_link_visual_1_left_plam_link__revo3_aluminum" file="../meshes/hands/visual/left/left_plam_link__revo3_aluminum.stl" />
     <mesh name="left_plam_link_collision_0_left_plam_backtrim_v2" file="../meshes/hands/collision/left/left_plam_backtrim_v2.obj" />
-    <mesh name="left_plam_led_link_visual_0_left_plam_led_link" file="../meshes/hands/visual/left/left_plam_led_link.STL" />
+    <mesh name="left_plam_led_link_visual_0_left_plam_led_link" file="meshes/left_plam_led_link.obj" />
+    <texture name="left_plam_led_link_visual_0_texture" type="2d" file="../meshes/hands/visual/textures/revo3_screen.png" />
+    <material name="left_plam_led_link_visual_0_material" texture="left_plam_led_link_visual_0_texture" rgba="1 1 1 1" />
     <mesh name="left_plam_led_link_collision_0_left_plam_led_link" file="../meshes/hands/collision/left/left_plam_led_link.STL" />
   </asset>
   <worldbody>
@@ -494,7 +496,7 @@
                               <geom name="left_plam_link_visual_1" class="visual" mesh="left_plam_link_visual_1_left_plam_link__revo3_aluminum" rgba="0.72 0.74 0.78 1" />
                               <geom name="left_plam_link_collision_0" class="collision" mesh="left_plam_link_collision_0_left_plam_backtrim_v2" />
                               <body name="left_plam_led_link">
-                                <geom name="left_plam_led_link_visual_0" class="visual" mesh="left_plam_led_link_visual_0_left_plam_led_link" rgba="0.04 0.80 1.0 1" />
+                                <geom name="left_plam_led_link_visual_0" class="visual" mesh="left_plam_led_link_visual_0_left_plam_led_link" rgba="1 1 1 1" material="left_plam_led_link_visual_0_material" />
                                 <geom name="left_plam_led_link_collision_0" class="collision" mesh="left_plam_led_link_collision_0_left_plam_led_link" />
                               </body>
                             </body>
