@@ -1371,7 +1371,7 @@
   <link name="left_middle_MPR_link">
     <inertial>
       <origin rpy="0 0 0" xyz="-0.00069304700318718 -0.0005683416302923 0.008156938659092" />
-      <mass value="0.012" />
+      <mass value="0.013" />
       <inertia ixx="1.01e-06" ixy="0" ixz="7e-08" iyy="1.02e-06" iyz="0" izz="1.14e-06" />
     </inertial>
     <visual>
@@ -1425,7 +1425,7 @@
   <link name="left_middle_PIP_link">
     <inertial>
       <origin rpy="0 0 0" xyz="0.00254217311458799 -0.000315568620252455 0.0177761307995258" />
-      <mass value="0.031" />
+      <mass value="0.0332" />
       <inertia ixx="3.1e-06" ixy="1e-08" ixz="-1e-07" iyy="2.62e-06" iyz="0" izz="2.36e-06" />
     </inertial>
     <visual>
@@ -2088,7 +2088,7 @@
   <link name="left_index_PIP_link">
     <inertial>
       <origin rpy="0 0 0" xyz="0.0027887703894048 -0.000930845049017148 0.0177465923761013" />
-      <mass value="0.031" />
+      <mass value="0.0332" />
       <inertia ixx="3.09e-06" ixy="3e-08" ixz="-1e-07" iyy="2.62e-06" iyz="1e-08" izz="2.36e-06" />
     </inertial>
     <visual>
@@ -2115,7 +2115,7 @@
   <link name="left_index_DIP_link">
     <inertial>
       <origin rpy="0 0 0" xyz="0.00234140341681414 -0.000855644874272921 0.0154493695277692" />
-      <mass value="0.009" />
+      <mass value="0.011" />
       <inertia ixx="5.94123605446044e-07" ixy="-4.0696894448e-09" ixz="8.43434809919992e-09" iyy="6.23320647110489e-07" iyz="2.83878643697777e-09" izz="4.70674098945156e-07" />
     </inertial>
     <visual name="left_index_DIP_link__revo3_silicone_2162u_approx">
@@ -2415,25 +2415,25 @@
     <axis xyz="0 0 0" />
     <mimic joint="left_ring_PIP_joint" multiplier="1" offset="0" />
   </joint>
-  <link name="left_ring_PIP_tubber_link">
+  <link name="left_ring_PIP_rubber_link">
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hands/visual/left/left_ring_PIP_tubber_link.STL" />
+        <mesh filename="../meshes/hands/visual/left/left_ring_PIP_rubber_link.STL" />
       </geometry>
       <material name="left_revo3_silicone_2162u_approx" />
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hands/collision/left/left_ring_PIP_tubber_link.STL" />
+        <mesh filename="../meshes/hands/collision/left/left_ring_PIP_rubber_link.STL" />
       </geometry>
     </collision>
   </link>
-  <joint name="left_ring_PIP_tubber_joint" type="fixed">
+  <joint name="left_ring_PIP_rubber_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="left_ring_PIP_link" />
-    <child link="left_ring_PIP_tubber_link" />
+    <child link="left_ring_PIP_rubber_link" />
     <axis xyz="0 0 0" />
     <mimic joint="left_ring_PIP_joint" multiplier="1" offset="0" />
   </joint>
@@ -2706,81 +2706,81 @@
     <axis xyz="0 0 0" />
     <mimic joint="left_little_MCP_joint" multiplier="1" offset="0" />
   </joint>
-  <link name="left_plam_touch_link">
+  <link name="left_palm_touch_link">
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hands/visual/left/left_plam_touch_link.STL" />
+        <mesh filename="../meshes/hands/visual/left/left_palm_touch_link.STL" />
       </geometry>
       <material name="left_revo3_silicone_2162u_approx" />
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hands/collision/left/left_plam_touch_link.STL" />
+        <mesh filename="../meshes/hands/collision/left/left_palm_touch_link.STL" />
       </geometry>
     </collision>
   </link>
-  <joint name="left_plam_touch_joint" type="fixed">
+  <joint name="left_palm_touch_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="left_hand_base_link" />
-    <child link="left_plam_touch_link" />
+    <child link="left_palm_touch_link" />
     <axis xyz="0 0 0" />
   </joint>
-  <link name="left_plam_rubber_link">
+  <link name="left_palm_rubber_link">
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hands/visual/left/left_plam_rubber_link.STL" />
+        <mesh filename="../meshes/hands/visual/left/left_palm_rubber_link.STL" />
       </geometry>
       <material name="left_revo3_silicone_2162u_approx" />
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hands/collision/left/left_plam_rubber_link.STL" />
+        <mesh filename="../meshes/hands/collision/left/left_palm_rubber_link.STL" />
       </geometry>
     </collision>
   </link>
-  <joint name="left_plam_rubber_joint" type="fixed">
+  <joint name="left_palm_rubber_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="left_hand_base_link" />
-    <child link="left_plam_rubber_link" />
+    <child link="left_palm_rubber_link" />
     <axis xyz="0 0 0" />
   </joint>
-  <link name="left_plam_link">
-    <visual name="left_plam_link__revo3_white_pc">
+  <link name="left_palm_link">
+    <visual name="left_palm_link__revo3_white_pc">
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hands/visual/left/left_plam_link__revo3_white_pc.stl" />
+        <mesh filename="../meshes/hands/visual/left/left_palm_link__revo3_white_pc.stl" />
       </geometry>
       <material name="left_revo3_white_pc" />
     </visual>
-    <visual name="left_plam_link__revo3_aluminum">
+    <visual name="left_palm_link__revo3_aluminum">
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hands/visual/left/left_plam_link__revo3_aluminum.stl" />
+        <mesh filename="../meshes/hands/visual/left/left_palm_link__revo3_aluminum.stl" />
       </geometry>
       <material name="left_revo3_aluminum" />
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hands/collision/left/left_plam_backtrim_v2.obj" />
+        <mesh filename="../meshes/hands/collision/left/left_palm_backtrim_v2.obj" />
       </geometry>
     </collision>
   </link>
-  <joint name="left_plam_joint" type="fixed">
+  <joint name="left_palm_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="left_hand_base_link" />
-    <child link="left_plam_link" />
+    <child link="left_palm_link" />
     <axis xyz="0 0 0" />
   </joint>
-  <link name="left_plam_led_link">
+  <link name="left_palm_led_link">
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hands/visual/left/left_plam_led_link.dae" />
+        <mesh filename="../meshes/hands/visual/left/left_palm_led_link.dae" />
       </geometry>
       <material name="left_revo3_screen_texture">
         <color rgba="1 1 1 1" />
@@ -2790,14 +2790,14 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hands/collision/left/left_plam_led_link.STL" />
+        <mesh filename="../meshes/hands/collision/left/left_palm_led_link.STL" />
       </geometry>
     </collision>
   </link>
-  <joint name="left_plam_led_joint" type="fixed">
+  <joint name="left_palm_led_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0 0 0" />
-    <parent link="left_plam_link" />
-    <child link="left_plam_led_link" />
+    <parent link="left_palm_link" />
+    <child link="left_palm_led_link" />
     <axis xyz="0 0 0" />
   </joint>
   <link name="left_palm" />
@@ -3926,25 +3926,25 @@
     <axis xyz="0 0 0" />
     <mimic joint="right_ring_PIP_joint" multiplier="1" offset="0" />
   </joint>
-  <link name="right_ring_PIP_tubber_link">
+  <link name="right_ring_PIP_rubber_link">
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hands/visual/right/right_ring_PIP_tubber_link.STL" />
+        <mesh filename="../meshes/hands/visual/right/right_ring_PIP_rubber_link.STL" />
       </geometry>
       <material name="right_revo3_silicone_2162u_approx" />
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hands/collision/right/right_ring_PIP_tubber_link.STL" />
+        <mesh filename="../meshes/hands/collision/right/right_ring_PIP_rubber_link.STL" />
       </geometry>
     </collision>
   </link>
-  <joint name="right_ring_PIP_tubber_joint" type="fixed">
+  <joint name="right_ring_PIP_rubber_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="right_ring_PIP_link" />
-    <child link="right_ring_PIP_tubber_link" />
+    <child link="right_ring_PIP_rubber_link" />
     <axis xyz="0 0 0" />
     <mimic joint="right_ring_PIP_joint" multiplier="1" offset="0" />
   </joint>
@@ -4217,81 +4217,81 @@
     <axis xyz="0 0 0" />
     <mimic joint="right_little_MCP_joint" multiplier="1" offset="0" />
   </joint>
-  <link name="right_plam_touch_link">
+  <link name="right_palm_touch_link">
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hands/visual/right/right_plam_touch_link.STL" />
+        <mesh filename="../meshes/hands/visual/right/right_palm_touch_link.STL" />
       </geometry>
       <material name="right_revo3_silicone_2162u_approx" />
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hands/collision/right/right_plam_touch_link.STL" />
+        <mesh filename="../meshes/hands/collision/right/right_palm_touch_link.STL" />
       </geometry>
     </collision>
   </link>
-  <joint name="right_plam_touch_joint" type="fixed">
+  <joint name="right_palm_touch_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="right_hand_base_link" />
-    <child link="right_plam_touch_link" />
+    <child link="right_palm_touch_link" />
     <axis xyz="0 0 0" />
   </joint>
-  <link name="right_plam_rubber_link">
+  <link name="right_palm_rubber_link">
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hands/visual/right/right_plam_rubber_link.STL" />
+        <mesh filename="../meshes/hands/visual/right/right_palm_rubber_link.STL" />
       </geometry>
       <material name="right_revo3_silicone_2162u_approx" />
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hands/collision/right/right_plam_rubber_link.STL" />
+        <mesh filename="../meshes/hands/collision/right/right_palm_rubber_link.STL" />
       </geometry>
     </collision>
   </link>
-  <joint name="right_plam_rubber_joint" type="fixed">
+  <joint name="right_palm_rubber_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="right_hand_base_link" />
-    <child link="right_plam_rubber_link" />
+    <child link="right_palm_rubber_link" />
     <axis xyz="0 0 0" />
   </joint>
-  <link name="right_plam_link">
-    <visual name="right_plam_link__revo3_white_pc">
+  <link name="right_palm_link">
+    <visual name="right_palm_link__revo3_white_pc">
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hands/visual/right/right_plam_link__revo3_white_pc.stl" />
+        <mesh filename="../meshes/hands/visual/right/right_palm_link__revo3_white_pc.stl" />
       </geometry>
       <material name="right_revo3_white_pc" />
     </visual>
-    <visual name="right_plam_link__revo3_aluminum">
+    <visual name="right_palm_link__revo3_aluminum">
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hands/visual/right/right_plam_link__revo3_aluminum.stl" />
+        <mesh filename="../meshes/hands/visual/right/right_palm_link__revo3_aluminum.stl" />
       </geometry>
       <material name="right_revo3_aluminum" />
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hands/collision/right/right_plam_backtrim_v2.obj" />
+        <mesh filename="../meshes/hands/collision/right/right_palm_backtrim_v2.obj" />
       </geometry>
     </collision>
   </link>
-  <joint name="right_plam_joint" type="fixed">
+  <joint name="right_palm_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="right_hand_base_link" />
-    <child link="right_plam_link" />
+    <child link="right_palm_link" />
     <axis xyz="0 0 0" />
   </joint>
-  <link name="right_plam_led_link">
+  <link name="right_palm_led_link">
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hands/visual/right/right_plam_led_link.dae" />
+        <mesh filename="../meshes/hands/visual/right/right_palm_led_link.dae" />
       </geometry>
       <material name="right_revo3_screen_texture">
         <color rgba="1 1 1 1" />
@@ -4301,14 +4301,14 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hands/collision/right/right_plam_led_link.STL" />
+        <mesh filename="../meshes/hands/collision/right/right_palm_led_link.STL" />
       </geometry>
     </collision>
   </link>
-  <joint name="right_plam_led_joint" type="fixed">
+  <joint name="right_palm_led_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0 0 0" />
-    <parent link="right_plam_link" />
-    <child link="right_plam_led_link" />
+    <parent link="right_palm_link" />
+    <child link="right_palm_led_link" />
     <axis xyz="0 0 0" />
   </joint>
   <link name="right_palm" />

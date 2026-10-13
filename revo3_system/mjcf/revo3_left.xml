@@ -116,8 +116,8 @@
     <mesh name="left_ring_DIP_rubber_link_collision_0_left_ring_DIP_rubber_link" file="../meshes/hands/collision/left/left_ring_DIP_rubber_link.STL" />
     <mesh name="left_ring_PIP_touch_link_visual_0_left_ring_PIP_touch_link" file="../meshes/hands/visual/left/left_ring_PIP_touch_link.STL" />
     <mesh name="left_ring_PIP_touch_link_collision_0_left_ring_PIP_touch_link" file="../meshes/hands/collision/left/left_ring_PIP_touch_link.STL" />
-    <mesh name="left_ring_PIP_tubber_link_visual_0_left_ring_PIP_tubber_link" file="../meshes/hands/visual/left/left_ring_PIP_tubber_link.STL" />
-    <mesh name="left_ring_PIP_tubber_link_collision_0_left_ring_PIP_tubber_link" file="../meshes/hands/collision/left/left_ring_PIP_tubber_link.STL" />
+    <mesh name="left_ring_PIP_rubber_link_visual_0_left_ring_PIP_rubber_link" file="../meshes/hands/visual/left/left_ring_PIP_rubber_link.STL" />
+    <mesh name="left_ring_PIP_rubber_link_collision_0_left_ring_PIP_rubber_link" file="../meshes/hands/collision/left/left_ring_PIP_rubber_link.STL" />
     <mesh name="left_ring_MCP_touch_link_visual_0_left_ring_MCP_touch_link" file="../meshes/hands/visual/left/left_ring_MCP_touch_link.STL" />
     <mesh name="left_ring_MCP_touch_link_collision_0_left_ring_MCP_touch_link" file="../meshes/hands/collision/left/left_ring_MCP_touch_link.STL" />
     <mesh name="left_ring_MCP_rubber_link_visual_0_left_ring_MCP_rubber_link" file="../meshes/hands/visual/left/left_ring_MCP_rubber_link.STL" />
@@ -141,17 +141,17 @@
     <mesh name="left_little_MCP_touch_link_collision_0_left_little_MCP_touch_link" file="../meshes/hands/collision/left/left_little_MCP_touch_link.STL" />
     <mesh name="left_little_MCP_rubber_link_visual_0_left_little_MCP_rubber_link" file="../meshes/hands/visual/left/left_little_MCP_rubber_link.STL" />
     <mesh name="left_little_MCP_rubber_link_collision_0_left_little_MCP_rubber_link" file="../meshes/hands/collision/left/left_little_MCP_rubber_link.STL" />
-    <mesh name="left_plam_touch_link_visual_0_left_plam_touch_link" file="../meshes/hands/visual/left/left_plam_touch_link.STL" />
-    <mesh name="left_plam_touch_link_collision_0_left_plam_touch_link" file="../meshes/hands/collision/left/left_plam_touch_link.STL" />
-    <mesh name="left_plam_rubber_link_visual_0_left_plam_rubber_link" file="../meshes/hands/visual/left/left_plam_rubber_link.STL" />
-    <mesh name="left_plam_rubber_link_collision_0_left_plam_rubber_link" file="../meshes/hands/collision/left/left_plam_rubber_link.STL" />
-    <mesh name="left_plam_link_visual_0_left_plam_link__revo3_white_pc" file="../meshes/hands/visual/left/left_plam_link__revo3_white_pc.stl" />
-    <mesh name="left_plam_link_visual_1_left_plam_link__revo3_aluminum" file="../meshes/hands/visual/left/left_plam_link__revo3_aluminum.stl" />
-    <mesh name="left_plam_link_collision_0_left_plam_backtrim_v2" file="../meshes/hands/collision/left/left_plam_backtrim_v2.obj" />
-    <mesh name="left_plam_led_link_visual_0_left_plam_led_link" file="meshes/left_plam_led_link.obj" />
-    <texture name="left_plam_led_link_visual_0_texture" type="2d" file="../meshes/hands/visual/textures/revo3_screen.png" />
-    <material name="left_plam_led_link_visual_0_material" texture="left_plam_led_link_visual_0_texture" rgba="1 1 1 1" />
-    <mesh name="left_plam_led_link_collision_0_left_plam_led_link" file="../meshes/hands/collision/left/left_plam_led_link.STL" />
+    <mesh name="left_palm_touch_link_visual_0_left_palm_touch_link" file="../meshes/hands/visual/left/left_palm_touch_link.STL" />
+    <mesh name="left_palm_touch_link_collision_0_left_palm_touch_link" file="../meshes/hands/collision/left/left_palm_touch_link.STL" />
+    <mesh name="left_palm_rubber_link_visual_0_left_palm_rubber_link" file="../meshes/hands/visual/left/left_palm_rubber_link.STL" />
+    <mesh name="left_palm_rubber_link_collision_0_left_palm_rubber_link" file="../meshes/hands/collision/left/left_palm_rubber_link.STL" />
+    <mesh name="left_palm_link_visual_0_left_palm_link__revo3_white_pc" file="../meshes/hands/visual/left/left_palm_link__revo3_white_pc.stl" />
+    <mesh name="left_palm_link_visual_1_left_palm_link__revo3_aluminum" file="../meshes/hands/visual/left/left_palm_link__revo3_aluminum.stl" />
+    <mesh name="left_palm_link_collision_0_left_palm_backtrim_v2" file="../meshes/hands/collision/left/left_palm_backtrim_v2.obj" />
+    <mesh name="left_palm_led_link_visual_0_left_palm_led_link" file="meshes/left_palm_led_link.obj" />
+    <texture name="left_palm_led_link_visual_0_texture" type="2d" file="../meshes/hands/visual/textures/revo3_screen.png" />
+    <material name="left_palm_led_link_visual_0_material" texture="left_palm_led_link_visual_0_texture" rgba="1 1 1 1" />
+    <mesh name="left_palm_led_link_collision_0_left_palm_led_link" file="../meshes/hands/collision/left/left_palm_led_link.STL" />
   </asset>
   <worldbody>
     <body name="left_hand_base_link">
@@ -159,7 +159,7 @@
       <geom name="left_hand_base_link_visual_0" class="visual" mesh="left_hand_base_link_visual_0_left_hand_base_link" rgba="0.72 0.74 0.78 1" />
       <geom name="left_hand_base_link_collision_0" class="collision" mesh="left_hand_base_link_collision_0_left_hand_base_link" />
       <body name="left_middle_MPR_link" pos="-0.00794102299681 -0.0125316383697 0.107927151341">
-        <inertial mass="0.012" pos="-0.000693047003187 -0.000568341630292 0.00815693865909" fullinertia="1.01e-06 1.02e-06 1.14e-06 0 7e-08 0" />
+        <inertial mass="0.013" pos="-0.000693047003187 -0.000568341630292 0.00815693865909" fullinertia="1.01e-06 1.02e-06 1.14e-06 0 7e-08 0" />
         <joint name="left_middle_MPR_joint" type="hinge" axis="0.999807814707845 0.019186925647608 -0.00402436744312752" range="-0.3491 0.4363" />
         <geom name="left_middle_MPR_link_visual_0" class="visual" mesh="left_middle_MPR_link_visual_0_left_middle_MPR_link" rgba="0.72 0.74 0.78 1" />
         <geom name="left_middle_MPR_link_collision_0" class="collision" mesh="left_middle_MPR_link_collision_0_left_middle_MPR_link" />
@@ -169,7 +169,7 @@
           <geom name="left_middle_MCP_link_visual_0" class="visual" mesh="left_middle_MCP_link_visual_0_left_middle_MCP_link" rgba="0.72 0.74 0.78 1" />
           <geom name="left_middle_MCP_link_collision_0" class="collision" mesh="left_middle_MCP_link_collision_0_left_middle_MCP_link" />
           <body name="left_middle_PIP_link" pos="0.000264150501423 -0.000955651541311 0.0469979185064">
-            <inertial mass="0.031" pos="0.00254217311459 -0.000315568620252 0.0177761307995" fullinertia="3.1e-06 2.62e-06 2.36e-06 1e-08 -1e-07 0" />
+            <inertial mass="0.0332" pos="0.00254217311459 -0.000315568620252 0.0177761307995" fullinertia="3.1e-06 2.62e-06 2.36e-06 1e-08 -1e-07 0" />
             <joint name="left_middle_PIP_joint" type="hinge" axis="-0.0191008584448413 0.999608742349558 0.0204332920745958" range="-0.1452 1.6001" />
             <geom name="left_middle_PIP_link_visual_0" class="visual" mesh="left_middle_PIP_link_visual_0_left_middle_PIP_link" rgba="0.72 0.74 0.78 1" />
             <geom name="left_middle_PIP_link_collision_0" class="collision" mesh="left_middle_PIP_link_collision_0_left_middle_PIP_link" />
@@ -298,12 +298,12 @@
           <geom name="left_index_MCP_link_visual_0" class="visual" mesh="left_index_MCP_link_visual_0_left_index_MCP_link" rgba="0.72 0.74 0.78 1" />
           <geom name="left_index_MCP_link_collision_0" class="collision" mesh="left_index_MCP_link_collision_0_left_index_MCP_link" />
           <body name="left_index_PIP_link" pos="0.000221764554224 -0.00287108870207 0.0469200922787">
-            <inertial mass="0.031" pos="0.0027887703894 -0.000930845049017 0.0177465923761" fullinertia="3.09e-06 2.62e-06 2.36e-06 3e-08 -1e-07 1e-08" />
+            <inertial mass="0.0332" pos="0.0027887703894 -0.000930845049017 0.0177465923761" fullinertia="3.09e-06 2.62e-06 2.36e-06 3e-08 -1e-07 1e-08" />
             <joint name="left_index_PIP_joint" type="hinge" axis="-0.0571896789948195 0.996482943134821 0.0612460991234103" range="-0.1452 1.6001" />
             <geom name="left_index_PIP_link_visual_0" class="visual" mesh="left_index_PIP_link_visual_0_left_index_PIP_link" rgba="0.72 0.74 0.78 1" />
             <geom name="left_index_PIP_link_collision_0" class="collision" mesh="left_index_PIP_link_collision_0_left_index_PIP_link" />
             <body name="left_index_DIP_link" pos="0.000140546972591 -0.00180309239697 0.0294678139594">
-              <inertial mass="0.009" pos="0.00234140341681 -0.000855644874273 0.0154493695278" fullinertia="5.94123605446e-07 6.2332064711e-07 4.70674098945e-07 -4.0696894448e-09 8.4343480992e-09 2.83878643698e-09" />
+              <inertial mass="0.011" pos="0.00234140341681 -0.000855644874273 0.0154493695278" fullinertia="5.94123605446e-07 6.2332064711e-07 4.70674098945e-07 -4.0696894448e-09 8.4343480992e-09 2.83878643698e-09" />
               <joint name="left_index_DIP_joint" type="hinge" axis="-0.057189678994825 0.996482943134821 0.061246099123401" range="-0.322 1.5978" />
               <geom name="left_index_DIP_link_visual_0" class="visual" mesh="left_index_DIP_link_visual_0_left_index_DIP_link__revo3_silicone_2162u_approx" rgba="0.60 0.61 0.67 1" />
               <geom name="left_index_DIP_link_visual_1" class="visual" mesh="left_index_DIP_link_visual_1_left_index_DIP_link__revo3_polished_aluminum" rgba="0.86 0.88 0.92 1" />
@@ -364,9 +364,9 @@
               <geom name="left_ring_PIP_touch_link_visual_0" class="visual" mesh="left_ring_PIP_touch_link_visual_0_left_ring_PIP_touch_link" rgba="0.60 0.61 0.67 1" />
               <geom name="left_ring_PIP_touch_link_collision_0" class="collision" mesh="left_ring_PIP_touch_link_collision_0_left_ring_PIP_touch_link" />
             </body>
-            <body name="left_ring_PIP_tubber_link">
-              <geom name="left_ring_PIP_tubber_link_visual_0" class="visual" mesh="left_ring_PIP_tubber_link_visual_0_left_ring_PIP_tubber_link" rgba="0.60 0.61 0.67 1" />
-              <geom name="left_ring_PIP_tubber_link_collision_0" class="collision" mesh="left_ring_PIP_tubber_link_collision_0_left_ring_PIP_tubber_link" />
+            <body name="left_ring_PIP_rubber_link">
+              <geom name="left_ring_PIP_rubber_link_visual_0" class="visual" mesh="left_ring_PIP_rubber_link_visual_0_left_ring_PIP_rubber_link" rgba="0.60 0.61 0.67 1" />
+              <geom name="left_ring_PIP_rubber_link_collision_0" class="collision" mesh="left_ring_PIP_rubber_link_collision_0_left_ring_PIP_rubber_link" />
             </body>
           </body>
           <body name="left_ring_MCP_touch_link">
@@ -425,21 +425,21 @@
           </body>
         </body>
       </body>
-      <body name="left_plam_touch_link">
-        <geom name="left_plam_touch_link_visual_0" class="visual" mesh="left_plam_touch_link_visual_0_left_plam_touch_link" rgba="0.60 0.61 0.67 1" />
-        <geom name="left_plam_touch_link_collision_0" class="collision" mesh="left_plam_touch_link_collision_0_left_plam_touch_link" />
+      <body name="left_palm_touch_link">
+        <geom name="left_palm_touch_link_visual_0" class="visual" mesh="left_palm_touch_link_visual_0_left_palm_touch_link" rgba="0.60 0.61 0.67 1" />
+        <geom name="left_palm_touch_link_collision_0" class="collision" mesh="left_palm_touch_link_collision_0_left_palm_touch_link" />
       </body>
-      <body name="left_plam_rubber_link">
-        <geom name="left_plam_rubber_link_visual_0" class="visual" mesh="left_plam_rubber_link_visual_0_left_plam_rubber_link" rgba="0.60 0.61 0.67 1" />
-        <geom name="left_plam_rubber_link_collision_0" class="collision" mesh="left_plam_rubber_link_collision_0_left_plam_rubber_link" />
+      <body name="left_palm_rubber_link">
+        <geom name="left_palm_rubber_link_visual_0" class="visual" mesh="left_palm_rubber_link_visual_0_left_palm_rubber_link" rgba="0.60 0.61 0.67 1" />
+        <geom name="left_palm_rubber_link_collision_0" class="collision" mesh="left_palm_rubber_link_collision_0_left_palm_rubber_link" />
       </body>
-      <body name="left_plam_link">
-        <geom name="left_plam_link_visual_0" class="visual" mesh="left_plam_link_visual_0_left_plam_link__revo3_white_pc" rgba="0.94 0.95 0.97 1" />
-        <geom name="left_plam_link_visual_1" class="visual" mesh="left_plam_link_visual_1_left_plam_link__revo3_aluminum" rgba="0.72 0.74 0.78 1" />
-        <geom name="left_plam_link_collision_0" class="collision" mesh="left_plam_link_collision_0_left_plam_backtrim_v2" />
-        <body name="left_plam_led_link">
-          <geom name="left_plam_led_link_visual_0" class="visual" mesh="left_plam_led_link_visual_0_left_plam_led_link" rgba="1 1 1 1" material="left_plam_led_link_visual_0_material" />
-          <geom name="left_plam_led_link_collision_0" class="collision" mesh="left_plam_led_link_collision_0_left_plam_led_link" />
+      <body name="left_palm_link">
+        <geom name="left_palm_link_visual_0" class="visual" mesh="left_palm_link_visual_0_left_palm_link__revo3_white_pc" rgba="0.94 0.95 0.97 1" />
+        <geom name="left_palm_link_visual_1" class="visual" mesh="left_palm_link_visual_1_left_palm_link__revo3_aluminum" rgba="0.72 0.74 0.78 1" />
+        <geom name="left_palm_link_collision_0" class="collision" mesh="left_palm_link_collision_0_left_palm_backtrim_v2" />
+        <body name="left_palm_led_link">
+          <geom name="left_palm_led_link_visual_0" class="visual" mesh="left_palm_led_link_visual_0_left_palm_led_link" rgba="1 1 1 1" material="left_palm_led_link_visual_0_material" />
+          <geom name="left_palm_led_link_collision_0" class="collision" mesh="left_palm_led_link_collision_0_left_palm_led_link" />
         </body>
       </body>
       <body name="left_palm" pos="0.0155 0 0.055" />

@@ -4,7 +4,7 @@ This repository contains public robot description assets for BrainCo robot hands
 
 The public release includes URDF, MJCF, and USD descriptions, together with the mesh assets they reference.
 
-Current release: **20261009**. See [Release Notes](RELEASE_NOTES.md) for version history and model validation status.
+Current release: **20261014**. See [Release Notes](RELEASE_NOTES.md) for version history and model validation status.
 
 ## What Is Included
 

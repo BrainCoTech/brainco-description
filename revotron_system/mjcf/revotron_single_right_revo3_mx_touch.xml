@@ -134,8 +134,8 @@
     <mesh name="right_ring_DIP_rubber_link_collision_0_right_ring_DIP_rubber_link" file="../meshes/hands/collision/right/right_ring_DIP_rubber_link.STL" />
     <mesh name="right_ring_PIP_touch_link_visual_0_right_ring_PIP_touch_link" file="../meshes/hands/visual/right/right_ring_PIP_touch_link.STL" />
     <mesh name="right_ring_PIP_touch_link_collision_0_right_ring_PIP_touch_link" file="../meshes/hands/collision/right/right_ring_PIP_touch_link.STL" />
-    <mesh name="right_ring_PIP_tubber_link_visual_0_right_ring_PIP_tubber_link" file="../meshes/hands/visual/right/right_ring_PIP_tubber_link.STL" />
-    <mesh name="right_ring_PIP_tubber_link_collision_0_right_ring_PIP_tubber_link" file="../meshes/hands/collision/right/right_ring_PIP_tubber_link.STL" />
+    <mesh name="right_ring_PIP_rubber_link_visual_0_right_ring_PIP_rubber_link" file="../meshes/hands/visual/right/right_ring_PIP_rubber_link.STL" />
+    <mesh name="right_ring_PIP_rubber_link_collision_0_right_ring_PIP_rubber_link" file="../meshes/hands/collision/right/right_ring_PIP_rubber_link.STL" />
     <mesh name="right_ring_MCP_touch_link_visual_0_right_ring_MCP_touch_link" file="../meshes/hands/visual/right/right_ring_MCP_touch_link.STL" />
     <mesh name="right_ring_MCP_touch_link_collision_0_right_ring_MCP_touch_link" file="../meshes/hands/collision/right/right_ring_MCP_touch_link.STL" />
     <mesh name="right_ring_MCP_rubber_link_visual_0_right_ring_MCP_rubber_link" file="../meshes/hands/visual/right/right_ring_MCP_rubber_link.STL" />
@@ -159,17 +159,17 @@
     <mesh name="right_little_MCP_touch_link_collision_0_right_little_MCP_touch_link" file="../meshes/hands/collision/right/right_little_MCP_touch_link.STL" />
     <mesh name="right_little_MCP_rubber_link_visual_0_right_little_MCP_rubber_link" file="../meshes/hands/visual/right/right_little_MCP_rubber_link.STL" />
     <mesh name="right_little_MCP_rubber_link_collision_0_right_little_MCP_rubber_link" file="../meshes/hands/collision/right/right_little_MCP_rubber_link.STL" />
-    <mesh name="right_plam_touch_link_visual_0_right_plam_touch_link" file="../meshes/hands/visual/right/right_plam_touch_link.STL" />
-    <mesh name="right_plam_touch_link_collision_0_right_plam_touch_link" file="../meshes/hands/collision/right/right_plam_touch_link.STL" />
-    <mesh name="right_plam_rubber_link_visual_0_right_plam_rubber_link" file="../meshes/hands/visual/right/right_plam_rubber_link.STL" />
-    <mesh name="right_plam_rubber_link_collision_0_right_plam_rubber_link" file="../meshes/hands/collision/right/right_plam_rubber_link.STL" />
-    <mesh name="right_plam_link_visual_0_right_plam_link__revo3_white_pc" file="../meshes/hands/visual/right/right_plam_link__revo3_white_pc.stl" />
-    <mesh name="right_plam_link_visual_1_right_plam_link__revo3_aluminum" file="../meshes/hands/visual/right/right_plam_link__revo3_aluminum.stl" />
-    <mesh name="right_plam_link_collision_0_right_plam_backtrim_v2" file="../meshes/hands/collision/right/right_plam_backtrim_v2.obj" />
-    <mesh name="right_plam_led_link_visual_0_right_plam_led_link" file="meshes/right_plam_led_link.obj" />
-    <texture name="right_plam_led_link_visual_0_texture" type="2d" file="../meshes/hands/visual/textures/revo3_screen.png" />
-    <material name="right_plam_led_link_visual_0_material" texture="right_plam_led_link_visual_0_texture" rgba="1 1 1 1" />
-    <mesh name="right_plam_led_link_collision_0_right_plam_led_link" file="../meshes/hands/collision/right/right_plam_led_link.STL" />
+    <mesh name="right_palm_touch_link_visual_0_right_palm_touch_link" file="../meshes/hands/visual/right/right_palm_touch_link.STL" />
+    <mesh name="right_palm_touch_link_collision_0_right_palm_touch_link" file="../meshes/hands/collision/right/right_palm_touch_link.STL" />
+    <mesh name="right_palm_rubber_link_visual_0_right_palm_rubber_link" file="../meshes/hands/visual/right/right_palm_rubber_link.STL" />
+    <mesh name="right_palm_rubber_link_collision_0_right_palm_rubber_link" file="../meshes/hands/collision/right/right_palm_rubber_link.STL" />
+    <mesh name="right_palm_link_visual_0_right_palm_link__revo3_white_pc" file="../meshes/hands/visual/right/right_palm_link__revo3_white_pc.stl" />
+    <mesh name="right_palm_link_visual_1_right_palm_link__revo3_aluminum" file="../meshes/hands/visual/right/right_palm_link__revo3_aluminum.stl" />
+    <mesh name="right_palm_link_collision_0_right_palm_backtrim_v2" file="../meshes/hands/collision/right/right_palm_backtrim_v2.obj" />
+    <mesh name="right_palm_led_link_visual_0_right_palm_led_link" file="meshes/right_palm_led_link.obj" />
+    <texture name="right_palm_led_link_visual_0_texture" type="2d" file="../meshes/hands/visual/textures/revo3_screen.png" />
+    <material name="right_palm_led_link_visual_0_material" texture="right_palm_led_link_visual_0_texture" rgba="1 1 1 1" />
+    <mesh name="right_palm_led_link_collision_0_right_palm_led_link" file="../meshes/hands/collision/right/right_palm_led_link.STL" />
     <mesh name="right_wrist_camera_frame_visual_0_right_wrist_camera_link" file="../meshes/arm/visual/right_wrist_camera_link.STL" />
     <mesh name="right_wrist_camera_frame_collision_0_right_wrist_camera_link" file="../meshes/arm/collision/right_wrist_camera_link.STL" />
   </asset>
@@ -247,6 +247,69 @@
                                     <body name="right_middle_DIP_rubber_link" pos="-0.000167169017596 -0.000600164834044 -0.0295166870072">
                                       <geom name="right_middle_DIP_rubber_link_visual_0" class="visual" mesh="right_middle_DIP_rubber_link_visual_0_right_middle_DIP_rubber_link" rgba="0.60 0.61 0.67 1" />
                                       <geom name="right_middle_DIP_rubber_link_collision_0" class="collision" mesh="right_middle_DIP_rubber_link_collision_0_right_middle_DIP_rubber_link" />
+                                    </body>
+                                    <body name="right_middle_fingertip_0" pos="-0.000588262081464 -0.00669717818118 0.0132180740776">
+                                      <geom name="right_middle_fingertip_0_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_middle_fingertip_1" pos="0.00443410461775 -0.00525021774622 0.0120400017301">
+                                      <geom name="right_middle_fingertip_1_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_middle_fingertip_2" pos="0.00607399709934 0.000155019192712 0.0132615496963">
+                                      <geom name="right_middle_fingertip_2_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_middle_fingertip_3" pos="0.00464075624012 0.00556451966164 0.0118189345477">
+                                      <geom name="right_middle_fingertip_3_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_middle_fingertip_4" pos="-0.000321771377143 0.00724912892133 0.0129329935713">
+                                      <geom name="right_middle_fingertip_4_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_middle_fingertip_5" pos="-0.000564906151794 -0.00635358471804 0.016399488548">
+                                      <geom name="right_middle_fingertip_5_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_middle_fingertip_6" pos="0.00445746054741 -0.00490662428308 0.0152214162005">
+                                      <geom name="right_middle_fingertip_6_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_middle_fingertip_7" pos="0.00609209469741 0.000220070941731 0.0164608372337">
+                                      <geom name="right_middle_fingertip_7_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_middle_fingertip_8" pos="0.00465345777296 0.00535053461345 0.0150117466421">
+                                      <geom name="right_middle_fingertip_8_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_middle_fingertip_9" pos="-0.000309069844306 0.00703514387313 0.0161258056657">
+                                      <geom name="right_middle_fingertip_9_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_middle_fingertip_10" pos="-0.0022979401987 -0.00579062065358 0.02130667532">
+                                      <geom name="right_middle_fingertip_10_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_middle_fingertip_11" pos="0.00338739943736 -0.00429359827234 0.0207533236799">
+                                      <geom name="right_middle_fingertip_11_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_middle_fingertip_12" pos="0.00487199467097 0.000341869805564 0.021278771165">
+                                      <geom name="right_middle_fingertip_12_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_middle_fingertip_13" pos="0.00356508612186 0.005005311708 0.0205632419654">
+                                      <geom name="right_middle_fingertip_13_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_middle_fingertip_14" pos="-0.00205850661518 0.00673970116352 0.0210505393794">
+                                      <geom name="right_middle_fingertip_14_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_middle_fingertip_15" pos="0.000580271328151 -0.00384341303933 0.0244808745667">
+                                      <geom name="right_middle_fingertip_15_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_middle_fingertip_16" pos="0.00168058442628 0.00048969427206 0.0255271298435">
+                                      <geom name="right_middle_fingertip_16_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_middle_fingertip_17" pos="0.000745724890703 0.00481529871758 0.0243038793296">
+                                      <geom name="right_middle_fingertip_17_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_middle_fingertip_18" pos="-0.00311673298371 -0.00331140476458 0.0268741134255">
+                                      <geom name="right_middle_fingertip_18_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_middle_fingertip_19" pos="-0.00262271154752 0.00062331158576 0.0280410853765">
+                                      <geom name="right_middle_fingertip_19_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_middle_fingertip_20" pos="-0.00296702931736 0.00452306477403 0.0267139667626">
+                                      <geom name="right_middle_fingertip_20_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
                                     </body>
                                     <body name="right_middle_tip_Link" pos="0.0084 0 0.01" />
                                   </body>
@@ -411,6 +474,174 @@
                                         <geom name="right_thumb_DIP_rubber_link_visual_0" class="visual" mesh="right_thumb_DIP_rubber_link_visual_0_right_thumb_DIP_rubber_link" rgba="0.60 0.61 0.67 1" />
                                         <geom name="right_thumb_DIP_rubber_link_collision_0" class="collision" mesh="right_thumb_DIP_rubber_link_collision_0_right_thumb_DIP_rubber_link" />
                                       </body>
+                                      <body name="right_thumb_fingertip_0" pos="-0.00360422515306 0.0157267248192 0.00856360533448">
+                                        <geom name="right_thumb_fingertip_0_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_1" pos="-0.0014269826783 0.0156923330019 0.0088773447312">
+                                        <geom name="right_thumb_fingertip_1_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_2" pos="0.00157203614156 0.0162637853378 0.00842342257543">
+                                        <geom name="right_thumb_fingertip_2_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_3" pos="0.00332885877709 0.0160496804944 0.00711661985757">
+                                        <geom name="right_thumb_fingertip_3_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_4" pos="0.0047710247381 0.0161514793416 0.00315038105502">
+                                        <geom name="right_thumb_fingertip_4_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_5" pos="0.00508480821375 0.0161518503084 0.000972873352903">
+                                        <geom name="right_thumb_fingertip_5_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_6" pos="0.00539859168939 0.0161522212752 -0.00120463434922">
+                                        <geom name="right_thumb_fingertip_6_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_7" pos="0.00513493956084 0.0160518157119 -0.00541671960254">
+                                        <geom name="right_thumb_fingertip_7_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_8" pos="0.00381854904819 0.016266441251 -0.00716630580968">
+                                        <geom name="right_thumb_fingertip_8_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_9" pos="0.00106973670221 0.0156952847187 -0.00844869727872">
+                                        <geom name="right_thumb_fingertip_9_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_10" pos="-0.00110750577255 0.015729676536 -0.00876243667545">
+                                        <geom name="right_thumb_fingertip_10_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_11" pos="-0.00353215397281 0.017910020409 0.00830278717508">
+                                        <geom name="right_thumb_fingertip_11_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_12" pos="-0.00135491149806 0.0178756285918 0.00861652657181">
+                                        <geom name="right_thumb_fingertip_12_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_13" pos="0.00340092995733 0.0182329760842 0.00685580169818">
+                                        <geom name="right_thumb_fingertip_13_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_14" pos="0.00480501203808 0.0183512104765 0.00315565344983">
+                                        <geom name="right_thumb_fingertip_14_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_15" pos="0.00511879551373 0.0183515814432 0.00097814574771">
+                                        <geom name="right_thumb_fingertip_15_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_16" pos="0.00543257898937 0.01835195241 -0.00119936195441">
+                                        <geom name="right_thumb_fingertip_16_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_17" pos="0.0051303336999 0.0182350206512 -0.00514543565741">
+                                        <geom name="right_thumb_fingertip_17_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_18" pos="0.00106513084126 0.0178784896581 -0.0081774133336">
+                                        <geom name="right_thumb_fingertip_18_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_19" pos="-0.00111211163349 0.0179128814753 -0.00849115273033">
+                                        <geom name="right_thumb_fingertip_19_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_20" pos="-0.00346008279256 0.0200933159989 0.00804196901568">
+                                        <geom name="right_thumb_fingertip_20_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_21" pos="0.00244686085576 0.0215450514645 0.00658117447937">
+                                        <geom name="right_thumb_fingertip_21_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_22" pos="0.00397545526699 0.0220099628389 0.00303673587676">
+                                        <geom name="right_thumb_fingertip_22_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_23" pos="0.00428923874264 0.0220103338057 0.000859228174639">
+                                        <geom name="right_thumb_fingertip_23_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_24" pos="0.00460302221829 0.0220107047725 -0.00131827952748">
+                                        <geom name="right_thumb_fingertip_24_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_25" pos="0.00413738391666 0.0215470500653 -0.00515024948461">
+                                        <geom name="right_thumb_fingertip_25_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_26" pos="-0.00111671749442 0.0200960864146 -0.0082198687852">
+                                        <geom name="right_thumb_fingertip_26_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_27" pos="-0.00338801161232 0.0222766115887 0.00778115085629">
+                                        <geom name="right_thumb_fingertip_27_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_28" pos="-0.00550457863875 0.0241490812381 0.00724783327726">
+                                        <geom name="right_thumb_fingertip_28_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_29" pos="0.00152862129029 0.0235089022065 0.00620683991805">
+                                        <geom name="right_thumb_fingertip_29_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_30" pos="0.00301729077386 0.0239855511897 0.00289899890942">
+                                        <geom name="right_thumb_fingertip_30_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_31" pos="0.0033310742495 0.0239859221565 0.000721491207302">
+                                        <geom name="right_thumb_fingertip_31_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_32" pos="0.00364485772515 0.0239862931233 -0.00145601649482">
+                                        <geom name="right_thumb_fingertip_32_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_33" pos="0.00315071925981 0.0235108199125 -0.00504974653835">
+                                        <geom name="right_thumb_fingertip_33_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_34" pos="-0.00330244342275 0.0241516846863 -0.00803393509515">
+                                        <geom name="right_thumb_fingertip_34_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_35" pos="-0.00112132335536 0.022279291354 -0.00794858484008">
+                                        <geom name="right_thumb_fingertip_35_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_36" pos="-0.000447475477572 0.0263477086375 0.0055679978752">
+                                        <geom name="right_thumb_fingertip_36_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_37" pos="0.000765775813346 0.0271131325211 0.00257508365516">
+                                        <geom name="right_thumb_fingertip_37_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_38" pos="0.00107955928899 0.0271135034879 0.000397575953039">
+                                        <geom name="right_thumb_fingertip_38_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_39" pos="0.00139334276464 0.0271138744546 -0.00177993174908">
+                                        <geom name="right_thumb_fingertip_39_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_40" pos="0.00107451388585 0.0263495079913 -0.0049938825889">
+                                        <geom name="right_thumb_fingertip_40_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_41" pos="-0.00198487752059 0.0278677576101 0.00516075583534">
+                                        <geom name="right_thumb_fingertip_41_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_42" pos="-0.000803379247029 0.0286384981304 0.00234922495063">
+                                        <geom name="right_thumb_fingertip_42_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_43" pos="-0.000489595771381 0.0286388690972 0.000171717248511">
+                                        <geom name="right_thumb_fingertip_43_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_44" pos="-0.000175812295733 0.028639240064 -0.00200579045361">
+                                        <geom name="right_thumb_fingertip_44_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_45" pos="-0.0005153918099 0.0278694948921 -0.00503677431363">
+                                        <geom name="right_thumb_fingertip_45_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_46" pos="-0.0047712873237 0.029806939172 0.00452194773889">
+                                        <geom name="right_thumb_fingertip_46_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_47" pos="-0.00367777282028 0.0306651496563 0.0019353640102">
+                                        <geom name="right_thumb_fingertip_47_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_48" pos="-0.00336398934463 0.0306655206231 -0.000242143691919">
+                                        <geom name="right_thumb_fingertip_48_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_49" pos="-0.00305020586898 0.0306658915899 -0.00241965139404">
+                                        <geom name="right_thumb_fingertip_49_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_50" pos="-0.00336888898294 0.0298085971408 -0.00521002805151">
+                                        <geom name="right_thumb_fingertip_50_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_51" pos="-0.00674479486872 0.0306970891237 0.00413092212155">
+                                        <geom name="right_thumb_fingertip_51_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_52" pos="-0.00566865518934 0.0315563109197 0.00164862546157">
+                                        <geom name="right_thumb_fingertip_52_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_53" pos="-0.00535487171369 0.0315566818865 -0.000528882240552">
+                                        <geom name="right_thumb_fingertip_53_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_54" pos="-0.00504108823804 0.0315570528532 -0.00270638994267">
+                                        <geom name="right_thumb_fingertip_54_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
+                                      <body name="right_thumb_fingertip_55" pos="-0.00537254793712 0.0306987114463 -0.00539181726611">
+                                        <geom name="right_thumb_fingertip_55_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                      </body>
                                       <body name="right_thumb_tip_Link" pos="0 0.01 0.0098" />
                                     </body>
                                     <body name="right_thumb_PIP_touch_link">
@@ -523,6 +754,69 @@
                                     <body name="right_index_DIP_rubber_link">
                                       <geom name="right_index_DIP_rubber_link_visual_0" class="visual" mesh="right_index_DIP_rubber_link_visual_0_right_index_DIP_rubber_link" rgba="0.60 0.61 0.67 1" />
                                       <geom name="right_index_DIP_rubber_link_collision_0" class="collision" mesh="right_index_DIP_rubber_link_collision_0_right_index_DIP_rubber_link" />
+                                    </body>
+                                    <body name="right_index_fingertip_0" pos="-0.000864988919995 -0.00612241085023 0.01347900628">
+                                      <geom name="right_index_fingertip_0_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_index_fingertip_1" pos="0.0042108025021 -0.00491677871533 0.0122589616855">
+                                      <geom name="right_index_fingertip_1_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_index_fingertip_2" pos="0.00605331041257 0.000467805997115 0.0132636632459">
+                                      <geom name="right_index_fingertip_2_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_index_fingertip_3" pos="0.00482953594706 0.00586414076331 0.0115963419512">
+                                      <geom name="right_index_fingertip_3_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_index_fingertip_4" pos="-6.70919103285e-05 0.00778028583358 0.0126245150466">
+                                      <geom name="right_index_fingertip_4_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_index_fingertip_5" pos="-0.000833884608158 -0.00564980024616 0.0166437608895">
+                                      <geom name="right_index_fingertip_5_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_index_fingertip_6" pos="0.00424190681393 -0.00444416811126 0.0154237162951">
+                                      <geom name="right_index_fingertip_6_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_index_fingertip_7" pos="0.00606852250236 0.000663242821968 0.0164576533899">
+                                      <geom name="right_index_fingertip_7_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_index_fingertip_8" pos="0.00482874004161 0.0057809164167 0.0147952594361">
+                                      <geom name="right_index_fingertip_8_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_index_fingertip_9" pos="-6.78878157758e-05 0.00769706148697 0.0158234325314">
+                                      <geom name="right_index_fingertip_9_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_index_fingertip_10" pos="-0.00255242506103 -0.00482069058035 0.0215181853104">
+                                      <geom name="right_index_fingertip_10_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_index_fingertip_11" pos="0.00318671931766 -0.00356464221534 0.0209224293787">
+                                      <geom name="right_index_fingertip_11_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_index_fingertip_12" pos="0.00484589140991 0.00102873467023 0.021262604516">
+                                      <geom name="right_index_fingertip_12_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_index_fingertip_13" pos="0.00371872914736 0.00570518986254 0.0203526844993">
+                                      <geom name="right_index_fingertip_13_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_index_fingertip_14" pos="-0.00183553949165 0.00767044863616 0.0207504515967">
+                                      <geom name="right_index_fingertip_14_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_index_fingertip_15" pos="0.000392543037772 -0.00285570414304 0.0246193546289">
+                                      <geom name="right_index_fingertip_15_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_index_fingertip_16" pos="0.00165532648927 0.00147173444021 0.0254910261572">
+                                      <geom name="right_index_fingertip_16_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_index_fingertip_17" pos="0.000887925805952 0.00577593162577 0.0240888347404">
+                                      <geom name="right_index_fingertip_17_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_index_fingertip_18" pos="-0.00328551535308 -0.00208597899994 0.0269768693371">
+                                      <geom name="right_index_fingertip_18_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_index_fingertip_19" pos="-0.00264395684417 0.00187166961324 0.0279834941955">
+                                      <geom name="right_index_fingertip_19_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_index_fingertip_20" pos="-0.00283728918315 0.00572399197469 0.0264968508283">
+                                      <geom name="right_index_fingertip_20_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
                                     </body>
                                     <body name="right_index_tip_Link" pos="0.0084 0.0005 0.01" />
                                   </body>
@@ -651,15 +945,78 @@
                                       <geom name="right_ring_DIP_rubber_link_visual_0" class="visual" mesh="right_ring_DIP_rubber_link_visual_0_right_ring_DIP_rubber_link" rgba="0.60 0.61 0.67 1" />
                                       <geom name="right_ring_DIP_rubber_link_collision_0" class="collision" mesh="right_ring_DIP_rubber_link_collision_0_right_ring_DIP_rubber_link" />
                                     </body>
+                                    <body name="right_ring_fingertip_0" pos="-0.000343732477862 -0.00724953238702 0.0129322023587">
+                                      <geom name="right_ring_fingertip_0_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_ring_fingertip_1" pos="0.00462071628427 -0.005565057862 0.0118265304904">
+                                      <geom name="right_ring_fingertip_1_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_ring_fingertip_2" pos="0.00605171864252 -0.000155652862699 0.0132717235416">
+                                      <geom name="right_ring_fingertip_2_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_ring_fingertip_3" pos="0.00441406466213 0.00524967954588 0.0120475976721">
+                                      <geom name="right_ring_fingertip_3_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_ring_fingertip_4" pos="-0.000610223181882 0.00669677471551 0.0132172828642">
+                                      <geom name="right_ring_fingertip_4_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_ring_fingertip_5" pos="-0.00033638397982 -0.00703565011055 0.0161250381471">
+                                      <geom name="right_ring_fingertip_5_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_ring_fingertip_6" pos="0.00462806478231 -0.00535117558553 0.0150193662787">
+                                      <geom name="right_ring_fingertip_6_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_ring_fingertip_7" pos="0.00606444275807 -0.000220807776014 0.0164710348634">
+                                      <geom name="right_ring_fingertip_7_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_ring_fingertip_8" pos="0.00443206755699 0.00490598331101 0.0152290358365">
+                                      <geom name="right_ring_fingertip_8_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_ring_fingertip_9" pos="-0.000592220287023 0.00635307848064 0.0163987210286">
+                                      <geom name="right_ring_fingertip_9_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_ring_fingertip_10" pos="-0.00209407619977 -0.00674030516245 0.0210468373082">
+                                      <geom name="right_ring_fingertip_10_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_ring_fingertip_11" pos="0.00353038619835 -0.00500609323505 0.0205690376138">
+                                      <geom name="right_ring_fingertip_11_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_ring_fingertip_12" pos="0.0048362515326 -0.000342719158116 0.0212869096887">
+                                      <geom name="right_ring_fingertip_12_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_ring_fingertip_13" pos="0.00335269951406 0.0042928167453 0.0207591193278">
+                                      <geom name="right_ring_fingertip_13_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_ring_fingertip_14" pos="-0.00233350978302 0.00579001665467 0.0213029732481">
+                                      <geom name="right_ring_fingertip_14_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_ring_fingertip_15" pos="0.000704755369333 -0.00481610330665 0.0243049424338">
+                                      <geom name="right_ring_fingertip_15_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_ring_fingertip_16" pos="0.00163770822544 -0.000490570181388 0.0255298996335">
+                                      <geom name="right_ring_fingertip_16_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_ring_fingertip_17" pos="0.000539301806959 0.00384260845028 0.0244819376704">
+                                      <geom name="right_ring_fingertip_17_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_ring_fingertip_18" pos="-0.00301202983533 -0.00452381909473 0.0267088025803">
+                                      <geom name="right_ring_fingertip_18_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_ring_fingertip_19" pos="-0.00266980689776 -0.000624120273 0.0280366226103">
+                                      <geom name="right_ring_fingertip_19_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_ring_fingertip_20" pos="-0.00316173350152 0.0033106504439 0.0268689492427">
+                                      <geom name="right_ring_fingertip_20_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
                                     <body name="right_ring_tip_Link" pos="0.0084 -0.000185 0.01" />
                                   </body>
                                   <body name="right_ring_PIP_touch_link">
                                     <geom name="right_ring_PIP_touch_link_visual_0" class="visual" mesh="right_ring_PIP_touch_link_visual_0_right_ring_PIP_touch_link" rgba="0.60 0.61 0.67 1" />
                                     <geom name="right_ring_PIP_touch_link_collision_0" class="collision" mesh="right_ring_PIP_touch_link_collision_0_right_ring_PIP_touch_link" />
                                   </body>
-                                  <body name="right_ring_PIP_tubber_link">
-                                    <geom name="right_ring_PIP_tubber_link_visual_0" class="visual" mesh="right_ring_PIP_tubber_link_visual_0_right_ring_PIP_tubber_link" rgba="0.60 0.61 0.67 1" />
-                                    <geom name="right_ring_PIP_tubber_link_collision_0" class="collision" mesh="right_ring_PIP_tubber_link_collision_0_right_ring_PIP_tubber_link" />
+                                  <body name="right_ring_PIP_rubber_link">
+                                    <geom name="right_ring_PIP_rubber_link_visual_0" class="visual" mesh="right_ring_PIP_rubber_link_visual_0_right_ring_PIP_rubber_link" rgba="0.60 0.61 0.67 1" />
+                                    <geom name="right_ring_PIP_rubber_link_collision_0" class="collision" mesh="right_ring_PIP_rubber_link_collision_0_right_ring_PIP_rubber_link" />
                                   </body>
                                   <body name="right_ring_fingerpad_23" pos="-0.000716539619757 -0.0100464511677 0.014582322662">
                                     <geom name="right_ring_fingerpad_23_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
@@ -778,6 +1135,69 @@
                                       <geom name="right_little_DIP_rubber_link_visual_0" class="visual" mesh="right_little_DIP_rubber_link_visual_0_right_little_DIP_rubber_link" rgba="0.60 0.61 0.67 1" />
                                       <geom name="right_little_DIP_rubber_link_collision_0" class="collision" mesh="right_little_DIP_rubber_link_collision_0_right_little_DIP_rubber_link" />
                                     </body>
+                                    <body name="right_little_fingertip_0" pos="-0.000106557072138 -0.00778245204682 0.0126229083394">
+                                      <geom name="right_little_fingertip_0_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_little_fingertip_1" pos="0.00479349975662 -0.00586703738711 0.0116098209917">
+                                      <geom name="right_little_fingertip_1_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_little_fingertip_2" pos="0.00601324404226 -0.00047121744196 0.0132817552452">
+                                      <geom name="right_little_fingertip_2_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_little_fingertip_3" pos="0.00417476631187 0.00491388209157 0.0122724407255">
+                                      <geom name="right_little_fingertip_3_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_little_fingertip_4" pos="-0.000904454081536 0.00612024463705 0.0134773995721">
+                                      <geom name="right_little_fingertip_4_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_little_fingertip_5" pos="-0.000116973250155 -0.00769977966565 0.0158218232773">
+                                      <geom name="right_little_fingertip_5_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_little_fingertip_6" pos="0.00478308357861 -0.00578436500595 0.0148087359297">
+                                      <geom name="right_little_fingertip_6_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_little_fingertip_7" pos="0.00601879911159 -0.000667208340682 0.0164757428327">
+                                      <geom name="right_little_fingertip_7_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_little_fingertip_8" pos="0.00419625035112 0.00444071952204 0.0154371927883">
+                                      <geom name="right_little_fingertip_8_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_little_fingertip_9" pos="-0.000882970042284 0.00564708206753 0.0166421516349">
+                                      <geom name="right_little_fingertip_9_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_little_fingertip_10" pos="-0.00189945294319 -0.00767368947241 0.0207435001264">
+                                      <geom name="right_little_fingertip_10_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_little_fingertip_11" pos="0.00365635186645 -0.00570939183703 0.0203628053119">
+                                      <geom name="right_little_fingertip_11_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_little_fingertip_12" pos="0.00478163271912 -0.00103330280933 0.0212769260786">
+                                      <geom name="right_little_fingertip_12_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_little_fingertip_13" pos="0.00312434203694 0.00356044024087 0.0209325501909">
+                                      <geom name="right_little_fingertip_13_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_little_fingertip_14" pos="-0.00261633851233 0.00481744974415 0.0215112338395">
+                                      <geom name="right_little_fingertip_14_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_little_fingertip_15" pos="0.000814294442351 -0.00578025361757 0.0240903995475">
+                                      <geom name="right_little_fingertip_15_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_little_fingertip_16" pos="0.00157826373164 -0.00147644084962 0.0254956413679">
+                                      <geom name="right_little_fingertip_16_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_little_fingertip_17" pos="0.000318911674328 0.00285138215128 0.0246209194356">
+                                      <geom name="right_little_fingertip_17_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_little_fingertip_18" pos="-0.00291814731904 -0.00572803894286 0.0264871928317">
+                                      <geom name="right_little_fingertip_18_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_little_fingertip_19" pos="-0.00272858168252 -0.00187600913164 0.0279750788066">
+                                      <geom name="right_little_fingertip_19_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
+                                    <body name="right_little_fingertip_20" pos="-0.00336637348882 0.00208193203181 0.0269672113402">
+                                      <geom name="right_little_fingertip_20_visual_0" class="visual" type="sphere" size="0.0012" rgba="0.32 0.40 0.44 1" />
+                                    </body>
                                     <body name="right_little_tip_Link" pos="0.0084 -0.0012185 0.01" />
                                   </body>
                                   <body name="right_little_PIP_touch_link">
@@ -880,9 +1300,9 @@
                                 </body>
                               </body>
                             </body>
-                            <body name="right_plam_touch_link">
-                              <geom name="right_plam_touch_link_visual_0" class="visual" mesh="right_plam_touch_link_visual_0_right_plam_touch_link" rgba="0.60 0.61 0.67 1" />
-                              <geom name="right_plam_touch_link_collision_0" class="collision" mesh="right_plam_touch_link_collision_0_right_plam_touch_link" />
+                            <body name="right_palm_touch_link">
+                              <geom name="right_palm_touch_link_visual_0" class="visual" mesh="right_palm_touch_link_visual_0_right_palm_touch_link" rgba="0.60 0.61 0.67 1" />
+                              <geom name="right_palm_touch_link_collision_0" class="collision" mesh="right_palm_touch_link_collision_0_right_palm_touch_link" />
                               <body name="right_hand_touch_0_link" pos="0.0226397697675 -0.0234760858242 0.0337138043311">
                                 <geom name="right_hand_touch_0_link_visual_0" class="visual" type="sphere" size="0.002" rgba="0.32 0.40 0.44 1" />
                               </body>
@@ -1235,17 +1655,17 @@
                                 <geom name="right_hand_touch_117_link_visual_0" class="visual" type="sphere" size="0.002" rgba="0.32 0.40 0.44 1" />
                               </body>
                             </body>
-                            <body name="right_plam_rubber_link">
-                              <geom name="right_plam_rubber_link_visual_0" class="visual" mesh="right_plam_rubber_link_visual_0_right_plam_rubber_link" rgba="0.60 0.61 0.67 1" />
-                              <geom name="right_plam_rubber_link_collision_0" class="collision" mesh="right_plam_rubber_link_collision_0_right_plam_rubber_link" />
+                            <body name="right_palm_rubber_link">
+                              <geom name="right_palm_rubber_link_visual_0" class="visual" mesh="right_palm_rubber_link_visual_0_right_palm_rubber_link" rgba="0.60 0.61 0.67 1" />
+                              <geom name="right_palm_rubber_link_collision_0" class="collision" mesh="right_palm_rubber_link_collision_0_right_palm_rubber_link" />
                             </body>
-                            <body name="right_plam_link">
-                              <geom name="right_plam_link_visual_0" class="visual" mesh="right_plam_link_visual_0_right_plam_link__revo3_white_pc" rgba="0.94 0.95 0.97 1" />
-                              <geom name="right_plam_link_visual_1" class="visual" mesh="right_plam_link_visual_1_right_plam_link__revo3_aluminum" rgba="0.72 0.74 0.78 1" />
-                              <geom name="right_plam_link_collision_0" class="collision" mesh="right_plam_link_collision_0_right_plam_backtrim_v2" />
-                              <body name="right_plam_led_link">
-                                <geom name="right_plam_led_link_visual_0" class="visual" mesh="right_plam_led_link_visual_0_right_plam_led_link" rgba="1 1 1 1" material="right_plam_led_link_visual_0_material" />
-                                <geom name="right_plam_led_link_collision_0" class="collision" mesh="right_plam_led_link_collision_0_right_plam_led_link" />
+                            <body name="right_palm_link">
+                              <geom name="right_palm_link_visual_0" class="visual" mesh="right_palm_link_visual_0_right_palm_link__revo3_white_pc" rgba="0.94 0.95 0.97 1" />
+                              <geom name="right_palm_link_visual_1" class="visual" mesh="right_palm_link_visual_1_right_palm_link__revo3_aluminum" rgba="0.72 0.74 0.78 1" />
+                              <geom name="right_palm_link_collision_0" class="collision" mesh="right_palm_link_collision_0_right_palm_backtrim_v2" />
+                              <body name="right_palm_led_link">
+                                <geom name="right_palm_led_link_visual_0" class="visual" mesh="right_palm_led_link_visual_0_right_palm_led_link" rgba="1 1 1 1" material="right_palm_led_link_visual_0_material" />
+                                <geom name="right_palm_led_link_collision_0" class="collision" mesh="right_palm_led_link_collision_0_right_palm_led_link" />
                               </body>
                             </body>
                             <body name="right_palm" pos="0.0155 0 0.055" />

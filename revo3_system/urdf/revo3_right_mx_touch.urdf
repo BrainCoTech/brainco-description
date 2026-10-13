@@ -1091,25 +1091,25 @@
     <axis xyz="0 0 0" />
     <mimic joint="right_ring_PIP_joint" multiplier="1" offset="0" />
   </joint>
-  <link name="right_ring_PIP_tubber_link">
+  <link name="right_ring_PIP_rubber_link">
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hands/visual/right/right_ring_PIP_tubber_link.STL" />
+        <mesh filename="../meshes/hands/visual/right/right_ring_PIP_rubber_link.STL" />
       </geometry>
       <material name="right_revo3_silicone_2162u_approx" />
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hands/collision/right/right_ring_PIP_tubber_link.STL" />
+        <mesh filename="../meshes/hands/collision/right/right_ring_PIP_rubber_link.STL" />
       </geometry>
     </collision>
   </link>
-  <joint name="right_ring_PIP_tubber_joint" type="fixed">
+  <joint name="right_ring_PIP_rubber_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="right_ring_PIP_link" />
-    <child link="right_ring_PIP_tubber_link" />
+    <child link="right_ring_PIP_rubber_link" />
     <axis xyz="0 0 0" />
     <mimic joint="right_ring_PIP_joint" multiplier="1" offset="0" />
   </joint>
@@ -1382,25 +1382,25 @@
     <axis xyz="0 0 0" />
     <mimic joint="right_little_MCP_joint" multiplier="1" offset="0" />
   </joint>
-  <link name="right_plam_touch_link">
+  <link name="right_palm_touch_link">
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hands/visual/right/right_plam_touch_link.STL" />
+        <mesh filename="../meshes/hands/visual/right/right_palm_touch_link.STL" />
       </geometry>
       <material name="right_revo3_silicone_2162u_approx" />
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hands/collision/right/right_plam_touch_link.STL" />
+        <mesh filename="../meshes/hands/collision/right/right_palm_touch_link.STL" />
       </geometry>
     </collision>
   </link>
-  <joint name="right_plam_touch_joint" type="fixed">
+  <joint name="right_palm_touch_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="right_hand_base_link" />
-    <child link="right_plam_touch_link" />
+    <child link="right_palm_touch_link" />
     <axis xyz="0 0 0" />
   </joint>
   <link name="right_hand_touch_0_link">
@@ -1414,7 +1414,7 @@
   </link>
   <joint name="right_hand_touch_0_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0226397697674683 -0.0234760858242112 0.0337138043311366" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_0_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1429,7 +1429,7 @@
   </link>
   <joint name="right_hand_touch_1_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0230459005560718 -0.0189695273617475 0.033848811605914" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_1_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1444,7 +1444,7 @@
   </link>
   <joint name="right_hand_touch_2_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0231983452970953 -0.0144089149657803 0.033910166493165" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_2_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1459,7 +1459,7 @@
   </link>
   <joint name="right_hand_touch_3_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.023640431742945 -0.00940974107791017 0.0281048775223736" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_3_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1474,7 +1474,7 @@
   </link>
   <joint name="right_hand_touch_4_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0237454383558964 -0.00329811799985517 0.0278312259290988" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_4_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1489,7 +1489,7 @@
   </link>
   <joint name="right_hand_touch_5_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0237451302495407 0.00283596338391573 0.0275267042915724" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_5_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1504,7 +1504,7 @@
   </link>
   <joint name="right_hand_touch_6_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0236139163797636 0.00899829880707381 0.0271832168966856" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_6_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1519,7 +1519,7 @@
   </link>
   <joint name="right_hand_touch_7_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.02323692199841 0.0152165879928622 0.0267669180097866" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_7_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1534,7 +1534,7 @@
   </link>
   <joint name="right_hand_touch_8_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.022183014535253 0.0215680177812226 0.0261804070759782" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_8_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1549,7 +1549,7 @@
   </link>
   <joint name="right_hand_touch_9_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0218506017661683 -0.0283128872057451 0.0381517526605913" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_9_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1564,7 +1564,7 @@
   </link>
   <joint name="right_hand_touch_10_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0223347962634666 -0.0238220690140744 0.0382918161280186" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_10_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1579,7 +1579,7 @@
   </link>
   <joint name="right_hand_touch_11_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0225323633016943 -0.0192710324001671 0.0383493849794146" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_11_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1594,7 +1594,7 @@
   </link>
   <joint name="right_hand_touch_12_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0225352893573345 -0.0146789378143853 0.0383504120358571" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_12_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1609,7 +1609,7 @@
   </link>
   <joint name="right_hand_touch_13_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0213394256570393 -0.0284646754197042 0.0426879327235004" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_13_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1624,7 +1624,7 @@
   </link>
   <joint name="right_hand_touch_14_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0216302046748571 -0.0239332938883139 0.0427721380609417" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_14_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1639,7 +1639,7 @@
   </link>
   <joint name="right_hand_touch_15_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0216538265315101 -0.0193461744039298 0.0427794557336459" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_15_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1654,7 +1654,7 @@
   </link>
   <joint name="right_hand_touch_16_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0215338845551457 -0.0147290814481652 0.0427450257572026" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_16_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1669,7 +1669,7 @@
   </link>
   <joint name="right_hand_touch_17_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.02043955961366 -0.0285346355630135 0.047112367425089" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_17_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1684,7 +1684,7 @@
   </link>
   <joint name="right_hand_touch_18_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0205699629496207 -0.0239697176453345 0.0471503849867211" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_18_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1699,7 +1699,7 @@
   </link>
   <joint name="right_hand_touch_19_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0204632066344911 -0.0193562675587751 0.0471190931896813" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_19_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1714,7 +1714,7 @@
   </link>
   <joint name="right_hand_touch_20_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0202803322233986 -0.0147256064070275 0.0470666559906" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_20_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1729,7 +1729,7 @@
   </link>
   <joint name="right_hand_touch_21_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0192174321869597 -0.0285364127896481 0.0514443845602994" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_21_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1744,7 +1744,7 @@
   </link>
   <joint name="right_hand_touch_22_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0191988911569413 -0.0239418604491684 0.0514380954389309" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_22_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1759,7 +1759,7 @@
   </link>
   <joint name="right_hand_touch_23_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0190404598491429 -0.0193168775079408 0.0513923659073192" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_23_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1774,7 +1774,7 @@
   </link>
   <joint name="right_hand_touch_24_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0188743724513848 -0.0146894869317862 0.0513447847534272" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_24_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1789,7 +1789,7 @@
   </link>
   <joint name="right_hand_touch_25_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0177490280928249 -0.0284877468442173 0.0557041710736207" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_25_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1804,7 +1804,7 @@
   </link>
   <joint name="right_hand_touch_26_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0176666864571201 -0.0238795416962254 0.0556799787910797" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_26_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1819,7 +1819,7 @@
   </link>
   <joint name="right_hand_touch_27_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0175294125164142 -0.0192586856158498 0.0556403974040814" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_27_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1834,7 +1834,7 @@
   </link>
   <joint name="right_hand_touch_28_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0174069222717077 -0.0146402532467518 0.0556053801888737" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_28_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1849,7 +1849,7 @@
   </link>
   <joint name="right_hand_touch_29_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0161820215580377 -0.0284181370626561 0.0599361346329036" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_29_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1864,7 +1864,7 @@
   </link>
   <joint name="right_hand_touch_30_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0160961591057891 -0.0238090001958928 0.0599110175481568" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_30_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1879,7 +1879,7 @@
   </link>
   <joint name="right_hand_touch_31_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0160961591057891 -0.0238090001958928 0.0599110175481568" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_31_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1894,7 +1894,7 @@
   </link>
   <joint name="right_hand_touch_32_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0159425353705877 -0.0145915912905465 0.0598669863034865" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_32_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1909,7 +1909,7 @@
   </link>
   <joint name="right_hand_touch_33_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0159425353705877 -0.0145915912905465 0.0598669863034865" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_33_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1924,7 +1924,7 @@
   </link>
   <joint name="right_hand_touch_34_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0145509389625814 -0.0237436636235597 0.0641494684049999" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_34_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1939,7 +1939,7 @@
   </link>
   <joint name="right_hand_touch_35_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0145211503813265 -0.0191448343390439 0.0641408788367148" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_35_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1954,7 +1954,7 @@
   </link>
   <joint name="right_hand_touch_36_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0145254462074757 -0.0145529048276185 0.0641422361481199" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_36_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1969,7 +1969,7 @@
   </link>
   <joint name="right_hand_touch_37_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0131041876516137 -0.0282905880160704 0.0684165008997243" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_37_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1984,7 +1984,7 @@
   </link>
   <joint name="right_hand_touch_38_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0130764464454015 -0.0236931576295277 0.0684083034287755" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_38_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -1999,7 +1999,7 @@
   </link>
   <joint name="right_hand_touch_39_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0131135600316858 -0.0191082153724978 0.0684189186306639" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_39_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2014,7 +2014,7 @@
   </link>
   <joint name="right_hand_touch_40_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0131842332551862 -0.0145302834059475 0.0684392499848971" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_40_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2029,7 +2029,7 @@
   </link>
   <joint name="right_hand_touch_41_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0116901201166402 -0.0282530200741764 0.0726926086274583" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_41_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2044,7 +2044,7 @@
   </link>
   <joint name="right_hand_touch_42_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0117050680857145 -0.0236643843353395 0.072696732841203" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_42_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2059,7 +2059,7 @@
   </link>
   <joint name="right_hand_touch_43_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0118067898624947 -0.0190929202487909 0.0727258428963585" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_43_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2074,7 +2074,7 @@
   </link>
   <joint name="right_hand_touch_44_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0119370370106638 -0.0145275986471782 0.0727631690550845" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_44_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2089,7 +2089,7 @@
   </link>
   <joint name="right_hand_touch_45_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0104066151934332 -0.028259778315934 0.0770060348016884" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_45_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2104,7 +2104,7 @@
   </link>
   <joint name="right_hand_touch_46_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0104552122596039 -0.0237127560670198 0.0770368607283903" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_46_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2119,7 +2119,7 @@
   </link>
   <joint name="right_hand_touch_47_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0106128503370677 -0.0191530686459397 0.077082132087215" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_47_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2134,7 +2134,7 @@
   </link>
   <joint name="right_hand_touch_48_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0107905744411973 -0.0145978195798121 0.0771329659825013" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_48_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2149,7 +2149,7 @@
   </link>
   <joint name="right_hand_touch_49_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0109183612653321 -0.0100325147112246 0.0771694919602231" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_49_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2164,7 +2164,7 @@
   </link>
   <joint name="right_hand_touch_50_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0109988468433389 -0.005457405547241 0.0771924723088432" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_50_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2179,7 +2179,7 @@
   </link>
   <joint name="right_hand_touch_51_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0110646295613322 -0.00087908565896592 0.0772112563256006" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_51_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2194,7 +2194,7 @@
   </link>
   <joint name="right_hand_touch_52_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0111362890283424 0.00369821927905922 0.077231745857878" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_52_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2209,7 +2209,7 @@
   </link>
   <joint name="right_hand_touch_53_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.011202592583259 0.00827691724674353 0.0772507495182013" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_53_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2224,7 +2224,7 @@
   </link>
   <joint name="right_hand_touch_54_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0112184763397942 0.0128664194877175 0.0772554393970876" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_54_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2239,7 +2239,7 @@
   </link>
   <joint name="right_hand_touch_55_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0111344420964055 0.0174764751138269 0.0772317168541521" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_55_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2254,7 +2254,7 @@
   </link>
   <joint name="right_hand_touch_56_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0109749221970822 0.0221015765618474 0.0771863173603622" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_56_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2269,7 +2269,7 @@
   </link>
   <joint name="right_hand_touch_57_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0108349499723394 0.0267237494457759 0.0771461786728932" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_57_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2284,7 +2284,7 @@
   </link>
   <joint name="right_hand_touch_58_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0105425301903183 0.0313732762463024 0.0769436018430595" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_58_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2299,7 +2299,7 @@
   </link>
   <joint name="right_hand_touch_59_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0104441941736053 0.0359916616672124 0.0770341363287064" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_59_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2314,7 +2314,7 @@
   </link>
   <joint name="right_hand_touch_60_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00919715026089616 -0.0282829714021297 0.081340630523967" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_60_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2329,7 +2329,7 @@
   </link>
   <joint name="right_hand_touch_61_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00932062986402865 -0.023733847586369 0.081392255987955" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_61_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2344,7 +2344,7 @@
   </link>
   <joint name="right_hand_touch_62_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0095518363887179 -0.0191895650074407 0.0814588291198191" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_62_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2359,7 +2359,7 @@
   </link>
   <joint name="right_hand_touch_63_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00976643460846851 -0.0146424316694932 0.0815205730089879" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_63_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2374,7 +2374,7 @@
   </link>
   <joint name="right_hand_touch_64_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00991255371163358 -0.0100810900446249 0.0815622450628379" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_64_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2389,7 +2389,7 @@
   </link>
   <joint name="right_hand_touch_65_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0100092079560603 -0.00550944602957983 0.0815898572777054" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_65_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2404,7 +2404,7 @@
   </link>
   <joint name="right_hand_touch_66_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0100928792719285 -0.000934900911032749 0.0816137210656877" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_66_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2419,7 +2419,7 @@
   </link>
   <joint name="right_hand_touch_67_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0101834954018881 0.0036384251235405 0.0816395748458155" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_67_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2434,7 +2434,7 @@
   </link>
   <joint name="right_hand_touch_68_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0102663145342597 0.00821367309147419 0.081663226636876" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_68_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2449,7 +2449,7 @@
   </link>
   <joint name="right_hand_touch_69_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0102907053185674 0.0128014797423732 0.081670285793507" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_69_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2464,7 +2464,7 @@
   </link>
   <joint name="right_hand_touch_70_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0101966578903193 0.0174137579532282 0.0816437235744816" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_70_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2479,7 +2479,7 @@
   </link>
   <joint name="right_hand_touch_71_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0100003768088373 0.0220463252005719 0.0815878153409032" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_71_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2494,7 +2494,7 @@
   </link>
   <joint name="right_hand_touch_72_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00982263010656388 0.0266762101576974 0.0815366578092515" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_72_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2509,7 +2509,7 @@
   </link>
   <joint name="right_hand_touch_73_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00969677149935201 0.031296693582795 0.0815002823039903" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_73_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2524,7 +2524,7 @@
   </link>
   <joint name="right_hand_touch_74_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00949508262607982 0.0359341694420124 0.0814426154314596" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_74_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2539,7 +2539,7 @@
   </link>
   <joint name="right_hand_touch_75_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00816996129318758 -0.0237517497430302 0.0857434768739422" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_75_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2554,7 +2554,7 @@
   </link>
   <joint name="right_hand_touch_76_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00856912491648382 -0.0192422777756501 0.0858577544056258" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_76_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2569,7 +2569,7 @@
   </link>
   <joint name="right_hand_touch_77_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00885987802323997 -0.014711539663804 0.0859415205581818" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_77_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2584,7 +2584,7 @@
   </link>
   <joint name="right_hand_touch_78_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00901403006452351 -0.0101525439891593 0.0859860145328527" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_78_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2599,7 +2599,7 @@
   </link>
   <joint name="right_hand_touch_79_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00910347895393611 -0.00557947835959361 0.0860111621669632" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_79_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2614,7 +2614,7 @@
   </link>
   <joint name="right_hand_touch_80_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00919566982205537 -0.00100654674589814 0.086037149259985" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_80_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2629,7 +2629,7 @@
   </link>
   <joint name="right_hand_touch_81_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00930514817053681 0.00356286533792865 0.0860683571577404" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_81_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2644,7 +2644,7 @@
   </link>
   <joint name="right_hand_touch_82_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0094124271639705 0.00813300366179107 0.0860990614407544" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_82_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2659,7 +2659,7 @@
   </link>
   <joint name="right_hand_touch_83_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00945764020538425 0.012716602340327 0.0861123552253754" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_83_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2674,7 +2674,7 @@
   </link>
   <joint name="right_hand_touch_84_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00934254376606492 0.0173334546328663 0.0860801470266851" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_84_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2689,7 +2689,7 @@
   </link>
   <joint name="right_hand_touch_85_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00907467877727269 0.0219802330619142 0.0860036032815185" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_85_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2704,7 +2704,7 @@
   </link>
   <joint name="right_hand_touch_86_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00886004425241818 0.0266175842933861 0.0859410677036056" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_86_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2719,7 +2719,7 @@
   </link>
   <joint name="right_hand_touch_87_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00880262518160941 0.0312242826133787 0.0859239047547175" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_87_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2734,7 +2734,7 @@
   </link>
   <joint name="right_hand_touch_88_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00873436063819575 0.0358334421823732 0.085905262721495" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_88_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2749,7 +2749,7 @@
   </link>
   <joint name="right_hand_touch_89_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00764451829745623 -0.0193255581662007 0.0902911065437556" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_89_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2764,7 +2764,7 @@
   </link>
   <joint name="right_hand_touch_90_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00807245577854548 -0.0148233411478637 0.0904137295307853" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_90_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2779,7 +2779,7 @@
   </link>
   <joint name="right_hand_touch_91_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00822201904761674 -0.0102640475504994 0.0904575547830349" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_91_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2794,7 +2794,7 @@
   </link>
   <joint name="right_hand_touch_92_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00823613236141795 -0.00567612779485572 0.090461084735725" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_92_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2809,7 +2809,7 @@
   </link>
   <joint name="right_hand_touch_93_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00830885627992529 -0.00109855501377147 0.0904808056919107" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_93_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2824,7 +2824,7 @@
   </link>
   <joint name="right_hand_touch_94_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00845297260583403 0.00346390528039561 0.090521615532504" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_94_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2839,7 +2839,7 @@
   </link>
   <joint name="right_hand_touch_95_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00862215648199166 0.00802119002414224 0.0905700296213471" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_95_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2854,7 +2854,7 @@
   </link>
   <joint name="right_hand_touch_96_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00871446474479442 0.0125953915461199 0.0905972448199821" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_96_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2869,7 +2869,7 @@
   </link>
   <joint name="right_hand_touch_97_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0085410746137039 0.0172245455142842 0.0905490422991552" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_97_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2884,7 +2884,7 @@
   </link>
   <joint name="right_hand_touch_98_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0081401826799012 0.0218972741268228 0.0904344317272434" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_98_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2899,7 +2899,7 @@
   </link>
   <joint name="right_hand_touch_99_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00788867949592618 0.0265422321338828 0.0903603964208211" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_99_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2914,7 +2914,7 @@
   </link>
   <joint name="right_hand_touch_100_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00799106644578643 0.031116799615518 0.0903889745145826" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_100_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2929,7 +2929,7 @@
   </link>
   <joint name="right_hand_touch_101_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0081672 0.035675 0.09044" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_101_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2944,7 +2944,7 @@
   </link>
   <joint name="right_hand_touch_102_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0074284 -0.014966 0.094927" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_102_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2959,7 +2959,7 @@
   </link>
   <joint name="right_hand_touch_103_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00756056804638959 -0.0104022805441097 0.0949666799865704" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_103_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2974,7 +2974,7 @@
   </link>
   <joint name="right_hand_touch_105_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00739933158671521 -0.00118645186729451 0.0949183120595474" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_105_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -2989,7 +2989,7 @@
   </link>
   <joint name="right_hand_touch_106_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00760107533803063 0.00336476278617314 0.0949751421518461" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_106_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -3004,7 +3004,7 @@
   </link>
   <joint name="right_hand_touch_107_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00789152502059494 0.00789688673316244 0.0950582190621228" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_107_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -3019,7 +3019,7 @@
   </link>
   <joint name="right_hand_touch_108_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00807161001254056 0.012453471013056 0.0951107545654656" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_108_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -3034,7 +3034,7 @@
   </link>
   <joint name="right_hand_touch_109_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00781468020892972 0.0171002285955387 0.0950393177560103" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_109_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -3049,7 +3049,7 @@
   </link>
   <joint name="right_hand_touch_110_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00723482261659032 0.0218073550403722 0.0948736090130235" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_110_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -3064,7 +3064,7 @@
   </link>
   <joint name="right_hand_touch_111_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00707595323862422 -0.0105822907791027 0.0995323182446161" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_111_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -3079,7 +3079,7 @@
   </link>
   <joint name="right_hand_touch_112_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.0066621 -0.0059119 0.099415" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_112_link" />
     <axis xyz="1 0 0" />
   </joint>
@@ -3094,7 +3094,7 @@
   </link>
   <joint name="right_hand_touch_113_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00649146755476816 -0.00128173783926985 0.0993625417540101" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_113_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -3109,7 +3109,7 @@
   </link>
   <joint name="right_hand_touch_114_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00676039148319053 0.00325727776148033 0.0994380199008272" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_114_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -3124,7 +3124,7 @@
   </link>
   <joint name="right_hand_touch_115_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00722995291213795 0.0077519991067014 0.0995723371899151" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_115_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -3139,7 +3139,7 @@
   </link>
   <joint name="right_hand_touch_116_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00754482386731382 0.0122809438254106 0.0996631662974306" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_116_link" />
     <axis xyz="0 0 0" />
   </joint>
@@ -3154,64 +3154,64 @@
   </link>
   <joint name="right_hand_touch_117_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.00720769476786896 0.0169449924525646 0.0995691398734196" />
-    <parent link="right_plam_touch_link" />
+    <parent link="right_palm_touch_link" />
     <child link="right_hand_touch_117_link" />
     <axis xyz="0 0 0" />
   </joint>
-  <link name="right_plam_rubber_link">
+  <link name="right_palm_rubber_link">
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hands/visual/right/right_plam_rubber_link.STL" />
+        <mesh filename="../meshes/hands/visual/right/right_palm_rubber_link.STL" />
       </geometry>
       <material name="right_revo3_silicone_2162u_approx" />
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hands/collision/right/right_plam_rubber_link.STL" />
+        <mesh filename="../meshes/hands/collision/right/right_palm_rubber_link.STL" />
       </geometry>
     </collision>
   </link>
-  <joint name="right_plam_rubber_joint" type="fixed">
+  <joint name="right_palm_rubber_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="right_hand_base_link" />
-    <child link="right_plam_rubber_link" />
+    <child link="right_palm_rubber_link" />
     <axis xyz="0 0 0" />
   </joint>
-  <link name="right_plam_link">
-    <visual name="right_plam_link__revo3_white_pc">
+  <link name="right_palm_link">
+    <visual name="right_palm_link__revo3_white_pc">
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hands/visual/right/right_plam_link__revo3_white_pc.stl" />
+        <mesh filename="../meshes/hands/visual/right/right_palm_link__revo3_white_pc.stl" />
       </geometry>
       <material name="right_revo3_white_pc" />
     </visual>
-    <visual name="right_plam_link__revo3_aluminum">
+    <visual name="right_palm_link__revo3_aluminum">
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hands/visual/right/right_plam_link__revo3_aluminum.stl" />
+        <mesh filename="../meshes/hands/visual/right/right_palm_link__revo3_aluminum.stl" />
       </geometry>
       <material name="right_revo3_aluminum" />
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hands/collision/right/right_plam_backtrim_v2.obj" />
+        <mesh filename="../meshes/hands/collision/right/right_palm_backtrim_v2.obj" />
       </geometry>
     </collision>
   </link>
-  <joint name="right_plam_joint" type="fixed">
+  <joint name="right_palm_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="right_hand_base_link" />
-    <child link="right_plam_link" />
+    <child link="right_palm_link" />
     <axis xyz="0 0 0" />
   </joint>
-  <link name="right_plam_led_link">
+  <link name="right_palm_led_link">
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hands/visual/right/right_plam_led_link.dae" />
+        <mesh filename="../meshes/hands/visual/right/right_palm_led_link.dae" />
       </geometry>
       <material name="right_revo3_screen_texture">
         <color rgba="1 1 1 1" />
@@ -3221,14 +3221,14 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hands/collision/right/right_plam_led_link.STL" />
+        <mesh filename="../meshes/hands/collision/right/right_palm_led_link.STL" />
       </geometry>
     </collision>
   </link>
-  <joint name="right_plam_led_joint" type="fixed">
+  <joint name="right_palm_led_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0 0 0" />
-    <parent link="right_plam_link" />
-    <child link="right_plam_led_link" />
+    <parent link="right_palm_link" />
+    <child link="right_palm_led_link" />
     <axis xyz="0 0 0" />
   </joint>
   <link name="right_thumb_fingerpad_0">
@@ -5050,6 +5050,1966 @@
     <origin rpy="0 0 0" xyz="0.0089537681534965722 0.0017148251383346177 0.017521123168271452" />
     <parent link="right_little_PIP_link" />
     <child link="right_little_fingerpad_26" />
+  </joint>
+  <link name="right_index_fingertip_0">
+    <visual name="right_index_fingertip_0_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_index_fingertip_0_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.00086498891999466088 -0.0061224108502298882 0.013479006280010003" />
+    <parent link="right_index_DIP_link" />
+    <child link="right_index_fingertip_0" />
+  </joint>
+  <link name="right_index_fingertip_1">
+    <visual name="right_index_fingertip_1_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_index_fingertip_1_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0042108025020953432 -0.0049167787153276687 0.012258961685544245" />
+    <parent link="right_index_DIP_link" />
+    <child link="right_index_fingertip_1" />
+  </joint>
+  <link name="right_index_fingertip_2">
+    <visual name="right_index_fingertip_2_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_index_fingertip_2_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0060533104125748876 0.00046780599711453846 0.013263663245919433" />
+    <parent link="right_index_DIP_link" />
+    <child link="right_index_fingertip_2" />
+  </joint>
+  <link name="right_index_fingertip_3">
+    <visual name="right_index_fingertip_3_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_index_fingertip_3_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0048295359470593626 0.0058641407633123685 0.011596341951244427" />
+    <parent link="right_index_DIP_link" />
+    <child link="right_index_fingertip_3" />
+  </joint>
+  <link name="right_index_fingertip_4">
+    <visual name="right_index_fingertip_4_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_index_fingertip_4_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-6.709191032852873E-05 0.00778028583358005 0.012624515046560258" />
+    <parent link="right_index_DIP_link" />
+    <child link="right_index_fingertip_4" />
+  </joint>
+  <link name="right_index_fingertip_5">
+    <visual name="right_index_fingertip_5_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_index_fingertip_5_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.00083388460815775941 -0.00564980024615809 0.016643760889532483" />
+    <parent link="right_index_DIP_link" />
+    <child link="right_index_fingertip_5" />
+  </joint>
+  <link name="right_index_fingertip_6">
+    <visual name="right_index_fingertip_6_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_index_fingertip_6_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0042419068139301387 -0.0044441681112572379 0.015423716295116074" />
+    <parent link="right_index_DIP_link" />
+    <child link="right_index_fingertip_6" />
+  </joint>
+  <link name="right_index_fingertip_7">
+    <visual name="right_index_fingertip_7_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_index_fingertip_7_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0060685225023635438 0.00066324282196753709 0.016457653389890026" />
+    <parent link="right_index_DIP_link" />
+    <child link="right_index_fingertip_7" />
+  </joint>
+  <link name="right_index_fingertip_8">
+    <visual name="right_index_fingertip_8_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_index_fingertip_8_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0048287400416128362 0.005780916416699311 0.014795259436066938" />
+    <parent link="right_index_DIP_link" />
+    <child link="right_index_fingertip_8" />
+  </joint>
+  <link name="right_index_fingertip_9">
+    <visual name="right_index_fingertip_9_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_index_fingertip_9_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-6.7887815775761161E-05 0.0076970614869669718 0.015823432531382603" />
+    <parent link="right_index_DIP_link" />
+    <child link="right_index_fingertip_9" />
+  </joint>
+  <link name="right_index_fingertip_10">
+    <visual name="right_index_fingertip_10_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_index_fingertip_10_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.002552425061029 -0.0048206905803532749 0.021518185310413218" />
+    <parent link="right_index_DIP_link" />
+    <child link="right_index_fingertip_10" />
+  </joint>
+  <link name="right_index_fingertip_11">
+    <visual name="right_index_fingertip_11_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_index_fingertip_11_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0031867193176621034 -0.0035646422153360127 0.020922429378682827" />
+    <parent link="right_index_DIP_link" />
+    <child link="right_index_fingertip_11" />
+  </joint>
+  <link name="right_index_fingertip_12">
+    <visual name="right_index_fingertip_12_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_index_fingertip_12_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0048458914099074341 0.0010287346702301109 0.02126260451601214" />
+    <parent link="right_index_DIP_link" />
+    <child link="right_index_fingertip_12" />
+  </joint>
+  <link name="right_index_fingertip_13">
+    <visual name="right_index_fingertip_13_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_index_fingertip_13_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.003718729147363823 0.0057051898625377628 0.020352684499283513" />
+    <parent link="right_index_DIP_link" />
+    <child link="right_index_fingertip_13" />
+  </joint>
+  <link name="right_index_fingertip_14">
+    <visual name="right_index_fingertip_14_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_index_fingertip_14_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0018355394916450534 0.0076704486361575258 0.020750451596663444" />
+    <parent link="right_index_DIP_link" />
+    <child link="right_index_fingertip_14" />
+  </joint>
+  <link name="right_index_fingertip_15">
+    <visual name="right_index_fingertip_15_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_index_fingertip_15_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.00039254303777154931 -0.00285570414304373 0.024619354628925449" />
+    <parent link="right_index_DIP_link" />
+    <child link="right_index_fingertip_15" />
+  </joint>
+  <link name="right_index_fingertip_16">
+    <visual name="right_index_fingertip_16_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_index_fingertip_16_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0016553264892679191 0.0014717344402088717 0.025491026157172136" />
+    <parent link="right_index_DIP_link" />
+    <child link="right_index_fingertip_16" />
+  </joint>
+  <link name="right_index_fingertip_17">
+    <visual name="right_index_fingertip_17_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_index_fingertip_17_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.00088792580595198865 0.0057759316257707249 0.024088834740399689" />
+    <parent link="right_index_DIP_link" />
+    <child link="right_index_fingertip_17" />
+  </joint>
+  <link name="right_index_fingertip_18">
+    <visual name="right_index_fingertip_18_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_index_fingertip_18_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0032855153530797548 -0.00208597899994116 0.026976869337105275" />
+    <parent link="right_index_DIP_link" />
+    <child link="right_index_fingertip_18" />
+  </joint>
+  <link name="right_index_fingertip_19">
+    <visual name="right_index_fingertip_19_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_index_fingertip_19_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0026439568441734979 0.0018716696132382166 0.027983494195547159" />
+    <parent link="right_index_DIP_link" />
+    <child link="right_index_fingertip_19" />
+  </joint>
+  <link name="right_index_fingertip_20">
+    <visual name="right_index_fingertip_20_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_index_fingertip_20_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0028372891831533248 0.0057239919746946005 0.026496850828263863" />
+    <parent link="right_index_DIP_link" />
+    <child link="right_index_fingertip_20" />
+  </joint>
+  <link name="right_middle_fingertip_0">
+    <visual name="right_middle_fingertip_0_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_middle_fingertip_0_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.00058826208146386949 -0.0066971781811827717 0.013218074077606057" />
+    <parent link="right_middle_DIP_link" />
+    <child link="right_middle_fingertip_0" />
+  </joint>
+  <link name="right_middle_fingertip_1">
+    <visual name="right_middle_fingertip_1_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_middle_fingertip_1_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0044341046177468844 -0.0052502177462180246 0.012040001730056066" />
+    <parent link="right_middle_DIP_link" />
+    <child link="right_middle_fingertip_1" />
+  </joint>
+  <link name="right_middle_fingertip_2">
+    <visual name="right_middle_fingertip_2_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_middle_fingertip_2_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0060739970993359173 0.0001550191927120366 0.013261549696334946" />
+    <parent link="right_middle_DIP_link" />
+    <child link="right_middle_fingertip_2" />
+  </joint>
+  <link name="right_middle_fingertip_3">
+    <visual name="right_middle_fingertip_3_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_middle_fingertip_3_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0046407562401221229 0.0055645196616420228 0.011818934547680848" />
+    <parent link="right_middle_DIP_link" />
+    <child link="right_middle_fingertip_3" />
+  </joint>
+  <link name="right_middle_fingertip_4">
+    <visual name="right_middle_fingertip_4_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_middle_fingertip_4_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.00032177137714259341 0.0072491289213271574 0.012932993571277696" />
+    <parent link="right_middle_DIP_link" />
+    <child link="right_middle_fingertip_4" />
+  </joint>
+  <link name="right_middle_fingertip_5">
+    <visual name="right_middle_fingertip_5_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_middle_fingertip_5_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.00056490615179441688 -0.0063535847180388443 0.016399488547998692" />
+    <parent link="right_middle_DIP_link" />
+    <child link="right_middle_fingertip_5" />
+  </joint>
+  <link name="right_middle_fingertip_6">
+    <visual name="right_middle_fingertip_6_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_middle_fingertip_6_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0044574605474144418 -0.0049066242830775441 0.015221416200497967" />
+    <parent link="right_middle_DIP_link" />
+    <child link="right_middle_fingertip_6" />
+  </joint>
+  <link name="right_middle_fingertip_7">
+    <visual name="right_middle_fingertip_7_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_middle_fingertip_7_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0060920946974127267 0.0002200709417309217 0.016460837233718772" />
+    <parent link="right_middle_DIP_link" />
+    <child link="right_middle_fingertip_7" />
+  </joint>
+  <link name="right_middle_fingertip_8">
+    <visual name="right_middle_fingertip_8_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_middle_fingertip_8_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0046534577729589873 0.0053505346134451043 0.015011746642096896" />
+    <parent link="right_middle_DIP_link" />
+    <child link="right_middle_fingertip_8" />
+  </joint>
+  <link name="right_middle_fingertip_9">
+    <visual name="right_middle_fingertip_9_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_middle_fingertip_9_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.00030906984430643415 0.0070351438731301869 0.016125805665693632" />
+    <parent link="right_middle_DIP_link" />
+    <child link="right_middle_fingertip_9" />
+  </joint>
+  <link name="right_middle_fingertip_10">
+    <visual name="right_middle_fingertip_10_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_middle_fingertip_10_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0022979401987017149 -0.00579062065358207 0.021306675320005131" />
+    <parent link="right_middle_DIP_link" />
+    <child link="right_middle_fingertip_10" />
+  </joint>
+  <link name="right_middle_fingertip_11">
+    <visual name="right_middle_fingertip_11_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_middle_fingertip_11_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0033873994373558223 -0.0042935982723423787 0.020753323679855051" />
+    <parent link="right_middle_DIP_link" />
+    <child link="right_middle_fingertip_11" />
+  </joint>
+  <link name="right_middle_fingertip_12">
+    <visual name="right_middle_fingertip_12_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_middle_fingertip_12_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.004871994670973003 0.00034186980556369373 0.021278771164986388" />
+    <parent link="right_middle_DIP_link" />
+    <child link="right_middle_fingertip_12" />
+  </joint>
+  <link name="right_middle_fingertip_13">
+    <visual name="right_middle_fingertip_13_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_middle_fingertip_13_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0035650861218648098 0.0050053117079963787 0.020563241965365409" />
+    <parent link="right_middle_DIP_link" />
+    <child link="right_middle_fingertip_13" />
+  </joint>
+  <link name="right_middle_fingertip_14">
+    <visual name="right_middle_fingertip_14_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_middle_fingertip_14_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0020585066151849315 0.0067397011635173254 0.021050539379378841" />
+    <parent link="right_middle_DIP_link" />
+    <child link="right_middle_fingertip_14" />
+  </joint>
+  <link name="right_middle_fingertip_15">
+    <visual name="right_middle_fingertip_15_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_middle_fingertip_15_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.00058027132815095372 -0.0038434130393340295 0.024480874566673777" />
+    <parent link="right_middle_DIP_link" />
+    <child link="right_middle_fingertip_15" />
+  </joint>
+  <link name="right_middle_fingertip_16">
+    <visual name="right_middle_fingertip_16_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_middle_fingertip_16_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0016805844262847563 0.00048969427205983011 0.025527129843541052" />
+    <parent link="right_middle_DIP_link" />
+    <child link="right_middle_fingertip_16" />
+  </joint>
+  <link name="right_middle_fingertip_17">
+    <visual name="right_middle_fingertip_17_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_middle_fingertip_17_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.00074572489070252445 0.0048152987175788045 0.024303879329598654" />
+    <parent link="right_middle_DIP_link" />
+    <child link="right_middle_fingertip_17" />
+  </joint>
+  <link name="right_middle_fingertip_18">
+    <visual name="right_middle_fingertip_18_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_middle_fingertip_18_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0031167329837076541 -0.0033114047645842418 0.026874113425504359" />
+    <parent link="right_middle_DIP_link" />
+    <child link="right_middle_fingertip_18" />
+  </joint>
+  <link name="right_middle_fingertip_19">
+    <visual name="right_middle_fingertip_19_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_middle_fingertip_19_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0026227115475208618 0.00062331158576039124 0.028041085376453667" />
+    <parent link="right_middle_DIP_link" />
+    <child link="right_middle_fingertip_19" />
+  </joint>
+  <link name="right_middle_fingertip_20">
+    <visual name="right_middle_fingertip_20_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_middle_fingertip_20_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0029670293173552197 0.0045230647740332162 0.026713966762579283" />
+    <parent link="right_middle_DIP_link" />
+    <child link="right_middle_fingertip_20" />
+  </joint>
+  <link name="right_ring_fingertip_0">
+    <visual name="right_ring_fingertip_0_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_ring_fingertip_0_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0003437324778622448 -0.0072495323870223095 0.012932202358729994" />
+    <parent link="right_ring_DIP_link" />
+    <child link="right_ring_fingertip_0" />
+  </joint>
+  <link name="right_ring_fingertip_1">
+    <visual name="right_ring_fingertip_1_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_ring_fingertip_1_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0046207162842662 -0.0055650578619978464 0.011826530490361559" />
+    <parent link="right_ring_DIP_link" />
+    <child link="right_ring_fingertip_1" />
+  </joint>
+  <link name="right_ring_fingertip_2">
+    <visual name="right_ring_fingertip_2_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_ring_fingertip_2_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.006051718642517764 -0.0001556528626994319 0.013271723541586955" />
+    <parent link="right_ring_DIP_link" />
+    <child link="right_ring_fingertip_2" />
+  </joint>
+  <link name="right_ring_fingertip_3">
+    <visual name="right_ring_fingertip_3_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_ring_fingertip_3_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0044140646621254 0.0052496795458791042 0.012047597672129234" />
+    <parent link="right_ring_DIP_link" />
+    <child link="right_ring_fingertip_3" />
+  </joint>
+  <link name="right_ring_fingertip_4">
+    <visual name="right_ring_fingertip_4_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_ring_fingertip_4_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.00061022318188241019 0.0066967747155107131 0.013217282864210311" />
+    <parent link="right_ring_DIP_link" />
+    <child link="right_ring_fingertip_4" />
+  </joint>
+  <link name="right_ring_fingertip_5">
+    <visual name="right_ring_fingertip_5_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_ring_fingertip_5_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0003363839798196681 -0.0070356501105497682 0.016125038147050019" />
+    <parent link="right_ring_DIP_link" />
+    <child link="right_ring_fingertip_5" />
+  </joint>
+  <link name="right_ring_fingertip_6">
+    <visual name="right_ring_fingertip_6_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_ring_fingertip_6_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.00462806478230697 -0.0053511755855308388 0.015019366278730656" />
+    <parent link="right_ring_DIP_link" />
+    <child link="right_ring_fingertip_6" />
+  </joint>
+  <link name="right_ring_fingertip_7">
+    <visual name="right_ring_fingertip_7_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_ring_fingertip_7_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0060644427580696433 -0.00022080777601423719 0.016471034863437373" />
+    <parent link="right_ring_DIP_link" />
+    <child link="right_ring_fingertip_7" />
+  </joint>
+  <link name="right_ring_fingertip_8">
+    <visual name="right_ring_fingertip_8_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_ring_fingertip_8_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0044320675569859622 0.0049059833110082461 0.015229035836537008" />
+    <parent link="right_ring_DIP_link" />
+    <child link="right_ring_fingertip_8" />
+  </joint>
+  <link name="right_ring_fingertip_9">
+    <visual name="right_ring_fingertip_9_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_ring_fingertip_9_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.00059222028702255163 0.006353078480639783 0.016398721028617919" />
+    <parent link="right_ring_DIP_link" />
+    <child link="right_ring_fingertip_9" />
+  </joint>
+  <link name="right_ring_fingertip_10">
+    <visual name="right_ring_fingertip_10_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_ring_fingertip_10_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0020940761997651578 -0.0067403051624533618 0.021046837308184241" />
+    <parent link="right_ring_DIP_link" />
+    <child link="right_ring_fingertip_10" />
+  </joint>
+  <link name="right_ring_fingertip_11">
+    <visual name="right_ring_fingertip_11_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_ring_fingertip_11_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0035303861983492588 -0.0050060932350545449 0.0205690376137716" />
+    <parent link="right_ring_DIP_link" />
+    <child link="right_ring_fingertip_11" />
+  </joint>
+  <link name="right_ring_fingertip_12">
+    <visual name="right_ring_fingertip_12_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_ring_fingertip_12_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0048362515325994886 -0.00034271915811552242 0.021286909688679495" />
+    <parent link="right_ring_DIP_link" />
+    <child link="right_ring_fingertip_12" />
+  </joint>
+  <link name="right_ring_fingertip_13">
+    <visual name="right_ring_fingertip_13_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_ring_fingertip_13_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0033526995140565536 0.004292816745298 0.020759119327789344" />
+    <parent link="right_ring_DIP_link" />
+    <child link="right_ring_fingertip_13" />
+  </joint>
+  <link name="right_ring_fingertip_14">
+    <visual name="right_ring_fingertip_14_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_ring_fingertip_14_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0023335097830159326 0.0057900166546663735 0.0213029732480646" />
+    <parent link="right_ring_DIP_link" />
+    <child link="right_ring_fingertip_14" />
+  </joint>
+  <link name="right_ring_fingertip_15">
+    <visual name="right_ring_fingertip_15_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_ring_fingertip_15_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.00070475536933335432 -0.0048161033066459989 0.024304942433831661" />
+    <parent link="right_ring_DIP_link" />
+    <child link="right_ring_fingertip_15" />
+  </joint>
+  <link name="right_ring_fingertip_16">
+    <visual name="right_ring_fingertip_16_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_ring_fingertip_16_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.001637708225436716 -0.00049057018138822656 0.025529899633467079" />
+    <parent link="right_ring_DIP_link" />
+    <child link="right_ring_fingertip_16" />
+  </joint>
+  <link name="right_ring_fingertip_17">
+    <visual name="right_ring_fingertip_17_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_ring_fingertip_17_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.00053930180695926488 0.0038426084502813408 0.024481937670363191" />
+    <parent link="right_ring_DIP_link" />
+    <child link="right_ring_fingertip_17" />
+  </joint>
+  <link name="right_ring_fingertip_18">
+    <visual name="right_ring_fingertip_18_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_ring_fingertip_18_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0030120298353324328 -0.0045238190947286261 0.026708802580254792" />
+    <parent link="right_ring_DIP_link" />
+    <child link="right_ring_fingertip_18" />
+  </joint>
+  <link name="right_ring_fingertip_19">
+    <visual name="right_ring_fingertip_19_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_ring_fingertip_19_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0026698068977633969 -0.00062412027299974665 0.028036622610301015" />
+    <parent link="right_ring_DIP_link" />
+    <child link="right_ring_fingertip_19" />
+  </joint>
+  <link name="right_ring_fingertip_20">
+    <visual name="right_ring_fingertip_20_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_ring_fingertip_20_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.003161733501516743 0.0033106504439009456 0.026868949242744744" />
+    <parent link="right_ring_DIP_link" />
+    <child link="right_ring_fingertip_20" />
+  </joint>
+  <link name="right_little_fingertip_0">
+    <visual name="right_little_fingertip_0_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_little_fingertip_0_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.00010655707213772653 -0.0077824520468160463 0.012622908339367911" />
+    <parent link="right_little_DIP_link" />
+    <child link="right_little_fingertip_0" />
+  </joint>
+  <link name="right_little_fingertip_1">
+    <visual name="right_little_fingertip_1_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_little_fingertip_1_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.00479349975662486 -0.0058670373871123338 0.011609820991679898" />
+    <parent link="right_little_DIP_link" />
+    <child link="right_little_fingertip_1" />
+  </joint>
+  <link name="right_little_fingertip_2">
+    <visual name="right_little_fingertip_2_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_little_fingertip_2_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0060132440422587452 -0.00047121744196033932 0.013281755245240695" />
+    <parent link="right_little_DIP_link" />
+    <child link="right_little_fingertip_2" />
+  </joint>
+  <link name="right_little_fingertip_3">
+    <visual name="right_little_fingertip_3_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_little_fingertip_3_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0041747663118696472 0.004913882091571134 0.012272440725468764" />
+    <parent link="right_little_DIP_link" />
+    <child link="right_little_fingertip_3" />
+  </joint>
+  <link name="right_little_fingertip_4">
+    <visual name="right_little_fingertip_4_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_little_fingertip_4_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.00090445408153569991 0.0061202446370537886 0.013477399572094317" />
+    <parent link="right_little_DIP_link" />
+    <child link="right_little_fingertip_4" />
+  </joint>
+  <link name="right_little_fingertip_5">
+    <visual name="right_little_fingertip_5_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_little_fingertip_5_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.00011697325015514338 -0.0076997796656504275 0.015821823277345742" />
+    <parent link="right_little_DIP_link" />
+    <child link="right_little_fingertip_5" />
+  </joint>
+  <link name="right_little_fingertip_6">
+    <visual name="right_little_fingertip_6_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_little_fingertip_6_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0047830835786056985 -0.0057843650059543061 0.014808735929706496" />
+    <parent link="right_little_DIP_link" />
+    <child link="right_little_fingertip_6" />
+  </joint>
+  <link name="right_little_fingertip_7">
+    <visual name="right_little_fingertip_7_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_little_fingertip_7_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.006018799111591356 -0.00066720834068174223 0.016475742832691376" />
+    <parent link="right_little_DIP_link" />
+    <child link="right_little_fingertip_7" />
+  </joint>
+  <link name="right_little_fingertip_8">
+    <visual name="right_little_fingertip_8_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_little_fingertip_8_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0041962503511222557 0.0044407195220446324 0.015437192788252535" />
+    <parent link="right_little_DIP_link" />
+    <child link="right_little_fingertip_8" />
+  </joint>
+  <link name="right_little_fingertip_9">
+    <visual name="right_little_fingertip_9_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_little_fingertip_9_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0008829700422837896 0.0056470820675271968 0.01664215163487795" />
+    <parent link="right_little_DIP_link" />
+    <child link="right_little_fingertip_9" />
+  </joint>
+  <link name="right_little_fingertip_10">
+    <visual name="right_little_fingertip_10_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_little_fingertip_10_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0018994529431857346 -0.0076736894724147783 0.02074350012642015" />
+    <parent link="right_little_DIP_link" />
+    <child link="right_little_fingertip_10" />
+  </joint>
+  <link name="right_little_fingertip_11">
+    <visual name="right_little_fingertip_11_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_little_fingertip_11_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.003656351866446938 -0.0057093918370340058 0.020362805311882282" />
+    <parent link="right_little_DIP_link" />
+    <child link="right_little_fingertip_11" />
+  </joint>
+  <link name="right_little_fingertip_12">
+    <visual name="right_little_fingertip_12_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_little_fingertip_12_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0047816327191153507 -0.0010333028093315391 0.021276926078638209" />
+    <parent link="right_little_DIP_link" />
+    <child link="right_little_fingertip_12" />
+  </joint>
+  <link name="right_little_fingertip_13">
+    <visual name="right_little_fingertip_13_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_little_fingertip_13_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0031243420369393626 0.0035604402408748528 0.02093255019089274" />
+    <parent link="right_little_DIP_link" />
+    <child link="right_little_fingertip_13" />
+  </joint>
+  <link name="right_little_fingertip_14">
+    <visual name="right_little_fingertip_14_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_little_fingertip_14_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.002616338512333294 0.0048174497441486053 0.021511233839535904" />
+    <parent link="right_little_DIP_link" />
+    <child link="right_little_fingertip_14" />
+  </joint>
+  <link name="right_little_fingertip_15">
+    <visual name="right_little_fingertip_15_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_little_fingertip_15_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.000814294442351305 -0.0057802536175724853 0.024090399547516267" />
+    <parent link="right_little_DIP_link" />
+    <child link="right_little_fingertip_15" />
+  </joint>
+  <link name="right_little_fingertip_16">
+    <visual name="right_little_fingertip_16_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_little_fingertip_16_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.001578263731643909 -0.0014764408496154846 0.0254956413678947" />
+    <parent link="right_little_DIP_link" />
+    <child link="right_little_fingertip_16" />
+  </joint>
+  <link name="right_little_fingertip_17">
+    <visual name="right_little_fingertip_17_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_little_fingertip_17_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.00031891167432792841 0.0028513821512796758 0.024620919435575817" />
+    <parent link="right_little_DIP_link" />
+    <child link="right_little_fingertip_17" />
+  </joint>
+  <link name="right_little_fingertip_18">
+    <visual name="right_little_fingertip_18_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_little_fingertip_18_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0029181473190438914 -0.0057280389428608774 0.026487192831731232" />
+    <parent link="right_little_DIP_link" />
+    <child link="right_little_fingertip_18" />
+  </joint>
+  <link name="right_little_fingertip_19">
+    <visual name="right_little_fingertip_19_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_little_fingertip_19_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0027285816825244795 -0.001876009131640613 0.027975078806631609" />
+    <parent link="right_little_DIP_link" />
+    <child link="right_little_fingertip_19" />
+  </joint>
+  <link name="right_little_fingertip_20">
+    <visual name="right_little_fingertip_20_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_little_fingertip_20_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0033663734888207657 0.0020819320318059345 0.026967211340207381" />
+    <parent link="right_little_DIP_link" />
+    <child link="right_little_fingertip_20" />
+  </joint>
+  <link name="right_thumb_fingertip_0">
+    <visual name="right_thumb_fingertip_0_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_0_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0036042251530575419 0.015726724819153923 0.008563605334475477" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_0" />
+  </joint>
+  <link name="right_thumb_fingertip_1">
+    <visual name="right_thumb_fingertip_1_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_1_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0014269826782957282 0.015692333001911238 0.0088773447312049183" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_1" />
+  </joint>
+  <link name="right_thumb_fingertip_2">
+    <visual name="right_thumb_fingertip_2_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_2_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.001572036141562861 0.016263785337796613 0.0084234225754274625" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_2" />
+  </joint>
+  <link name="right_thumb_fingertip_3">
+    <visual name="right_thumb_fingertip_3_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_3_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0033288587770873811 0.016049680494358495 0.0071166198575743286" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_3" />
+  </joint>
+  <link name="right_thumb_fingertip_4">
+    <visual name="right_thumb_fingertip_4_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_4_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0047710247380991977 0.016151479341605476 0.0031503810550233616" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_4" />
+  </joint>
+  <link name="right_thumb_fingertip_5">
+    <visual name="right_thumb_fingertip_5_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_5_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0050848082137469807 0.01615185030838974 0.00097287335290288657" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_5" />
+  </joint>
+  <link name="right_thumb_fingertip_6">
+    <visual name="right_thumb_fingertip_6_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_6_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0053985916893947716 0.01615222127517392 -0.0012046343492176093" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_6" />
+  </joint>
+  <link name="right_thumb_fingertip_7">
+    <visual name="right_thumb_fingertip_7_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_7_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.005134939560838804 0.016051815711897635 -0.0054167196025397338" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_7" />
+  </joint>
+  <link name="right_thumb_fingertip_8">
+    <visual name="right_thumb_fingertip_8_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_8_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0038185490481856118 0.016266441250977245 -0.007166305809684137" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_8" />
+  </joint>
+  <link name="right_thumb_fingertip_9">
+    <visual name="right_thumb_fingertip_9_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_9_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0010697367022146527 0.015695284718721211 -0.00844869727872289" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_9" />
+  </joint>
+  <link name="right_thumb_fingertip_10">
+    <visual name="right_thumb_fingertip_10_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_10_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0011075057725468123 0.015729676535963924 -0.0087624366754547323" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_10" />
+  </joint>
+  <link name="right_thumb_fingertip_11">
+    <visual name="right_thumb_fingertip_11_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_11_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0035321539728127762 0.017910020409005314 0.008302787175078985" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_11" />
+  </joint>
+  <link name="right_thumb_fingertip_12">
+    <visual name="right_thumb_fingertip_12_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_12_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0013549114980636297 0.017875628591812034 0.00861652657180658" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_12" />
+  </joint>
+  <link name="right_thumb_fingertip_13">
+    <visual name="right_thumb_fingertip_13_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_13_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0034009299573276594 0.018232976084209943 0.0068558016981818751" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_13" />
+  </joint>
+  <link name="right_thumb_fingertip_14">
+    <visual name="right_thumb_fingertip_14_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_14_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0048050120380774336 0.018351210476451704 0.0031556534498301189" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_14" />
+  </joint>
+  <link name="right_thumb_fingertip_15">
+    <visual name="right_thumb_fingertip_15_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_15_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0051187955137252149 0.01835158144323594 0.00097814574770965085" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_15" />
+  </joint>
+  <link name="right_thumb_fingertip_16">
+    <visual name="right_thumb_fingertip_16_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_16_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0054325789893730075 0.018351952410020231 -0.0011993619544108242" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_16" />
+  </joint>
+  <link name="right_thumb_fingertip_17">
+    <visual name="right_thumb_fingertip_17_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_17_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0051303336998969884 0.018235020651227604 -0.0051454356574134191" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_17" />
+  </joint>
+  <link name="right_thumb_fingertip_18">
+    <visual name="right_thumb_fingertip_18_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_18_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0010651308412619794 0.017878489658101557 -0.0081774133336022167" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_18" />
+  </joint>
+  <link name="right_thumb_fingertip_19">
+    <visual name="right_thumb_fingertip_19_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_19_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0011121116334869361 0.017912881475294809 -0.00849115273033079" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_19" />
+  </joint>
+  <link name="right_thumb_fingertip_20">
+    <visual name="right_thumb_fingertip_20_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_20_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0034600827925631459 0.020093315998856651 0.0080419690156832771" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_20" />
+  </joint>
+  <link name="right_thumb_fingertip_21">
+    <visual name="right_thumb_fingertip_21_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_21_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0024468608557636877 0.02154505146450493 0.0065811744793680821" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_21" />
+  </joint>
+  <link name="right_thumb_fingertip_22">
+    <visual name="right_thumb_fingertip_22_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_22_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0039754552669946071 0.022009962838921218 0.0030367358767593097" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_22" />
+  </joint>
+  <link name="right_thumb_fingertip_23">
+    <visual name="right_thumb_fingertip_23_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_23_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0042892387426423876 0.022010333805705454 0.000859228174638807" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_23" />
+  </joint>
+  <link name="right_thumb_fingertip_24">
+    <visual name="right_thumb_fingertip_24_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_24_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.00460302221829014 0.022010704772489717 -0.0013182795274816889" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_24" />
+  </joint>
+  <link name="right_thumb_fingertip_25">
+    <visual name="right_thumb_fingertip_25_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_25_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0041373839166612171 0.021547050065298737 -0.0051502494846071209" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_25" />
+  </joint>
+  <link name="right_thumb_fingertip_26">
+    <visual name="right_thumb_fingertip_26_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_26_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0011167174944229426 0.020096086414625583 -0.0082198687852010066" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_26" />
+  </joint>
+  <link name="right_thumb_fingertip_27">
+    <visual name="right_thumb_fingertip_27_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_27_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0033880116123187454 0.022276611588707987 0.0077811508562892623" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_27" />
+  </joint>
+  <link name="right_thumb_fingertip_28">
+    <visual name="right_thumb_fingertip_28_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_28_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.005504578638748904 0.02414908123812147 0.0072478332772610288" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_28" />
+  </joint>
+  <link name="right_thumb_fingertip_29">
+    <visual name="right_thumb_fingertip_29_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_29_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0015286212902948498 0.023508902206471186 0.006206839918049066" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_29" />
+  </joint>
+  <link name="right_thumb_fingertip_30">
+    <visual name="right_thumb_fingertip_30_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_30_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0030172907738552652 0.023985551189728074 0.0028989989094227384" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_30" />
+  </joint>
+  <link name="right_thumb_fingertip_31">
+    <visual name="right_thumb_fingertip_31_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_31_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0033310742495030405 0.023985922156512282 0.00072149120730226335" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_31" />
+  </joint>
+  <link name="right_thumb_fingertip_32">
+    <visual name="right_thumb_fingertip_32_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_32_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0036448577251508452 0.023986293123296573 -0.0014560164948182186" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_32" />
+  </joint>
+  <link name="right_thumb_fingertip_33">
+    <visual name="right_thumb_fingertip_33_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_33_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0031507192598146027 0.0235108199124915 -0.0050497465383521206" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_33" />
+  </joint>
+  <link name="right_thumb_fingertip_34">
+    <visual name="right_thumb_fingertip_34_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_34_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0033024434227542096 0.024151684686271477 -0.0080339350951524058" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_34" />
+  </joint>
+  <link name="right_thumb_fingertip_35">
+    <visual name="right_thumb_fingertip_35_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_35_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0011213233553631105 0.022279291353956468 -0.0079485848400768638" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_35" />
+  </joint>
+  <link name="right_thumb_fingertip_36">
+    <visual name="right_thumb_fingertip_36_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_36_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.00044747547757246564 0.026347708637481995 0.0055679978752001258" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_36" />
+  </joint>
+  <link name="right_thumb_fingertip_37">
+    <visual name="right_thumb_fingertip_37_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_37_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.00076577581334564236 0.027113132521070463 0.0025750836551594186" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_37" />
+  </joint>
+  <link name="right_thumb_fingertip_38">
+    <visual name="right_thumb_fingertip_38_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_38_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0010795592889934211 0.027113503487854726 0.00039757595303892279" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_38" />
+  </joint>
+  <link name="right_thumb_fingertip_39">
+    <visual name="right_thumb_fingertip_39_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_39_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.0013933427646411994 0.027113874454638962 -0.0017799317490815592" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_39" />
+  </joint>
+  <link name="right_thumb_fingertip_40">
+    <visual name="right_thumb_fingertip_40_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_40_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0.001074513885851669 0.026349507991318369 -0.0049938825889029523" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_40" />
+  </joint>
+  <link name="right_thumb_fingertip_41">
+    <visual name="right_thumb_fingertip_41_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_41_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0019848775205860711 0.027867757610104529 0.0051607558353379546" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_41" />
+  </joint>
+  <link name="right_thumb_fingertip_42">
+    <visual name="right_thumb_fingertip_42_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_42_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.00080337924702873482 0.028638498130384424 0.0023492249506318758" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_42" />
+  </joint>
+  <link name="right_thumb_fingertip_43">
+    <visual name="right_thumb_fingertip_43_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_43_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.00048959577138094372 0.028638869097168715 0.00017171724851137993" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_43" />
+  </joint>
+  <link name="right_thumb_fingertip_44">
+    <visual name="right_thumb_fingertip_44_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_44_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.00017581229573314719 0.02863924006395295 -0.002005790453609109" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_44" />
+  </joint>
+  <link name="right_thumb_fingertip_45">
+    <visual name="right_thumb_fingertip_45_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_45_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.00051539180990046313 0.027869494892116167 -0.0050367743136267157" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_45" />
+  </joint>
+  <link name="right_thumb_fingertip_46">
+    <visual name="right_thumb_fingertip_46_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_46_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0047712873236992505 0.029806939172047034 0.0045219477388903292" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_46" />
+  </joint>
+  <link name="right_thumb_fingertip_47">
+    <visual name="right_thumb_fingertip_47_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_47_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0036777728202774186 0.030665149656324012 0.0019353640102013556" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_47" />
+  </joint>
+  <link name="right_thumb_fingertip_48">
+    <visual name="right_thumb_fingertip_48_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_48_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0033639893446296464 0.030665520623108275 -0.00024214369191914026" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_48" />
+  </joint>
+  <link name="right_thumb_fingertip_49">
+    <visual name="right_thumb_fingertip_49_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_49_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0030502058689818572 0.030665891589892483 -0.0024196513940396222" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_49" />
+  </joint>
+  <link name="right_thumb_fingertip_50">
+    <visual name="right_thumb_fingertip_50_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_50_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.00336888898293822 0.029808597140817836 -0.0052100280515128619" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_50" />
+  </joint>
+  <link name="right_thumb_fingertip_51">
+    <visual name="right_thumb_fingertip_51_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_51_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0067447948687153429 0.030697089123718921 0.0041309221215502442" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_51" />
+  </joint>
+  <link name="right_thumb_fingertip_52">
+    <visual name="right_thumb_fingertip_52_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_52_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0056686551893368239 0.031556310919666583 0.0016486254615686036" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_52" />
+  </joint>
+  <link name="right_thumb_fingertip_53">
+    <visual name="right_thumb_fingertip_53_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_53_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0053548717136890312 0.031556681886450846 -0.0005288822405518992" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_53" />
+  </joint>
+  <link name="right_thumb_fingertip_54">
+    <visual name="right_thumb_fingertip_54_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_54_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0050410882380412594 0.031557052853235137 -0.0027063899426723673" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_54" />
+  </joint>
+  <link name="right_thumb_fingertip_55">
+    <visual name="right_thumb_fingertip_55_marker">
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.0012" />
+      </geometry>
+      <material name="right_revo3_finger_taxel_muted" />
+    </visual>
+  </link>
+  <joint name="right_thumb_fingertip_55_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.0053725479371166552 0.030698711446343271 -0.0053918172661147762" />
+    <parent link="right_thumb_DIP_link" />
+    <child link="right_thumb_fingertip_55" />
   </joint>
   <link name="right_palm" />
   <joint name="right_palm_center" type="fixed">
