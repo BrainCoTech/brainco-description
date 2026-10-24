@@ -1,29 +1,48 @@
 # BrainCo Robot Description Assets
 
+> **IMPORTANT — Local conversion required since 20261025.**
+> **MJCF and USD files are no longer included in Git. Customers must generate them locally.**
+> The repository ships URDF, meshes/textures and complete conversion tools.
+> **从 20261025 起，客户需要自行运行转换脚本生成 MJCF 和 USD；克隆仓库不再包含预生成文件。**
+
+After preparing the appropriate Python environment, run these commands from the repository root:
+
+```bash
+./convert_all_urdf_to_mjcf.sh   # default: --method urdf
+./convert_all_urdf_to_usd.sh    # default: --flatten; requires Isaac Lab / Isaac Sim
+```
+
+No conversion arguments are needed. See [environment setup and conversion guide](CONVERSION.md)
+before running the USD command. Generated outputs are ignored by Git.
+
 This repository contains public robot description assets for BrainCo robot hands, arms, and combined arm-hand systems. The package is intended for simulation, visualization, integration testing, and downstream robotics research.
 
-The public release includes URDF, MJCF, and USD descriptions, together with the mesh assets they reference.
+The public release includes 29 URDF descriptions, their mesh/texture assets, and tools to generate MJCF and USD locally.
 
-Current release: **20261014**. See [Release Notes](RELEASE_NOTES.md) for version history and model validation status.
+Current release: **20261025**. See [Release Notes](RELEASE_NOTES.md) for version history and model validation status.
 
 ## What Is Included
 
-| System | Description | Formats |
-| --- | --- | --- |
-| `revo2_system` | Revo2 left and right dexterous hands | URDF, MJCF, USD |
-| `revo3_system` | Revo3 left and right dexterous hands | URDF, MJCF, USD |
-| `revoarm_system` | Single-arm and bimanual RevoArm assemblies with Revo2/Revo3 hands | URDF, MJCF, USD |
-| `revotron_system` | Single-arm and bimanual RevoTron platform assemblies with Revo3 hands | URDF, MJCF, USD |
+| System | Description | Included in Git | Generated locally |
+| --- | --- | --- | --- |
+| `revo2_system` | Revo2 left and right dexterous hands | URDF + assets | MJCF, USD |
+| `revo3_system` | Revo3 left and right dexterous hands | URDF + assets | MJCF, USD |
+| `revoarm_system` | Single-arm and bimanual RevoArm assemblies with Revo2/Revo3 hands | URDF + assets | MJCF, USD |
+| `revotron_system` | Single-arm and bimanual RevoTron platform assemblies with Revo3 hands | URDF + assets | MJCF, USD |
 
 ## Visual Catalog
 
 The rendered previews below correspond to the robot description entry points in this repository. `Arm: None` means the model is a standalone dexterous hand with no arm assembly.
 
-Previews are rendered directly from the current URDF visual geometry in the
-zero joint configuration. Revo3 files ending in `_mx_touch` include the
-tactile point markers; unsuffixed files show the same physical model without
-the markers. Both variants have matching PNGs under
-`visualizations/<system>/urdf/<urdf_name>.png`.
+Revo3 models are available in three variants: unsuffixed files have no tactile
+markers, `_mx_touch` files include MX markers, and `_mt_touch` files include MT
+markers. All three variants are provided as URDF for standalone hands and the
+RevoArm/RevoTron assemblies; the converters generate matching MJCF and USD.
+MJCF/USD paths in the catalog below are output locations and exist only after conversion.
+
+The existing previews were rendered from URDF visual geometry in the zero joint
+configuration and are retained from the previous release. They have not been
+refreshed for the updated MX markers, and MT previews are not included yet.
 
 ### Standalone Hands
 
@@ -55,19 +74,30 @@ the markers. Both variants have matching PNGs under
 
 ## Using the Models
 
-Bimanual Revotron USD files are stored with Git LFS. Install Git LFS and
-run the following after cloning to retrieve the complete model files:
+Clone the repository (or download this tag's source archive), then generate
+the simulation format you need. Git LFS is not required for the current release;
+older tags still contain historical LFS-tracked USD files.
 
 ```bash
-git lfs install
-git lfs pull
+git clone --branch 20261025 https://github.com/BrainCoTech/brainco-description.git
+cd brainco-description
+
+# Python 3.10+; generation uses only the Python standard library.
+./convert_all_urdf_to_mjcf.sh
+
+# Activate your configured Isaac Lab / Isaac Sim environment first.
+./convert_all_urdf_to_usd.sh
 ```
 
-All URDF, MJCF and USD models retain the complete visual appearance.
+The tested USD environment is Isaac Sim 5.1.0 with Isaac Lab 2.3.2 and Python
+3.11 on Ubuntu 22.04. Setup instructions and optional interpreter overrides are
+in [CONVERSION.md](CONVERSION.md). Neither converter requires ROS or robot drivers.
+
+URDF and the generated MJCF/USD models retain the complete visual appearance.
 
 URDF files can be loaded by common robotics tools such as ROS, RViz, Pinocchio, and other URDF-compatible parsers.
 
-MJCF files can be loaded directly with MuJoCo:
+After MJCF generation, the files can be loaded with MuJoCo:
 
 ```python
 import mujoco
@@ -78,13 +108,15 @@ model = mujoco.MjModel.from_xml_path(
 data = mujoco.MjData(model)
 ```
 
-USD files can be opened with USD-compatible tools such as `usdview` or loaded in NVIDIA Isaac Sim / Isaac Lab:
+After USD generation, the files can be opened with USD-compatible tools such as `usdview` or loaded in NVIDIA Isaac Sim / Isaac Lab:
 
 ```bash
 usdview revo3_system/usd/revo3_left.usd
 ```
 
-The top-level USD files, such as `revo3_system/usd/revo3_left.usd`, are the recommended entry points. The `usd/configuration/` files are implementation layers used by the entry point to compose base geometry, physics properties, robot metadata, and optional sensor layers.
+The generated USD files, such as `revo3_system/usd/revo3_left.usd`, are flattened
+entry points. They do not require generated configuration USD layers, but their
+screen textures still reference images under `meshes/`. Preserve those relative paths.
 
 Mesh paths are stored as relative paths, so load models from the repository root or preserve the directory layout when copying files into another project.
 

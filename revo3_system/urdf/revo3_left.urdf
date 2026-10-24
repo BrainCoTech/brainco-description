@@ -178,8 +178,6 @@
     <origin rpy="0 0 0" xyz="-0.000167169017596249 0.000600164834043841 -0.0295166870072403" />
     <parent link="left_middle_DIP_link" />
     <child link="left_middle_DIP_rubber_link" />
-    <axis xyz="0 0 0" />
-    <mimic joint="left_middle_DIP_joint" multiplier="1" offset="0" />
   </joint>
   <link name="left_middle_PIP_touch_link">
     <visual>
@@ -200,8 +198,6 @@
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="left_middle_PIP_link" />
     <child link="left_middle_PIP_touch_link" />
-    <axis xyz="0 0 0" />
-    <mimic joint="left_middle_PIP_joint" multiplier="1" offset="0" />
   </joint>
   <link name="left_middle_PIP_rubber_link">
     <visual>
@@ -222,8 +218,6 @@
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="left_middle_PIP_link" />
     <child link="left_middle_PIP_rubber_link" />
-    <axis xyz="0 0 0" />
-    <mimic joint="left_middle_PIP_joint" multiplier="1" offset="0" />
   </joint>
   <link name="left_middle_MCP_touch_link">
     <visual>
@@ -244,8 +238,6 @@
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="left_middle_MCP_link" />
     <child link="left_middle_MCP_touch_link" />
-    <axis xyz="0 0 0" />
-    <mimic joint="left_middle_MCP_joint" multiplier="1" offset="0" />
   </joint>
   <link name="left_middle_MCP_rubber_link">
     <visual>
@@ -266,8 +258,6 @@
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="left_middle_MCP_link" />
     <child link="left_middle_MCP_rubber_link" />
-    <axis xyz="0 0 0" />
-    <mimic joint="left_middle_MCP_joint" multiplier="1" offset="0" />
   </joint>
   <link name="left_thumb_CMP_link">
     <inertial>
@@ -616,8 +606,6 @@
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="left_thumb_DIP_link" />
     <child link="left_thumb_DIP_rubber_link" />
-    <axis xyz="0 0 0" />
-    <mimic joint="left_thumb_DIP_joint" multiplier="1" offset="0" />
   </joint>
   <link name="left_thumb_PIP_touch_link">
     <visual>
@@ -638,8 +626,6 @@
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="left_thumb_PIP_link" />
     <child link="left_thumb_PIP_touch_link" />
-    <axis xyz="0 0 0" />
-    <mimic joint="left_thumb_PIP_joint" multiplier="1" offset="0" />
   </joint>
   <link name="left_thumb_PIP_rubber_link">
     <visual>
@@ -660,8 +646,6 @@
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="left_thumb_PIP_link" />
     <child link="left_thumb_PIP_rubber_link" />
-    <axis xyz="0 0 0" />
-    <mimic joint="left_thumb_PIP_joint" multiplier="1" offset="0" />
   </joint>
   <link name="left_thumb_MCP_touch_link">
     <visual>
@@ -682,8 +666,6 @@
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="left_thumb_MCP_link" />
     <child link="left_thumb_MCP_touch_link" />
-    <axis xyz="0 0 0" />
-    <mimic joint="left_thumb_MCP_joint" multiplier="1" offset="0" />
   </joint>
   <link name="left_thumb_MCP_rubber_link">
     <visual>
@@ -704,8 +686,6 @@
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="left_thumb_MCP_link" />
     <child link="left_thumb_MCP_rubber_link" />
-    <axis xyz="0 0 0" />
-    <mimic joint="left_thumb_MCP_joint" multiplier="1" offset="0" />
   </joint>
   <link name="left_index_MPR_link">
     <inertial>
@@ -841,8 +821,6 @@
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="left_index_DIP_link" />
     <child link="left_index_DIP_rubber_link" />
-    <axis xyz="0 0 0" />
-    <mimic joint="left_index_DIP_joint" multiplier="1" offset="0" />
   </joint>
   <link name="left_index_PIP_touch_link">
     <visual>
@@ -863,8 +841,6 @@
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="left_index_PIP_link" />
     <child link="left_index_PIP_touch_link" />
-    <axis xyz="0 0 0" />
-    <mimic joint="left_index_PIP_joint" multiplier="1" offset="0" />
   </joint>
   <link name="left_index_PIP_rubber_link">
     <visual>
@@ -885,8 +861,6 @@
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="left_index_PIP_link" />
     <child link="left_index_PIP_rubber_link" />
-    <axis xyz="0 0 0" />
-    <mimic joint="left_index_PIP_joint" multiplier="1" offset="0" />
   </joint>
   <link name="left_index_MCP_touch_link">
     <visual>
@@ -907,8 +881,6 @@
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="left_index_MCP_link" />
     <child link="left_index_MCP_touch_link" />
-    <axis xyz="0 0 0" />
-    <mimic joint="left_index_MCP_joint" multiplier="1" offset="0" />
   </joint>
   <link name="left_index_MCP_rubber_link">
     <visual>
@@ -929,8 +901,6 @@
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="left_index_MCP_link" />
     <child link="left_index_MCP_rubber_link" />
-    <axis xyz="0 0 0" />
-    <mimic joint="left_index_MCP_joint" multiplier="1" offset="0" />
   </joint>
   <link name="left_ring_MPR_link">
     <inertial>
@@ -1066,8 +1036,6 @@
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="left_ring_DIP_link" />
     <child link="left_ring_DIP_rubber_link" />
-    <axis xyz="0 0 0" />
-    <mimic joint="left_ring_DIP_joint" multiplier="1" offset="0" />
   </joint>
   <link name="left_ring_PIP_touch_link">
     <visual>
@@ -1088,8 +1056,6 @@
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="left_ring_PIP_link" />
     <child link="left_ring_PIP_touch_link" />
-    <axis xyz="0 0 0" />
-    <mimic joint="left_ring_PIP_joint" multiplier="1" offset="0" />
   </joint>
   <link name="left_ring_PIP_rubber_link">
     <visual>
@@ -1110,8 +1076,6 @@
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="left_ring_PIP_link" />
     <child link="left_ring_PIP_rubber_link" />
-    <axis xyz="0 0 0" />
-    <mimic joint="left_ring_PIP_joint" multiplier="1" offset="0" />
   </joint>
   <link name="left_ring_MCP_touch_link">
     <visual>
@@ -1132,8 +1096,6 @@
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="left_ring_MCP_link" />
     <child link="left_ring_MCP_touch_link" />
-    <axis xyz="0 0 0" />
-    <mimic joint="left_ring_MCP_joint" multiplier="1" offset="0" />
   </joint>
   <link name="left_ring_MCP_rubber_link">
     <visual>
@@ -1154,8 +1116,6 @@
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="left_ring_MCP_link" />
     <child link="left_ring_MCP_rubber_link" />
-    <axis xyz="0 0 0" />
-    <mimic joint="left_ring_MCP_joint" multiplier="1" offset="0" />
   </joint>
   <link name="left_little_MPR_link">
     <inertial>
@@ -1291,8 +1251,6 @@
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="left_little_DIP_link" />
     <child link="left_little_DIP_rubber_link" />
-    <axis xyz="0 0 0" />
-    <mimic joint="left_little_DIP_joint" multiplier="1" offset="0" />
   </joint>
   <link name="left_little_PIP_touch_link">
     <visual>
@@ -1313,8 +1271,6 @@
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="left_little_PIP_link" />
     <child link="left_little_PIP_touch_link" />
-    <axis xyz="0 0 0" />
-    <mimic joint="left_little_PIP_joint" multiplier="1" offset="0" />
   </joint>
   <link name="left_little_PIP_rubber_link">
     <visual>
@@ -1335,8 +1291,6 @@
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="left_little_PIP_link" />
     <child link="left_little_PIP_rubber_link" />
-    <axis xyz="0 0 0" />
-    <mimic joint="left_little_PIP_joint" multiplier="1" offset="0" />
   </joint>
   <link name="left_little_MCP_touch_link">
     <visual>
@@ -1357,8 +1311,6 @@
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="left_little_MCP_link" />
     <child link="left_little_MCP_touch_link" />
-    <axis xyz="0 0 0" />
-    <mimic joint="left_little_MCP_joint" multiplier="1" offset="0" />
   </joint>
   <link name="left_little_MCP_rubber_link">
     <visual>
@@ -1379,8 +1331,6 @@
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="left_little_MCP_link" />
     <child link="left_little_MCP_rubber_link" />
-    <axis xyz="0 0 0" />
-    <mimic joint="left_little_MCP_joint" multiplier="1" offset="0" />
   </joint>
   <link name="left_palm_touch_link">
     <visual>
@@ -1401,7 +1351,6 @@
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="left_hand_base_link" />
     <child link="left_palm_touch_link" />
-    <axis xyz="0 0 0" />
   </joint>
   <link name="left_palm_rubber_link">
     <visual>
@@ -1422,7 +1371,6 @@
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="left_hand_base_link" />
     <child link="left_palm_rubber_link" />
-    <axis xyz="0 0 0" />
   </joint>
   <link name="left_palm_link">
     <visual name="left_palm_link__revo3_white_pc">
@@ -1450,7 +1398,6 @@
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="left_hand_base_link" />
     <child link="left_palm_link" />
-    <axis xyz="0 0 0" />
   </joint>
   <link name="left_palm_led_link">
     <visual>
@@ -1474,7 +1421,6 @@
     <origin rpy="0 0 0" xyz="0 0 0" />
     <parent link="left_palm_link" />
     <child link="left_palm_led_link" />
-    <axis xyz="0 0 0" />
   </joint>
   <link name="left_palm" />
   <joint name="left_palm_center" type="fixed">

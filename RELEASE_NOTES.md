@@ -1,5 +1,23 @@
 # Release Notes
 
+## 20261025
+
+> **发行方式变更：客户需要在本地自行生成 MJCF 和 USD。**
+> **本版本起不再提交或随 Git 分发预生成的 `mjcf/`、`usd/`；克隆后不会包含这两类文件。**
+> 仓库提供 URDF、mesh/纹理及完整转换工具。运行 `./convert_all_urdf_to_mjcf.sh`
+> （默认 `--method urdf`）或 `./convert_all_urdf_to_usd.sh`（默认 `--flatten`），无需填写转换参数。
+> USD 转换前须配置并激活 Isaac Lab / Isaac Sim 环境，详见 [转换指南](CONVERSION.md)。
+> **Breaking distribution change: MJCF and USD must now be generated locally; prebuilt outputs are no longer shipped in Git.**
+
+- 公开两个无参数批量转换入口及其全部 Python 依赖文件，自动定位模型目录并使用当前 Python 环境；补充依赖检查、失败退出状态和客户安装说明。当前版本无需 `git lfs pull`，旧版本的历史 LFS 对象仍保留。
+- 新增 Revo3 MT 触觉版本，覆盖左右独立手、RevoArm 左单臂/右单臂/双臂及 RevoTron 左单臂/右单臂/双臂，共 8 个 URDF 模型，可在本地生成对应 MJCF/USD。Revo3 现提供普通版（无后缀）、MX（`_mx_touch`）和 MT（`_mt_touch`）三种版本。
+- 更新 MX 触点位置，将可视触点半径统一为 1.8 mm；保留已与 SDK 核对的右拇指 fingerpad 编号关系，交换新点位的 18/20、19/21。MT 保留发布模型的触点及子点层级。
+- 清理手模型固定关节上无效的 `axis` 和 `mimic` 标签。实体几何、质量、惯量、碰撞模型及活动关节参数保持一致。
+- **接口名称变更：** RevoTron 双臂模型在 URDF、MJCF 和 USD 中统一使用 `waist_pitch_joint`、`neck_yaw_joint`、`head_pitch_joint`，替代原来的 `waist_pitch_Joint`、`neck_yaw_Joint`、`head_pitch_Joint`。下游按名称访问这些关节的配置或代码需要同步更新。
+- 公开模型增至 29 个 URDF；默认 MJCF 转换保留 URDF 惯量，默认 USD 转换采用展平及既有 v4 碰撞/物理设置。生成文件保留在客户本地，并由 Git 忽略。
+- 已在不含预生成文件的公开仓库副本中，从其他目录无参数运行两个入口：29 个 MJCF、29 个 USD 全部成功。MJCF 与已验证产物逐字节一致，USD 场景内容一致（忽略生成路径记录）；11 项回归检查通过。
+- 已验证模型树、资产引用、三版本装配、SDK 点位映射、MuJoCo 加载及前向计算、USD 展平和触点位置。已有 1,210 个 mesh/纹理文件保持逐字节一致。本次未更新预览图，也未进行真实机器人或动力学精度验证。
+
 ## 20261014
 
 - 添加指尖压阻触点坐标

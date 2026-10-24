@@ -2,8 +2,19 @@
 *.py
 scripts/*.py
 *.sh
+# Public conversion entry points and their complete implementation.
+!/convert_all_urdf_to_mjcf.sh
+!/convert_all_urdf_to_usd.sh
+!/urdf_to_mjcf.py
+!/convert_urdf_v4.py
+!/convert_urdf_new.py
+!/revo3_collision_v4.py
 __pycache__/
 *.py[cod]
+
+# Customers generate simulation formats locally from the published URDFs.
+/*_system/mjcf/
+/*_system/usd/
 
 # Internal or non-public model sets
 flexiv_system/
