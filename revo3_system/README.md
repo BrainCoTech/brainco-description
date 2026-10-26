@@ -1,10 +1,16 @@
 # revo3_system
 
-> **MJCF and USD must be generated locally since 20261025.**
+> **Default MJCF and USD must be generated locally since 20261025.**
 > This repository ships URDF, assets and conversion tools. From its root, run
 > `./convert_all_urdf_to_mjcf.sh` (default: URDF inertia) or
 > `./convert_all_urdf_to_usd.sh` (default: flattened USD, requires Isaac Lab / Isaac Sim).
 > **客户需要自行生成 MJCF 和 USD。** See [conversion setup](../CONVERSION.md).
+
+An optional [reviewed right-hand collision snapshot (2026-10-27)](optimized/right_20261027/README.md)
+is provided separately with ready-to-load MJCF/USD, 144 convex instances and 90 unique meshes.
+This snapshot preserves the original visuals and includes integrity checks and validation notes.
+It does not change the canonical URDFs or the default conversion workflow.
+最新版右手碰撞资产见上述独立目录，包含可直接加载的模型、共享凸包及说明。
 
 Self-contained URDF + mesh bundle.
 
