@@ -1,0 +1,344 @@
+{
+  "scope": "Historical validation of the reviewed source hashes, before packaging; packaging equivalence is recorded separately.",
+  "geometry": {
+    "passed": true,
+    "asset_sha256": "f9f9d457f221558fcd5863eecd00061dfdd804f778df2b01c949fc8c5f811373",
+    "manifest_sha256": "967f9eba20c4db22d4229eee498d64b559d9d8b515d8faf312c33a7673158dcc",
+    "after": {
+      "collision_instances": 144,
+      "expanded_vertices": 9678,
+      "unique_meshes": 90,
+      "unique_vertices": 5427
+    },
+    "topology": {
+      "max_polygon_vertices": 37,
+      "max_vertex_polygons": 14
+    },
+    "palm_seam_pairs": 7744,
+    "palm_join_max_step_mm": 0.019974068081215005,
+    "original_visual_meshes_unchanged": 57,
+    "mass_inertia_joints_filters_unchanged": true,
+    "scope": "Actual imported geometry, fixed-reference sampled solid guards, CAD finger pads, palm seams, unchanged physical parameters and visuals, discrete root and flexion sweeps; not a continuous-motion or trained-policy guarantee.",
+    "palm_root_relief": {
+      "changed_source_parts": [
+        9,
+        10,
+        19,
+        41
+      ],
+      "geometric_subset_within_numerical_tolerance": true,
+      "subset_numerical_tolerance_mm": 0.0002,
+      "maximum_halfspace_violation_mm": 0.00010803341865539551,
+      "note": "Intentional localized root clearances replace the usual palm inward-deviation limit. The four changed hulls are individually contained in their original hulls within the stated clipping/import numerical tolerance; all other colliders are unchanged. Direct unfiltered root distances are validated separately."
+    },
+    "motion": {
+      "sampled_poses": 2125,
+      "review_poses_clear": true,
+      "review_contacts": [],
+      "new_contact_poses": 0,
+      "increased_penetration_poses": 0,
+      "max_added_penetration_mm": 0.0
+    },
+    "flexion": {
+      "sampled_poses": 2000,
+      "new_contact_poses": 0,
+      "max_added_penetration_mm": 0.0
+    }
+  },
+  "root_clearance": {
+    "passed": true,
+    "asset_sha256": "f9f9d457f221558fcd5863eecd00061dfdd804f778df2b01c949fc8c5f811373",
+    "model_sha256": "ef99f98412a4a992cdbb746e487378aabea62d09f35d3b35c3c5d109fbca10d7",
+    "roots": {
+      "right_index_MPR_link": {
+        "samples": 403,
+        "range_deg": [
+          -9.998113525032865,
+          30.0000701530499
+        ],
+        "point_radius_mm": 25.959443747287533,
+        "max_grid_spacing_deg": 0.1000000000000032,
+        "sampled_minimum_mm": 0.22759137134001217,
+        "worst_angle_deg": 30.0000701530499,
+        "intersample_displacement_bound_mm": 0.022653887549991737,
+        "continuous_clearance_lower_bound_mm": 0.20493748379002044
+      },
+      "right_middle_MPR_link": {
+        "samples": 453,
+        "range_deg": [
+          -20.00195662801704,
+          24.99814860155782
+        ],
+        "point_radius_mm": 25.9594435813676,
+        "max_grid_spacing_deg": 0.10000000000000142,
+        "sampled_minimum_mm": 3.3294542912918033,
+        "worst_angle_deg": -20.00195662801704,
+        "intersample_displacement_bound_mm": 0.022653887405198886,
+        "continuous_clearance_lower_bound_mm": 3.3068004038866046
+      },
+      "right_ring_MPR_link": {
+        "samples": 453,
+        "range_deg": [
+          -24.99814860155782,
+          20.00195662801704
+        ],
+        "point_radius_mm": 25.959443585398855,
+        "max_grid_spacing_deg": 0.10000000000000142,
+        "sampled_minimum_mm": 3.202671304784512,
+        "worst_angle_deg": 20.00195662801704,
+        "intersample_displacement_bound_mm": 0.022653887408716822,
+        "continuous_clearance_lower_bound_mm": 3.180017417375795
+      },
+      "right_little_MPR_link": {
+        "samples": 403,
+        "range_deg": [
+          -30.0000701530499,
+          9.998113525032865
+        ],
+        "point_radius_mm": 25.959443584497155,
+        "max_grid_spacing_deg": 0.10000000000000142,
+        "sampled_minimum_mm": 0.22761552051327516,
+        "worst_angle_deg": 9.998113525032865,
+        "intersample_displacement_bound_mm": 0.022653887407929937,
+        "continuous_clearance_lower_bound_mm": 0.2049616331053452
+      },
+      "right_thumb_CMP_link": {
+        "samples": 112,
+        "joints": [
+          "right_thumb_CMP_joint"
+        ],
+        "point_radius_bounds_mm": [
+          14.48809766305353
+        ],
+        "max_grid_spacings_deg": [
+          1.0
+        ],
+        "sampled_minimum_mm": 1.881033228194115,
+        "intersample_displacement_bound_mm": 0.12643210210303313,
+        "continuous_clearance_lower_bound_mm": 1.7546011260910817
+      },
+      "right_thumb_CMR_link": {
+        "samples": 12096,
+        "joints": [
+          "right_thumb_CMP_joint",
+          "right_thumb_CMR_joint"
+        ],
+        "point_radius_bounds_mm": [
+          31.725317906955652,
+          22.261134002687005
+        ],
+        "max_grid_spacings_deg": [
+          1.0,
+          1.0
+        ],
+        "sampled_minimum_mm": 0.6818511676237679,
+        "intersample_displacement_bound_mm": 0.4711191737357362,
+        "continuous_clearance_lower_bound_mm": 0.21073199388803165
+      }
+    },
+    "scope": "Direct distances bypass pair filters. Geometric continuous-angle bounds for the imported rigid collision convexes at their unchanged joint limits; excludes solver contact margins, compliance, downstream hinge-internal overlap and controller performance."
+  },
+  "palm_contact": {
+    "passed": true,
+    "asset_sha256": "f9f9d457f221558fcd5863eecd00061dfdd804f778df2b01c949fc8c5f811373",
+    "source_contact_rays": 54334,
+    "missing_contact_rays": 0,
+    "contact_rays": 54334,
+    "normal_displacement_mm": {
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 1.9553618294359495e-06
+    },
+    "worst_yz_mm": [
+      40.300000000000004,
+      98.82142857142856
+    ],
+    "scope": "Dense 291 x 281 ray grid on actual imported shapes; source front X > 3 mm and abs(normal X) > 0.6 select the broad contact face. Axial height differences are projected onto the original face normal. Steep sidewalls, rear shell and silhouette loss are checked separately by fixed-union and vertex-distance guards."
+  },
+  "inner_arc": {
+    "passed": true,
+    "comparison": {
+      "previous": {
+        "asset_sha256": "a0a1cc3ebb3e8a7192b777bea517beb1c25105bac959367e685a122744bab9c5",
+        "cad_samples": 9592,
+        "front_rays_found": 9592,
+        "cad_surface_distance_mm": {
+          "median": 0.07037336122149301,
+          "p95": 0.16758357631438203,
+          "max": 0.373258411338035
+        },
+        "cad_uncovered_distance_mm": {
+          "median": 0.0,
+          "p95": 0.0053445941826197945,
+          "max": 0.03264587623437227
+        },
+        "seam_pairs": 143,
+        "seam_height_difference_mm": {
+          "median": 0.0005458847494727026,
+          "p95": 0.0013897318406511788,
+          "max": 0.0017400756180396826
+        }
+      },
+      "continuous": {
+        "asset_sha256": "f9f9d457f221558fcd5863eecd00061dfdd804f778df2b01c949fc8c5f811373",
+        "cad_samples": 9592,
+        "front_rays_found": 9592,
+        "cad_surface_distance_mm": {
+          "median": 0.07037336122149301,
+          "p95": 0.16758357631438203,
+          "max": 0.373258411338035
+        },
+        "cad_uncovered_distance_mm": {
+          "median": 0.0,
+          "p95": 0.0053445941826197945,
+          "max": 0.03264587623437227
+        },
+        "seam_pairs": 143,
+        "seam_height_difference_mm": {
+          "median": 0.0005458847494727026,
+          "p95": 0.0013897318406511788,
+          "max": 0.0017400756180396826
+        }
+      }
+    },
+    "patch_boundaries": 13,
+    "scope": "Original CAD intersections on an independent interior lattice and paired rays at every new patch boundary. Local sampled distances, not a global surface-error certificate; the unchanged older rim can protrude beyond the new patch fit budget."
+  },
+  "backend_smoke": [
+    {
+      "checked_at": "2026-10-26T23:34:24.369552+08:00",
+      "passed": true,
+      "backend": "mujoco",
+      "num_envs": 4,
+      "control_steps": 250,
+      "simulated_seconds": 5.0,
+      "hand_asset_sha256": "ca8de2224552be431330bc1cbf9c0a298bb3e2d9354128e28fe2183e5e5e7720",
+      "finite_state": true,
+      "cube_retained": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "config": {
+        "name": "mujoco",
+        "num_envs": 4,
+        "device": "cpu",
+        "dt": 0.02,
+        "substeps": 4,
+        "cube_type": "box",
+        "cube_size": 0.05,
+        "cube_mass": 0.08,
+        "friction": 1.0,
+        "seed": 0,
+        "target_stiffness": 2.0,
+        "target_damping": 0.08,
+        "effort_limit": 0.3,
+        "action_scale": 0.5,
+        "env_spacing": 0.6,
+        "visualizer": null,
+        "cube_pos": null,
+        "cube_quat": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "default_joint_pos": null,
+        "newton_nconmax": 512,
+        "newton_njmax": 1024,
+        "newton_nccdmax": 192
+      }
+    },
+    {
+      "checked_at": "2026-10-26T23:34:32.167286+08:00",
+      "passed": true,
+      "backend": "newton_mjwarp",
+      "num_envs": 4,
+      "control_steps": 250,
+      "simulated_seconds": 5.0,
+      "hand_asset_sha256": "f9f9d457f221558fcd5863eecd00061dfdd804f778df2b01c949fc8c5f811373",
+      "finite_state": true,
+      "cube_retained": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "config": {
+        "name": "newton_mjwarp",
+        "num_envs": 4,
+        "device": "cuda:0",
+        "dt": 0.02,
+        "substeps": 4,
+        "cube_type": "box",
+        "cube_size": 0.05,
+        "cube_mass": 0.08,
+        "friction": 1.0,
+        "seed": 0,
+        "target_stiffness": 2.0,
+        "target_damping": 0.08,
+        "effort_limit": 0.3,
+        "action_scale": 0.5,
+        "env_spacing": 0.6,
+        "visualizer": null,
+        "cube_pos": null,
+        "cube_quat": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "default_joint_pos": null,
+        "newton_nconmax": 512,
+        "newton_njmax": 1024,
+        "newton_nccdmax": 192
+      }
+    },
+    {
+      "checked_at": "2026-10-26T23:34:53.477790+08:00",
+      "passed": true,
+      "backend": "physx",
+      "num_envs": 4,
+      "control_steps": 250,
+      "simulated_seconds": 5.0,
+      "hand_asset_sha256": "f9f9d457f221558fcd5863eecd00061dfdd804f778df2b01c949fc8c5f811373",
+      "finite_state": true,
+      "cube_retained": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "config": {
+        "name": "physx",
+        "num_envs": 4,
+        "device": "cuda:0",
+        "dt": 0.02,
+        "substeps": 4,
+        "cube_type": "box",
+        "cube_size": 0.05,
+        "cube_mass": 0.08,
+        "friction": 1.0,
+        "seed": 0,
+        "target_stiffness": 2.0,
+        "target_damping": 0.08,
+        "effort_limit": 0.3,
+        "action_scale": 0.5,
+        "env_spacing": 0.6,
+        "visualizer": null,
+        "cube_pos": null,
+        "cube_quat": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "default_joint_pos": null,
+        "newton_nconmax": 512,
+        "newton_njmax": 1024,
+        "newton_nccdmax": 192
+      }
+    }
+  ]
+}
