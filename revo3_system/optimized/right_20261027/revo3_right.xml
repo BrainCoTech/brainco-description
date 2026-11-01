@@ -226,7 +226,7 @@
         <geom name="right_thumb_CMP_link_visual_0" class="visual" mesh="right_thumb_CMP_link_visual_0_right_thumb_CMP_link" rgba="0.72 0.74 0.78 1" />
         <body name="right_thumb_CMR_link" pos="0 0.00946412735422 -3.19424156357e-05">
           <inertial mass="0.012" pos="-0.00128421629304 0.00601571071817 -4.05561775565e-06" fullinertia="9.29999771711e-07 9.5e-07 5.70000228289e-07 1.99999936586e-08 2.86677524968e-10 1.59265342147e-11" />
-          <joint name="right_thumb_CMR_joint" type="hinge" axis="0 -0.999999985457346 -0.000170544153169872" range="-0.4224 1.4277" />
+          <joint name="right_thumb_CMR_joint" type="hinge" axis="0 -0.999999985457346 -0.000170544153169872" range="0 1.8325957145940461" />
           <geom name="right_thumb_CMR_link_visual_0" class="visual" mesh="right_thumb_CMR_link_visual_0_right_thumb_CMR_link" rgba="0.72 0.74 0.78 1" />
           <body name="right_thumb_MCP_link" pos="0 0.0119999521611 0">
             <inertial mass="0.067" pos="-0.00233557584634 0.0225088385571 -1.75928477428e-05" fullinertia="1.4220000241e-05 6.6e-06 1.4599999759e-05 7.99983819811e-07 -3.02604054132e-10 2.06370550272e-08" />

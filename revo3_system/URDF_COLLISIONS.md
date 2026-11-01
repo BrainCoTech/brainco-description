@@ -1,105 +1,58 @@
-# Revo3 右手碰撞反向迁入 URDF
+# Revo3 右手 URDF 碰撞资产
 
-2026-11-01，`dev` 分支。入口为 [`urdf/revo3_right.urdf`](urdf/revo3_right.urdf)。
-来源是此前审核的 [`optimized/right_20261027/`](optimized/right_20261027/README.md)，初次迁移只替换碰撞定义。
-随后调整了拇指 CMR 限位，当前参数见下文。
+入口为 [`urdf/revo3_right.urdf`](urdf/revo3_right.urdf)，采用已审核的显式凸包。
+右手各变体及 RevoArm/RevoTron 组合模型的拇指 CMR 范围统一为
+**0～105°**，即 **0～1.8325957145940461 rad**。
 
-## 参数与范围
+## 右手无触觉版参数
 
-| 项目 | 迁移后 |
+| 项目 | 数量 |
 | --- | ---: |
-| 显式凸块 / URDF collision 元素 | 144 |
-| 唯一 OBJ 网格 | 90 |
-| 唯一顶点 / 按实例展开顶点 | 5,427 / 9,678 |
+| 凸块实例 | 144 |
+| 唯一碰撞网格 | 90 |
+| 唯一顶点 / 展开顶点 | 5,427 / 9,678 |
 | 参与碰撞的源 link | 22 |
 | 掌部凸块 / 顶点 | 42 / 1,790 |
 | link / 活动关节 / 固定关节 | 58 / 21 / 36 |
-| 原始可视网格 | 57，未修改 |
+| 原始可视网格 | 57 |
 
-主分支原 URDF 是 82 个 mesh collision 元素，按仓库转换器载入 MuJoCo 为
-119,082 个输入顶点；这些输入元素数不能当作 PhysX 自动分解后的凸包数。
-新版以 144 个已经分解好的凸块表达轮廓，不再将整块掌体交给导入器自动分解。
+碰撞网格位于 [`meshes/hands/collision/right/optimized_20261027/`](meshes/hands/collision/right/optimized_20261027/)。
+四指复用 MPR/MCP/PIP/DIP 网格，通过 collision origin 定位；掌胶承载 42 个凸块。
+可视几何、关节原点/轴、质量与惯性保持源 URDF 定义。
+右手 MX/MT、左手和组合模型的碰撞几何使用各自现有配置。
 
-本次仅迁移 **右手无触觉标记版**。MX/MT、左手、RevoArm、RevoTron 暂保留旧配置。
-原始可视、材质、关节原点/轴、质量和惯性字段与 `9a5b7de` 基线一致。
-限位除以下 CMR 调整外保持原样。
-审核快照中的工程惯性覆盖没有复制到 URDF；所以新 URDF 与旧快照的动力学参数不是完全相同的。
-
-### 拇指 CMR 限位调整（2026-11-01）
-
-`right_thumb_CMR_joint` 的范围从 `[-0.4224, 1.4277] rad` 改为
-`[0, 1.8501] rad`（`[0°, 106.002922°]`），总行程仍为 `1.8501 rad`。
-这是限位区间的移动，关节零位、origin 和 axis 不变；碰撞与可视几何不变。
-只适用于当前无触觉右手 URDF，冻结的 20261027 快照和其他变体保留原值。
-重新生成 MJCF/USD 后限位会随 URDF 更新。
-验证脚本仅允许这项明确记录的非碰撞差异，其他字段仍按初次迁移基线校验。
-
-## 文件和变换
-
-碰撞文件位于 [`meshes/hands/collision/right/optimized_20261027/`](meshes/hands/collision/right/optimized_20261027/)。
-其 `collision_manifest.json` 记录网格哈希、顶点数、owner 和共享模板到 owner 的变换。
-OBJ 保留原审核文件字节，只增加可识别的文件名。四指共享 MPR/MCP/PIP/DIP 共 18 份网格，
-各个实例通过 `<collision><origin xyz="..." rpy="..."/>` 放到对应 link 坐标系。
-米、弧度单位；旋转使用 URDF 固定轴 RPY（`Rz(yaw) Ry(pitch) Rx(roll)`）。
-
-掌胶承载 42 块复合碰撞；拇指 CMP/CMR/MCP/PIP/DIP、四指 MPR/MCP/PIP/DIP 分别承载指部碰撞。
-原有 rubber/touch、掌壳、腕部等 link 的独立碰撞被移除，可视和惯性保留。
-
-## 转换与验证
+## 转换与检查
 
 在仓库根目录执行：
 
 ```bash
-# URDF → MJCF；标准库即可生成，加载检查需要 MuJoCo
+# 生成 MJCF
 python3 urdf_to_mjcf.py revo3_system/urdf/revo3_right.urdf
 
-# URDF → USD；先激活 Isaac Lab / Isaac Sim 环境
-python3 convert_urdf_v4.py revo3_system/urdf/revo3_right.urdf \
-  revo3_system/usd/revo3_right.usd --headless --flatten
+# 生成 USD；先激活 Isaac Lab / Isaac Sim 环境
+python3 convert_urdf_v4.py revo3_system/urdf/revo3_right.urdf revo3_system/usd/revo3_right.usd --headless --flatten
 
-# 标准库完整性检查
+# 完整性检查
 python3 revo3_system/tools/verify_optimized_urdf.py
 
-# 重建 MJCF、比较 129 组姿态，并检查生成 USD；需 numpy/scipy/mujoco/pxr
-python3 revo3_system/tools/verify_optimized_urdf.py --runtime \
-  --usd revo3_system/usd/revo3_right.usd
+# MuJoCo 姿态与 USD 导入检查
+python3 revo3_system/tools/verify_optimized_urdf.py --runtime --usd revo3_system/usd/revo3_right.usd
 ```
 
-`urdf_to_mjcf.py` 按文件路径、scale 和用途复用 mesh，实例变换留在 geom 上。
-转换后的 MJCF 为 144 个碰撞 geom、90 个 mesh 定义；碰撞 `maxhullvert=-1`。
-USD 转换器识别 `revo3_opt_` 显式凸块，自动使用逐块 `convexHull`，即使基础选项仍为
-`convex_decomposition` 也不会重新分解这些凸块。实际 mesh 上设置 PhysX 顶点上限 255、
-Newton `maxHullVertices=-1`。旧左手等 v4 配置仍保留掌体分解和 32 个 CMR 凸块的规则。
+USD 对每块网格使用 `convexHull`，PhysX 顶点上限为 255，Newton `maxHullVertices=-1`。
+MJCF 按文件路径复用网格。可直接加载的 MJCF/USD 位于
+[`optimized/right_20261027/`](optimized/right_20261027/README.md)。
 
-本次验证环境：MuJoCo 3.12.0、Newton 1.6.1、Isaac Lab 3.0.0 / Isaac Sim 6.2、OpenUSD 26.8。
-Isaac Lab 2.x 接口分支保留；这轮没有重新运行 2.x。
-导入器 3 的层级、参数名、输出路径及线性颜色存储与旧版不同，转换脚本已作适配，
-并恢复了导入器未填入的屏幕纹理路径。原始可视网格没有简化。
+当前验证结果：[所有右手 CMR](validation/right_cmr_limits_20261102.json)、
+[URDF/MJCF/USD](validation/right_urdf_cmr_105_20261102.json)。
+验证环境为 MuJoCo 3.12.0、Newton 1.6.1、Isaac Lab 3.0 / Isaac Sim 6.2。
+共享文件数量不等于仿真器运行时 mesh 对象数量。
 
-初次迁移验证结果见 [`validation/right_urdf_20261101.json`](validation/right_urdf_20261101.json)：
+## 执行器与维护
 
-- 129 组关节姿态下，新 URDF → MJCF 与审核快照的碰撞顶点偏差小于 `2e-7 m`（实测约 `5.1e-15 m`）。
-- 新 USD 的 144 个凸块、90 组唯一顶点数组、9,678 个展开顶点及逐块放置检查通过；
-  相对 MJCF 的最大顶点偏差约 `5.2e-8 m`，来自浮点导入精度。
-- USD 原始 57 份可视网格的颜色和屏幕纹理检查通过；左手旧 v4 转换回归检查通过。
+运行时需显式配置执行器力矩上限；URDF 的 `effort="0"` 不是可用的控制参数。
+辨识参数及示例见 [`parameters/`](parameters/README.md)。
+直接用 Newton 导入 URDF 时，设置 `mesh_maxhullvert=-1`、`parse_visuals_as_colliders=False`。
 
-这次是格式迁移和几何检查，没有重做 4,096 环境显存或稳定抓持测试。
-CMR 调整后的验证另存于 [`validation/right_urdf_cmr_limits_20261101.json`](validation/right_urdf_cmr_limits_20261101.json)，
-包含更新后的关节限位，以及在新范围内的几何检查。
-90 份共享文件不保证每个导入器只创建 90 个运行时 mesh 对象；Newton 1.6.1 导入检查仍创建 144 个对象。
-
-## Newton 使用注意
-
-直接导入 URDF 时，应传 `mesh_maxhullvert=-1`，并使用 `parse_visuals_as_colliders=False`。
-Newton 1.6.1 将 URDF 网格读为 `MESH`，经本仓库生成的 USD 则读为显式 `CONVEX_MESH`；
-需要 Newton 原生凸包语义时优先采用生成的 USD。
-
-原 URDF 的 21 个活动关节保留 `effort="0"`。Newton 的 MuJoCo 求解器可能因此报告
-`actfrcrange[0] should be smaller than actfrcrange[1]`。任务侧应配置实际执行器力矩上限，
-不要把本次几何迁移当作控制参数修复。几何导入测试只在内存中临时放开了零力矩限制，未改动资产。
-
-## 复现初次迁移
-
-`python3 revo3_system/tools/sync_optimized_collisions.py` 可从冻结的 20261027 审核包重建本次碰撞。
-脚本会检查非碰撞字段的基线哈希，允许并保留上述 CMR 限位调整，保留四指共享变换。后续在 `dev` 手工优化碰撞后，
-除非确实要恢复到这次审核版本，否则不要重新执行该同步命令。
+`tools/sync_optimized_collisions.py` 可从审核包重新写入凸包，并保留当前关节限位。
+仅在需要恢复审核版碰撞时执行。

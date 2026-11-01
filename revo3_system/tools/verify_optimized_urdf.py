@@ -68,7 +68,6 @@ def main():
         baseline = list(map(float, update["baseline"]))
         if actual != baseline:
             assert actual == list(map(float, update["current"]))
-            assert abs((actual[1] - actual[0]) - (baseline[1] - baseline[0])) < 1e-12
             updates[name] = {"baseline_rad": baseline, "current_rad": actual, "travel_rad": actual[1] - actual[0]}
     report["joint_limit_updates"] = updates
     report["non_collision_matches_baseline_except_declared_limits"] = manifest["base_commit"]

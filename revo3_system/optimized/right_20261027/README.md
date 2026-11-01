@@ -2,7 +2,9 @@
 
 本目录提供 **Revo3 右手无触觉标记版**的已验证资产，包含可直接加载的 **MuJoCo MJCF** 和 **Newton / Isaac Lab / PhysX 共用 USD**。本版优化了掌胶、拇指及四指的碰撞几何，保留原始可视模型的顶点、法线、面和材质。
 
-版本：**2026-10-27**。共 **144 个凸块实例、90 份唯一碰撞网格、5,427 个唯一顶点**。本目录作为独立资产包使用；仓库 `urdf/` 下的默认模型及批量转换脚本仍使用原来的碰撞配置，不会自动生成本版。
+碰撞版本：**2026-10-27**。共 **144 个凸块实例、90 份唯一碰撞网格、5,427 个唯一顶点**。
+拇指 CMR 范围：**0～105°**（`0～1.8325957145940461 rad`）。
+默认右手无触觉 URDF 同样采用这组凸包；本目录提供可直接加载的 MJCF/USD。
 
 ## 文件说明
 
@@ -195,4 +197,5 @@ USD 中的碰撞 API 直接设置在具体 mesh 上，每块使用 `convexHull`�
 
 原始可视模型来自 [BrainCoTech/brainco-description](https://github.com/BrainCoTech/brainco-description) 提交 `6db7e2ed1d864ee0a3ab6ff62d43a303787137f6`；打包基线为 `da568324b86b74538dd1e08479103faa90dd9647`，两版所引用的可视文件字节一致。本资产通过 [PR #4](https://github.com/BrainCoTech/brainco-description/pull/4) 合并到仓库。
 
-适用范围为右手无触觉标记版。左手、MX/MT 触觉标记版、RevoArm 和 RevoTron 装配模型需分别完成迁移与验证。后续迁入默认 URDF 时，需要保留原始惯性、正确转移每个凸块的所属 link 和局部变换，并确保转换器不再次分解或截断这些凸包。
+适用范围为右手无触觉标记版。左手、MX/MT 触觉标记版、RevoArm 和 RevoTron 装配模型使用各自的碰撞配置。
+URDF 转换入口及参数见 [URDF 碰撞说明](../../URDF_COLLISIONS.md)。

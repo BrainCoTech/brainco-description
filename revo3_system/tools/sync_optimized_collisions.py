@@ -22,9 +22,9 @@ DESTINATION = SYSTEM / "meshes/hands/collision/right/optimized_20261027"
 URDF = SYSTEM / "urdf/revo3_right.urdf"
 BASE_COMMIT = "9a5b7de899eb7f14e72c69e53e38a0d2fe27ea5a"
 NON_COLLISION_SHA256 = "bb82c1bc57af256884220a543f9eece0c46617255f228bf83d3ce8c866ee27b6"
-# Explicit post-migration limit changes; origin/axis and total travel stay intact.
+# Explicit post-migration limit changes; joint origins and axes stay intact.
 JOINT_LIMIT_UPDATES = {
-    "right_thumb_CMR_joint": {"baseline": ("-0.4224", "1.4277"), "current": ("0", "1.8501")},
+    "right_thumb_CMR_joint": {"baseline": ("-0.4224", "1.4277"), "current": ("0", "1.8325957145940461")},
 }
 
 

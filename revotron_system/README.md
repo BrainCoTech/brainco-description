@@ -24,6 +24,7 @@ folder is fully self-contained — no ROS package resolution required.
 For Revo3 configurations, unsuffixed URDFs have no tactile markers;
 `*_mx_touch.urdf` selects MX and `*_mt_touch.urdf` selects MT.
 All three variants share the same physical geometry.
+The Revo3 right thumb CMR range is **0–105°** (`0–1.8325957145940461 rad`).
 RViz / MoveIt / urdfpy / pybullet all resolve relative
 `<mesh filename>` against the URDF file's directory.
 
@@ -34,7 +35,7 @@ metallic-paint appearance; no CMF-suffixed variant is required. Silver arm/body
 shells, dark gray trim, cyan light covers, logos and decorative details are
 defined in the source `revotron_description` URDFs and connector xacro.
 Visual-only meshes are packaged under `meshes/body/visual/appearance/`.
-Original joint, inertial and collision definitions are preserved.
+Original joint origins/axes, inertial and collision definitions are preserved.
 
 Colors and decorative masking boundaries are display approximations. Standard
 URDF does not encode metallic reflectance, actual illumination or optical PC

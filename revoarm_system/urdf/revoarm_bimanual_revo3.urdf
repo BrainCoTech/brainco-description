@@ -2435,7 +2435,7 @@
     <parent link="right_thumb_CMP_link" />
     <child link="right_thumb_CMR_link" />
     <axis xyz="0 -0.999999985457346 -0.000170544153169872" />
-    <limit effort="0" lower="-0.4224" upper="1.4277" velocity="0" />
+    <limit effort="0" lower="0" upper="1.8325957145940461" velocity="0" />
   </joint>
   <link name="right_thumb_MCP_link">
     <inertial>

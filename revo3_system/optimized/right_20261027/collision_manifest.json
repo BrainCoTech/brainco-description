@@ -1495,16 +1495,22 @@
         ]
       }
     },
-    "note": "This snapshot preserves the reviewed engineering dynamics, including palm rubber inertia; it does not replace the canonical URDF inertia. Parent-body filtering is backend dependent."
+    "note": "This snapshot preserves the reviewed engineering dynamics, including palm rubber inertia; it does not replace the canonical URDF inertia. Parent-body filtering is backend dependent.",
+    "joint_limits_rad": {
+      "right_thumb_CMR_joint": [
+        0.0,
+        1.8325957145940461
+      ]
+    }
   },
   "exports": {
     "revo3_right.xml": {
-      "sha256": "7f78e71077f026cdaa26a9d89f4bb847bbdcbf0733954daf9d2965a754901391",
-      "bytes": 77650
+      "sha256": "8186a26ef32440051ee34a3d9a9d79cd7e9d279f3a2a9f6fb1a551e7be1047b8",
+      "bytes": 77656
     },
     "revo3_right.usd": {
-      "sha256": "c85d6c6f18e39aa5e1bc2a2b6e1217c128655c067d5c4a76f541dc7253a8d792",
-      "bytes": 17544916
+      "sha256": "f64d49af517dded512593bfc7e132484ae1f4f409f4f9e67a02e4bdf4880e249",
+      "bytes": 17547690
     }
   },
   "usd_runtime_dependency": "OmniPBR.mdl is provided by Isaac Sim/Omniverse for rendering; headless Newton does not need this shader."

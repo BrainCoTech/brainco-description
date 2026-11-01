@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-02",
+  "timezone": "Asia/Shanghai",
+  "joint": "right_thumb_CMR_joint",
+  "limits_deg": [
+    0,
+    105
+  ],
+  "limits_rad": [
+    0,
+    1.8325957145940461
+  ],
+  "urdf_count": 15,
+  "published_mjcf_count": 1,
+  "published_usd_count": 1,
+  "assets": [
+    {
+      "path": "revo3_system/urdf/revo3_right.urdf",
+      "joint": "right_thumb_CMR_joint",
+      "lower_rad": 0,
+      "upper_rad": 1.8325957145940461,
+      "sha256": "5e8c5dbfb1bd621fff237ef579bd534a18cc09e1e8a8a103955a2dee23282928",
+      "only_limit_fields_changed": true
+    },
+    {
+      "path": "revo3_system/urdf/revo3_right_mt_touch.urdf",
+      "joint": "right_thumb_CMR_joint",
+      "lower_rad": 0,
+      "upper_rad": 1.8325957145940461,
+      "sha256": "b729a24f14a23f285ae81e75aae203d35987217c7af7f0577dbb8d66c498f935",
+      "only_limit_fields_changed": true
+    },
+    {
+      "path": "revo3_system/urdf/revo3_right_mx_touch.urdf",
+      "joint": "right_thumb_CMR_joint",
+      "lower_rad": 0,
+      "upper_rad": 1.8325957145940461,
+      "sha256": "b1abdc63f4eb7a1e5d0eaac2a0205223de87d8cc438f04969d961d23f30b7335",
+      "only_limit_fields_changed": true
+    },
+    {
+      "path": "revoarm_system/urdf/revoarm_bimanual_revo3.urdf",
+      "joint": "right_thumb_CMR_joint",
+      "lower_rad": 0,
+      "upper_rad": 1.8325957145940461,
+      "sha256": "39df9609acf66eef8c35b5c0da832747b2b1103703a477f1e98ec40963bc606d",
+      "only_limit_fields_changed": true
+    },
+    {
+      "path": "revoarm_system/urdf/revoarm_bimanual_revo3_mt_touch.urdf",
+      "joint": "right_thumb_CMR_joint",
+      "lower_rad": 0,
+      "upper_rad": 1.8325957145940461,
+      "sha256": "7af3eb4c5fda59fd6ea390e78528aa291c97ce50dec3cfc9fe635eb756d66502",
+      "only_limit_fields_changed": true
+    },
+    {
+      "path": "revoarm_system/urdf/revoarm_bimanual_revo3_mx_touch.urdf",
+      "joint": "right_thumb_CMR_joint",
+      "lower_rad": 0,
+      "upper_rad": 1.8325957145940461,
+      "sha256": "facc26050680c1b43a5a8cabf30ef6fb1e0a16deb155279dc9cbd1acc12b2081",
+      "only_limit_fields_changed": true
+    },
+    {
+      "path": "revoarm_system/urdf/revoarm_single_right_revo3.urdf",
+      "joint": "right_thumb_CMR_joint",
+      "lower_rad": 0,
+      "upper_rad": 1.8325957145940461,
+      "sha256": "b2d1bd3cc4ee976aeda24b8dd24f3caa7bb9cbdf67e05f31ffed3a2293e828ff",
+      "only_limit_fields_changed": true
+    },
+    {
+      "path": "revoarm_system/urdf/revoarm_single_right_revo3_mt_touch.urdf",
+      "joint": "right_thumb_CMR_joint",
+      "lower_rad": 0,
+      "upper_rad": 1.8325957145940461,
+      "sha256": "7e693273479bff6c378246e12683f58cfd9917d26828e7d2afb323a9b3e2bd56",
+      "only_limit_fields_changed": true
+    },
+    {
+      "path": "revoarm_system/urdf/revoarm_single_right_revo3_mx_touch.urdf",
+      "joint": "right_thumb_CMR_joint",
+      "lower_rad": 0,
+      "upper_rad": 1.8325957145940461,
+      "sha256": "4c69975a67a13285d07b194e8d9ad1a2da92ec211637bf4659d5fba714a17f19",
+      "only_limit_fields_changed": true
+    },
+    {
+      "path": "revotron_system/urdf/revotron_bimanual_revo3.urdf",
+      "joint": "right_thumb_CMR_joint",
+      "lower_rad": 0,
+      "upper_rad": 1.8325957145940461,
+      "sha256": "b42c5c1716e7bc2df4be411539f6401d28b25ef02b0f5bb5995707a06a9bfc14",
+      "only_limit_fields_changed": true
+    },
+    {
+      "path": "revotron_system/urdf/revotron_bimanual_revo3_mt_touch.urdf",
+      "joint": "right_thumb_CMR_joint",
+      "lower_rad": 0,
+      "upper_rad": 1.8325957145940461,
+      "sha256": "69618fea8c1b5644f1b63ef0a338ef4bc9ac05d9f31d52db240b5c953691723f",
+      "only_limit_fields_changed": true
+    },
+    {
+      "path": "revotron_system/urdf/revotron_bimanual_revo3_mx_touch.urdf",
+      "joint": "right_thumb_CMR_joint",
+      "lower_rad": 0,
+      "upper_rad": 1.8325957145940461,
+      "sha256": "158483fefacd4d650abd1ebe7d4cc77574f5667589f14fc2128688d1adc8097e",
+      "only_limit_fields_changed": true
+    },
+    {
+      "path": "revotron_system/urdf/revotron_single_right_revo3.urdf",
+      "joint": "right_thumb_CMR_joint",
+      "lower_rad": 0,
+      "upper_rad": 1.8325957145940461,
+      "sha256": "538510b6ae9cc7440d3d3c2ad7f025fd5cae332f3958adad7bb09051a82a13a7",
+      "only_limit_fields_changed": true
+    },
+    {
+      "path": "revotron_system/urdf/revotron_single_right_revo3_mt_touch.urdf",
+      "joint": "right_thumb_CMR_joint",
+      "lower_rad": 0,
+      "upper_rad": 1.8325957145940461,
+      "sha256": "62a747b6e849d1782dd972d3c3da1fb315e739bd62d48c6a38d078429efc9ea7",
+      "only_limit_fields_changed": true
+    },
+    {
+      "path": "revotron_system/urdf/revotron_single_right_revo3_mx_touch.urdf",
+      "joint": "right_thumb_CMR_joint",
+      "lower_rad": 0,
+      "upper_rad": 1.8325957145940461,
+      "sha256": "c097a372559b14eae68325f86168215bf135f165ce1aca90de94192cabef14d5",
+      "only_limit_fields_changed": true
+    },
+    {
+      "path": "revo3_system/optimized/right_20261027/revo3_right.xml",
+      "joint": "right_thumb_CMR_joint",
+      "lower_rad": 0,
+      "upper_rad": 1.8325957145940461,
+      "sha256": "8186a26ef32440051ee34a3d9a9d79cd7e9d279f3a2a9f6fb1a551e7be1047b8",
+      "only_limit_fields_changed": true
+    },
+    {
+      "path": "revo3_system/optimized/right_20261027/revo3_right.usd",
+      "joint": "right_thumb_CMR_joint",
+      "lower_deg": 0,
+      "upper_deg": 105,
+      "sha256": "f64d49af517dded512593bfc7e132484ae1f4f409f4f9e67a02e4bdf4880e249",
+      "only_limit_fields_changed": true
+    }
+  ],
+  "passed": true,
+  "runtime_configuration_count": 2,
+  "runtime_import_checks_passed": true
+}

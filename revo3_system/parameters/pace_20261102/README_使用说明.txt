@@ -10,7 +10,8 @@ models/balanced/   最新七参数修正候选，尚未替代基线。
 
 两套都包含完整 21 关节参数，不需要把 balanced 叠加到 fit_03。
 原始 best_parameters.json 保持字节一致，selection_frozen.json 保存原选择哈希。
-每套 hand.json 记录相应资产路径、关节顺序、姿态、重力、限位和仿真设置。
+每套 hand.json 记录运行资产路径、关节顺序、姿态、重力、限位和仿真设置。
+右手拇指 CMR 运行范围统一为 0～105°。
 参数总览.html 可直接用浏览器打开，查看逐关节参数、SDK 索引和结果图表。
 model_differences.json 精确列出七处变化，保留全部数值精度。
 

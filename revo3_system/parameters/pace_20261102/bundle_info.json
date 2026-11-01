@@ -144,5 +144,11 @@
   },
   "asset_files_included": false,
   "raw_recordings_included": false,
-  "full_training_experiments_included": false
+  "full_training_experiments_included": false,
+  "runtime_joint_limits_rad": {
+    "right_thumb_CMR_joint": [
+      0.0,
+      1.8325957145940461
+    ]
+  }
 }

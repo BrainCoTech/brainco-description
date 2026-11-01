@@ -2,11 +2,9 @@
   "date": "2026-11-02",
   "timezone": "Asia/Shanghai",
   "archive": "revo3_system/parameters/Revo3_PACE_parameters_20261102.zip",
-  "archive_bytes": 413960,
-  "archive_sha256": "f75659c1f5079804a3eeb6871164453798905ec33aea956ccee9d1dad73a7ad4",
-  "original_archive_byte_identical": true,
-  "extracted_files_byte_identical": true,
-  "extracted_file_count": 24,
+  "archive_bytes": 414837,
+  "archive_sha256": "dc4ce19c08f34875fbcb4708208881b27c301145324eb017aa9c95ac848be501",
+  "package_files_match_directory": true,
   "bundle_checksum_file_count": 23,
   "pace_code_commit": "936c813d45fca85a18ce366b6640cf1f1dceb005",
   "baseline_model": "fit_03",
@@ -15,52 +13,29 @@
     "fit_03": {
       "joint_count": 21,
       "parameters_sha256": "5c3ae8f00334d20941bf51e58e0cddba7d7b1efb95437e1061aa518302bc7736",
-      "joint_name_set_matches_current_urdf": true,
-      "limits_comparison_tolerance_rad": 1e-06,
-      "limit_differences": [
-        {
-          "joint": "right_thumb_CMR_joint",
-          "bundle_limits_rad": [
-            -0.4223999857558329,
-            1.4277000208930315
-          ],
-          "current_urdf_limits_rad": [
-            0.0,
-            1.8501
-          ]
-        }
-      ],
-      "delay_saved_s": 0.012983980784281389,
-      "effective_delay_steps": 3
+      "identified_parameters_unchanged": true,
+      "joint_limits_match_urdf": true,
+      "cmr_limits_deg": [
+        0,
+        105
+      ]
     },
     "balanced": {
       "joint_count": 21,
       "parameters_sha256": "bc1d03e1eea0f83e9388b3c93c4b23ad0b5aa68c0da61ea7d8d0b4ba681b75be",
-      "joint_name_set_matches_current_urdf": true,
-      "limits_comparison_tolerance_rad": 1e-06,
-      "limit_differences": [
-        {
-          "joint": "right_thumb_CMR_joint",
-          "bundle_limits_rad": [
-            -0.4223999857558329,
-            1.4277000208930315
-          ],
-          "current_urdf_limits_rad": [
-            0.0,
-            1.8501
-          ]
-        }
-      ],
-      "delay_saved_s": 0.012983980784281389,
-      "effective_delay_steps": 3
+      "identified_parameters_unchanged": true,
+      "joint_limits_match_urdf": true,
+      "cmr_limits_deg": [
+        0,
+        105
+      ]
     }
   },
   "parameter_difference_count": 7,
   "parameter_differences_match_manifest": true,
-  "current_urdf_sha256": "a69d707d2cfc92333208a3f6de9132d1e24318907636cba7ab63c747f6cac881",
+  "current_urdf_sha256": "5e8c5dbfb1bd621fff237ef579bd534a18cc09e1e8a8a103955a2dee23282928",
   "parameters_applied_to_urdf": false,
   "gpu_replay_run": false,
   "hardware_commands_issued": 0,
-  "scope": "Bundle integrity and loading, exact seven-parameter comparison, and current URDF joint-name/limit comparison; no new identification or dynamics equivalence validation.",
   "passed": true
 }

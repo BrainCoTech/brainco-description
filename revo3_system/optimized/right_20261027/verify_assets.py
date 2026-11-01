@@ -2,6 +2,7 @@
 import argparse
 import hashlib
 import json
+import math
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
@@ -42,6 +43,11 @@ def main():
         if "file" in elem.attrib:
             require(elem.get("file") in known, f"Unlisted MJCF dependency: {elem.get('file')}")
     require(len(xml.findall(".//geom[@class='collision']")) == 144, "MJCF collision count mismatch")
+    cmr = xml.find(".//joint[@name='right_thumb_CMR_joint']")
+    require(cmr is not None, "Missing thumb CMR joint")
+    limits = list(map(float, cmr.get("range").split()))
+    require(abs(limits[0]) < 1e-12 and abs(limits[1] - math.radians(105)) < 1e-12,
+            "Thumb CMR limits must be 0 to 105 degrees")
 
     if args.runtime:
         import mujoco
@@ -54,6 +60,11 @@ def main():
         require(len(active) == 144 and model.njnt == 21, "MuJoCo collider/joint count mismatch")
         require(len(meshes) == 90 and model.mesh_vertnum[meshes].sum() == 5427, "MuJoCo shared geometry mismatch")
         stage = Usd.Stage.Open(str(root / "revo3_right.usd"))
+        joints = [p for p in stage.Traverse() if p.GetName() == "right_thumb_CMR_joint"]
+        require(len(joints) == 1, "Expected one USD thumb CMR joint")
+        cmr = UsdPhysics.RevoluteJoint(joints[0])
+        require(cmr.GetLowerLimitAttr().Get() == 0 and cmr.GetUpperLimitAttr().Get() == 105,
+                "USD thumb CMR limits must be 0 to 105 degrees")
         colliders = [p for p in stage.Traverse() if p.HasAPI(UsdPhysics.CollisionAPI)
                      and UsdPhysics.CollisionAPI(p).GetCollisionEnabledAttr().Get()]
         require(len(colliders) == 144, "USD collision count mismatch")
