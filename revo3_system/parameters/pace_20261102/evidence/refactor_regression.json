@@ -1,0 +1,33 @@
+{
+  "gpu": {
+    "environments": 2048,
+    "cases": 208,
+    "all_valid": true,
+    "prediction_comparison": {
+      "4Hz": {
+        "shape": [
+          40,
+          795,
+          21
+        ],
+        "max_abs_difference_rad": 8.940696716308594e-07,
+        "tolerance_rad": 1e-05
+      },
+      "steps": {
+        "shape": [
+          168,
+          1438,
+          21
+        ],
+        "max_abs_difference_rad": 2.086162567138672e-07,
+        "tolerance_rad": 1e-05
+      }
+    }
+  },
+  "objective": {
+    "generations": 29,
+    "candidates": 1914,
+    "max_abs_score_difference": 0.0,
+    "feasibility_identical": true
+  }
+}

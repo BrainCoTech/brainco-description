@@ -1,0 +1,8 @@
+{
+  "parameters_sha256": "bc1d03e1eea0f83e9388b3c93c4b23ad0b5aa68c0da61ea7d8d0b4ba681b75be",
+  "objective": 0.768984576368297,
+  "stopping_reason": "objective_plateau_below_0.001_over_8_generations",
+  "rate_trials_used_for_selection": false,
+  "steps_used_in_training": true,
+  "fresh_independent_validation": false
+}

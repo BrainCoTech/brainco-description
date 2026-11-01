@@ -22,6 +22,10 @@ DESTINATION = SYSTEM / "meshes/hands/collision/right/optimized_20261027"
 URDF = SYSTEM / "urdf/revo3_right.urdf"
 BASE_COMMIT = "9a5b7de899eb7f14e72c69e53e38a0d2fe27ea5a"
 NON_COLLISION_SHA256 = "bb82c1bc57af256884220a543f9eece0c46617255f228bf83d3ce8c866ee27b6"
+# Explicit post-migration limit changes; origin/axis and total travel stay intact.
+JOINT_LIMIT_UPDATES = {
+    "right_thumb_CMR_joint": {"baseline": ("-0.4224", "1.4277"), "current": ("0", "1.8501")},
+}
 
 
 def matrix_to_rpy(matrix):
@@ -36,8 +40,14 @@ def matrix_to_rpy(matrix):
     return roll, pitch, yaw
 
 
-def non_collision_tree(text):
+def non_collision_tree(text, *, migration_baseline=False):
     root = ET.fromstring(text)
+    if migration_baseline:
+        for name, update in JOINT_LIMIT_UPDATES.items():
+            limit = root.find(f"joint[@name='{name}']/limit")
+            if limit is not None and (limit.get("lower"), limit.get("upper")) == update["current"]:
+                limit.set("lower", update["baseline"][0])
+                limit.set("upper", update["baseline"][1])
     for link in root.findall("link"):
         for collision in link.findall("collision"):
             link.remove(collision)
@@ -64,7 +74,7 @@ def main():
         "mesh_files": {},
     }
     original = URDF.read_text()
-    if hashlib.sha256(non_collision_tree(original)).hexdigest() != NON_COLLISION_SHA256:
+    if hashlib.sha256(non_collision_tree(original, migration_baseline=True)).hexdigest() != NON_COLLISION_SHA256:
         raise ValueError("URDF visuals/joints/inertia differ from the reviewed migration baseline")
     root = ET.fromstring(original)
     links = {link.get("name") for link in root.findall("link")}

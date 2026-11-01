@@ -1,0 +1,148 @@
+{
+  "bundle_date": "2026-11-02",
+  "timezone": "Asia/Shanghai",
+  "repository": "https://github.com/tannjieee/REVO3_PACE",
+  "code_commit": "936c813d45fca85a18ce366b6640cf1f1dceb005",
+  "baseline_model": "fit_03",
+  "latest_candidate": "balanced",
+  "candidate_promoted": false,
+  "hardware_gain_export": false,
+  "joint_count": 21,
+  "parameter_units": {
+    "armature_kg_m2": "kg·m²",
+    "viscous_Nm_s_rad": "N·m·s/rad",
+    "friction_Nm": "N·m",
+    "encoder_bias_rad": "rad",
+    "effective_kp_Nm_rad": "N·m/rad",
+    "effective_kd_Nm_s_rad": "N·m·s/rad",
+    "effective_effort_limit_Nm": "N·m",
+    "delay_s": "s",
+    "finger_body_inertia_scale": "dimensionless"
+  },
+  "joint_mapping": [
+    {
+      "pace_index": 0,
+      "joint": "right_thumb_CMP_joint",
+      "sdk_index": 19
+    },
+    {
+      "pace_index": 1,
+      "joint": "right_thumb_CMR_joint",
+      "sdk_index": 20
+    },
+    {
+      "pace_index": 2,
+      "joint": "right_thumb_MCP_joint",
+      "sdk_index": 16
+    },
+    {
+      "pace_index": 3,
+      "joint": "right_thumb_PIP_joint",
+      "sdk_index": 17
+    },
+    {
+      "pace_index": 4,
+      "joint": "right_thumb_DIP_joint",
+      "sdk_index": 18
+    },
+    {
+      "pace_index": 5,
+      "joint": "right_index_MPR_joint",
+      "sdk_index": 12
+    },
+    {
+      "pace_index": 6,
+      "joint": "right_index_MCP_joint",
+      "sdk_index": 13
+    },
+    {
+      "pace_index": 7,
+      "joint": "right_index_PIP_joint",
+      "sdk_index": 14
+    },
+    {
+      "pace_index": 8,
+      "joint": "right_index_DIP_joint",
+      "sdk_index": 15
+    },
+    {
+      "pace_index": 9,
+      "joint": "right_middle_MPR_joint",
+      "sdk_index": 8
+    },
+    {
+      "pace_index": 10,
+      "joint": "right_middle_MCP_joint",
+      "sdk_index": 9
+    },
+    {
+      "pace_index": 11,
+      "joint": "right_middle_PIP_joint",
+      "sdk_index": 10
+    },
+    {
+      "pace_index": 12,
+      "joint": "right_middle_DIP_joint",
+      "sdk_index": 11
+    },
+    {
+      "pace_index": 13,
+      "joint": "right_ring_MPR_joint",
+      "sdk_index": 4
+    },
+    {
+      "pace_index": 14,
+      "joint": "right_ring_MCP_joint",
+      "sdk_index": 5
+    },
+    {
+      "pace_index": 15,
+      "joint": "right_ring_PIP_joint",
+      "sdk_index": 6
+    },
+    {
+      "pace_index": 16,
+      "joint": "right_ring_DIP_joint",
+      "sdk_index": 7
+    },
+    {
+      "pace_index": 17,
+      "joint": "right_little_MPR_joint",
+      "sdk_index": 0
+    },
+    {
+      "pace_index": 18,
+      "joint": "right_little_MCP_joint",
+      "sdk_index": 1
+    },
+    {
+      "pace_index": 19,
+      "joint": "right_little_PIP_joint",
+      "sdk_index": 2
+    },
+    {
+      "pace_index": 20,
+      "joint": "right_little_DIP_joint",
+      "sdk_index": 3
+    }
+  ],
+  "simulated_pd_period_s": 0.005,
+  "physics_substeps": 2,
+  "physics_step_s": 0.0025,
+  "effective_delay_steps": 3,
+  "effective_delay_s": 0.015,
+  "firmware_period_verified": false,
+  "host_rates_tested_offline_hz": [
+    30,
+    25,
+    20
+  ],
+  "host_rates_verified_on_hardware": false,
+  "sdk_acquisition_gains": {
+    "kp": 3.0,
+    "kd": 0.1
+  },
+  "asset_files_included": false,
+  "raw_recordings_included": false,
+  "full_training_experiments_included": false
+}

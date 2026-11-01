@@ -1,0 +1,64 @@
+{
+  "files": [
+    {
+      "path": "convex-audit.json",
+      "sha256": "120b1aa813a185652cf06ecd4fd38b1114f9205c2646db59dd149f6473b9de6b",
+      "bytes": 10607
+    },
+    {
+      "path": "payloads/Physics/mujoco.usda",
+      "sha256": "2b218462e5d7fb9b5e58d45ca847b8f68f583abb94a3bf3ee352a50d7ac551ac",
+      "bytes": 17453
+    },
+    {
+      "path": "payloads/Physics/physics.usda",
+      "sha256": "b7b82e9d8cad75413c0e9f22a047e42a57abf1c782f548899c5fb385d229f9f4",
+      "bytes": 41097
+    },
+    {
+      "path": "payloads/Physics/physx.usda",
+      "sha256": "7de53be43267a3b144c7c1b2b3ec462d8ee8f775ffaa673a39bea2e266423bb7",
+      "bytes": 2892
+    },
+    {
+      "path": "payloads/base.usda",
+      "sha256": "bbe585763faf2d5ec5eda8dedd5af7d4dfadd03a4ff71820199d2a012449ddd4",
+      "bytes": 118151
+    },
+    {
+      "path": "payloads/geometries.usd",
+      "sha256": "de933a8ce7e90867bb1629030234e883dc03beead27be3bd920d8a3f533cef00",
+      "bytes": 5533909
+    },
+    {
+      "path": "payloads/instances.usda",
+      "sha256": "139da46ea8e96cff83726e6cc7c0d2d253159b8991a67e8a2ebd657ebedc1c80",
+      "bytes": 92716
+    },
+    {
+      "path": "payloads/materials.usda",
+      "sha256": "a396e3dc30d666a0e15fd83c2953d15e4027fdd8d18d6516ab655a20fc7a98a0",
+      "bytes": 7437
+    },
+    {
+      "path": "payloads/robot.usda",
+      "sha256": "b72b33a5dc84b48bad87554c8b7133e0886c1ee15863ec80f053c3c3904deb55",
+      "bytes": 6804
+    },
+    {
+      "path": "revo3_right_compact_v4.usda",
+      "sha256": "a13e3f0ac0482d88c57a9050b4095fde62cc01e9db5dd6053d6dd19ce8f0c650",
+      "bytes": 49164
+    },
+    {
+      "path": "source_assets/revo3_screen.png",
+      "sha256": "6af300a065bc2e03bd48490ec14f286d2ba5a7d5633d0cf9fc07b711854e48a3",
+      "bytes": 19849
+    },
+    {
+      "path": "textures/revo3_screen.png",
+      "sha256": "6af300a065bc2e03bd48490ec14f286d2ba5a7d5633d0cf9fc07b711854e48a3",
+      "bytes": 19849
+    }
+  ]
+}

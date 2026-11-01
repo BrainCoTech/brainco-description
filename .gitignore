@@ -12,6 +12,8 @@ scripts/*.py
 !/revo3_collision_optimized.py
 !/revo3_system/tools/sync_optimized_collisions.py
 !/revo3_system/tools/verify_optimized_urdf.py
+!/revo3_system/parameters/pace_20261102/scripts/load_parameters.py
+!/revo3_system/parameters/pace_20261102/scripts/replay_example.py
 __pycache__/
 *.py[cod]
 

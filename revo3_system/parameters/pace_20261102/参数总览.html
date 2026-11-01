@@ -1,0 +1,52 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>Revo3 PACE 参数总览</title><style>body{font:16px/1.65 system-ui,sans-serif;max-width:1250px;margin:36px auto;padding:0 24px;color:#182436}table{border-collapse:collapse;font-size:13px;width:100%;margin:20px 0}td,th{border:1px solid #ccd4df;padding:7px;text-align:right}td:first-child,th:first-child{text-align:left}th{background:#eaf0f7}img{max-width:100%}code{background:#edf1f5}h1,h2{color:#174773}</style><h1>Revo3 PACE 冻结参数</h1><p>打包日期：2026-11-02（Asia/Shanghai）。完整步骤见同目录 README_使用说明.txt。fit_03 是保留基线；balanced 是最新七参数候选，尚未替代基线。以下为等效模型参数，不是硬件寄存器设置。</p><p>原始 JSON 保留完整精度；本页只显示 8 位有效数字。参数向量必须按关节名称映射。</p>
+<h2>fit_03：21 关节参数</h2><table><tr><th>joint</th><th>armature_kg_m2<br>kg·m²</th><th>viscous_Nm_s_rad<br>N·m·s/rad</th><th>friction_Nm<br>N·m</th><th>encoder_bias_rad<br>rad</th><th>effective_kp_Nm_rad<br>N·m/rad</th><th>effective_kd_Nm_s_rad<br>N·m·s/rad</th><th>effective_effort_limit_Nm<br>N·m</th></tr>
+<tr><td>right_thumb_CMP_joint</td><td>0.0053199656</td><td>0.082543906</td><td>0.0044233595</td><td>0.017453293</td><td>7.15055</td><td>0.3385649</td><td>0.59264033</td></tr>
+<tr><td>right_thumb_CMR_joint</td><td>0.0010050408</td><td>0.0076283993</td><td>0.023897053</td><td>0</td><td>0.78546835</td><td>0.033123316</td><td>0.6</td></tr>
+<tr><td>right_thumb_MCP_joint</td><td>0.0014547323</td><td>0.016924211</td><td>0.021492741</td><td>0</td><td>7.2222249</td><td>0.19263881</td><td>0.84617663</td></tr>
+<tr><td>right_thumb_PIP_joint</td><td>0.0015368989</td><td>0</td><td>0.023695407</td><td>0</td><td>5.7582971</td><td>0.21563888</td><td>0.84119472</td></tr>
+<tr><td>right_thumb_DIP_joint</td><td>0.0013888095</td><td>0</td><td>0.020752118</td><td>0</td><td>5.2352479</td><td>0.17023498</td><td>0.81869262</td></tr>
+<tr><td>right_index_MPR_joint</td><td>0.0023993286</td><td>0.015482554</td><td>0.025739186</td><td>0</td><td>21.420226</td><td>0.27741666</td><td>1.321882</td></tr>
+<tr><td>right_index_MCP_joint</td><td>0.0008957118</td><td>0</td><td>0</td><td>0</td><td>5.443569</td><td>0.11729493</td><td>0.36425011</td></tr>
+<tr><td>right_index_PIP_joint</td><td>0.0015944263</td><td>0</td><td>0.0089562365</td><td>0</td><td>6.9485828</td><td>0.14693679</td><td>0.59771374</td></tr>
+<tr><td>right_index_DIP_joint</td><td>0.0013798819</td><td>0.0046377779</td><td>0.012010803</td><td>0</td><td>6.87531</td><td>0.11001581</td><td>0.94410862</td></tr>
+<tr><td>right_middle_MPR_joint</td><td>0.00081453269</td><td>0.0066483291</td><td>0.033580885</td><td>0</td><td>5.2715396</td><td>0.078762282</td><td>0.6</td></tr>
+<tr><td>right_middle_MCP_joint</td><td>0.0010978675</td><td>0.022392191</td><td>0.014109328</td><td>0</td><td>11.655541</td><td>0.17039169</td><td>0.84984992</td></tr>
+<tr><td>right_middle_PIP_joint</td><td>0.0014402069</td><td>0.016015555</td><td>0</td><td>0</td><td>7.7898858</td><td>0.13904655</td><td>0.8388462</td></tr>
+<tr><td>right_middle_DIP_joint</td><td>0.001310031</td><td>0.029293106</td><td>0.0083142129</td><td>0</td><td>9.336455</td><td>0.16146233</td><td>0.96970455</td></tr>
+<tr><td>right_ring_MPR_joint</td><td>0.00066819675</td><td>0.023551726</td><td>0</td><td>0</td><td>6.3542436</td><td>0.15253036</td><td>0.6</td></tr>
+<tr><td>right_ring_MCP_joint</td><td>0.0014345737</td><td>0.0067367217</td><td>0</td><td>0</td><td>6.9874351</td><td>0.20241035</td><td>0.83104834</td></tr>
+<tr><td>right_ring_PIP_joint</td><td>0.00074992556</td><td>0.0061521038</td><td>0.02265057</td><td>0</td><td>2.2904806</td><td>0.13365687</td><td>0.6</td></tr>
+<tr><td>right_ring_DIP_joint</td><td>0.0017888116</td><td>0</td><td>0.0038798</td><td>0</td><td>9.4912419</td><td>0.29260469</td><td>1.3502775</td></tr>
+<tr><td>right_little_MPR_joint</td><td>0.00091502773</td><td>0.017684983</td><td>0</td><td>0</td><td>6.0922932</td><td>0.12244753</td><td>0.6</td></tr>
+<tr><td>right_little_MCP_joint</td><td>0.0016106388</td><td>0.023640984</td><td>0.028608112</td><td>0</td><td>10.584414</td><td>0.11214544</td><td>0.79462384</td></tr>
+<tr><td>right_little_PIP_joint</td><td>0.0011311238</td><td>0.018974883</td><td>0</td><td>0</td><td>10.224818</td><td>0.16996705</td><td>0.95457116</td></tr>
+<tr><td>right_little_DIP_joint</td><td>0.0007046811</td><td>0.022300905</td><td>0.02010342</td><td>0</td><td>5.895574</td><td>0.11471204</td><td>0.92897224</td></tr>
+</table><p>delay_s = 0.012983980784281389；在 5 ms 网格上取 3 步，即 15 ms。finger_body_inertia_scale = 1.0；未包含 finger_body_mass_scale，后端默认 1.0，质量保持资产值。</p>
+<h2>balanced：21 关节参数</h2><table><tr><th>joint</th><th>armature_kg_m2<br>kg·m²</th><th>viscous_Nm_s_rad<br>N·m·s/rad</th><th>friction_Nm<br>N·m</th><th>encoder_bias_rad<br>rad</th><th>effective_kp_Nm_rad<br>N·m/rad</th><th>effective_kd_Nm_s_rad<br>N·m·s/rad</th><th>effective_effort_limit_Nm<br>N·m</th></tr>
+<tr><td>right_thumb_CMP_joint</td><td>0.0043636395</td><td>0.082543906</td><td>0.0044233595</td><td>0.017453293</td><td>23.543235</td><td>0.698884</td><td>0.59264033</td></tr>
+<tr><td>right_thumb_CMR_joint</td><td>0.0010050408</td><td>0.0076283993</td><td>0.023897053</td><td>0</td><td>1.1039298</td><td>0.042304326</td><td>0.6</td></tr>
+<tr><td>right_thumb_MCP_joint</td><td>0.0014547323</td><td>0.016924211</td><td>0.021492741</td><td>0</td><td>7.2222249</td><td>0.19263881</td><td>0.84617663</td></tr>
+<tr><td>right_thumb_PIP_joint</td><td>0.0015368989</td><td>0</td><td>0.023695407</td><td>0</td><td>5.7582971</td><td>0.21563888</td><td>0.84119472</td></tr>
+<tr><td>right_thumb_DIP_joint</td><td>0.0013888095</td><td>0</td><td>0.020752118</td><td>0</td><td>5.2352479</td><td>0.17023498</td><td>0.81869262</td></tr>
+<tr><td>right_index_MPR_joint</td><td>0.0023993286</td><td>0.015482554</td><td>0.025739186</td><td>0</td><td>21.420226</td><td>0.27741666</td><td>1.321882</td></tr>
+<tr><td>right_index_MCP_joint</td><td>0.0008957118</td><td>0</td><td>0</td><td>0</td><td>5.443569</td><td>0.11729493</td><td>0.36425011</td></tr>
+<tr><td>right_index_PIP_joint</td><td>0.0015944263</td><td>0</td><td>0.0089562365</td><td>0</td><td>6.9485828</td><td>0.14693679</td><td>0.59771374</td></tr>
+<tr><td>right_index_DIP_joint</td><td>0.0013798819</td><td>0.0046377779</td><td>0.012010803</td><td>0</td><td>6.87531</td><td>0.11001581</td><td>0.94410862</td></tr>
+<tr><td>right_middle_MPR_joint</td><td>0.00081453269</td><td>0.0066483291</td><td>0.033580885</td><td>0</td><td>5.2715396</td><td>0.078762282</td><td>0.6</td></tr>
+<tr><td>right_middle_MCP_joint</td><td>0.0010978675</td><td>0.022392191</td><td>0.014109328</td><td>0</td><td>11.655541</td><td>0.17039169</td><td>0.84984992</td></tr>
+<tr><td>right_middle_PIP_joint</td><td>0.0014402069</td><td>0.016015555</td><td>0</td><td>0</td><td>7.7898858</td><td>0.13904655</td><td>0.8388462</td></tr>
+<tr><td>right_middle_DIP_joint</td><td>0.001310031</td><td>0.029293106</td><td>0.0083142129</td><td>0</td><td>9.336455</td><td>0.16146233</td><td>0.96970455</td></tr>
+<tr><td>right_ring_MPR_joint</td><td>0.00066819675</td><td>0.023551726</td><td>0</td><td>0</td><td>6.3542436</td><td>0.15253036</td><td>0.6</td></tr>
+<tr><td>right_ring_MCP_joint</td><td>0.0014345737</td><td>0.0067367217</td><td>0</td><td>0</td><td>6.9874351</td><td>0.20241035</td><td>0.83104834</td></tr>
+<tr><td>right_ring_PIP_joint</td><td>0.00074992556</td><td>0.0061521038</td><td>0.02265057</td><td>0</td><td>4.652494</td><td>0.12092744</td><td>0.6</td></tr>
+<tr><td>right_ring_DIP_joint</td><td>0.0017888116</td><td>0</td><td>0.0038798</td><td>0</td><td>9.4912419</td><td>0.29260469</td><td>1.3502775</td></tr>
+<tr><td>right_little_MPR_joint</td><td>0.00091502773</td><td>0.017684983</td><td>0</td><td>0</td><td>6.0922932</td><td>0.12244753</td><td>0.6</td></tr>
+<tr><td>right_little_MCP_joint</td><td>0.0016106388</td><td>0.023640984</td><td>0.028608112</td><td>0</td><td>10.584414</td><td>0.11214544</td><td>0.79462384</td></tr>
+<tr><td>right_little_PIP_joint</td><td>0.0011311238</td><td>0.018974883</td><td>0</td><td>0</td><td>10.224818</td><td>0.16996705</td><td>0.95457116</td></tr>
+<tr><td>right_little_DIP_joint</td><td>0.0007046811</td><td>0.022300905</td><td>0.02010342</td><td>0</td><td>5.895574</td><td>0.11471204</td><td>0.92897224</td></tr>
+</table><p>delay_s = 0.012983980784281389；在 5 ms 网格上取 3 步，即 15 ms。finger_body_inertia_scale = 1.0；未包含 finger_body_mass_scale，后端默认 1.0，质量保持资产值。</p>
+<h2>关节顺序（均为从 0 开始的索引）</h2><table><tr><th>PACE</th><th>joint</th><th>SDK</th></tr><tr><td>0</td><td>right_thumb_CMP_joint</td><td>19</td></tr><tr><td>1</td><td>right_thumb_CMR_joint</td><td>20</td></tr><tr><td>2</td><td>right_thumb_MCP_joint</td><td>16</td></tr><tr><td>3</td><td>right_thumb_PIP_joint</td><td>17</td></tr><tr><td>4</td><td>right_thumb_DIP_joint</td><td>18</td></tr><tr><td>5</td><td>right_index_MPR_joint</td><td>12</td></tr><tr><td>6</td><td>right_index_MCP_joint</td><td>13</td></tr><tr><td>7</td><td>right_index_PIP_joint</td><td>14</td></tr><tr><td>8</td><td>right_index_DIP_joint</td><td>15</td></tr><tr><td>9</td><td>right_middle_MPR_joint</td><td>8</td></tr><tr><td>10</td><td>right_middle_MCP_joint</td><td>9</td></tr><tr><td>11</td><td>right_middle_PIP_joint</td><td>10</td></tr><tr><td>12</td><td>right_middle_DIP_joint</td><td>11</td></tr><tr><td>13</td><td>right_ring_MPR_joint</td><td>4</td></tr><tr><td>14</td><td>right_ring_MCP_joint</td><td>5</td></tr><tr><td>15</td><td>right_ring_PIP_joint</td><td>6</td></tr><tr><td>16</td><td>right_ring_DIP_joint</td><td>7</td></tr><tr><td>17</td><td>right_little_MPR_joint</td><td>0</td></tr><tr><td>18</td><td>right_little_MCP_joint</td><td>1</td></tr><tr><td>19</td><td>right_little_PIP_joint</td><td>2</td></tr><tr><td>20</td><td>right_little_DIP_joint</td><td>3</td></tr></table><h2>结果图表</h2><p>七参数候选改善目标阶跃，但增加拇指 4 Hz 误差。频率对照仅为离线预测；不构成新频率真机测试。</p>
+<h3>balanced_convergence</h3><img src="figures/balanced_convergence.png" alt="balanced_convergence">
+<h3>balanced_focus_steps</h3><img src="figures/balanced_focus_steps.png" alt="balanced_focus_steps">
+<h3>command_rate_comparison</h3><img src="figures/command_rate_comparison.png" alt="command_rate_comparison">
+</html>

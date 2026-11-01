@@ -15,7 +15,7 @@ import xml.etree.ElementTree as ET
 SYSTEM = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(SYSTEM.parent))
 from urdf_to_mjcf import UrdfModel, build_mjcf
-from sync_optimized_collisions import non_collision_tree
+from sync_optimized_collisions import JOINT_LIMIT_UPDATES, non_collision_tree
 
 
 def digest(path):
@@ -59,8 +59,19 @@ def main():
     report = {"urdf_sha256": digest(urdf), "manifest_sha256": digest(folder / "collision_manifest.json"),
               "non_collision_sha256": hashlib.sha256(non_collision_tree(urdf.read_text())).hexdigest(),
               "statistics": stats}
-    assert report["non_collision_sha256"] == manifest["non_collision_sha256"]
-    report["non_collision_matches_baseline"] = manifest["base_commit"]
+    baseline_hash = hashlib.sha256(non_collision_tree(urdf.read_text(), migration_baseline=True)).hexdigest()
+    assert baseline_hash == manifest["non_collision_sha256"]
+    updates = {}
+    for name, update in JOINT_LIMIT_UPDATES.items():
+        limit = root.find(f"joint[@name='{name}']/limit")
+        actual = [float(limit.get(key)) for key in ("lower", "upper")]
+        baseline = list(map(float, update["baseline"]))
+        if actual != baseline:
+            assert actual == list(map(float, update["current"]))
+            assert abs((actual[1] - actual[0]) - (baseline[1] - baseline[0])) < 1e-12
+            updates[name] = {"baseline_rad": baseline, "current_rad": actual, "travel_rad": actual[1] - actual[0]}
+    report["joint_limit_updates"] = updates
+    report["non_collision_matches_baseline_except_declared_limits"] = manifest["base_commit"]
     if args.runtime:
         import mujoco
         import numpy as np
@@ -98,7 +109,10 @@ def main():
             rj = [mujoco.mj_name2id(reference, mujoco.mjtObj.mjOBJ_JOINT, candidate.joint(j).name)
                   for j in range(candidate.njnt)]
             assert candidate.njnt == reference.njnt == 21 and min(rj) >= 0
-            assert np.allclose(candidate.jnt_range, reference.jnt_range[rj], atol=1e-10)
+            expected_ranges = reference.jnt_range[rj].copy()
+            for name, update in updates.items():
+                expected_ranges[candidate.joint(name).id] = update["current_rad"]
+            assert np.allclose(candidate.jnt_range, expected_ranges, atol=1e-10)
             rng = np.random.default_rng(20261101)
             poses = np.vstack([np.zeros(candidate.nq), rng.uniform(candidate.jnt_range[:, 0], candidate.jnt_range[:, 1], (128, 21))])
             maximum = 0.0
@@ -131,6 +145,13 @@ def main():
                 stage = Usd.Stage.Open(str(args.usd.resolve()))
                 assert UsdGeom.GetStageMetersPerUnit(stage) == 1.0
                 assert UsdGeom.GetStageUpAxis(stage) == "Z"
+                usd_limits = {p.GetName(): np.radians([
+                    UsdPhysics.RevoluteJoint(p).GetLowerLimitAttr().Get(),
+                    UsdPhysics.RevoluteJoint(p).GetUpperLimitAttr().Get()])
+                    for p in stage.Traverse() if p.IsA(UsdPhysics.RevoluteJoint)}
+                assert len(usd_limits) == candidate.njnt
+                for j in range(candidate.njnt):
+                    assert np.allclose(usd_limits[candidate.joint(j).name], candidate.jnt_range[j], rtol=0, atol=2e-7)
                 colliders = [p for p in Usd.PrimRange(stage.GetPseudoRoot(), Usd.TraverseInstanceProxies())
                              if p.HasAPI(UsdPhysics.CollisionAPI)]
                 assert len(colliders) == 144
@@ -163,6 +184,7 @@ def main():
                 report["usd"] = {"sha256": digest(args.usd), "collision_instances": len(colliders),
                     "unique_point_arrays": len(unique), "expanded_vertices": expanded,
                     "max_collision_vertex_deviation_m": deviation,
+                    "joint_limits_match_urdf": True,
                     "all_approximation_convexHull": True,
                     "physx_hull_vertex_limit": 255, "newton_max_hull_vertices": -1}
     report["passed"] = True

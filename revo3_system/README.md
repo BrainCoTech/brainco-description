@@ -10,10 +10,18 @@ An optional [reviewed right-hand collision snapshot (2026-10-27)](optimized/righ
 is provided separately with ready-to-load MJCF/USD, 144 convex instances and 90 unique meshes.
 This snapshot preserves the original visuals and includes integrity checks and validation notes.
 On the **dev** branch, `urdf/revo3_right.urdf` now uses these reviewed collision
-meshes, with its original visual, joint and inertial definitions preserved.
+meshes, with its original visuals, joint origins/axes and inertial definitions preserved.
+The right thumb CMR range is now `[0, 1.8501]` rad; its original total travel is unchanged.
 The right MX/MT, left-hand and arm/platform assembly URDFs retain the old collisions.
 See [URDF migration and validation](URDF_COLLISIONS.md) for scope and commands.
 `dev` 分支已将审核版碰撞反向写入右手无触觉 URDF；其他变体尚未迁移。
+
+[PACE identified parameters (2026-11-02)](parameters/README.md) are included as
+the original ZIP and an identical extracted bundle: the frozen `fit_03` baseline,
+the `balanced` candidate, electrical fits, evidence, plots and loading examples.
+These parameters are supplied separately from URDF dynamics. Their recorded CMR
+limits are the pre-update range; see the parameter README before using them with this URDF.
+已附上 21 关节辨识参数及原始校验信息，未自动写入 URDF 的动力学或执行器字段。
 
 Self-contained URDF + mesh bundle.
 

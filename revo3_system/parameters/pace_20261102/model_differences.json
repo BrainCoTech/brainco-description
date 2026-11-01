@@ -1,0 +1,65 @@
+[
+  {
+    "field": "armature_kg_m2",
+    "joint": "right_thumb_CMP_joint",
+    "pace_index": 0,
+    "sdk_index": 19,
+    "baseline": 0.005319965568866558,
+    "balanced": 0.004363639537333063,
+    "unit": "kg·m²"
+  },
+  {
+    "field": "effective_kp_Nm_rad",
+    "joint": "right_thumb_CMP_joint",
+    "pace_index": 0,
+    "sdk_index": 19,
+    "baseline": 7.150549967963103,
+    "balanced": 23.54323531838884,
+    "unit": "N·m/rad"
+  },
+  {
+    "field": "effective_kp_Nm_rad",
+    "joint": "right_thumb_CMR_joint",
+    "pace_index": 1,
+    "sdk_index": 20,
+    "baseline": 0.7854683495338084,
+    "balanced": 1.1039297975558242,
+    "unit": "N·m/rad"
+  },
+  {
+    "field": "effective_kp_Nm_rad",
+    "joint": "right_ring_PIP_joint",
+    "pace_index": 15,
+    "sdk_index": 6,
+    "baseline": 2.290480578014614,
+    "balanced": 4.652493996177944,
+    "unit": "N·m/rad"
+  },
+  {
+    "field": "effective_kd_Nm_s_rad",
+    "joint": "right_thumb_CMP_joint",
+    "pace_index": 0,
+    "sdk_index": 19,
+    "baseline": 0.33856489712574755,
+    "balanced": 0.6988839972419799,
+    "unit": "N·m·s/rad"
+  },
+  {
+    "field": "effective_kd_Nm_s_rad",
+    "joint": "right_thumb_CMR_joint",
+    "pace_index": 1,
+    "sdk_index": 20,
+    "baseline": 0.03312331602093712,
+    "balanced": 0.04230432568459416,
+    "unit": "N·m·s/rad"
+  },
+  {
+    "field": "effective_kd_Nm_s_rad",
+    "joint": "right_ring_PIP_joint",
+    "pace_index": 15,
+    "sdk_index": 6,
+    "baseline": 0.13365686703701657,
+    "balanced": 0.12092743567176556,
+    "unit": "N·m·s/rad"
+  }
+]

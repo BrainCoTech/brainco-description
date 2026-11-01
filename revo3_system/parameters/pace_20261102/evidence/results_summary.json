@@ -1,0 +1,216 @@
+{
+  "historical_experiment_date": "2026-11-01",
+  "fit": {
+    "completed": true,
+    "stopping_reason": "objective_plateau_below_0.001_over_8_generations",
+    "generations": 29,
+    "baseline_rmse_components_deg": [
+      0.919019335829684,
+      6.519333419839867,
+      4.020992673266957,
+      3.992175299677205,
+      1.056802045683595
+    ],
+    "fitted_rmse_components_deg": [
+      0.9542219660258642,
+      5.418633663773717,
+      2.6931196412058065,
+      1.6997537484791183,
+      0.7755310370651035
+    ],
+    "fields": [
+      "effective_kp_Nm_rad:right_thumb_CMP_joint",
+      "effective_kp_Nm_rad:right_thumb_CMR_joint",
+      "effective_kp_Nm_rad:right_ring_PIP_joint",
+      "effective_kd_Nm_s_rad:right_thumb_CMP_joint",
+      "effective_kd_Nm_s_rad:right_thumb_CMR_joint",
+      "effective_kd_Nm_s_rad:right_ring_PIP_joint",
+      "armature_kg_m2:right_thumb_CMP_joint"
+    ],
+    "best_objective": 0.768984576368297,
+    "environments": 2048,
+    "hardware_commands_issued": 0,
+    "physical_parameter_uniqueness_verified": false
+  },
+  "rate_aggregate": [
+    {
+      "group": "4Hz",
+      "model": "parent",
+      "rate_hz": null,
+      "cases": 5,
+      "all_valid": true,
+      "prediction_change_from_same_model_recorded_timing_deg": 0.0,
+      "simulated_target_tracking_rmse_deg": 4.874700559981402,
+      "simulated_tracking_to_recorded_reference_deg": 4.874700559981402,
+      "angle_response_rmse_vs_real_deg": 1.1637050292304918
+    },
+    {
+      "group": "4Hz",
+      "model": "parent",
+      "rate_hz": 30,
+      "cases": 5,
+      "all_valid": true,
+      "prediction_change_from_same_model_recorded_timing_deg": 3.7739403986272473,
+      "simulated_target_tracking_rmse_deg": 5.3666243125708695,
+      "simulated_tracking_to_recorded_reference_deg": 7.699933838066846,
+      "angle_response_rmse_vs_real_deg": null
+    },
+    {
+      "group": "4Hz",
+      "model": "parent",
+      "rate_hz": 25,
+      "cases": 5,
+      "all_valid": true,
+      "prediction_change_from_same_model_recorded_timing_deg": 4.156021982403423,
+      "simulated_target_tracking_rmse_deg": 5.794365346622924,
+      "simulated_tracking_to_recorded_reference_deg": 8.022347138291183,
+      "angle_response_rmse_vs_real_deg": null
+    },
+    {
+      "group": "4Hz",
+      "model": "parent",
+      "rate_hz": 20,
+      "cases": 5,
+      "all_valid": true,
+      "prediction_change_from_same_model_recorded_timing_deg": 5.551154968156404,
+      "simulated_target_tracking_rmse_deg": 6.019462838444539,
+      "simulated_tracking_to_recorded_reference_deg": 9.041647622478958,
+      "angle_response_rmse_vs_real_deg": null
+    },
+    {
+      "group": "4Hz",
+      "model": "balanced",
+      "rate_hz": null,
+      "cases": 5,
+      "all_valid": true,
+      "prediction_change_from_same_model_recorded_timing_deg": 0.0,
+      "simulated_target_tracking_rmse_deg": 4.819798203615026,
+      "simulated_tracking_to_recorded_reference_deg": 4.819798203615026,
+      "angle_response_rmse_vs_real_deg": 1.3520474687543942
+    },
+    {
+      "group": "4Hz",
+      "model": "balanced",
+      "rate_hz": 30,
+      "cases": 5,
+      "all_valid": true,
+      "prediction_change_from_same_model_recorded_timing_deg": 3.7897591377773083,
+      "simulated_target_tracking_rmse_deg": 5.311958883409186,
+      "simulated_tracking_to_recorded_reference_deg": 7.676084698862094,
+      "angle_response_rmse_vs_real_deg": null
+    },
+    {
+      "group": "4Hz",
+      "model": "balanced",
+      "rate_hz": 25,
+      "cases": 5,
+      "all_valid": true,
+      "prediction_change_from_same_model_recorded_timing_deg": 4.182319548892703,
+      "simulated_target_tracking_rmse_deg": 5.751404773199338,
+      "simulated_tracking_to_recorded_reference_deg": 7.998374930997042,
+      "angle_response_rmse_vs_real_deg": null
+    },
+    {
+      "group": "4Hz",
+      "model": "balanced",
+      "rate_hz": 20,
+      "cases": 5,
+      "all_valid": true,
+      "prediction_change_from_same_model_recorded_timing_deg": 5.591132701897376,
+      "simulated_target_tracking_rmse_deg": 5.991147705510623,
+      "simulated_tracking_to_recorded_reference_deg": 9.040319934293775,
+      "angle_response_rmse_vs_real_deg": null
+    },
+    {
+      "group": "steps",
+      "model": "parent",
+      "rate_hz": null,
+      "cases": 21,
+      "all_valid": true,
+      "prediction_change_from_same_model_recorded_timing_deg": 0.0,
+      "simulated_target_tracking_rmse_deg": 4.115886387351476,
+      "simulated_tracking_to_recorded_reference_deg": 4.115886387351476,
+      "angle_response_rmse_vs_real_deg": 1.228010629392148
+    },
+    {
+      "group": "steps",
+      "model": "parent",
+      "rate_hz": 30,
+      "cases": 21,
+      "all_valid": true,
+      "prediction_change_from_same_model_recorded_timing_deg": 1.5314065565998665,
+      "simulated_target_tracking_rmse_deg": 4.11591691380034,
+      "simulated_tracking_to_recorded_reference_deg": 4.839610048865011,
+      "angle_response_rmse_vs_real_deg": null
+    },
+    {
+      "group": "steps",
+      "model": "parent",
+      "rate_hz": 25,
+      "cases": 21,
+      "all_valid": true,
+      "prediction_change_from_same_model_recorded_timing_deg": 1.824828957174846,
+      "simulated_target_tracking_rmse_deg": 4.1159204357745365,
+      "simulated_tracking_to_recorded_reference_deg": 5.000353337341159,
+      "angle_response_rmse_vs_real_deg": null
+    },
+    {
+      "group": "steps",
+      "model": "parent",
+      "rate_hz": 20,
+      "cases": 21,
+      "all_valid": true,
+      "prediction_change_from_same_model_recorded_timing_deg": 2.427172823810728,
+      "simulated_target_tracking_rmse_deg": 4.1159387641483915,
+      "simulated_tracking_to_recorded_reference_deg": 5.346005092391127,
+      "angle_response_rmse_vs_real_deg": null
+    },
+    {
+      "group": "steps",
+      "model": "balanced",
+      "rate_hz": null,
+      "cases": 21,
+      "all_valid": true,
+      "prediction_change_from_same_model_recorded_timing_deg": 0.0,
+      "simulated_target_tracking_rmse_deg": 4.031276618272517,
+      "simulated_tracking_to_recorded_reference_deg": 4.031276618272517,
+      "angle_response_rmse_vs_real_deg": 1.0339019860411751
+    },
+    {
+      "group": "steps",
+      "model": "balanced",
+      "rate_hz": 30,
+      "cases": 21,
+      "all_valid": true,
+      "prediction_change_from_same_model_recorded_timing_deg": 1.5430517503021144,
+      "simulated_target_tracking_rmse_deg": 4.031295886283325,
+      "simulated_tracking_to_recorded_reference_deg": 4.767915701356583,
+      "angle_response_rmse_vs_real_deg": null
+    },
+    {
+      "group": "steps",
+      "model": "balanced",
+      "rate_hz": 25,
+      "cases": 21,
+      "all_valid": true,
+      "prediction_change_from_same_model_recorded_timing_deg": 1.842146485366904,
+      "simulated_target_tracking_rmse_deg": 4.0312956571216905,
+      "simulated_tracking_to_recorded_reference_deg": 4.931056619620356,
+      "angle_response_rmse_vs_real_deg": null
+    },
+    {
+      "group": "steps",
+      "model": "balanced",
+      "rate_hz": 20,
+      "cases": 21,
+      "all_valid": true,
+      "prediction_change_from_same_model_recorded_timing_deg": 2.456226447310319,
+      "simulated_target_tracking_rmse_deg": 4.0313071653324775,
+      "simulated_tracking_to_recorded_reference_deg": 5.281358406018376,
+      "angle_response_rmse_vs_real_deg": null
+    }
+  ],
+  "hardware_rate_verified": false,
+  "new_candidate_promoted": false,
+  "fresh_independent_validation": false
+}
