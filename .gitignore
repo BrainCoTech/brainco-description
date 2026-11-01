@@ -9,6 +9,9 @@ scripts/*.py
 !/convert_urdf_v4.py
 !/convert_urdf_new.py
 !/revo3_collision_v4.py
+!/revo3_collision_optimized.py
+!/revo3_system/tools/sync_optimized_collisions.py
+!/revo3_system/tools/verify_optimized_urdf.py
 __pycache__/
 *.py[cod]
 

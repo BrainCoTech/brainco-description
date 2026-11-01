@@ -1,0 +1,36 @@
+{
+  "urdf": {
+    "newton_version": "1.6.1",
+    "contact_shapes": 144,
+    "shape_types": [
+      "MESH"
+    ],
+    "mesh_objects": 144,
+    "mujoco_hulls": 144,
+    "mujoco_unique_meshes": 144,
+    "mujoco_unique_vertices": 9678,
+    "mujoco_expanded_vertices": 9678,
+    "dofs": 21,
+    "finite_forward": true,
+    "test_only_zero_effort_limits_replaced_with_inf": 21,
+    "note": "Original URDF joint effort=0 is preserved; this geometry check removes zero effort limits only in the in-memory Newton builder to avoid MuJoCo actfrcrange=[0,0]. No dynamics/retention benchmark."
+  },
+  "usd": {
+    "newton_version": "1.6.1",
+    "contact_shapes": 144,
+    "shape_types": [
+      "CONVEX_MESH"
+    ],
+    "mesh_objects": 144,
+    "mujoco_hulls": 144,
+    "mujoco_unique_meshes": 144,
+    "mujoco_unique_vertices": 9678,
+    "mujoco_expanded_vertices": 9678,
+    "dofs": 21,
+    "finite_forward": true,
+    "test_only_zero_effort_limits_replaced_with_inf": 0,
+    "note": "Original URDF joint effort=0 is preserved; this geometry check removes zero effort limits only in the in-memory Newton builder to avoid MuJoCo actfrcrange=[0,0]. No dynamics/retention benchmark."
+  },
+  "urdf_sha256": "b67d5aea2aea68371cae4b946eaa163e915410be33c6d9eb74364b69c6d2dc1b",
+  "usd_sha256": "edb04d432b0699a51a350b34f8cd4c009851fd1720816b71e41567243b8c9f75"
+}

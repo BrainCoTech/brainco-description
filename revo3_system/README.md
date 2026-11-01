@@ -9,8 +9,11 @@
 An optional [reviewed right-hand collision snapshot (2026-10-27)](optimized/right_20261027/README.md)
 is provided separately with ready-to-load MJCF/USD, 144 convex instances and 90 unique meshes.
 This snapshot preserves the original visuals and includes integrity checks and validation notes.
-It does not change the canonical URDFs or the default conversion workflow.
-最新版右手碰撞资产见上述独立目录，包含可直接加载的模型、共享凸包及说明。
+On the **dev** branch, `urdf/revo3_right.urdf` now uses these reviewed collision
+meshes, with its original visual, joint and inertial definitions preserved.
+The right MX/MT, left-hand and arm/platform assembly URDFs retain the old collisions.
+See [URDF migration and validation](URDF_COLLISIONS.md) for scope and commands.
+`dev` 分支已将审核版碰撞反向写入右手无触觉 URDF；其他变体尚未迁移。
 
 Self-contained URDF + mesh bundle.
 
@@ -29,6 +32,7 @@ URDFs reference meshes via RELATIVE paths (`../meshes/...`), so the
 folder is fully self-contained — no ROS package resolution required.
 For Revo3 configurations, unsuffixed URDFs have no tactile markers;
 `*_mx_touch.urdf` selects MX and `*_mt_touch.urdf` selects MT.
-All three variants share the same physical geometry.
+The three variants share the original visual/link structure. On `dev`, their
+collision profiles differ until the MX/MT migration is completed.
 RViz / MoveIt / urdfpy / pybullet all resolve relative
 `<mesh filename>` against the URDF file's directory.

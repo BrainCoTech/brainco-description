@@ -276,6 +276,7 @@ def collect_mesh_geoms(
     output_dir: Path,
     assets: ET.Element,
     used_mesh_names: set[str],
+    mesh_cache: dict[tuple, str],
     geom_mass: float | None = None,
     materials: dict[str, str] | None = None,
 ) -> list[ET.Element]:
@@ -299,16 +300,25 @@ def collect_mesh_geoms(
                 source_path = dae_to_obj(source_path, output_dir)
             rel_path = os.path.relpath(source_path, output_dir)
             base_name = clean_name(source_path.stem)
-            mesh_name = clean_name(f"{link_name}_{kind}_{index}_{base_name}")
-            while mesh_name in used_mesh_names:
-                mesh_name = f"{mesh_name}_{len(used_mesh_names)}"
-            used_mesh_names.add(mesh_name)
-            asset = ET.SubElement(assets, "mesh", name=mesh_name, file=rel_path)
-            if kind == "visual" and "appearance" in source_path.parts:
-                # Surface decals have no enclosed volume.
-                asset.set("inertia", "shell")
-            if mesh.get("scale") is not None:
-                asset.set("scale", mesh.get("scale"))
+            # Geometry is shared; each geom still carries its own origin/material.
+            # Keep visual and collision assets separate (inertia/hull semantics).
+            scale = tuple(parse_vec(mesh.get("scale"), "1 1 1"))
+            cache_key = (source_path, scale, kind)
+            mesh_name = mesh_cache.get(cache_key)
+            if mesh_name is None:
+                mesh_name = clean_name(f"{link_name}_{kind}_{index}_{base_name}")
+                while mesh_name in used_mesh_names:
+                    mesh_name = f"{mesh_name}_{len(used_mesh_names)}"
+                used_mesh_names.add(mesh_name)
+                mesh_cache[cache_key] = mesh_name
+                asset = ET.SubElement(assets, "mesh", name=mesh_name, file=rel_path)
+                if kind == "visual" and "appearance" in source_path.parts:
+                    # Surface decals have no enclosed volume.
+                    asset.set("inertia", "shell")
+                if kind == "collision":
+                    asset.set("maxhullvert", "-1")
+                if mesh.get("scale") is not None:
+                    asset.set("scale", mesh.get("scale"))
             geom.set("mesh", mesh_name)
         elif geometry.find("sphere") is not None:
             geom.set("type", "sphere")
@@ -430,6 +440,7 @@ def build_mjcf(model: UrdfModel, output_path: Path, inertia_mode: str = "urdf") 
     assets = ET.SubElement(mujoco, "asset")
     worldbody = ET.SubElement(mujoco, "worldbody")
     used_mesh_names: set[str] = set()
+    mesh_cache: dict[tuple, str] = {}
 
     def emit_link(parent_elem: ET.Element, link_name: str, incoming_joint: ET.Element | None) -> None:
         link = model.links[link_name]
@@ -477,6 +488,7 @@ def build_mjcf(model: UrdfModel, output_path: Path, inertia_mode: str = "urdf") 
                 output_dir,
                 assets,
                 used_mesh_names,
+                mesh_cache,
                 materials=model.materials,
                 geom_mass=visual_geom_mass
                 if inertia_mode == "visual"
@@ -492,6 +504,7 @@ def build_mjcf(model: UrdfModel, output_path: Path, inertia_mode: str = "urdf") 
                 output_dir,
                 assets,
                 used_mesh_names,
+                mesh_cache,
                 materials=model.materials,
                 geom_mass=0.0 if inertia_mode == "visual" else collision_geom_mass,
             ):

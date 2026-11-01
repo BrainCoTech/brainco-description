@@ -7,6 +7,13 @@
 
 ## Commands
 
+**dev / 2026-11-01:** the non-tactile `revo3_right.urdf` now contains 144
+pre-decomposed convex parts (90 shared meshes). Its USD import automatically
+uses per-part convex hulls; MJCF reuses meshes by path and scale. Other variants
+retain their previous collision profiles. See
+[Revo3 URDF migration](revo3_system/URDF_COLLISIONS.md) for commands, counts,
+Isaac Lab 3.0 validation, and the original zero-effort joint-limit caveat.
+
 Run from the downloaded repository after preparing the appropriate environment:
 
 ```bash
@@ -75,7 +82,8 @@ python3 -c 'from isaaclab.app import AppLauncher; print("Isaac Lab available")'
 The converter starts Isaac Sim once for the batch, uses fixed bases, merges fixed
 joints, sets drive stiffness/damping to zero, disables body gravity, enables
 self-collision and uses solver iterations 16/4. It retains the Revo3 trimmed
-palm and 32 thumb collision hulls per hand. Exported files are reopened to check
+palm and 32 thumb collision hulls for hands using the old profile; migrated
+right-hand parts instead retain their 144 explicit hulls. Exported files are reopened to check
 collision/physics settings, colors and screen textures. These are the validated
 conversion defaults; application controllers remain the user's responsibility.
 

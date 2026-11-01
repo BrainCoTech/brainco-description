@@ -1,0 +1,38 @@
+{
+  "urdf_sha256": "b67d5aea2aea68371cae4b946eaa163e915410be33c6d9eb74364b69c6d2dc1b",
+  "manifest_sha256": "31bcae217db4ea0ce5ecefe5423d6e9f0b0fd95d81faecd1a8c5f564a1d84488",
+  "non_collision_sha256": "bb82c1bc57af256884220a543f9eece0c46617255f228bf83d3ce8c866ee27b6",
+  "statistics": {
+    "collision_instances": 144,
+    "unique_meshes": 90,
+    "unique_vertices": 5427,
+    "expanded_vertices": 9678,
+    "collision_owners": 22,
+    "links": 58,
+    "revolute_joints": 21,
+    "fixed_joints": 36
+  },
+  "non_collision_matches_baseline": "9a5b7de899eb7f14e72c69e53e38a0d2fe27ea5a",
+  "mujoco": {
+    "version": "3.12.0",
+    "poses": 129,
+    "max_collision_vertex_deviation_m": 5.1025929021602934e-15,
+    "collision_instances": 144,
+    "unique_meshes": 90,
+    "unique_vertices": 5427,
+    "expanded_vertices": 9678,
+    "canonical_urdf_total_link_mass_kg": 1.829665059879012,
+    "note": "Geometry equivalence only; snapshot engineering inertias are not copied."
+  },
+  "usd": {
+    "sha256": "edb04d432b0699a51a350b34f8cd4c009851fd1720816b71e41567243b8c9f75",
+    "collision_instances": 144,
+    "unique_point_arrays": 90,
+    "expanded_vertices": 9678,
+    "max_collision_vertex_deviation_m": 5.2004888815051874e-08,
+    "all_approximation_convexHull": true,
+    "physx_hull_vertex_limit": 255,
+    "newton_max_hull_vertices": -1
+  },
+  "passed": true
+}

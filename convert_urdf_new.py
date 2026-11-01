@@ -91,6 +91,9 @@ def run(v4=False):
 
     parser = create_parser(v4=v4)
     AppLauncher.add_app_launcher_args(parser)
+    modern_launcher = "--headless" not in parser._option_string_actions
+    if modern_launcher:
+        parser.add_argument("--headless", action="store_true", help="Run conversion without a window.")
     args = parser.parse_args()
     args.full_v4 = v4 and not args.collision_only
     defaults = {
@@ -132,8 +135,12 @@ def run(v4=False):
     finally:
         sys.stdout.flush()
         sys.stderr.flush()
-        app.app.post_quit(exit_code)
-        app.close()
+        if modern_launcher:
+            app.post_quit(exit_code)
+            app.close(exit_code=exit_code)
+        else:
+            app.app.post_quit(exit_code)
+            app.close()
     if exit_code:
         raise SystemExit(exit_code)
 
@@ -243,7 +250,7 @@ def remove_generated_sidecars(output_path: str) -> tuple[int, int]:
     return removed, removed_sidecars
 
 
-def flatten_usd(output_path: str) -> tuple[int, int]:
+def flatten_usd(output_path: str, destination: str | None = None) -> tuple[int, int]:
     """Flatten the composed USD stage into a single layer at output_path."""
     from pxr import Usd
 
@@ -253,11 +260,12 @@ def flatten_usd(output_path: str) -> tuple[int, int]:
         raise RuntimeError(f"Failed to open USD stage for flattening: {output_path}")
 
     flattened_layer = stage.Flatten()
-    temporary_path = output_path.with_name(f"{output_path.stem}.flattened.tmp{output_path.suffix}")
+    destination = Path(destination) if destination else output_path
+    temporary_path = destination.with_name(f"{destination.stem}.flattened.tmp{destination.suffix}")
     if not flattened_layer.Export(str(temporary_path)):
         raise RuntimeError(f"Failed to export flattened USD stage: {temporary_path}")
 
-    os.replace(temporary_path, output_path)
+    os.replace(temporary_path, destination)
     return remove_generated_sidecars(str(output_path))
 
 
@@ -320,6 +328,19 @@ def verify_v4_usd(output_path: str, full_v4: bool):
     print(f"USD saved and v4 settings verified: {output_path} ({summary})")
 
 
+def visual_geometry_name(prim):
+    """Support importer 2's visuals containers and importer 3's Geometry tree."""
+    from pxr import UsdPhysics
+    if "/visuals/" in str(prim.GetPath()):
+        container = prim
+        while container and container.GetParent().GetName() != "visuals":
+            container = container.GetParent()
+        return container.GetName()
+    if "/Geometry/" in str(prim.GetPath()) and not prim.HasAPI(UsdPhysics.CollisionAPI):
+        return prim.GetName()
+    return None
+
+
 def configure_visual_textures(urdf_path, output_path):
     """Keep imported screen textures bound to portable packaged image paths."""
     from pxr import Sdf, Tf, Usd, UsdShade
@@ -338,12 +359,9 @@ def configure_visual_textures(urdf_path, output_path):
     stage = Usd.Stage.Open(str(output_path))
     seen = set()
     for prim in Usd.PrimRange(stage.GetPseudoRoot(), Usd.TraverseInstanceProxies()):
-        if prim.GetTypeName() != "Mesh" or "/visuals/" not in str(prim.GetPath()):
+        if prim.GetTypeName() != "Mesh":
             continue
-        container = prim
-        while container and container.GetParent().GetName() != "visuals":
-            container = container.GetParent()
-        name = container.GetName()
+        name = visual_geometry_name(prim)
         if name not in textures:
             continue
         texture_path = textures[name]
@@ -357,7 +375,7 @@ def configure_visual_textures(urdf_path, output_path):
         for shader in Usd.PrimRange(material.GetPrim()):
             for attr_name in ("inputs:diffuse_texture", "inputs:file"):
                 attr = shader.GetAttribute(attr_name)
-                if attr and isinstance(attr.Get(), Sdf.AssetPath):
+                if attr and attr.GetTypeName() == Sdf.ValueTypeNames.Asset:
                     attr.Set(Sdf.AssetPath(os.path.relpath(texture_path, Path(output_path).parent)))
                     seen.add(name)
     if seen != textures.keys():
@@ -395,21 +413,35 @@ def verify_visual_materials(urdf_path, output_path):
     actual = defaultdict(set)
     all_colors = set()
     for prim in Usd.PrimRange(stage.GetPseudoRoot(), Usd.TraverseInstanceProxies()):
-        if prim.GetTypeName() not in {"Mesh", "Sphere", "Cylinder", "Cube"} \
-                or "/visuals/" not in str(prim.GetPath()):
+        if prim.GetTypeName() not in {"Mesh", "Sphere", "Cylinder", "Cube"}:
             continue
-        container = prim
-        while container and container.GetParent().GetName() != "visuals":
-            container = container.GetParent()
+        geometry_name = visual_geometry_name(prim)
+        if geometry_name is None:
+            continue
         binding = UsdShade.MaterialBindingAPI(prim).ComputeBoundMaterial()[0]
         if not binding:
             continue
         for shader in Usd.PrimRange(binding.GetPrim()):
             for name in ["inputs:diffuse_color_constant", "inputs:diffuseColor"]:
-                color = shader.GetAttribute(name).Get()
+                attr = shader.GetAttribute(name)
+                color = attr.Get()
+                if color is None and attr and attr.GetConnections():
+                    source = UsdShade.Input(attr).GetConnectedSource()
+                    if source and source[0].GetPrim().GetAttribute("info:id").Get() == "UsdUVTexture":
+                        # White modulation of a texture is represented by a connection,
+                        # not a constant diffuseColor (importer 3's screen material).
+                        texture = source[0].GetPrim()
+                        scale = texture.GetAttribute("inputs:scale").Get()
+                        bias = texture.GetAttribute("inputs:bias").Get()
+                        if bias is None or all(v == 0 for v in bias):
+                            color = (scale or (1.0, 1.0, 1.0, 1.0))[:3]
                 if color is not None:
                     rgb = tuple(float(v) for v in color)
-                    actual[container.GetName()].add(rgb)
+                    if "/Geometry/" in str(prim.GetPath()) and name == "inputs:diffuseColor":
+                        # Importer 3 stores URDF sRGB colors in linear PreviewSurface space.
+                        rgb = tuple(12.92 * v if v <= 0.0031308 else 1.055 * v ** (1 / 2.4) - 0.055
+                                    for v in rgb)
+                    actual[geometry_name].add(rgb)
                     all_colors.add(rgb)
 
     def matches(color, candidates):
@@ -428,7 +460,6 @@ def verify_visual_materials(urdf_path, output_path):
 
 def main(args_cli):
     import carb
-    import isaacsim.core.utils.stage as stage_utils
     import omni.kit.app
     from isaaclab.sim.converters import UrdfConverter, UrdfConverterCfg
     from isaaclab.utils.assets import check_file_path
@@ -445,6 +476,19 @@ def main(args_cli):
     if not os.path.isabs(dest_path):
         dest_path = os.path.abspath(dest_path)
 
+    from revo3_collision_optimized import optimized_collision_count, configure_optimized_usd
+    explicit_hulls = optimized_collision_count(urdf_path)
+    # Already decomposed parts must not be approximated/decomposed a second time.
+    collision_type = "convex_hull" if explicit_hulls else args_cli.collision_type
+    converter_options = {}
+    if "collision_type" in UrdfConverterCfg.__dataclass_fields__:
+        # Isaac Lab 3 / importer 3 renamed the field and enum values.
+        converter_options["collision_type"] = {
+            "convex_hull": "Convex Hull", "convex_decomposition": "Convex Decomposition",
+        }[collision_type]
+        converter_options["merge_mesh"] = False
+    else:
+        converter_options["collider_type"] = collision_type
     urdf_converter_cfg = UrdfConverterCfg(
         asset_path=urdf_path,
         usd_dir=os.path.dirname(dest_path),
@@ -452,7 +496,7 @@ def main(args_cli):
         fix_base=args_cli.fix_base,
         merge_fixed_joints=args_cli.merge_joints,
         force_usd_conversion=True,
-        collider_type=args_cli.collision_type,
+        **converter_options,
         joint_drive=UrdfConverterCfg.JointDriveCfg(
             gains=UrdfConverterCfg.JointDriveCfg.PDGainsCfg(
                 stiffness=args_cli.joint_stiffness,
@@ -470,11 +514,12 @@ def main(args_cli):
     print("-" * 80)
     print(f"Input URDF file: {urdf_path}")
     print(f"Output USD file: {dest_path}")
-    print(f"Collision type:  {args_cli.collision_type}")
+    print(f"Collision type:  {collision_type} ({explicit_hulls} explicit Revo3 hulls)")
     print("URDF importer config:")
     print_dict(urdf_converter_cfg.to_dict(), nesting=0)
     print("-" * 80)
     urdf_converter = UrdfConverter(urdf_converter_cfg)
+    output_path = urdf_converter.usd_path
     # print output
     print("URDF importer output:")
     print(f"Generated USD file: {urdf_converter.usd_path}")
@@ -483,17 +528,22 @@ def main(args_cli):
         print(f"Pruned unresolved USD references: {removed_references}")
     if args_cli.v4:
         configure_v4_usd(urdf_converter.usd_path, full_v4=args_cli.full_v4)
+    if explicit_hulls:
+        configure_optimized_usd(urdf_path, urdf_converter.usd_path)
     if args_cli.flatten:
-        removed_layers, removed_sidecars = flatten_usd(urdf_converter.usd_path)
-        print(f"Flattened USD file: {urdf_converter.usd_path}")
+        removed_layers, removed_sidecars = flatten_usd(output_path, dest_path)
+        output_path = dest_path
+        print(f"Flattened USD file: {output_path}")
         if removed_layers:
             print(f"Removed generated configuration layers: {removed_layers}")
         if removed_sidecars:
             print(f"Removed generated sidecar files: {removed_sidecars}")
-    configure_visual_textures(urdf_path, urdf_converter.usd_path)
+    configure_visual_textures(urdf_path, output_path)
     if args_cli.v4:
-        verify_v4_usd(urdf_converter.usd_path, full_v4=args_cli.full_v4)
-    verify_visual_materials(urdf_path, urdf_converter.usd_path)
+        verify_v4_usd(output_path, full_v4=args_cli.full_v4)
+    verify_visual_materials(urdf_path, output_path)
+    if explicit_hulls:
+        configure_optimized_usd(urdf_path, output_path, verify_only=True)
     print("-" * 80)
     print("-" * 80)
 
@@ -508,7 +558,8 @@ def main(args_cli):
     # Simulate scene (if not headless)
     if local_gui or livestream_gui:
         # Open the stage with USD
-        stage_utils.open_stage(urdf_converter.usd_path)
+        import omni.usd
+        omni.usd.get_context().open_stage(output_path)
         # Reinitialize the simulation
         app = omni.kit.app.get_app_interface()
         # Run simulation

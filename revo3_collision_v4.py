@@ -36,10 +36,10 @@ def _collect(stage, robot_prim_path):
         # The URDF importer puts meshes below <link>/collisions/<mesh>/... .
         names = []
         parent = prim
-        while parent and parent != root and parent.GetName() != "collisions":
+        while parent and parent != root and parent.GetName() not in {"collisions", "Geometry"}:
             names.append(parent.GetName())
             parent = parent.GetParent()
-        if not parent or parent.GetName() != "collisions":
+        if not parent or parent.GetName() not in {"collisions", "Geometry"}:
             continue
         link = parent.GetParent()
         mesh_side = next((m.group(1) for name in names if (m := _HAND_NAME.match(name))), None)
@@ -53,7 +53,9 @@ def _collect(stage, robot_prim_path):
             continue
         # Sibling links share a robot container. This separates the same side
         # of different robots while sharing a group for merged hand links.
-        key = (link.GetParent().GetPath(), side)
+        # Importer 3 nests links under Geometry; group by the robot root.
+        container = parent.GetParent() if parent.GetName() == "Geometry" else link.GetParent()
+        key = (container.GetPath(), side)
         hand = hands.setdefault(key, {"colliders": [], "palms": [], "thumbs": []})
         hand["colliders"].append(prim.GetPath())
         if palm:

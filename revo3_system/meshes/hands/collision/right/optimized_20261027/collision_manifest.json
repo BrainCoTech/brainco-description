@@ -1,0 +1,1214 @@
+{
+  "schema_version": 1,
+  "profile": "revo3_right_palm_root_clearance_20261027",
+  "source": "revo3_system/optimized/right_20261027/collision_manifest.json",
+  "base_commit": "9a5b7de899eb7f14e72c69e53e38a0d2fe27ea5a",
+  "non_collision_sha256": "bb82c1bc57af256884220a543f9eece0c46617255f228bf83d3ce8c866ee27b6",
+  "units": "metres, radians, kilograms",
+  "coordinate_convention": "OBJ vertices are in the owner link frame unless shared_template is set. Then template_to_owner maps column homogeneous template coordinates into the owner link frame (translation in metres).",
+  "statistics": {
+    "collision_instances": 144,
+    "enabled_primitives": 0,
+    "collision_owners": 22,
+    "unique_meshes": 90,
+    "unique_vertices": 5427,
+    "expanded_vertices": 9678,
+    "active_mesh_bytes": 381728
+  },
+  "owners": [
+    {
+      "name": "right_thumb_MCP_link",
+      "collision_instances": 3,
+      "vertices": 501,
+      "shared_template": null,
+      "template_to_owner": null,
+      "mesh_files": [
+        "right_thumb_MCP_link/revo3_opt_right_thumb_MCP_link_000.obj",
+        "right_thumb_MCP_link/revo3_opt_right_thumb_MCP_link_001.obj",
+        "right_thumb_MCP_link/revo3_opt_right_thumb_MCP_link_002.obj"
+      ]
+    },
+    {
+      "name": "right_thumb_PIP_link",
+      "collision_instances": 12,
+      "vertices": 597,
+      "shared_template": null,
+      "template_to_owner": null,
+      "mesh_files": [
+        "right_thumb_PIP_link/revo3_opt_right_thumb_PIP_link_000.obj",
+        "right_thumb_PIP_link/revo3_opt_right_thumb_PIP_link_001.obj",
+        "right_thumb_PIP_link/revo3_opt_right_thumb_PIP_link_002.obj",
+        "right_thumb_PIP_link/revo3_opt_right_thumb_PIP_link_003.obj",
+        "right_thumb_PIP_link/revo3_opt_right_thumb_PIP_link_004.obj",
+        "right_thumb_PIP_link/revo3_opt_right_thumb_PIP_link_005.obj",
+        "right_thumb_PIP_link/revo3_opt_right_thumb_PIP_link_006.obj",
+        "right_thumb_PIP_link/revo3_opt_right_thumb_PIP_link_007.obj",
+        "right_thumb_PIP_link/revo3_opt_right_thumb_PIP_link_008.obj",
+        "right_thumb_PIP_link/revo3_opt_right_thumb_PIP_link_009.obj",
+        "right_thumb_PIP_link/revo3_opt_right_thumb_PIP_link_010.obj",
+        "right_thumb_PIP_link/revo3_opt_right_thumb_PIP_link_011.obj"
+      ]
+    },
+    {
+      "name": "right_thumb_DIP_link",
+      "collision_instances": 7,
+      "vertices": 553,
+      "shared_template": null,
+      "template_to_owner": null,
+      "mesh_files": [
+        "right_thumb_DIP_link/revo3_opt_right_thumb_DIP_link_000.obj",
+        "right_thumb_DIP_link/revo3_opt_right_thumb_DIP_link_001.obj",
+        "right_thumb_DIP_link/revo3_opt_right_thumb_DIP_link_002.obj",
+        "right_thumb_DIP_link/revo3_opt_right_thumb_DIP_link_003.obj",
+        "right_thumb_DIP_link/revo3_opt_right_thumb_DIP_link_004.obj",
+        "right_thumb_DIP_link/revo3_opt_right_thumb_DIP_link_005.obj",
+        "right_thumb_DIP_link/revo3_opt_right_thumb_DIP_link_006.obj"
+      ]
+    },
+    {
+      "name": "right_index_MCP_link",
+      "collision_instances": 3,
+      "vertices": 457,
+      "shared_template": "MCP",
+      "template_to_owner": [
+        [
+          0.9970885123809456,
+          0.07621690256602863,
+          0.0023414186282857824,
+          -3.752591419637426e-12
+        ],
+        [
+          -0.07615333323927911,
+          0.9937492318769711,
+          0.08162802202968082,
+          -1.0882553322030808e-11
+        ],
+        [
+          0.003894652038332309,
+          -0.08156866988722562,
+          0.9966601144714927,
+          -8.515306515466392e-13
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_files": [
+        "MCP/revo3_opt_MCP_000.obj",
+        "MCP/revo3_opt_MCP_001.obj",
+        "MCP/revo3_opt_MCP_002.obj"
+      ]
+    },
+    {
+      "name": "right_index_PIP_link",
+      "collision_instances": 7,
+      "vertices": 425,
+      "shared_template": "PIP",
+      "template_to_owner": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_files": [
+        "PIP/revo3_opt_PIP_000.obj",
+        "PIP/revo3_opt_PIP_001.obj",
+        "PIP/revo3_opt_PIP_002.obj",
+        "PIP/revo3_opt_PIP_003.obj",
+        "PIP/revo3_opt_PIP_004.obj",
+        "PIP/revo3_opt_PIP_005.obj",
+        "PIP/revo3_opt_PIP_006.obj"
+      ]
+    },
+    {
+      "name": "right_index_DIP_link",
+      "collision_instances": 6,
+      "vertices": 411,
+      "shared_template": "DIP",
+      "template_to_owner": [
+        [
+          0.9934541275414543,
+          0.11379168583056995,
+          0.010017420161126332,
+          7.276399534988931e-12
+        ],
+        [
+          -0.11416195254580984,
+          0.985956544013874,
+          0.12188823531065837,
+          3.928636739926675e-12
+        ],
+        [
+          0.003993126816913985,
+          -0.12223397871318327,
+          0.9924932792649879,
+          1.3552256539206553e-11
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_files": [
+        "DIP/revo3_opt_DIP_000.obj",
+        "DIP/revo3_opt_DIP_001.obj",
+        "DIP/revo3_opt_DIP_002.obj",
+        "DIP/revo3_opt_DIP_003.obj",
+        "DIP/revo3_opt_DIP_004.obj",
+        "DIP/revo3_opt_DIP_005.obj"
+      ]
+    },
+    {
+      "name": "right_middle_MCP_link",
+      "collision_instances": 3,
+      "vertices": 457,
+      "shared_template": "MCP",
+      "template_to_owner": [
+        [
+          0.9992689045089432,
+          0.03815242454695446,
+          0.0024594679679872055,
+          1.2316199628084959e-12
+        ],
+        [
+          -0.03822106156154019,
+          0.9984352766633586,
+          0.04081848560726085,
+          -8.214976713206285e-12
+        ],
+        [
+          -0.0008982953888100486,
+          -0.04088264687309426,
+          0.9991635513018092,
+          3.439696444340612e-12
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_files": [
+        "MCP/revo3_opt_MCP_000.obj",
+        "MCP/revo3_opt_MCP_001.obj",
+        "MCP/revo3_opt_MCP_002.obj"
+      ]
+    },
+    {
+      "name": "right_middle_PIP_link",
+      "collision_instances": 7,
+      "vertices": 425,
+      "shared_template": "PIP",
+      "template_to_owner": [
+        [
+          0.9992731637443134,
+          -0.037982953480121706,
+          0.003231016149403816,
+          -5.573338015055218e-13
+        ],
+        [
+          0.03808343565650306,
+          0.9984368827567546,
+          -0.04090773862696713,
+          5.8231520191735775e-12
+        ],
+        [
+          -0.0016721689591023628,
+          0.0410010535950259,
+          0.9991577039962559,
+          1.0685657220177447e-11
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_files": [
+        "PIP/revo3_opt_PIP_000.obj",
+        "PIP/revo3_opt_PIP_001.obj",
+        "PIP/revo3_opt_PIP_002.obj",
+        "PIP/revo3_opt_PIP_003.obj",
+        "PIP/revo3_opt_PIP_004.obj",
+        "PIP/revo3_opt_PIP_005.obj",
+        "PIP/revo3_opt_PIP_006.obj"
+      ]
+    },
+    {
+      "name": "right_middle_DIP_link",
+      "collision_instances": 6,
+      "vertices": 411,
+      "shared_template": "DIP",
+      "template_to_owner": [
+        [
+          0.9970811591241583,
+          0.07586449545602798,
+          0.008587225909839605,
+          1.6357865582905529e-12
+        ],
+        [
+          -0.07631270653915688,
+          0.9937492724247343,
+          0.08147855163157798,
+          8.080005143695085e-12
+        ],
+        [
+          -0.0023522202900321584,
+          -0.08189604315541478,
+          0.99663810140652,
+          1.6780282025008475e-11
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_files": [
+        "DIP/revo3_opt_DIP_000.obj",
+        "DIP/revo3_opt_DIP_001.obj",
+        "DIP/revo3_opt_DIP_002.obj",
+        "DIP/revo3_opt_DIP_003.obj",
+        "DIP/revo3_opt_DIP_004.obj",
+        "DIP/revo3_opt_DIP_005.obj"
+      ]
+    },
+    {
+      "name": "right_ring_MCP_link",
+      "collision_instances": 3,
+      "vertices": 457,
+      "shared_template": "MCP",
+      "template_to_owner": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_files": [
+        "MCP/revo3_opt_MCP_000.obj",
+        "MCP/revo3_opt_MCP_001.obj",
+        "MCP/revo3_opt_MCP_002.obj"
+      ]
+    },
+    {
+      "name": "right_ring_PIP_link",
+      "collision_instances": 7,
+      "vertices": 425,
+      "shared_template": "PIP",
+      "template_to_owner": [
+        [
+          0.9970885123492429,
+          -0.07615333363936447,
+          0.0038946523318800774,
+          -3.088511109188008e-12
+        ],
+        [
+          0.07621690298914605,
+          0.9937492318588652,
+          -0.08156866971245223,
+          7.887401886133572e-12
+        ],
+        [
+          0.002341418355968221,
+          0.08162802187685136,
+          0.9966601144846498,
+          -5.290302917959622e-12
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_files": [
+        "PIP/revo3_opt_PIP_000.obj",
+        "PIP/revo3_opt_PIP_001.obj",
+        "PIP/revo3_opt_PIP_002.obj",
+        "PIP/revo3_opt_PIP_003.obj",
+        "PIP/revo3_opt_PIP_004.obj",
+        "PIP/revo3_opt_PIP_005.obj",
+        "PIP/revo3_opt_PIP_006.obj"
+      ]
+    },
+    {
+      "name": "right_ring_DIP_link",
+      "collision_instances": 6,
+      "vertices": 411,
+      "shared_template": "DIP",
+      "template_to_owner": [
+        [
+          0.9992710632375638,
+          0.03790044564891741,
+          0.004571476313282828,
+          -2.8194059500247226e-12
+        ],
+        [
+          -0.03805606927582883,
+          0.9984368711873643,
+          0.0409334807322973,
+          8.318496282425092e-12
+        ],
+        [
+          -0.0030129333452255406,
+          -0.04107761523264814,
+          0.9991514158321835,
+          5.106828154799459e-12
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_files": [
+        "DIP/revo3_opt_DIP_000.obj",
+        "DIP/revo3_opt_DIP_001.obj",
+        "DIP/revo3_opt_DIP_002.obj",
+        "DIP/revo3_opt_DIP_003.obj",
+        "DIP/revo3_opt_DIP_004.obj",
+        "DIP/revo3_opt_DIP_005.obj"
+      ]
+    },
+    {
+      "name": "right_little_MCP_link",
+      "collision_instances": 3,
+      "vertices": 457,
+      "shared_template": "MCP",
+      "template_to_owner": [
+        [
+          0.9992710632169924,
+          -0.03805606984536337,
+          -0.0030129329740955398,
+          -3.3281411345375753e-12
+        ],
+        [
+          0.037900446232346924,
+          0.9984368711578288,
+          -0.041077615412215766,
+          1.9850297620915835e-12
+        ],
+        [
+          0.004571475972872442,
+          0.04093348092319756,
+          0.9991514158259196,
+          2.1659368742987795e-11
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_files": [
+        "MCP/revo3_opt_MCP_000.obj",
+        "MCP/revo3_opt_MCP_001.obj",
+        "MCP/revo3_opt_MCP_002.obj"
+      ]
+    },
+    {
+      "name": "right_little_PIP_link",
+      "collision_instances": 7,
+      "vertices": 425,
+      "shared_template": "PIP",
+      "template_to_owner": [
+        [
+          0.9934541275782173,
+          -0.11416195224547228,
+          0.003993126257258455,
+          -6.069831486391064e-12
+        ],
+        [
+          0.1137916854558898,
+          0.9859565439539817,
+          -0.12223397954508615,
+          1.2010712953716696e-11
+        ],
+        [
+          0.010017420771421738,
+          0.12188823607642868,
+          0.9924932791647838,
+          -7.138015872820702e-12
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_files": [
+        "PIP/revo3_opt_PIP_000.obj",
+        "PIP/revo3_opt_PIP_001.obj",
+        "PIP/revo3_opt_PIP_002.obj",
+        "PIP/revo3_opt_PIP_003.obj",
+        "PIP/revo3_opt_PIP_004.obj",
+        "PIP/revo3_opt_PIP_005.obj",
+        "PIP/revo3_opt_PIP_006.obj"
+      ]
+    },
+    {
+      "name": "right_little_DIP_link",
+      "collision_instances": 6,
+      "vertices": 411,
+      "shared_template": "DIP",
+      "template_to_owner": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_files": [
+        "DIP/revo3_opt_DIP_000.obj",
+        "DIP/revo3_opt_DIP_001.obj",
+        "DIP/revo3_opt_DIP_002.obj",
+        "DIP/revo3_opt_DIP_003.obj",
+        "DIP/revo3_opt_DIP_004.obj",
+        "DIP/revo3_opt_DIP_005.obj"
+      ]
+    },
+    {
+      "name": "right_palm_rubber_link",
+      "collision_instances": 42,
+      "vertices": 1790,
+      "shared_template": null,
+      "template_to_owner": null,
+      "mesh_files": [
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_000.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_001.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_002.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_003.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_004.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_005.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_006.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_007.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_008.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_009.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_010.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_011.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_012.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_013.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_014.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_015.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_016.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_017.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_018.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_019.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_020.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_021.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_022.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_023.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_024.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_025.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_026.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_027.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_028.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_029.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_030.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_031.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_032.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_033.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_034.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_035.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_036.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_037.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_038.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_039.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_040.obj",
+        "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_041.obj"
+      ]
+    },
+    {
+      "name": "right_index_MPR_link",
+      "collision_instances": 2,
+      "vertices": 124,
+      "shared_template": "MPR_sides",
+      "template_to_owner": [
+        [
+          0.9970885122917973,
+          0.0762169037825827,
+          0.0023414169913722857,
+          2.3710185290820585e-12
+        ],
+        [
+          -0.0761533343201425,
+          0.9937492318341503,
+          0.08162802154260689,
+          -6.566018800717444e-11
+        ],
+        [
+          0.003894653727295383,
+          -0.0815686692721678,
+          0.9966601145152304,
+          1.4897763751797743e-10
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_files": [
+        "MPR_sides/revo3_opt_MPR_sides_000.obj",
+        "MPR_sides/revo3_opt_MPR_sides_001.obj"
+      ]
+    },
+    {
+      "name": "right_middle_MPR_link",
+      "collision_instances": 2,
+      "vertices": 124,
+      "shared_template": "MPR_sides",
+      "template_to_owner": [
+        [
+          0.9992689045128212,
+          0.03815242456144959,
+          0.00245946616757404,
+          2.4327912080679415e-11
+        ],
+        [
+          -0.03822106150242847,
+          0.9984352766651298,
+          0.04081848561930547,
+          -6.753870900044756e-12
+        ],
+        [
+          -0.0008982935901672359,
+          -0.04088264681633002,
+          0.9991635513057493,
+          -9.289409519386282e-12
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_files": [
+        "MPR_sides/revo3_opt_MPR_sides_000.obj",
+        "MPR_sides/revo3_opt_MPR_sides_001.obj"
+      ]
+    },
+    {
+      "name": "right_ring_MPR_link",
+      "collision_instances": 2,
+      "vertices": 124,
+      "shared_template": "MPR_sides",
+      "template_to_owner": [
+        [
+          1.0000000000000002,
+          -7.619171957351715e-17,
+          -2.881778459623101e-17,
+          0.0
+        ],
+        [
+          1.2669889114208045e-17,
+          0.9999999999999999,
+          1.4136767183997664e-17,
+          0.0
+        ],
+        [
+          -2.03015803837739e-16,
+          4.86314488925437e-18,
+          0.9999999999999998,
+          3.469446951953614e-18
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_files": [
+        "MPR_sides/revo3_opt_MPR_sides_000.obj",
+        "MPR_sides/revo3_opt_MPR_sides_001.obj"
+      ]
+    },
+    {
+      "name": "right_little_MPR_link",
+      "collision_instances": 2,
+      "vertices": 124,
+      "shared_template": "MPR_sides",
+      "template_to_owner": [
+        [
+          0.9992710632644088,
+          -0.03805606854652199,
+          -0.0030129336534615945,
+          9.655304550673649e-12
+        ],
+        [
+          0.03790044490391432,
+          0.9984368711824831,
+          -0.041077616038664694,
+          -2.686299397985578e-12
+        ],
+        [
+          0.004571476621737474,
+          0.04093348152939167,
+          0.9991514157981162,
+          -3.506275131348602e-12
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_files": [
+        "MPR_sides/revo3_opt_MPR_sides_000.obj",
+        "MPR_sides/revo3_opt_MPR_sides_001.obj"
+      ]
+    },
+    {
+      "name": "right_thumb_CMR_link",
+      "collision_instances": 3,
+      "vertices": 214,
+      "shared_template": null,
+      "template_to_owner": null,
+      "mesh_files": [
+        "right_thumb_CMR_link/revo3_opt_right_thumb_CMR_link_000.obj",
+        "right_thumb_CMR_link/revo3_opt_right_thumb_CMR_link_001.obj",
+        "right_thumb_CMR_link/revo3_opt_right_thumb_CMR_link_002.obj"
+      ]
+    },
+    {
+      "name": "right_thumb_CMP_link",
+      "collision_instances": 5,
+      "vertices": 355,
+      "shared_template": null,
+      "template_to_owner": null,
+      "mesh_files": [
+        "right_thumb_CMP_link/revo3_opt_right_thumb_CMP_link_000.obj",
+        "right_thumb_CMP_link/revo3_opt_right_thumb_CMP_link_001.obj",
+        "right_thumb_CMP_link/revo3_opt_right_thumb_CMP_link_002.obj",
+        "right_thumb_CMP_link/revo3_opt_right_thumb_CMP_link_003.obj",
+        "right_thumb_CMP_link/revo3_opt_right_thumb_CMP_link_004.obj"
+      ]
+    }
+  ],
+  "mesh_files": {
+    "right_thumb_MCP_link/revo3_opt_right_thumb_MCP_link_000.obj": {
+      "sha256": "5317e33827651cd481ae8d01e162a21659514f24c0eb77053f1a5a242d2eeef5",
+      "vertices": 122,
+      "bytes": 8733
+    },
+    "right_thumb_MCP_link/revo3_opt_right_thumb_MCP_link_001.obj": {
+      "sha256": "03a45b6602dd14d3d9bb2f125a78223501b15c16083744b93ead5e5d8e4ccb3d",
+      "vertices": 183,
+      "bytes": 13261
+    },
+    "right_thumb_MCP_link/revo3_opt_right_thumb_MCP_link_002.obj": {
+      "sha256": "2a894f9e2c6c1d49bfa3bab98b06ee83e31b6c52d5738deb3f877c1ce54520c3",
+      "vertices": 196,
+      "bytes": 14256
+    },
+    "right_thumb_PIP_link/revo3_opt_right_thumb_PIP_link_000.obj": {
+      "sha256": "0abbc6ee9238b0401e89ccee79a1e61bb8e84b6bb4b38a040a235f1a0b3f9bc2",
+      "vertices": 34,
+      "bytes": 2350
+    },
+    "right_thumb_PIP_link/revo3_opt_right_thumb_PIP_link_001.obj": {
+      "sha256": "f1e62422b3d094d151b1cc344fab6e626823aa3f9ac13c7eb6ac77d766e45b4e",
+      "vertices": 28,
+      "bytes": 1914
+    },
+    "right_thumb_PIP_link/revo3_opt_right_thumb_PIP_link_002.obj": {
+      "sha256": "7f2c1e1b678c0fac8bb0f8ef543947e47721f7d2c501ffef74868742b58e51ab",
+      "vertices": 40,
+      "bytes": 2729
+    },
+    "right_thumb_PIP_link/revo3_opt_right_thumb_PIP_link_003.obj": {
+      "sha256": "757e6f4928260810ab18fb0bf5fde5a827f124df5a0a9b04d80777227da73a63",
+      "vertices": 11,
+      "bytes": 735
+    },
+    "right_thumb_PIP_link/revo3_opt_right_thumb_PIP_link_004.obj": {
+      "sha256": "dacfb30041239a3a7480cde090917545a8beba17d89e2502f4b163e8d11d253e",
+      "vertices": 11,
+      "bytes": 739
+    },
+    "right_thumb_PIP_link/revo3_opt_right_thumb_PIP_link_005.obj": {
+      "sha256": "b926f1da873fe70bcf33f894d3842f028e182ac565fe7db00b27202af1c25942",
+      "vertices": 33,
+      "bytes": 2309
+    },
+    "right_thumb_PIP_link/revo3_opt_right_thumb_PIP_link_006.obj": {
+      "sha256": "417c13955153b936468c4a02563dbc9ce401d1eabd99e245aa0c71e6cca6d9ce",
+      "vertices": 27,
+      "bytes": 1868
+    },
+    "right_thumb_PIP_link/revo3_opt_right_thumb_PIP_link_007.obj": {
+      "sha256": "e9beea3dfdb7fcf113dfab4bca2731a9773b616e3f602ab4ab82e529bb5c6bcc",
+      "vertices": 40,
+      "bytes": 2772
+    },
+    "right_thumb_PIP_link/revo3_opt_right_thumb_PIP_link_008.obj": {
+      "sha256": "0d8af5a3a24fd0f25cf45b230c0dac58353a133bce43b4f9c3c4c0eaa70651e1",
+      "vertices": 37,
+      "bytes": 2522
+    },
+    "right_thumb_PIP_link/revo3_opt_right_thumb_PIP_link_009.obj": {
+      "sha256": "fe2aede9109eca8ba03325bd0791f2838dc70b66b34f35e3bfdd6c73737ed985",
+      "vertices": 36,
+      "bytes": 2486
+    },
+    "right_thumb_PIP_link/revo3_opt_right_thumb_PIP_link_010.obj": {
+      "sha256": "00b6ac4dc3895d8383650e15d5a111067c03e2ac16ad19c1282e49d806997ad8",
+      "vertices": 140,
+      "bytes": 9979
+    },
+    "right_thumb_PIP_link/revo3_opt_right_thumb_PIP_link_011.obj": {
+      "sha256": "4f7e5eec49f358a6a7cdc6778faeac26324b810be4a60b2dc01361ba80a46a27",
+      "vertices": 160,
+      "bytes": 11505
+    },
+    "right_thumb_DIP_link/revo3_opt_right_thumb_DIP_link_000.obj": {
+      "sha256": "d070579c90cd3e07cfafc4bfbff876ed3cf57870d4ab49573b63e08b556972d7",
+      "vertices": 59,
+      "bytes": 4094
+    },
+    "right_thumb_DIP_link/revo3_opt_right_thumb_DIP_link_001.obj": {
+      "sha256": "104dcd807fc808c1cd9d9f486afb6bdecda18f7beb7698af3056c3d1e98bcbe4",
+      "vertices": 62,
+      "bytes": 4352
+    },
+    "right_thumb_DIP_link/revo3_opt_right_thumb_DIP_link_002.obj": {
+      "sha256": "2131fa3aed8c47c4cb8e2aa94af44cbfdf94643e67d02570af282c3b92d5a7bd",
+      "vertices": 41,
+      "bytes": 2873
+    },
+    "right_thumb_DIP_link/revo3_opt_right_thumb_DIP_link_003.obj": {
+      "sha256": "188f3c597c20f7bb9d6ac3e86dcbdc5439eeb2283e8755dc06808731e7160d6e",
+      "vertices": 38,
+      "bytes": 2642
+    },
+    "right_thumb_DIP_link/revo3_opt_right_thumb_DIP_link_004.obj": {
+      "sha256": "8c5649503f1e1473b833e1feacf23d205601763482ead402f558154aea636b6f",
+      "vertices": 54,
+      "bytes": 3739
+    },
+    "right_thumb_DIP_link/revo3_opt_right_thumb_DIP_link_005.obj": {
+      "sha256": "3e51fa96145a68be48717d536fc5e2c175b0eb3d348909f909a9ebb7d45ac9f7",
+      "vertices": 108,
+      "bytes": 7519
+    },
+    "right_thumb_DIP_link/revo3_opt_right_thumb_DIP_link_006.obj": {
+      "sha256": "cc60a9bf461ba1d4e8c6c24da1eca21191072182d5e34b43020d4ab378c85344",
+      "vertices": 191,
+      "bytes": 13903
+    },
+    "MCP/revo3_opt_MCP_000.obj": {
+      "sha256": "bd4ba89b372c74c31dbde5c058e569bf5f117a74c12ded672a269d0147377252",
+      "vertices": 143,
+      "bytes": 10310
+    },
+    "MCP/revo3_opt_MCP_001.obj": {
+      "sha256": "d50f06f93b087d3fc445eee1b1f1f92e5781d921973b8cab04e79f69fe0ee139",
+      "vertices": 130,
+      "bytes": 9217
+    },
+    "MCP/revo3_opt_MCP_002.obj": {
+      "sha256": "de163759567d201079e0e992b49b9089ae77b0b7142b4f750c376b73de64a312",
+      "vertices": 184,
+      "bytes": 13334
+    },
+    "PIP/revo3_opt_PIP_000.obj": {
+      "sha256": "ee8a1c7330b240d5a02cf3c04bde8af586175cb556470c7ce91876ad7a7216f3",
+      "vertices": 64,
+      "bytes": 4493
+    },
+    "PIP/revo3_opt_PIP_001.obj": {
+      "sha256": "3f457d57c78c5f510b34995fd07543fa4162abd410dafc3a42bff18f9ea0d0d9",
+      "vertices": 60,
+      "bytes": 4147
+    },
+    "PIP/revo3_opt_PIP_002.obj": {
+      "sha256": "84693eefd8b18ffeb90f4b47166a6187ce196083f4ea6d2a8187d3ae5ff362dd",
+      "vertices": 96,
+      "bytes": 6667
+    },
+    "PIP/revo3_opt_PIP_003.obj": {
+      "sha256": "93eba2f24d96d0174236be113ff85cb2fc7edfa2408d4fd8d36855f469d5c55f",
+      "vertices": 94,
+      "bytes": 6518
+    },
+    "PIP/revo3_opt_PIP_004.obj": {
+      "sha256": "d69cb2d3df54ef51350d4be5190caa404cded03f84dbcb06e0be4fb505e0ad3f",
+      "vertices": 18,
+      "bytes": 1226
+    },
+    "PIP/revo3_opt_PIP_005.obj": {
+      "sha256": "f0d325f139efd761c72b75799b9dce383c8f5d94afe71ae30d309087b41980ac",
+      "vertices": 47,
+      "bytes": 3259
+    },
+    "PIP/revo3_opt_PIP_006.obj": {
+      "sha256": "e5cade6a8ff68c7c4476def35b6fbdca4ca6b270c13d3f3f54439681d2145d37",
+      "vertices": 46,
+      "bytes": 3145
+    },
+    "DIP/revo3_opt_DIP_000.obj": {
+      "sha256": "e8ea3510cb1f5584ea2f47bb4c2033ddbfe55bf7ac669c4dd1a2102c98572455",
+      "vertices": 58,
+      "bytes": 4077
+    },
+    "DIP/revo3_opt_DIP_001.obj": {
+      "sha256": "d8f4b24646315e7bf1c5bd44b77838064eee5995525f253b38450ce5c769bd40",
+      "vertices": 58,
+      "bytes": 4016
+    },
+    "DIP/revo3_opt_DIP_002.obj": {
+      "sha256": "c942c5222a37daa707fc0583fb8ca2602c56b930512f1697393bfc78e3b7a059",
+      "vertices": 35,
+      "bytes": 2446
+    },
+    "DIP/revo3_opt_DIP_003.obj": {
+      "sha256": "a24f43f323ec4df025bfb4a6f62d8ce0e8ca0a0a59f3b9fe8d918657e50e5aeb",
+      "vertices": 30,
+      "bytes": 2068
+    },
+    "DIP/revo3_opt_DIP_004.obj": {
+      "sha256": "316735fec046bb08cdc0df3792aa12d04950f19004227265ca0a157a4d951cb6",
+      "vertices": 56,
+      "bytes": 3877
+    },
+    "DIP/revo3_opt_DIP_005.obj": {
+      "sha256": "ae84764badbb2bb87f117500aaebbeb51bc8c6aebd976c801ffb625e6f36a726",
+      "vertices": 174,
+      "bytes": 12579
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_000.obj": {
+      "sha256": "d5e3f8e6fac5fac75875646199dc099cb4186b0bf8e61103aade515593fa3cf7",
+      "vertices": 31,
+      "bytes": 2123
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_001.obj": {
+      "sha256": "7e0d7c304ad9a24b22c0048e0e770ef257a46e3eac8e2a8e20e32b95eb544bda",
+      "vertices": 18,
+      "bytes": 1213
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_002.obj": {
+      "sha256": "ef5de2e16b024fde314da21bea7f7a34b7503af389bddb711b4a93fab85f3cb3",
+      "vertices": 46,
+      "bytes": 3124
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_003.obj": {
+      "sha256": "a5c138c7d72aa472d16a268179cc21ab2ce44db68eb423dd9cb3da2a7a334efc",
+      "vertices": 49,
+      "bytes": 3333
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_004.obj": {
+      "sha256": "a8cef9951a10255330a27dc2618d1a190fd74da642ce97e10ae2a3784cb84a94",
+      "vertices": 44,
+      "bytes": 2989
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_005.obj": {
+      "sha256": "c0f9cfafb0a94d71970d798c57b1db6d8f6c0a893d93df5f88ba2c2014001452",
+      "vertices": 34,
+      "bytes": 2299
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_006.obj": {
+      "sha256": "a9cfbc31310535f22eda3e0b88796fcbfd392094a1f781c5f1f07e5d19668ffc",
+      "vertices": 20,
+      "bytes": 1332
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_007.obj": {
+      "sha256": "54909c71e81dc6f5624540c9cfdc37ce05c0026e584c49ec33338afd174aea95",
+      "vertices": 61,
+      "bytes": 4254
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_008.obj": {
+      "sha256": "713059a18695398d3c499fb882e9a82be1c991256c8d24b66e286866d742deed",
+      "vertices": 29,
+      "bytes": 1996
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_009.obj": {
+      "sha256": "0b54e782c839b9bf10d53b76c998a2269d73b880ddd6c223cd826e1aaca1d9e1",
+      "vertices": 25,
+      "bytes": 1710
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_010.obj": {
+      "sha256": "83948c002e1f86d73e2885035b851777a055343523f3e8598b9fa91369e0b88f",
+      "vertices": 17,
+      "bytes": 1138
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_011.obj": {
+      "sha256": "3516097256513c55679100a013e7bd441c4a08bd74382e9cfff57ae4089c18f1",
+      "vertices": 22,
+      "bytes": 1493
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_012.obj": {
+      "sha256": "5daab662b73c779ec389435e17cdbd2fb13511d97547c5944b7a50391b63d2cb",
+      "vertices": 12,
+      "bytes": 798
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_013.obj": {
+      "sha256": "dcdd5899adb8a27ca7f857a657d23c451cf02a0986ebec56a62d9b1d81423cc4",
+      "vertices": 19,
+      "bytes": 1286
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_014.obj": {
+      "sha256": "2bce56bd83d34a930fe8f13fe8ee8f8fa0398c47f8d35ef407116d5745c3f187",
+      "vertices": 25,
+      "bytes": 1702
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_015.obj": {
+      "sha256": "31d50fc78b331304da1ffaf0050a0f97ea7a6307ed4b5e780716955feff76628",
+      "vertices": 21,
+      "bytes": 1409
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_016.obj": {
+      "sha256": "568505c092adf9b85780561687264b281840a9134f628b3dc895ea7367dd72c1",
+      "vertices": 187,
+      "bytes": 13647
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_017.obj": {
+      "sha256": "00ef6a81121169ac7df903e0c5e0bf3bb7b7bc82a8625cbc8d0cb37d28c43708",
+      "vertices": 16,
+      "bytes": 1079
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_018.obj": {
+      "sha256": "c77736fa3821102afcd76cdb2d7d5f438bd6dc04d3f54fb91bf1373f53d6b10e",
+      "vertices": 41,
+      "bytes": 2817
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_019.obj": {
+      "sha256": "60045b185c7c37a60437b2ba759f10d71bde6fecc07491461609f50bfa1b48b5",
+      "vertices": 62,
+      "bytes": 4251
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_020.obj": {
+      "sha256": "c5f44350ce85604d909ea04c0ecdcd9df93517e4064ffbac4283215d89f00432",
+      "vertices": 99,
+      "bytes": 6871
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_021.obj": {
+      "sha256": "e049e025dad06b36fd8642c291d59602d344318e73ac5fd41442783f2d0a6459",
+      "vertices": 151,
+      "bytes": 10718
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_022.obj": {
+      "sha256": "0f4bb2fe408c89bcac8c5b37e9547b39a34e7fb73e4c0a40fa5dbe25057dc85c",
+      "vertices": 66,
+      "bytes": 4571
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_023.obj": {
+      "sha256": "3d034de1d8ad2fa55df6b9db80985c18628c27784c9f2b83e9384e939dfddaa9",
+      "vertices": 23,
+      "bytes": 1556
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_024.obj": {
+      "sha256": "28469506f4f8099ac087499364638d577ad87a7c7f27ab773bec27b3c1a60039",
+      "vertices": 52,
+      "bytes": 3537
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_025.obj": {
+      "sha256": "9eec90f152d5c74d7ec68ee5686ded279e49fe5a689072ba234573fb7e7103d6",
+      "vertices": 17,
+      "bytes": 1128
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_026.obj": {
+      "sha256": "ae19ef2b6508a4bd64278e6ccb939cc79428921f2ae1fe43ff130b59d831f49f",
+      "vertices": 11,
+      "bytes": 717
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_027.obj": {
+      "sha256": "2721dd73d975e48daf25decf8df253e246510791b26e08b068b1eaaf1c7a4f28",
+      "vertices": 18,
+      "bytes": 1205
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_028.obj": {
+      "sha256": "c09b78df20ead7bc43f18071c3655677d9462cb0c418a8b1413e43a98c7ff1a2",
+      "vertices": 13,
+      "bytes": 859
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_029.obj": {
+      "sha256": "6760390a28f214c9ae215b8046e03ac6c9685a318477ab14b675fe80997c5a0c",
+      "vertices": 14,
+      "bytes": 933
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_030.obj": {
+      "sha256": "562840e6ad43899dc2d0bd9877755843fe18c9aae8da3c95d9260362034024ef",
+      "vertices": 18,
+      "bytes": 1217
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_031.obj": {
+      "sha256": "03a4ad3ecf0fe0c6792257770acd4f19e040d93c48eea597c51d2fffb74998a9",
+      "vertices": 20,
+      "bytes": 1351
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_032.obj": {
+      "sha256": "3f4086341af1617c34bf6db770b4633e198b6124715d5b22c9cb4cfe1d902be8",
+      "vertices": 21,
+      "bytes": 1422
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_033.obj": {
+      "sha256": "464173ce0e4f298da44cabce806fcf1b3a20b1f80397028cd412f843b56374e1",
+      "vertices": 21,
+      "bytes": 1423
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_034.obj": {
+      "sha256": "f7e1b35137954dbd5e2cbd16e6d7395449edcbb77a3217543c4bb6d4f5b85663",
+      "vertices": 16,
+      "bytes": 1073
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_035.obj": {
+      "sha256": "ac65e45126ee7b89757f782281253855bc519b3696b05e7e7a7b5b99d08afc58",
+      "vertices": 16,
+      "bytes": 1064
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_036.obj": {
+      "sha256": "33c8f2e2c1dc0fca740e780d2fd1143eb5f312d6c9e83921111e19c49dbc015f",
+      "vertices": 21,
+      "bytes": 1405
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_037.obj": {
+      "sha256": "02f4f3d802b6fc294a3ae53d48a97bb678338fa1c749ed6175a6fdd190b18c79",
+      "vertices": 47,
+      "bytes": 3196
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_038.obj": {
+      "sha256": "98c23813d513b6d65394d74e5b5fd295672e945fdf38cfcc9d0bb4e4e1aa2b84",
+      "vertices": 25,
+      "bytes": 1687
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_039.obj": {
+      "sha256": "87f0839f67112a61233c9e8bd385128ed20c2005012e3a0a68a2007496994066",
+      "vertices": 70,
+      "bytes": 4780
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_040.obj": {
+      "sha256": "944e6d78b48b4f98c7f7cb4d9c644f434f3ec4f902849ca727496569a3c23c5a",
+      "vertices": 82,
+      "bytes": 5710
+    },
+    "right_palm_rubber_link/revo3_opt_right_palm_rubber_link_041.obj": {
+      "sha256": "3b64b421ca849868477e7c5b76f9cb8ca898f7b26addeebcb5a21d2902b9aca1",
+      "vertices": 190,
+      "bytes": 13879
+    },
+    "MPR_sides/revo3_opt_MPR_sides_000.obj": {
+      "sha256": "f90c905d81d7c5b82ecb6ddc7564326e2a7decd5a009775309df38b903ff9593",
+      "vertices": 63,
+      "bytes": 4379
+    },
+    "MPR_sides/revo3_opt_MPR_sides_001.obj": {
+      "sha256": "0e2b91becc19f96e9c5c398902044696dbbebb28ace4479f43c96123ba483f8e",
+      "vertices": 61,
+      "bytes": 4180
+    },
+    "right_thumb_CMR_link/revo3_opt_right_thumb_CMR_link_000.obj": {
+      "sha256": "c17c112af0081a41fc577ca2190fe19c793af8f7646911c339df3d34e3c6f87a",
+      "vertices": 68,
+      "bytes": 4682
+    },
+    "right_thumb_CMR_link/revo3_opt_right_thumb_CMR_link_001.obj": {
+      "sha256": "284af835a580c777e16b306b09ff75e5d38302d4e657b4669015851044a4ab8c",
+      "vertices": 66,
+      "bytes": 4602
+    },
+    "right_thumb_CMR_link/revo3_opt_right_thumb_CMR_link_002.obj": {
+      "sha256": "97bfee44685315ed0c4122314925aa5b301cad291d6dde9fb266e7d5a504fffc",
+      "vertices": 80,
+      "bytes": 5557
+    },
+    "right_thumb_CMP_link/revo3_opt_right_thumb_CMP_link_000.obj": {
+      "sha256": "0ed2d6c5fcfc1dee8bd9ae4ec15db831e6e2b0b3cb746a7d69102594fac09d54",
+      "vertices": 49,
+      "bytes": 3393
+    },
+    "right_thumb_CMP_link/revo3_opt_right_thumb_CMP_link_001.obj": {
+      "sha256": "ecfcdf8726824226b84ce352338ff578afb1fbd231e212c72e35d36eed08b690",
+      "vertices": 53,
+      "bytes": 3695
+    },
+    "right_thumb_CMP_link/revo3_opt_right_thumb_CMP_link_002.obj": {
+      "sha256": "50399bd9f844c34e5f57738ed49a87bf2aa33ae07a3abbbb250fd2ebc7cd5ab1",
+      "vertices": 54,
+      "bytes": 3711
+    },
+    "right_thumb_CMP_link/revo3_opt_right_thumb_CMP_link_003.obj": {
+      "sha256": "ebf05e800997ccb9b4ce6e8049c8d08c650aa1b9ce4b8da1c02a08e3739619d8",
+      "vertices": 10,
+      "bytes": 662
+    },
+    "right_thumb_CMP_link/revo3_opt_right_thumb_CMP_link_004.obj": {
+      "sha256": "66d2b5062aec6c599a86a11334eb953ab10bd04db0cb6f18b8be5e5ecaf2638b",
+      "vertices": 189,
+      "bytes": 13913
+    }
+  }
+}
