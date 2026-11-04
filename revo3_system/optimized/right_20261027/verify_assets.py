@@ -2,6 +2,7 @@
 import argparse
 import hashlib
 import json
+import math
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
@@ -43,6 +44,15 @@ def main():
             require(elem.get("file") in known, f"Unlisted MJCF dependency: {elem.get('file')}")
     require(len(xml.findall(".//geom[@class='collision']")) == 144, "MJCF collision count mismatch")
 
+    expected_limits = manifest["physics"]["joint_limits_rad"]
+    require(len(expected_limits) == 21, "Expected limits for all 21 right-hand joints")
+    for name, expected in expected_limits.items():
+        joint = xml.find(f".//joint[@name='{name}']")
+        require(joint is not None, f"Missing joint: {name}")
+        actual = list(map(float, joint.get("range").split()))
+        require(all(abs(a - b) < 1e-12 for a, b in zip(actual, expected)),
+                f"MJCF joint limits differ from manifest: {name}")
+
     if args.runtime:
         import mujoco
         import numpy as np
@@ -54,6 +64,14 @@ def main():
         require(len(active) == 144 and model.njnt == 21, "MuJoCo collider/joint count mismatch")
         require(len(meshes) == 90 and model.mesh_vertnum[meshes].sum() == 5427, "MuJoCo shared geometry mismatch")
         stage = Usd.Stage.Open(str(root / "revo3_right.usd"))
+        usd_joints = {p.GetName(): UsdPhysics.RevoluteJoint(p)
+                      for p in stage.Traverse() if p.IsA(UsdPhysics.RevoluteJoint)}
+        require(set(usd_joints) == set(expected_limits), "USD joint names differ from manifest")
+        for name, expected in expected_limits.items():
+            joint = usd_joints[name]
+            actual = [joint.GetLowerLimitAttr().Get(), joint.GetUpperLimitAttr().Get()]
+            require(all(abs(math.radians(a) - b) < 1e-7 for a, b in zip(actual, expected)),
+                    f"USD joint limits differ from manifest: {name}")
         colliders = [p for p in stage.Traverse() if p.HasAPI(UsdPhysics.CollisionAPI)
                      and UsdPhysics.CollisionAPI(p).GetCollisionEnabledAttr().Get()]
         require(len(colliders) == 144, "USD collision count mismatch")

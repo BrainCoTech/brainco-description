@@ -2007,7 +2007,7 @@
     <parent link="right_hand_base_link" />
     <child link="right_middle_MPR_link" />
     <axis xyz="-0.999807814707845 0.019186925647608 0.00402436744312752" />
-    <limit effort="0" lower="-0.3491" upper="0.4363" velocity="0" />
+    <limit effort="0" lower="-0.3490658503988659" upper="0.4363323129985824" velocity="0" />
   </joint>
   <link name="right_middle_MCP_link">
     <inertial>
@@ -2034,7 +2034,7 @@
     <parent link="right_middle_MPR_link" />
     <child link="right_middle_MCP_link" />
     <axis xyz="0.0191008584448429 0.999608742349558 -0.0204332920745991" />
-    <limit effort="0" lower="-0.0925" upper="1.583" velocity="0" />
+    <limit effort="0" lower="-0.08726646259971647" upper="1.5707963267948966" velocity="0" />
   </joint>
   <link name="right_middle_PIP_link">
     <inertial>
@@ -2061,7 +2061,7 @@
     <parent link="right_middle_MCP_link" />
     <child link="right_middle_PIP_link" />
     <axis xyz="0.0191008584448413 0.999608742349558 -0.0204332920745958" />
-    <limit effort="0" lower="-0.1452" upper="1.6001" velocity="0" />
+    <limit effort="0" lower="-0.17453292519943295" upper="1.5707963267948966" velocity="0" />
   </joint>
   <link name="right_middle_DIP_link">
     <inertial>
@@ -2095,7 +2095,7 @@
     <parent link="right_middle_PIP_link" />
     <child link="right_middle_DIP_link" />
     <axis xyz="0.0191008584448469 0.999608742349558 -0.0204332920745917" />
-    <limit effort="0" lower="-0.322" upper="1.5978" velocity="0" />
+    <limit effort="0" lower="-0.3490658503988659" upper="1.5707963267948966" velocity="0" />
   </joint>
   <link name="right_middle_DIP_rubber_link">
     <visual>
@@ -2222,7 +2222,7 @@
     <parent link="right_hand_base_link" />
     <child link="right_thumb_CMP_link" />
     <axis xyz="0 0 -1" />
-    <limit effort="0" lower="0" upper="1.92" velocity="0" />
+    <limit effort="0" lower="0" upper="1.9198621771937625" velocity="0" />
   </joint>
   <link name="right_thumb_CMR_link">
     <inertial>
@@ -2435,7 +2435,7 @@
     <parent link="right_thumb_CMP_link" />
     <child link="right_thumb_CMR_link" />
     <axis xyz="0 -0.999999985457346 -0.000170544153169872" />
-    <limit effort="0" lower="-0.4224" upper="1.4277" velocity="0" />
+    <limit effort="0" lower="0" upper="1.8500490071139892" velocity="0" />
   </joint>
   <link name="right_thumb_MCP_link">
     <inertial>
@@ -2462,7 +2462,7 @@
     <parent link="right_thumb_CMR_link" />
     <child link="right_thumb_MCP_link" />
     <axis xyz="0.142628833818122 0.000168800639916136 -0.989776230907788" />
-    <limit effort="0" lower="-0.0845" upper="1.3292" velocity="0" />
+    <limit effort="0" lower="0" upper="1.3089969389957472" velocity="0" />
   </joint>
   <link name="right_thumb_PIP_link">
     <inertial>
@@ -2489,7 +2489,7 @@
     <parent link="right_thumb_MCP_link" />
     <child link="right_thumb_PIP_link" />
     <axis xyz="0.142628833818122 0.000168800639916073 -0.989776230907788" />
-    <limit effort="0" lower="-0.2618" upper="1.5533" velocity="0" />
+    <limit effort="0" lower="-0.17453292519943295" upper="1.5707963267948966" velocity="0" />
   </joint>
   <link name="right_thumb_DIP_link">
     <inertial>
@@ -2523,7 +2523,7 @@
     <parent link="right_thumb_PIP_link" />
     <child link="right_thumb_DIP_link" />
     <axis xyz="0.142628833818122 0.000168800639915566 -0.989776230907788" />
-    <limit effort="0" lower="-0.16" upper="1.7616" velocity="0" />
+    <limit effort="0" lower="-0.3490658503988659" upper="1.5707963267948966" velocity="0" />
   </joint>
   <link name="right_thumb_DIP_rubber_link">
     <visual>
@@ -2650,7 +2650,7 @@
     <parent link="right_hand_base_link" />
     <child link="right_index_MPR_link" />
     <axis xyz="-0.99835714347749 0.0572975918787191 0" />
-    <limit effort="0" lower="-0.1745" upper="0.5236" velocity="0" />
+    <limit effort="0" lower="-0.17453292519943295" upper="0.5235987755982988" velocity="0" />
   </joint>
   <link name="right_index_MCP_link">
     <inertial>
@@ -2677,7 +2677,7 @@
     <parent link="right_index_MPR_link" />
     <child link="right_index_MCP_link" />
     <axis xyz="0.0571896789948211 0.996482943134821 -0.0612460991234106" />
-    <limit effort="0" lower="-0.0925" upper="1.583" velocity="0" />
+    <limit effort="0" lower="-0.08726646259971647" upper="1.5707963267948966" velocity="0" />
   </joint>
   <link name="right_index_PIP_link">
     <inertial>
@@ -2704,7 +2704,7 @@
     <parent link="right_index_MCP_link" />
     <child link="right_index_PIP_link" />
     <axis xyz="0.0571896789948195 0.996482943134821 -0.0612460991234103" />
-    <limit effort="0" lower="-0.1452" upper="1.6001" velocity="0" />
+    <limit effort="0" lower="-0.17453292519943295" upper="1.5707963267948966" velocity="0" />
   </joint>
   <link name="right_index_DIP_link">
     <inertial>
@@ -2738,7 +2738,7 @@
     <parent link="right_index_PIP_link" />
     <child link="right_index_DIP_link" />
     <axis xyz="0.057189678994825 0.996482943134821 -0.061246099123401" />
-    <limit effort="0" lower="-0.322" upper="1.5978" velocity="0" />
+    <limit effort="0" lower="-0.3490658503988659" upper="1.5707963267948966" velocity="0" />
   </joint>
   <link name="right_index_DIP_rubber_link">
     <visual>
@@ -2865,7 +2865,7 @@
     <parent link="right_hand_base_link" />
     <child link="right_ring_MPR_link" />
     <axis xyz="-0.999813819455818 -0.0191527157615282 0.00234518743967805" />
-    <limit effort="0" lower="-0.4363" upper="0.3491" velocity="0" />
+    <limit effort="0" lower="-0.4363323129985824" upper="0.3490658503988659" velocity="0" />
   </joint>
   <link name="right_ring_MCP_link">
     <inertial>
@@ -2892,7 +2892,7 @@
     <parent link="right_ring_MPR_link" />
     <child link="right_ring_MCP_link" />
     <axis xyz="-0.0191008584234173 0.999608742351176 0.0204332920154781" />
-    <limit effort="0" lower="-0.0925" upper="1.583" velocity="0" />
+    <limit effort="0" lower="-0.08726646259971647" upper="1.5707963267948966" velocity="0" />
   </joint>
   <link name="right_ring_PIP_link">
     <inertial>
@@ -2919,7 +2919,7 @@
     <parent link="right_ring_MCP_link" />
     <child link="right_ring_PIP_link" />
     <axis xyz="-0.0191008584234188 0.999608742351175 0.0204332920154819" />
-    <limit effort="0" lower="-0.1452" upper="1.6001" velocity="0" />
+    <limit effort="0" lower="-0.17453292519943295" upper="1.5707963267948966" velocity="0" />
   </joint>
   <link name="right_ring_DIP_link">
     <inertial>
@@ -2953,7 +2953,7 @@
     <parent link="right_ring_PIP_link" />
     <child link="right_ring_DIP_link" />
     <axis xyz="-0.0191008584234135 0.999608742351175 0.0204332920154918" />
-    <limit effort="0" lower="-0.322" upper="1.5978" velocity="0" />
+    <limit effort="0" lower="-0.3490658503988659" upper="1.5707963267948966" velocity="0" />
   </joint>
   <link name="right_ring_DIP_rubber_link">
     <visual>
@@ -3080,7 +3080,7 @@
     <parent link="right_hand_base_link" />
     <child link="right_little_MPR_link" />
     <axis xyz="-0.998363207212642 -0.0571125018185487 -0.00301141496872135" />
-    <limit effort="0" lower="-0.5236" upper="0.1745" velocity="0" />
+    <limit effort="0" lower="-0.5235987755982988" upper="0.17453292519943295" velocity="0" />
   </joint>
   <link name="right_little_MCP_link">
     <inertial>
@@ -3107,7 +3107,7 @@
     <parent link="right_little_MPR_link" />
     <child link="right_little_MCP_link" />
     <axis xyz="-0.0571896789757587 0.996482943139 0.0612460990732217" />
-    <limit effort="0" lower="-0.0925" upper="1.583" velocity="0" />
+    <limit effort="0" lower="-0.08726646259971647" upper="1.5707963267948966" velocity="0" />
   </joint>
   <link name="right_little_PIP_link">
     <inertial>
@@ -3134,7 +3134,7 @@
     <parent link="right_little_MCP_link" />
     <child link="right_little_PIP_link" />
     <axis xyz="-0.0571896789757601 0.996482943138999 0.0612460990732252" />
-    <limit effort="0" lower="-0.1452" upper="1.6001" velocity="0" />
+    <limit effort="0" lower="-0.17453292519943295" upper="1.5707963267948966" velocity="0" />
   </joint>
   <link name="right_little_DIP_link">
     <inertial>
@@ -3168,7 +3168,7 @@
     <parent link="right_little_PIP_link" />
     <child link="right_little_DIP_link" />
     <axis xyz="-0.0571896789757549 0.996482943138999 0.0612460990732302" />
-    <limit effort="0" lower="-0.322" upper="1.5978" velocity="0" />
+    <limit effort="0" lower="-0.3490658503988659" upper="1.5707963267948966" velocity="0" />
   </joint>
   <link name="right_little_DIP_rubber_link">
     <visual>

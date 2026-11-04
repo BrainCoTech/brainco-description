@@ -196,3 +196,11 @@ USD 中的碰撞 API 直接设置在具体 mesh 上，每块使用 `convexHull`�
 原始可视模型来自 [BrainCoTech/brainco-description](https://github.com/BrainCoTech/brainco-description) 提交 `6db7e2ed1d864ee0a3ab6ff62d43a303787137f6`；打包基线为 `da568324b86b74538dd1e08479103faa90dd9647`，两版所引用的可视文件字节一致。本资产通过 [PR #4](https://github.com/BrainCoTech/brainco-description/pull/4) 合并到仓库。
 
 适用范围为右手无触觉标记版。左手、MX/MT 触觉标记版、RevoArm 和 RevoTron 装配模型需分别完成迁移与验证。后续迁入默认 URDF 时，需要保留原始惯性、正确转移每个凸块的所属 link 和局部变换，并确保转换器不再次分解或截断这些凸包。
+
+### 2026-11-04 joint bounds update
+
+All 21 right-hand joint bounds now use the user-confirmed limits; thumb CMR is
+0–106 degrees. Joint zeros, transforms, geometry and inertias are unchanged.
+`validation/packaging.json` records the current limit/import checks. Earlier
+motion and holding results in `source_validation.json` are historical and were
+not rerun for the new ranges.
