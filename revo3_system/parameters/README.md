@@ -1,7 +1,8 @@
 # Revo3 辨识参数
 
 提供右手 21 关节的等效动力学与控制参数，包括附加惯量、黏性损失、干摩擦、
-编码器偏置、Kp/Kd、力矩限幅和命令延迟。CMR 运行范围为 **0～105°**。
+编码器偏置、Kp/Kd、力矩限幅和命令延迟。CMR 运行范围为 **0～106°**。
+2026-11-04 更新了全部 21 关节运行限位；辨识参数、编码器偏置与默认姿态保持不变。
 
 | 模型 | 用途 | 参数 |
 | --- | --- | --- |
@@ -29,7 +30,8 @@ python3 revo3_system/parameters/pace_20261102/scripts/load_parameters.py --model
 - [下载参数包](Revo3_PACE_parameters_20261102.zip)
 - [参数总览和图表](pace_20261102/参数总览.html)
 - [完整使用说明](pace_20261102/README_使用说明.txt)
-- [验证结果](../validation/pace_bundle_20261102.json)
+- [当前限位与零位保持检查](../validation/right_joint_limits_20261104.json)
+- [原参数包验证记录（2026-11-02）](../validation/pace_bundle_20261102.json)
 
 `electrical/` 中保存独立的电流域拟合结果；等效动力学参数用于仿真，
 不直接对应厂家 SDK 的增益寄存器。

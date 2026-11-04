@@ -3,7 +3,7 @@
 本目录提供 **Revo3 右手无触觉标记版**的已验证资产，包含可直接加载的 **MuJoCo MJCF** 和 **Newton / Isaac Lab / PhysX 共用 USD**。本版优化了掌胶、拇指及四指的碰撞几何，保留原始可视模型的顶点、法线、面和材质。
 
 碰撞版本：**2026-10-27**。共 **144 个凸块实例、90 份唯一碰撞网格、5,427 个唯一顶点**。
-拇指 CMR 范围：**0～105°**（`0～1.8325957145940461 rad`）。
+拇指 CMR 范围：**0～106°**（`0～1.8500490071139892 rad`）。
 默认右手无触觉 URDF 同样采用这组凸包；本目录提供可直接加载的 MJCF/USD。
 
 ## 文件说明
@@ -199,3 +199,11 @@ USD 中的碰撞 API 直接设置在具体 mesh 上，每块使用 `convexHull`�
 
 适用范围为右手无触觉标记版。左手、MX/MT 触觉标记版、RevoArm 和 RevoTron 装配模型使用各自的碰撞配置。
 URDF 转换入口及参数见 [URDF 碰撞说明](../../URDF_COLLISIONS.md)。
+
+### 2026-11-04 joint bounds update
+
+All 21 right-hand joint bounds now use the user-confirmed limits; thumb CMR is
+0–106 degrees. Joint zeros, transforms, geometry and inertias are unchanged.
+`validation/packaging.json` records the current limit/import checks. Earlier
+motion and holding results in `source_validation.json` are historical and were
+not rerun for the new ranges.

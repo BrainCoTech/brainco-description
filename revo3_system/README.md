@@ -11,7 +11,7 @@ is provided separately with ready-to-load MJCF/USD, 144 convex instances and 90 
 This snapshot preserves the original visuals and includes integrity checks and validation notes.
 On the **dev** branch, `urdf/revo3_right.urdf` now uses these reviewed collision
 meshes, with its original visuals, joint origins/axes and inertial definitions preserved.
-The right thumb CMR range is **0–105°** (`0–1.8325957145940461 rad`) across
+The right thumb CMR range is **0–106°** (`0–1.8500490071139892 rad`) across
 all right-hand variants and RevoArm/RevoTron assemblies.
 The right MX/MT, left-hand and arm/platform assembly URDFs retain the old collisions.
 See [URDF migration and validation](URDF_COLLISIONS.md) for scope and commands.
@@ -42,3 +42,10 @@ The three variants share the original visual/link structure. On `dev`, their
 collision profiles differ until the MX/MT migration is completed.
 RViz / MoveIt / urdfpy / pybullet all resolve relative
 `<mesh filename>` against the URDF file's directory.
+
+Right-hand joint bounds were updated on 2026-11-04 from the user-confirmed SDK limits,
+with the requested thumb CMR upper limit of 106 degrees. Joint zeros, origins,
+axes and encoder biases are unchanged. The full 21-joint ranges are recorded in
+[the snapshot manifest](optimized/right_20261027/collision_manifest.json) under
+`physics.joint_limits_rad`. Historical validation reports retain their original ranges;
+see [the current limit checks](validation/right_joint_limits_20261104.json).

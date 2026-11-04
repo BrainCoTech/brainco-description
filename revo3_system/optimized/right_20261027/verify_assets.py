@@ -43,11 +43,15 @@ def main():
         if "file" in elem.attrib:
             require(elem.get("file") in known, f"Unlisted MJCF dependency: {elem.get('file')}")
     require(len(xml.findall(".//geom[@class='collision']")) == 144, "MJCF collision count mismatch")
-    cmr = xml.find(".//joint[@name='right_thumb_CMR_joint']")
-    require(cmr is not None, "Missing thumb CMR joint")
-    limits = list(map(float, cmr.get("range").split()))
-    require(abs(limits[0]) < 1e-12 and abs(limits[1] - math.radians(105)) < 1e-12,
-            "Thumb CMR limits must be 0 to 105 degrees")
+
+    expected_limits = manifest["physics"]["joint_limits_rad"]
+    require(len(expected_limits) == 21, "Expected limits for all 21 right-hand joints")
+    for name, expected in expected_limits.items():
+        joint = xml.find(f".//joint[@name='{name}']")
+        require(joint is not None, f"Missing joint: {name}")
+        actual = list(map(float, joint.get("range").split()))
+        require(all(abs(a - b) < 1e-12 for a, b in zip(actual, expected)),
+                f"MJCF joint limits differ from manifest: {name}")
 
     if args.runtime:
         import mujoco
@@ -60,11 +64,14 @@ def main():
         require(len(active) == 144 and model.njnt == 21, "MuJoCo collider/joint count mismatch")
         require(len(meshes) == 90 and model.mesh_vertnum[meshes].sum() == 5427, "MuJoCo shared geometry mismatch")
         stage = Usd.Stage.Open(str(root / "revo3_right.usd"))
-        joints = [p for p in stage.Traverse() if p.GetName() == "right_thumb_CMR_joint"]
-        require(len(joints) == 1, "Expected one USD thumb CMR joint")
-        cmr = UsdPhysics.RevoluteJoint(joints[0])
-        require(cmr.GetLowerLimitAttr().Get() == 0 and cmr.GetUpperLimitAttr().Get() == 105,
-                "USD thumb CMR limits must be 0 to 105 degrees")
+        usd_joints = {p.GetName(): UsdPhysics.RevoluteJoint(p)
+                      for p in stage.Traverse() if p.IsA(UsdPhysics.RevoluteJoint)}
+        require(set(usd_joints) == set(expected_limits), "USD joint names differ from manifest")
+        for name, expected in expected_limits.items():
+            joint = usd_joints[name]
+            actual = [joint.GetLowerLimitAttr().Get(), joint.GetUpperLimitAttr().Get()]
+            require(all(abs(math.radians(a) - b) < 1e-7 for a, b in zip(actual, expected)),
+                    f"USD joint limits differ from manifest: {name}")
         colliders = [p for p in stage.Traverse() if p.HasAPI(UsdPhysics.CollisionAPI)
                      and UsdPhysics.CollisionAPI(p).GetCollisionEnabledAttr().Get()]
         require(len(colliders) == 144, "USD collision count mismatch")

@@ -1,0 +1,261 @@
+{
+  "urdf_sha256": "4a911b596499290aea7496a1a080ebfaa78f368f565e2e5f9c0475565a086289",
+  "manifest_sha256": "31bcae217db4ea0ce5ecefe5423d6e9f0b0fd95d81faecd1a8c5f564a1d84488",
+  "non_collision_sha256": "5e2abd46a73a839347d3ab7960f37ca69cac2679d92ee7b7d4d966bcc2d04234",
+  "statistics": {
+    "collision_instances": 144,
+    "unique_meshes": 90,
+    "unique_vertices": 5427,
+    "expanded_vertices": 9678,
+    "collision_owners": 22,
+    "links": 58,
+    "revolute_joints": 21,
+    "fixed_joints": 36
+  },
+  "joint_limit_updates": {
+    "right_thumb_CMP_joint": {
+      "baseline_rad": [
+        0.0,
+        1.92
+      ],
+      "current_rad": [
+        0.0,
+        1.9198621771937625
+      ],
+      "travel_rad": 1.9198621771937625
+    },
+    "right_thumb_CMR_joint": {
+      "baseline_rad": [
+        -0.4224,
+        1.4277
+      ],
+      "current_rad": [
+        0.0,
+        1.8500490071139892
+      ],
+      "travel_rad": 1.8500490071139892
+    },
+    "right_thumb_MCP_joint": {
+      "baseline_rad": [
+        -0.0845,
+        1.3292
+      ],
+      "current_rad": [
+        0.0,
+        1.3089969389957472
+      ],
+      "travel_rad": 1.3089969389957472
+    },
+    "right_thumb_PIP_joint": {
+      "baseline_rad": [
+        -0.2618,
+        1.5533
+      ],
+      "current_rad": [
+        -0.17453292519943295,
+        1.5707963267948966
+      ],
+      "travel_rad": 1.7453292519943295
+    },
+    "right_thumb_DIP_joint": {
+      "baseline_rad": [
+        -0.16,
+        1.7616
+      ],
+      "current_rad": [
+        -0.3490658503988659,
+        1.5707963267948966
+      ],
+      "travel_rad": 1.9198621771937625
+    },
+    "right_index_MPR_joint": {
+      "baseline_rad": [
+        -0.1745,
+        0.5236
+      ],
+      "current_rad": [
+        -0.17453292519943295,
+        0.5235987755982988
+      ],
+      "travel_rad": 0.6981317007977318
+    },
+    "right_index_MCP_joint": {
+      "baseline_rad": [
+        -0.0925,
+        1.583
+      ],
+      "current_rad": [
+        -0.08726646259971647,
+        1.5707963267948966
+      ],
+      "travel_rad": 1.658062789394613
+    },
+    "right_index_PIP_joint": {
+      "baseline_rad": [
+        -0.1452,
+        1.6001
+      ],
+      "current_rad": [
+        -0.17453292519943295,
+        1.5707963267948966
+      ],
+      "travel_rad": 1.7453292519943295
+    },
+    "right_index_DIP_joint": {
+      "baseline_rad": [
+        -0.322,
+        1.5978
+      ],
+      "current_rad": [
+        -0.3490658503988659,
+        1.5707963267948966
+      ],
+      "travel_rad": 1.9198621771937625
+    },
+    "right_middle_MPR_joint": {
+      "baseline_rad": [
+        -0.3491,
+        0.4363
+      ],
+      "current_rad": [
+        -0.3490658503988659,
+        0.4363323129985824
+      ],
+      "travel_rad": 0.7853981633974483
+    },
+    "right_middle_MCP_joint": {
+      "baseline_rad": [
+        -0.0925,
+        1.583
+      ],
+      "current_rad": [
+        -0.08726646259971647,
+        1.5707963267948966
+      ],
+      "travel_rad": 1.658062789394613
+    },
+    "right_middle_PIP_joint": {
+      "baseline_rad": [
+        -0.1452,
+        1.6001
+      ],
+      "current_rad": [
+        -0.17453292519943295,
+        1.5707963267948966
+      ],
+      "travel_rad": 1.7453292519943295
+    },
+    "right_middle_DIP_joint": {
+      "baseline_rad": [
+        -0.322,
+        1.5978
+      ],
+      "current_rad": [
+        -0.3490658503988659,
+        1.5707963267948966
+      ],
+      "travel_rad": 1.9198621771937625
+    },
+    "right_ring_MPR_joint": {
+      "baseline_rad": [
+        -0.4363,
+        0.3491
+      ],
+      "current_rad": [
+        -0.4363323129985824,
+        0.3490658503988659
+      ],
+      "travel_rad": 0.7853981633974483
+    },
+    "right_ring_MCP_joint": {
+      "baseline_rad": [
+        -0.0925,
+        1.583
+      ],
+      "current_rad": [
+        -0.08726646259971647,
+        1.5707963267948966
+      ],
+      "travel_rad": 1.658062789394613
+    },
+    "right_ring_PIP_joint": {
+      "baseline_rad": [
+        -0.1452,
+        1.6001
+      ],
+      "current_rad": [
+        -0.17453292519943295,
+        1.5707963267948966
+      ],
+      "travel_rad": 1.7453292519943295
+    },
+    "right_ring_DIP_joint": {
+      "baseline_rad": [
+        -0.322,
+        1.5978
+      ],
+      "current_rad": [
+        -0.3490658503988659,
+        1.5707963267948966
+      ],
+      "travel_rad": 1.9198621771937625
+    },
+    "right_little_MPR_joint": {
+      "baseline_rad": [
+        -0.5236,
+        0.1745
+      ],
+      "current_rad": [
+        -0.5235987755982988,
+        0.17453292519943295
+      ],
+      "travel_rad": 0.6981317007977318
+    },
+    "right_little_MCP_joint": {
+      "baseline_rad": [
+        -0.0925,
+        1.583
+      ],
+      "current_rad": [
+        -0.08726646259971647,
+        1.5707963267948966
+      ],
+      "travel_rad": 1.658062789394613
+    },
+    "right_little_PIP_joint": {
+      "baseline_rad": [
+        -0.1452,
+        1.6001
+      ],
+      "current_rad": [
+        -0.17453292519943295,
+        1.5707963267948966
+      ],
+      "travel_rad": 1.7453292519943295
+    },
+    "right_little_DIP_joint": {
+      "baseline_rad": [
+        -0.322,
+        1.5978
+      ],
+      "current_rad": [
+        -0.3490658503988659,
+        1.5707963267948966
+      ],
+      "travel_rad": 1.9198621771937625
+    }
+  },
+  "non_collision_matches_baseline_except_declared_limits": "9a5b7de899eb7f14e72c69e53e38a0d2fe27ea5a",
+  "mujoco": {
+    "version": "3.12.0",
+    "poses": 129,
+    "max_collision_vertex_deviation_m": 5.108029880083276e-15,
+    "collision_instances": 144,
+    "unique_meshes": 90,
+    "unique_vertices": 5427,
+    "expanded_vertices": 9678,
+    "canonical_urdf_total_link_mass_kg": 1.829665059879012,
+    "note": "Geometry equivalence only; snapshot engineering inertias are not copied."
+  },
+  "passed": true
+}

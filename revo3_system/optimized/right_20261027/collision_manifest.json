@@ -1497,20 +1497,100 @@
     },
     "note": "This snapshot preserves the reviewed engineering dynamics, including palm rubber inertia; it does not replace the canonical URDF inertia. Parent-body filtering is backend dependent.",
     "joint_limits_rad": {
+      "right_thumb_CMP_joint": [
+        0.0,
+        1.9198621771937625
+      ],
       "right_thumb_CMR_joint": [
         0.0,
-        1.8325957145940461
+        1.8500490071139892
+      ],
+      "right_thumb_MCP_joint": [
+        0.0,
+        1.3089969389957472
+      ],
+      "right_thumb_PIP_joint": [
+        -0.17453292519943295,
+        1.5707963267948966
+      ],
+      "right_thumb_DIP_joint": [
+        -0.3490658503988659,
+        1.5707963267948966
+      ],
+      "right_index_MPR_joint": [
+        -0.17453292519943295,
+        0.5235987755982988
+      ],
+      "right_index_MCP_joint": [
+        -0.08726646259971647,
+        1.5707963267948966
+      ],
+      "right_index_PIP_joint": [
+        -0.17453292519943295,
+        1.5707963267948966
+      ],
+      "right_index_DIP_joint": [
+        -0.3490658503988659,
+        1.5707963267948966
+      ],
+      "right_middle_MPR_joint": [
+        -0.3490658503988659,
+        0.4363323129985824
+      ],
+      "right_middle_MCP_joint": [
+        -0.08726646259971647,
+        1.5707963267948966
+      ],
+      "right_middle_PIP_joint": [
+        -0.17453292519943295,
+        1.5707963267948966
+      ],
+      "right_middle_DIP_joint": [
+        -0.3490658503988659,
+        1.5707963267948966
+      ],
+      "right_ring_MPR_joint": [
+        -0.4363323129985824,
+        0.3490658503988659
+      ],
+      "right_ring_MCP_joint": [
+        -0.08726646259971647,
+        1.5707963267948966
+      ],
+      "right_ring_PIP_joint": [
+        -0.17453292519943295,
+        1.5707963267948966
+      ],
+      "right_ring_DIP_joint": [
+        -0.3490658503988659,
+        1.5707963267948966
+      ],
+      "right_little_MPR_joint": [
+        -0.5235987755982988,
+        0.17453292519943295
+      ],
+      "right_little_MCP_joint": [
+        -0.08726646259971647,
+        1.5707963267948966
+      ],
+      "right_little_PIP_joint": [
+        -0.17453292519943295,
+        1.5707963267948966
+      ],
+      "right_little_DIP_joint": [
+        -0.3490658503988659,
+        1.5707963267948966
       ]
     }
   },
   "exports": {
     "revo3_right.xml": {
-      "sha256": "8186a26ef32440051ee34a3d9a9d79cd7e9d279f3a2a9f6fb1a551e7be1047b8",
-      "bytes": 77656
+      "sha256": "c5da851c046bddb20d2b6b67bffe1fe74843f7256ce11e31594e48cbe8ed51d6",
+      "bytes": 78129
     },
     "revo3_right.usd": {
-      "sha256": "f64d49af517dded512593bfc7e132484ae1f4f409f4f9e67a02e4bdf4880e249",
-      "bytes": 17547690
+      "sha256": "737c42704c4e464b9da372142683f206ff43cbc1d9aacb5e25d05a4c7ce1914f",
+      "bytes": 17550438
     }
   },
   "usd_runtime_dependency": "OmniPBR.mdl is provided by Isaac Sim/Omniverse for rendering; headless Newton does not need this shader."

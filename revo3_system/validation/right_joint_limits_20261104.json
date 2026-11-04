@@ -1,0 +1,248 @@
+{
+  "passed": true,
+  "checked_date": "2026-11-04",
+  "baseline_commit": "af707e30e5ac24241d12b16e413b174e320131ba",
+  "scope": "Right-hand position bounds only; no joint zero, origin, axis, geometry, inertia or encoder-bias changes.",
+  "source": "User-filled 21-joint table; SDK-matching bounds confirmed by the user except the requested CMR upper bound of 106 degrees.",
+  "joint_limits_deg": {
+    "right_thumb_CMP_joint": [
+      0,
+      110
+    ],
+    "right_thumb_CMR_joint": [
+      0,
+      106
+    ],
+    "right_thumb_MCP_joint": [
+      0,
+      75
+    ],
+    "right_thumb_PIP_joint": [
+      -10,
+      90
+    ],
+    "right_thumb_DIP_joint": [
+      -20,
+      90
+    ],
+    "right_index_MPR_joint": [
+      -10,
+      30
+    ],
+    "right_index_MCP_joint": [
+      -5,
+      90
+    ],
+    "right_index_PIP_joint": [
+      -10,
+      90
+    ],
+    "right_index_DIP_joint": [
+      -20,
+      90
+    ],
+    "right_middle_MPR_joint": [
+      -20,
+      25
+    ],
+    "right_middle_MCP_joint": [
+      -5,
+      90
+    ],
+    "right_middle_PIP_joint": [
+      -10,
+      90
+    ],
+    "right_middle_DIP_joint": [
+      -20,
+      90
+    ],
+    "right_ring_MPR_joint": [
+      -25,
+      20
+    ],
+    "right_ring_MCP_joint": [
+      -5,
+      90
+    ],
+    "right_ring_PIP_joint": [
+      -10,
+      90
+    ],
+    "right_ring_DIP_joint": [
+      -20,
+      90
+    ],
+    "right_little_MPR_joint": [
+      -30,
+      10
+    ],
+    "right_little_MCP_joint": [
+      -5,
+      90
+    ],
+    "right_little_PIP_joint": [
+      -10,
+      90
+    ],
+    "right_little_DIP_joint": [
+      -20,
+      90
+    ]
+  },
+  "joint_limits_rad": {
+    "right_thumb_CMP_joint": [
+      0.0,
+      1.9198621771937625
+    ],
+    "right_thumb_CMR_joint": [
+      0.0,
+      1.8500490071139892
+    ],
+    "right_thumb_MCP_joint": [
+      0.0,
+      1.3089969389957472
+    ],
+    "right_thumb_PIP_joint": [
+      -0.17453292519943295,
+      1.5707963267948966
+    ],
+    "right_thumb_DIP_joint": [
+      -0.3490658503988659,
+      1.5707963267948966
+    ],
+    "right_index_MPR_joint": [
+      -0.17453292519943295,
+      0.5235987755982988
+    ],
+    "right_index_MCP_joint": [
+      -0.08726646259971647,
+      1.5707963267948966
+    ],
+    "right_index_PIP_joint": [
+      -0.17453292519943295,
+      1.5707963267948966
+    ],
+    "right_index_DIP_joint": [
+      -0.3490658503988659,
+      1.5707963267948966
+    ],
+    "right_middle_MPR_joint": [
+      -0.3490658503988659,
+      0.4363323129985824
+    ],
+    "right_middle_MCP_joint": [
+      -0.08726646259971647,
+      1.5707963267948966
+    ],
+    "right_middle_PIP_joint": [
+      -0.17453292519943295,
+      1.5707963267948966
+    ],
+    "right_middle_DIP_joint": [
+      -0.3490658503988659,
+      1.5707963267948966
+    ],
+    "right_ring_MPR_joint": [
+      -0.4363323129985824,
+      0.3490658503988659
+    ],
+    "right_ring_MCP_joint": [
+      -0.08726646259971647,
+      1.5707963267948966
+    ],
+    "right_ring_PIP_joint": [
+      -0.17453292519943295,
+      1.5707963267948966
+    ],
+    "right_ring_DIP_joint": [
+      -0.3490658503988659,
+      1.5707963267948966
+    ],
+    "right_little_MPR_joint": [
+      -0.5235987755982988,
+      0.17453292519943295
+    ],
+    "right_little_MCP_joint": [
+      -0.08726646259971647,
+      1.5707963267948966
+    ],
+    "right_little_PIP_joint": [
+      -0.17453292519943295,
+      1.5707963267948966
+    ],
+    "right_little_DIP_joint": [
+      -0.3490658503988659,
+      1.5707963267948966
+    ]
+  },
+  "urdf_files": [
+    "revo3_system/urdf/revo3_right.urdf",
+    "revo3_system/urdf/revo3_right_mt_touch.urdf",
+    "revo3_system/urdf/revo3_right_mx_touch.urdf",
+    "revoarm_system/urdf/revoarm_bimanual_revo3.urdf",
+    "revoarm_system/urdf/revoarm_bimanual_revo3_mt_touch.urdf",
+    "revoarm_system/urdf/revoarm_bimanual_revo3_mx_touch.urdf",
+    "revoarm_system/urdf/revoarm_single_right_revo3.urdf",
+    "revoarm_system/urdf/revoarm_single_right_revo3_mt_touch.urdf",
+    "revoarm_system/urdf/revoarm_single_right_revo3_mx_touch.urdf",
+    "revotron_system/urdf/revotron_bimanual_revo3.urdf",
+    "revotron_system/urdf/revotron_bimanual_revo3_mt_touch.urdf",
+    "revotron_system/urdf/revotron_bimanual_revo3_mx_touch.urdf",
+    "revotron_system/urdf/revotron_single_right_revo3.urdf",
+    "revotron_system/urdf/revotron_single_right_revo3_mt_touch.urdf",
+    "revotron_system/urdf/revotron_single_right_revo3_mx_touch.urdf"
+  ],
+  "urdf_joint_limits_checked": 315,
+  "urdf_bytes_outside_target_limit_attributes_unchanged": true,
+  "snapshot_mjcf_bytes_outside_target_limit_attributes_unchanged": true,
+  "snapshot_usd_layer_content_outside_target_limit_attributes_unchanged": true,
+  "mujoco_unchanged_compiled_arrays": [
+    "qpos0",
+    "qpos_spring",
+    "jnt_pos",
+    "jnt_axis",
+    "jnt_stiffness",
+    "jnt_bodyid",
+    "body_pos",
+    "body_quat",
+    "body_ipos",
+    "body_iquat",
+    "body_mass",
+    "body_inertia",
+    "geom_pos",
+    "geom_quat",
+    "geom_size",
+    "geom_contype",
+    "geom_conaffinity",
+    "mesh_vert",
+    "mesh_face"
+  ],
+  "mujoco_zero_pose_world_transforms_unchanged": true,
+  "mujoco_joint_ranges_match": true,
+  "usd_joint_ranges_match": true,
+  "parameter_configs": [
+    "revo3_system/parameters/pace_20261102/models/balanced/hand.json",
+    "revo3_system/parameters/pace_20261102/models/fit_03/hand.json"
+  ],
+  "identified_parameters_and_encoder_biases_unchanged": true,
+  "runtime_imports": {
+    "mujoco": "3.12.0",
+    "openusd": [
+      0,
+      26,
+      8
+    ]
+  },
+  "snapshot_collision_instances": 144,
+  "snapshot_visual_meshes": 57,
+  "hardware_motion_performed": false,
+  "dynamic_contact_or_holding_tests_rerun": false,
+  "snapshot_sha256sums_verified": true,
+  "parameter_bundle_integrity": {
+    "verified_checksum_entries": 23,
+    "zip_members_match_directory": 24,
+    "zip_sha256": "050754426855f9c9056f25d90e002c84f2e0bb33af89d4d28760c47193aaf31a",
+    "unchanged_home_pose_within_new_limits": true
+  }
+}
