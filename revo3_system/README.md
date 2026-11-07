@@ -43,9 +43,9 @@ collision profiles differ until the MX/MT migration is completed.
 RViz / MoveIt / urdfpy / pybullet all resolve relative
 `<mesh filename>` against the URDF file's directory.
 
-Right-hand joint bounds were updated on 2026-11-04 from the user-confirmed SDK limits,
-with the requested thumb CMR upper limit of 106 degrees. Joint zeros, origins,
+Right-hand joint bounds were updated on 2026-11-07 from the user-defined spreadsheet,
+with 11 joint ranges changed and thumb CMR retained at 0–106 degrees. Joint zeros, origins,
 axes and encoder biases are unchanged. The full 21-joint ranges are recorded in
 [the snapshot manifest](optimized/right_20261027/collision_manifest.json) under
 `physics.joint_limits_rad`. Historical validation reports retain their original ranges;
-see [the current limit checks](validation/right_joint_limits_20261104.json).
+see [the current limit checks](validation/right_joint_limits_20261107.json).

@@ -43,9 +43,9 @@ USD 对每块网格使用 `convexHull`，PhysX 顶点上限为 255，Newton `max
 MJCF 按文件路径复用网格。可直接加载的 MJCF/USD 位于
 [`optimized/right_20261027/`](optimized/right_20261027/README.md)。
 
-当前验证结果：[21 关节限位与零位保持检查](validation/right_joint_limits_20261104.json)、
-[URDF/MJCF 碰撞等价性](validation/right_urdf_limits_20261104.json)。
-2026-11-02 的检查记录保留原限位，作为历史验证结果。
+当前验证结果：[21 关节限位与零位保持检查](validation/right_joint_limits_20261107.json)、
+[URDF/MJCF 碰撞等价性](validation/right_urdf_limits_20261107.json)。
+2026-11-02 与 2026-11-04 的检查记录保留各自当时限位，作为历史验证结果。
 验证环境为 MuJoCo 3.12.0、Newton 1.6.1、Isaac Lab 3.0 / Isaac Sim 6.2。
 共享文件数量不等于仿真器运行时 mesh 对象数量。
 

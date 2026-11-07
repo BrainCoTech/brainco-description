@@ -180,7 +180,7 @@
           <geom name="right_middle_MCP_link_collision_0_convex_002" class="collision" mesh="right_index_MCP_link_collision_0_right_index_MCP_link_convex_002" pos="1.2316199628084959e-12 -8.214976713206285e-12 3.439696444340612e-12" quat="0.9996083898800209 -0.0204332850012797 0.0008397697015127825 -0.019100851613915865" />
           <body name="right_middle_PIP_link" pos="0.000264150501423 0.000955651541311 0.0469979185064">
             <inertial mass="0.0332" pos="0.000695275446102 0.000307209426512 0.0182735652648" fullinertia="2.52e-06 2.33e-06 1.83e-06 0 -3e-08 0" />
-            <joint name="right_middle_PIP_joint" type="hinge" axis="0.0191008584448413 0.999608742349558 -0.0204332920745958" range="-0.17453292519943295 1.5707963267948966" />
+            <joint name="right_middle_PIP_joint" type="hinge" axis="0.0191008584448413 0.999608742349558 -0.0204332920745958" range="-0.13962634015954636 1.5882496193148399" />
             <geom name="right_middle_PIP_link_visual_0" class="visual" mesh="right_middle_PIP_link_visual_0_right_middle_PIP_link" rgba="0.72 0.74 0.78 1" />
             <geom name="right_middle_PIP_link_collision_0_convex_000" class="collision" mesh="right_index_PIP_link_collision_0_right_index_PIP_link_convex_000" pos="-5.573338015055218e-13 5.8231520191735775e-12 1.0685657220177447e-11" quat="0.999608392133805 0.0204852202288806 0.0012262764966489703 0.019024047250706475" />
             <geom name="right_middle_PIP_link_collision_0_convex_001" class="collision" mesh="right_index_PIP_link_collision_0_right_index_PIP_link_convex_001" pos="-5.573338015055218e-13 5.8231520191735775e-12 1.0685657220177447e-11" quat="0.999608392133805 0.0204852202288806 0.0012262764966489703 0.019024047250706475" />
@@ -191,7 +191,7 @@
             <geom name="right_middle_PIP_link_collision_0_convex_006" class="collision" mesh="right_index_PIP_link_collision_0_right_index_PIP_link_convex_006" pos="-5.573338015055218e-13 5.8231520191735775e-12 1.0685657220177447e-11" quat="0.999608392133805 0.0204852202288806 0.0012262764966489703 0.019024047250706475" />
             <body name="right_middle_DIP_link" pos="0.000167169017596 0.000600164834044 0.0295166870072">
               <inertial mass="0.011" pos="0.00182168872587 0.000248866304507 0.0150427073364" fullinertia="6.68497935779e-07 6.69928867314e-07 5.52599848116e-07 2.45765488588e-09 7.49983264123e-08 -1.54638542883e-09" />
-              <joint name="right_middle_DIP_joint" type="hinge" axis="0.0191008584448469 0.999608742349558 -0.0204332920745917" range="-0.3490658503988659 1.5707963267948966" />
+              <joint name="right_middle_DIP_joint" type="hinge" axis="0.0191008584448469 0.999608742349558 -0.0204332920745917" range="-0.3141592653589793 1.5882496193148399" />
               <geom name="right_middle_DIP_link_visual_0" class="visual" mesh="right_middle_DIP_link_visual_0_right_middle_DIP_link__revo3_silicone_2162u_approx" rgba="0.60 0.61 0.67 1" />
               <geom name="right_middle_DIP_link_visual_1" class="visual" mesh="right_middle_DIP_link_visual_1_right_middle_DIP_link__revo3_polished_aluminum" rgba="0.86 0.88 0.92 1" />
               <geom name="right_middle_DIP_link_collision_0_convex_000" class="collision" mesh="right_index_DIP_link_collision_0_right_index_DIP_link_convex_000" pos="1.6357865582905529e-12 8.080005143695085e-12 1.6780282025008475e-11" quat="0.9984323378370982 -0.04090777827291503 0.0027391556205926815 -0.03810403475233132" />
@@ -230,14 +230,14 @@
           <geom name="right_thumb_CMR_link_visual_0" class="visual" mesh="right_thumb_CMR_link_visual_0_right_thumb_CMR_link" rgba="0.72 0.74 0.78 1" />
           <body name="right_thumb_MCP_link" pos="0 0.0119999521611 0">
             <inertial mass="0.067" pos="-0.00233557584634 0.0225088385571 -1.75928477428e-05" fullinertia="1.4220000241e-05 6.6e-06 1.4599999759e-05 7.99983819811e-07 -3.02604054132e-10 2.06370550272e-08" />
-            <joint name="right_thumb_MCP_joint" type="hinge" axis="0.142628833818122 0.000168800639916136 -0.989776230907788" range="0 1.3089969389957472" />
+            <joint name="right_thumb_MCP_joint" type="hinge" axis="0.142628833818122 0.000168800639916136 -0.989776230907788" range="-0.06981317007977318 1.3264502315156905" />
             <geom name="right_thumb_MCP_link_visual_0" class="visual" mesh="right_thumb_MCP_link_visual_0_right_thumb_MCP_link" rgba="0.72 0.74 0.78 1" />
             <geom name="right_thumb_MCP_link_collision_0_convex_000" class="collision" mesh="right_thumb_MCP_link_collision_0_right_thumb_MCP_link_convex_000" />
             <geom name="right_thumb_MCP_link_collision_0_convex_001" class="collision" mesh="right_thumb_MCP_link_collision_0_right_thumb_MCP_link_convex_001" />
             <geom name="right_thumb_MCP_link_collision_0_convex_002" class="collision" mesh="right_thumb_MCP_link_collision_0_right_thumb_MCP_link_convex_002" />
             <body name="right_thumb_PIP_link" pos="0 0.0426092196906 0">
               <inertial mass="0.035" pos="-0.00232345925271 0.0196418044049 -0.000132130077547" fullinertia="4.06999951806e-06 2.69e-06 3.31000048194e-06 -3.00238802893e-08 6.05208108265e-10 2.99761006866e-08" />
-              <joint name="right_thumb_PIP_joint" type="hinge" axis="0.142628833818122 0.000168800639916073 -0.989776230907788" range="-0.17453292519943295 1.5707963267948966" />
+              <joint name="right_thumb_PIP_joint" type="hinge" axis="0.142628833818122 0.000168800639916073 -0.989776230907788" range="-0.2617993877991494 1.5533430342749532" />
               <geom name="right_thumb_PIP_link_visual_0" class="visual" mesh="right_thumb_PIP_link_visual_0_right_thumb_PIP_link" rgba="0.72 0.74 0.78 1" />
               <geom name="right_thumb_PIP_link_collision_0_convex_000" class="collision" mesh="right_thumb_PIP_link_collision_0_right_thumb_PIP_link_convex_000" />
               <geom name="right_thumb_PIP_link_collision_0_convex_001" class="collision" mesh="right_thumb_PIP_link_collision_0_right_thumb_PIP_link_convex_001" />
@@ -253,7 +253,7 @@
               <geom name="right_thumb_PIP_link_collision_0_convex_011" class="collision" mesh="right_thumb_PIP_link_collision_0_right_thumb_PIP_link_convex_011" />
               <body name="right_thumb_DIP_link" pos="0.000494631282395 0.0320003149826 7.56677809711e-05">
                 <inertial mass="0.011" pos="-0.00292748593423 0.0148302411566 -0.000247774507053" fullinertia="1.5769065283e-06 1.07788565393e-06 1.63378684199e-06 -1.84747843371e-07 6.13335426858e-10 -2.04560022193e-08" />
-                <joint name="right_thumb_DIP_joint" type="hinge" axis="0.142628833818122 0.000168800639915566 -0.989776230907788" range="-0.3490658503988659 1.5707963267948966" />
+                <joint name="right_thumb_DIP_joint" type="hinge" axis="0.142628833818122 0.000168800639915566 -0.989776230907788" range="-0.15707963267948966 1.7453292519943295" />
                 <geom name="right_thumb_DIP_link_visual_0" class="visual" mesh="right_thumb_DIP_link_visual_0_right_thumb_DIP_link__revo3_silicone_2162u_approx" rgba="0.60 0.61 0.67 1" />
                 <geom name="right_thumb_DIP_link_visual_1" class="visual" mesh="right_thumb_DIP_link_visual_1_right_thumb_DIP_link__revo3_polished_aluminum" rgba="0.86 0.88 0.92 1" />
                 <geom name="right_thumb_DIP_link_collision_0_convex_000" class="collision" mesh="right_thumb_DIP_link_collision_0_right_thumb_DIP_link_convex_000" />
@@ -307,7 +307,7 @@
           <geom name="right_index_MCP_link_collision_0_convex_002" class="collision" mesh="right_index_MCP_link_collision_0_right_index_MCP_link_convex_002" pos="-3.752591419637426e-12 -1.0882553322030808e-11 -8.515306515466392e-13" quat="0.9984360093077338 -0.04086308245985113 -0.00038891661447715276 -0.038152228681874574" />
           <body name="right_index_PIP_link" pos="0.000221764554224 0.00287108870207 0.0469200922787">
             <inertial mass="0.0332" pos="0.000944062484852 0.0010133563068 0.0182453913543" fullinertia="2.52e-06 2.33e-06 1.84e-06 -1e-08 -3e-08 -3e-08" />
-            <joint name="right_index_PIP_joint" type="hinge" axis="0.0571896789948195 0.996482943134821 -0.0612460991234103" range="-0.17453292519943295 1.5707963267948966" />
+            <joint name="right_index_PIP_joint" type="hinge" axis="0.0571896789948195 0.996482943134821 -0.0612460991234103" range="-0.13962634015954636 1.5882496193148399" />
             <geom name="right_index_PIP_link_visual_0" class="visual" mesh="right_index_PIP_link_visual_0_right_index_PIP_link" rgba="0.72 0.74 0.78 1" />
             <geom name="right_index_PIP_link_collision_0_convex_000" class="collision" mesh="right_index_PIP_link_collision_0_right_index_PIP_link_convex_000" />
             <geom name="right_index_PIP_link_collision_0_convex_001" class="collision" mesh="right_index_PIP_link_collision_0_right_index_PIP_link_convex_001" />
@@ -318,7 +318,7 @@
             <geom name="right_index_PIP_link_collision_0_convex_006" class="collision" mesh="right_index_PIP_link_collision_0_right_index_PIP_link_convex_006" />
             <body name="right_index_DIP_link" pos="0.000140546972591 0.00180309239697 0.0294678139594">
               <inertial mass="0.011" pos="0.00217658189064 0.000810607858329 0.0150194801752" fullinertia="6.68344605286e-07 6.68895415313e-07 5.51930481852e-07 3.66457569882e-09 7.45489899684e-08 -2.30777007868e-09" />
-              <joint name="right_index_DIP_joint" type="hinge" axis="0.057189678994825 0.996482943134821 -0.061246099123401" range="-0.3490658503988659 1.5707963267948966" />
+              <joint name="right_index_DIP_joint" type="hinge" axis="0.057189678994825 0.996482943134821 -0.061246099123401" range="-0.3141592653589793 1.5882496193148399" />
               <geom name="right_index_DIP_link_visual_0" class="visual" mesh="right_index_DIP_link_visual_0_right_index_DIP_link__revo3_silicone_2162u_approx" rgba="0.60 0.61 0.67 1" />
               <geom name="right_index_DIP_link_visual_1" class="visual" mesh="right_index_DIP_link_visual_1_right_index_DIP_link__revo3_polished_aluminum" rgba="0.86 0.88 0.92 1" />
               <geom name="right_index_DIP_link_collision_0_convex_000" class="collision" mesh="right_index_DIP_link_collision_0_right_index_DIP_link_convex_000" pos="7.276399534988931e-12 3.928636739926675e-12 1.3552256539206553e-11" quat="0.9964818050045263 -0.061246028978605566 0.0015113907032615614 -0.057189613807184424" />
@@ -362,7 +362,7 @@
           <geom name="right_ring_MCP_link_collision_0_convex_002" class="collision" mesh="right_index_MCP_link_collision_0_right_index_MCP_link_convex_002" />
           <body name="right_ring_PIP_link" pos="0.000185213362502 -0.000957165097566 0.0469982650773">
             <inertial mass="0.0332" pos="0.000776232188228 -0.000411658197565 0.0182689187857" fullinertia="2.52e-06 2.33e-06 1.83e-06 0 -3e-08 0" />
-            <joint name="right_ring_PIP_joint" type="hinge" axis="-0.0191008584234188 0.999608742351175 0.0204332920154819" range="-0.17453292519943295 1.5707963267948966" />
+            <joint name="right_ring_PIP_joint" type="hinge" axis="-0.0191008584234188 0.999608742351175 0.0204332920154819" range="-0.13962634015954636 1.5882496193148399" />
             <geom name="right_ring_PIP_link_visual_0" class="visual" mesh="right_ring_PIP_link_visual_0_right_ring_PIP_link" rgba="0.72 0.74 0.78 1" />
             <geom name="right_ring_PIP_link_collision_0_convex_000" class="collision" mesh="right_index_PIP_link_collision_0_right_index_PIP_link_convex_000" pos="-3.088511109188008e-12 7.887401886133572e-12 -5.290302917959622e-12" quat="0.9984360093031447 0.04086308237800991 0.00038891675616670174 0.03815222888817306" />
             <geom name="right_ring_PIP_link_collision_0_convex_001" class="collision" mesh="right_index_PIP_link_collision_0_right_index_PIP_link_convex_001" pos="-3.088511109188008e-12 7.887401886133572e-12 -5.290302917959622e-12" quat="0.9984360093031447 0.04086308237800991 0.00038891675616670174 0.03815222888817306" />
@@ -373,7 +373,7 @@
             <geom name="right_ring_PIP_link_collision_0_convex_006" class="collision" mesh="right_index_PIP_link_collision_0_right_index_PIP_link_convex_006" pos="-3.088511109188008e-12 7.887401886133572e-12 -5.290302917959622e-12" quat="0.9984360093031447 0.04086308237800991 0.00038891675616670174 0.03815222888817306" />
             <body name="right_ring_DIP_link" pos="0.00011759316658 -0.000601116636665 0.0295169067795">
               <inertial mass="0.011" pos="0.00195094737951 -0.000302290825551 0.0150392149063" fullinertia="6.68428955066e-07 6.69905766279e-07 5.52526249418e-07 -1.32945616015e-09 7.49866222981e-08 8.36454015386e-10" />
-              <joint name="right_ring_DIP_joint" type="hinge" axis="-0.0191008584234135 0.999608742351175 0.0204332920154918" range="-0.3490658503988659 1.5707963267948966" />
+              <joint name="right_ring_DIP_joint" type="hinge" axis="-0.0191008584234135 0.999608742351175 0.0204332920154918" range="-0.3141592653589793 1.5882496193148399" />
               <geom name="right_ring_DIP_link_visual_0" class="visual" mesh="right_ring_DIP_link_visual_0_right_ring_DIP_link__revo3_silicone_2162u_approx" rgba="0.60 0.61 0.67 1" />
               <geom name="right_ring_DIP_link_visual_1" class="visual" mesh="right_ring_DIP_link_visual_1_right_ring_DIP_link__revo3_polished_aluminum" rgba="0.86 0.88 0.92 1" />
               <geom name="right_ring_DIP_link_collision_0_convex_000" class="collision" mesh="right_index_DIP_link_collision_0_right_index_DIP_link_convex_000" pos="-2.8194059500247226e-12 8.318496282425092e-12 5.106828154799459e-12" quat="0.9996073416918653 -0.020510827738154443 0.0018968472274502046 -0.018996587899251394" />
@@ -417,7 +417,7 @@
           <geom name="right_little_MCP_link_collision_0_convex_002" class="collision" mesh="right_index_MCP_link_collision_0_right_index_MCP_link_convex_002" pos="-3.3281411345375753e-12 1.9850297620915835e-12 2.1659368742987795e-11" quat="0.9996073416848164 0.020510827830952462 -0.0018968470495084322 0.018996588187739576" />
           <body name="right_little_PIP_link" pos="7.99016655648e-05 -0.00287922592171 0.0469200496921">
             <inertial mass="0.0332" pos="0.00109216375081 -0.00111207460298 0.0182388508304" fullinertia="2.52e-06 2.33e-06 1.84e-06 1e-08 -3e-08 3e-08" />
-            <joint name="right_little_PIP_joint" type="hinge" axis="-0.0571896789757601 0.996482943138999 0.0612460990732252" range="-0.17453292519943295 1.5707963267948966" />
+            <joint name="right_little_PIP_joint" type="hinge" axis="-0.0571896789757601 0.996482943138999 0.0612460990732252" range="-0.13962634015954636 1.5882496193148399" />
             <geom name="right_little_PIP_link_visual_0" class="visual" mesh="right_little_PIP_link_visual_0_right_little_PIP_link" rgba="0.72 0.74 0.78 1" />
             <geom name="right_little_PIP_link_collision_0_convex_000" class="collision" mesh="right_index_PIP_link_collision_0_right_index_PIP_link_convex_000" pos="-6.069831486391064e-12 1.2010712953716696e-11 -7.138015872820702e-12" quat="0.9964818049890554 0.061246029380384946 -0.0015113909968054173 0.05718961363872212" />
             <geom name="right_little_PIP_link_collision_0_convex_001" class="collision" mesh="right_index_PIP_link_collision_0_right_index_PIP_link_convex_001" pos="-6.069831486391064e-12 1.2010712953716696e-11 -7.138015872820702e-12" quat="0.9964818049890554 0.061246029380384946 -0.0015113909968054173 0.05718961363872212" />
@@ -428,7 +428,7 @@
             <geom name="right_little_PIP_link_collision_0_convex_006" class="collision" mesh="right_index_PIP_link_collision_0_right_index_PIP_link_convex_006" pos="-6.069831486391064e-12 1.2010712953716696e-11 -7.138015872820702e-12" quat="0.9964818049890554 0.061246029380384946 -0.0015113909968054173 0.05718961363872212" />
             <body name="right_little_DIP_link" pos="5.14511189704e-05 -0.00180820433012 0.0294677909772">
               <inertial mass="0.011" pos="0.00240993382327 -0.000902826418013 0.0150171096742" fullinertia="6.68170327033e-07 6.68827426001e-07 5.51742651112e-07 1.73904080777e-09 7.45145408895e-08 -1.09494681712e-09" />
-              <joint name="right_little_DIP_joint" type="hinge" axis="-0.0571896789757549 0.996482943138999 0.0612460990732302" range="-0.3490658503988659 1.5707963267948966" />
+              <joint name="right_little_DIP_joint" type="hinge" axis="-0.0571896789757549 0.996482943138999 0.0612460990732302" range="-0.3141592653589793 1.5882496193148399" />
               <geom name="right_little_DIP_link_visual_0" class="visual" mesh="right_little_DIP_link_visual_0_right_little_DIP_link__revo3_silicone_2162u_approx" rgba="0.60 0.61 0.67 1" />
               <geom name="right_little_DIP_link_visual_1" class="visual" mesh="right_little_DIP_link_visual_1_right_little_DIP_link__revo3_polished_aluminum" rgba="0.86 0.88 0.92 1" />
               <geom name="right_little_DIP_link_collision_0_convex_000" class="collision" mesh="right_index_DIP_link_collision_0_right_index_DIP_link_convex_000" />
