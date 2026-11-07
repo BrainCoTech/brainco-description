@@ -197,9 +197,9 @@ USD 中的碰撞 API 直接设置在具体 mesh 上，每块使用 `convexHull`�
 
 适用范围为右手无触觉标记版。左手、MX/MT 触觉标记版、RevoArm 和 RevoTron 装配模型需分别完成迁移与验证。后续迁入默认 URDF 时，需要保留原始惯性、正确转移每个凸块的所属 link 和局部变换，并确保转换器不再次分解或截断这些凸包。
 
-### 2026-11-04 joint bounds update
+### 2026-11-07 joint bounds update
 
-All 21 right-hand joint bounds now use the user-confirmed limits; thumb CMR is
+All 21 right-hand joint bounds now match the user-defined spreadsheet; thumb CMR is
 0–106 degrees. Joint zeros, transforms, geometry and inertias are unchanged.
 `validation/packaging.json` records the current limit/import checks. Earlier
 motion and holding results in `source_validation.json` are historical and were
